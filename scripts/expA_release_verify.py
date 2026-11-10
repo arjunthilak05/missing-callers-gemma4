@@ -360,6 +360,34 @@ def json_diff(a, b, path="", out=None, limit=8):
     return out[:limit]
 
 
+FLOAT_REL_TOL = 1e-12
+
+
+def float_close_diff(a, b, path="", out=None):
+    """(exact differences, float differences within FLOAT_REL_TOL). Python 3.12 changed float summation (sum() now
+    compensates rounding), so a re-run on a newer Python can differ from the frozen file in the last digits only."""
+    out = ([], []) if out is None else out
+    if isinstance(a, dict) and isinstance(b, dict):
+        for key in sorted(set(a) | set(b)):
+            if key not in a or key not in b:
+                out[0].append(f"{path}.{key}")
+            else:
+                float_close_diff(a[key], b[key], f"{path}.{key}", out)
+    elif isinstance(a, list) and isinstance(b, list):
+        if len(a) != len(b):
+            out[0].append(f"{path} (length)")
+        for i, (x, y) in enumerate(zip(a, b)):
+            float_close_diff(x, y, f"{path}[{i}]", out)
+    elif isinstance(a, float) and isinstance(b, float) and a != b:
+        if abs(a - b) <= FLOAT_REL_TOL * max(1.0, abs(a), abs(b)):
+            out[1].append(path)
+        else:
+            out[0].append(path)
+    elif a != b or type(a) is not type(b):
+        out[0].append(path)
+    return out
+
+
 def _run_job(root_text: str, entry: dict) -> dict:
     """Worker: stream one run shard, check its chains, re-run its analysis. Returns check rows."""
     sys.dont_write_bytecode = True
@@ -493,13 +521,21 @@ def _run_job(root_text: str, entry: dict) -> dict:
             regenerated = regenerated.replace(b'"path": ' + old_text, b'"path": ' + new_text)
             meta["path"] = original
             relabelled.append(key)
+        float_note = ""
         if regenerated != frozen_raw:
-            diffs.append("ANALYSIS.json differs (after relabelling the recorded input paths): "
-                         + "; ".join(json_diff(new, frozen_doc) or ["same JSON values, different bytes"]))
+            exact, close = float_close_diff(new, frozen_doc)
+            if not exact and close and sys.version_info >= (3, 12):
+                float_note = (f" except {len(close)} float(s) that differ only in the last digits (difference "
+                              f"<= {FLOAT_REL_TOL:g} x max(1, |value|); Python {sys.version_info.major}.{sys.version_info.minor} sums "
+                              f"floats with compensated rounding, the frozen files were made with Python 3.11)")
+            else:
+                diffs.append("ANALYSIS.json differs (after relabelling the recorded input paths): "
+                             + "; ".join(json_diff(new, frozen_doc) or ["same JSON values, different bytes"])
+                             + (f"; beyond the float tolerance: {', '.join(exact[:8])}" if exact else ""))
         rows.append(("analysis " + run, not diffs,
                      f"re-run with {entry['analysis']['code']} in {time.time() - t0:.0f} s: CELLS.jsonl and TABLES.md "
                      f"byte-identical, ANALYSIS.json byte-identical after relabelling inputs.{{{','.join(relabelled)}}}"
-                     f".path" if not diffs else "; ".join(diffs), diffs))
+                     f".path{float_note}" if not diffs else "; ".join(diffs), diffs))
     return {"run": run, "rows": rows}
 
 

@@ -1,0 +1,8 @@
+Absent Edges Exp A: code, protocols, frozen results and paper materials
+Copyright 2026 Arjun Thilak R
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This repository also contains the licence files of third-party open-source projects, and facts about
+their code (paths, identities, line numbers, file hashes). Each of these projects keeps its own licence;
+see THIRD_PARTY_NOTICES.md and the licenses/ directory.

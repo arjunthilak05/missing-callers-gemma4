@@ -1,0 +1,121 @@
+{
+ "counts": {
+  "attempted": 17,
+  "failed": 12,
+  "failed_by_cause": {
+   "could not be served": 1,
+   "never submitted": 1,
+   "prompt accounting": 1,
+   "request rejected": 4,
+   "tool-call format": 5
+  },
+  "passed": 5
+ },
+ "label": "A8 model roster: every model served or attempted for A8 and its dev-check decision (from protocols/EXPA_A8_MODELS.lock.json and amendment 1-7)",
+ "models": {
+  "apertus-8b": {
+   "cause": "request rejected",
+   "decision": "NO-GO",
+   "detail": "NO-GO (dropped)",
+   "reason": "its chat template rejects the harness's tool schema (tokenize HTTP 400: 'dict object' has no attribute 'description'); endpoint tripped"
+  },
+  "devstral2-24b": {
+   "cause": "request rejected",
+   "decision": "NO-GO",
+   "detail": "NO-GO (dropped)",
+   "reason": "every chat request rejected (HTTP 400), as for Ministral 3; endpoint tripped"
+  },
+  "ernie-4-5-21b-a3b": {
+   "cause": "tool-call format",
+   "decision": "NO-GO",
+   "detail": "NO-GO (dropped; amendment 3)",
+   "reason": "its chat template did not render the tools; no native tool call"
+  },
+  "gemma4-e2b": {
+   "decision": "GO",
+   "detail": "GO",
+   "reason": null
+  },
+  "gemma4-e4b": {
+   "decision": "GO",
+   "detail": "GO",
+   "reason": null
+  },
+  "glm-4-5-air-fp8": {
+   "decision": "GO",
+   "detail": "GO",
+   "reason": null
+  },
+  "gpt-oss-20b": {
+   "cause": "prompt accounting",
+   "decision": "NO-GO",
+   "detail": "NO-GO (dropped; amendment 1)",
+   "reason": "tokenize preflight count differs from the served prompt (harmony format)"
+  },
+  "granite-3-3-8b": {
+   "cause": "tool-call format",
+   "decision": "NO-GO",
+   "detail": "NO-GO (dropped)",
+   "reason": "no native tool call; more than 20% FormatExhausted"
+  },
+  "granite-4-h-small": {
+   "cause": "could not be served",
+   "decision": "NO-GO",
+   "detail": "NO-GO before its dev check: vLLM 0.25.1 could not build it (KeyError: 'linear_attention')",
+   "reason": null
+  },
+  "ministral3-14b": {
+   "cause": "request rejected",
+   "decision": "NO-GO",
+   "detail": "NO-GO (dropped)",
+   "reason": "every chat request rejected (HTTP 400); endpoint tripped"
+  },
+  "mistral-small-3-2-24b": {
+   "cause": "request rejected",
+   "decision": "NO-GO",
+   "detail": "NO-GO before its dev check (amendment 4: vLLM rejects chat_template_kwargs in Mistral tokenizer mode)",
+   "reason": null
+  },
+  "muse-glimmer-30b": {
+   "cause": "never submitted",
+   "decision": "NO-GO",
+   "detail": "NO-GO (dropped)",
+   "reason": "well-formed native tool calls, but no dev episode submitted within 8 responses (the rule requires at least one)"
+  },
+  "nemotron3-nano-30b": {
+   "decision": "GO",
+   "detail": "GO",
+   "reason": null
+  },
+  "olmo-3-1-32b": {
+   "cause": "tool-call format",
+   "decision": "NO-GO",
+   "detail": "NO-GO (dropped)",
+   "reason": "tool calls written as text without the opening <function_calls> tag; more than 20% FormatExhausted"
+  },
+  "phi4-mini": {
+   "cause": "tool-call format",
+   "decision": "NO-GO",
+   "detail": "NO-GO (dropped)",
+   "reason": "no native tool call"
+  },
+  "qwen3-coder-30b-a3b": {
+   "decision": "GO",
+   "detail": "GO",
+   "reason": null
+  },
+  "seed-oss-36b": {
+   "cause": "tool-call format",
+   "decision": "NO-GO",
+   "detail": "NO-GO (dropped; amendment 3)",
+   "reason": "calls written as Markdown or with placeholder tool names; more than 20% FormatExhausted"
+  }
+ },
+ "not_attempted": [
+  "mistralai/Devstral-Small-2507 (no Hugging Face chat template)",
+  "meta-llama/Llama-3.3-70B-Instruct (licence acceptance)",
+  "internlm/internlm3-8b-instruct and moonshotai/Kimi-Linear-48B-A3B-Instruct (trust_remote_code)",
+  "ServiceNow-AI/Apriel-1.6-15b-Thinker (no matching vLLM tool parser)",
+  "XiaomiMiMo MiMo-V2.6-Flash (178 GB) and MiMo-7B (no chat template)"
+ ]
+}

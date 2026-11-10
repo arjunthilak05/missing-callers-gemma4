@@ -1,0 +1,9 @@
+{
+ "label": "Release verifier summary, parsed from VERIFY.log (reproduce/verify.py run on Core2, 2026-11-10, final publication build of the package from commit 98c850883)",
+ "log_sha256": "1cc3d826491fcc4dc05ed1484f68439e7558511bddf1df5b377966daa335efdd",
+ "passed": 96,
+ "total": 96,
+ "release_id": "dd29f6bbde409311cf354b2797e3ec435800f544381f7cf6e1f15eb175bce571",
+ "all_pass": true,
+ "source_commit": "98c850883"
+}

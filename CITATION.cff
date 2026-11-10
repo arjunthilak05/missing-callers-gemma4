@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this code or these materials, please cite them as below."
+title: "Absent Edges, Exp A: incomplete code-graph answers in a local Gemma 4 agent (code, protocols and paper materials)"
+type: software
+authors:
+  - name: "Arjun Thilak R"
+    affiliation: "Eros Innovation"
+  - name: "Ramkumar MV"
+    affiliation: "Eros Innovation"
+repository-code: "https://github.com/arjunthilak05/missing-callers-gemma4"
+url: "https://www.kaggle.com/datasets/rarjunthilak/absent-edges-expa-v1"
+version: "1.0.0"
+license: Apache-2.0
+abstract: >-
+  Code, preregistered protocols, frozen result files and paper materials of a preregistered omission probe:
+  for a local Gemma 4 agent, does an offered code-graph tool get requested, does the agent recover a caller
+  that a delivered caller list omits, and does it claim its own list is complete? 30 permissively licensed
+  Python libraries, 750 targets with call-site truth, five answer conditions, and a hash-pinned number
+  registry for every result in the paper.
+keywords:
+  - code graphs
+  - software engineering agents
+  - call graphs
+  - preregistration
+  - reproducibility
+  - Gemma 4

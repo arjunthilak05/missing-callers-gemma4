@@ -1,0 +1,26 @@
+{
+  "affected_cells": {
+    "duplicate": 0,
+    "infra_only": 170,
+    "missing": 322,
+    "retried": 131
+  },
+  "generator_kwargs": {
+    "dev_families": 2,
+    "families": 22,
+    "infra_fraction": 0.005,
+    "items_per_family": 25,
+    "missing_fraction": 0.01,
+    "retry_fraction": 0.005,
+    "rng_seed": 31,
+    "scenario": "known_effect"
+  },
+  "label": "SYNTHETIC FIXTURE (absent_edges.probe.analysis.synthetic_dataset) - not research data",
+  "scenario": "known_effect",
+  "truth_primary_and_secondary": {
+    "C3_minus_C2": 0.3,
+    "C3_minus_C2_omit_edge": 0.20000000000000007,
+    "C4_minus_C1": 0.2,
+    "C4_minus_C1_omit_edge": 0.15000000000000002
+  }
+}

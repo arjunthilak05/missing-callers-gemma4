@@ -1,0 +1,345 @@
+{
+  "build_record": "/mnt/kldata/absent-edges-expA-public-20261101/repos-manifests/builds/20261101T031800267041Z-ai-core-team-2-2439840.json",
+  "families": {
+    "alembic": {
+      "differences": [],
+      "excluded": 8,
+      "files": 193,
+      "generated": [],
+      "package_tree_sha256": "a17656e739af2ad2cb90b6ea3df989f6a07a20875f4d51f84f4af69fc88ece98",
+      "submodules_not_included": [],
+      "tree_sha256": "105a22c495441ee5b91cce2b28b814135a2dbc570f83fcc48b2d8f5c515ef054",
+      "tree_status": "published"
+    },
+    "boltons": {
+      "differences": [],
+      "excluded": 0,
+      "files": 112,
+      "generated": [],
+      "package_tree_sha256": "974d51d51c391d20c540dcec1ce179fd4b78ba157b52de9bcadbd0ea15a19ad1",
+      "submodules_not_included": [],
+      "tree_sha256": "9688953b6dd73fe56fc5adf31306435ed2b30fb0a1350257564da83aac62c7fb",
+      "tree_status": "published"
+    },
+    "click": {
+      "differences": [],
+      "excluded": 0,
+      "files": 166,
+      "generated": [],
+      "package_tree_sha256": "019bc74007cc7abb7554e44c8331cb67bd7363eb5a2b374fa6846164053d19d6",
+      "submodules_not_included": [],
+      "tree_sha256": "ff3b6cef2937eef194305869f3b1ad2c3a1bf769bf4ab7d0c701a6cea6a618c8",
+      "tree_status": "published"
+    },
+    "cmd2": {
+      "differences": [],
+      "excluded": 7,
+      "files": 228,
+      "generated": [],
+      "package_tree_sha256": "7f79711acbd2a255da893bd48cdf40ed5d13dfd60bc5768243ad898c44e0d772",
+      "submodules_not_included": [],
+      "tree_sha256": "9eec63cf91fc29a2cb4696fe0d50cea7414db007a908498a22b5433463d6535c",
+      "tree_status": "published"
+    },
+    "deepdiff": {
+      "differences": [],
+      "excluded": 0,
+      "files": 148,
+      "generated": [],
+      "package_tree_sha256": "3743f92a9170d4e372e34a0446d04db54297333d399a133f22b94138c57050fc",
+      "submodules_not_included": [],
+      "tree_sha256": "2a93ac6b3c72749443fb32d0007ef2b865077c6eda1e67d6ba2ced48373770c5",
+      "tree_status": "published"
+    },
+    "elementpath": {
+      "differences": [],
+      "excluded": 5,
+      "files": 150,
+      "generated": [],
+      "package_tree_sha256": "63dfd69c3f98869a8e97088fd455f2ad4733f9109520fdee39ccacca62ba1346",
+      "submodules_not_included": [],
+      "tree_sha256": "eaae01c228699ace2539794c2888baa83f91f815feff3fe94a3ec485b3c063c5",
+      "tree_status": "published"
+    },
+    "genshi": {
+      "differences": [],
+      "excluded": 1,
+      "files": 148,
+      "generated": [],
+      "package_tree_sha256": "dcd109c08fbe770a6614c2d98fa9693da852828ea5ca0fbe9e23bc7eed0d5926",
+      "submodules_not_included": [],
+      "tree_sha256": "635034f022837c01c06776348cc272eb0ba545a0070371466aa63dc3e62e2c55",
+      "tree_status": "published"
+    },
+    "graphql-core": {
+      "differences": [],
+      "excluded": 0,
+      "files": 400,
+      "generated": [],
+      "package_tree_sha256": "608dbacb0ea20281b553ec8f3a3e86a410bafd414af35ce816835999b058c902",
+      "submodules_not_included": [],
+      "tree_sha256": "55bf27474ae7e910c80ad78e6742da2a012ce40ab9da9154686c3b3701749de9",
+      "tree_status": "published"
+    },
+    "httpx": {
+      "differences": [],
+      "excluded": 0,
+      "files": 125,
+      "generated": [],
+      "package_tree_sha256": "8c4585585c3b1dd4f4947a00d8a15c8aac1ab50df81743b46bd0d2422e14aedc",
+      "submodules_not_included": [],
+      "tree_sha256": "abfb6dcdf776aab48c6e2a7b9e26f213fe09a31c8f94fc40483deacddaa0ceb9",
+      "tree_status": "published"
+    },
+    "icalendar": {
+      "differences": [],
+      "excluded": 1,
+      "files": 636,
+      "generated": [
+        "src/icalendar/_version.py"
+      ],
+      "package_tree_sha256": "5199ac05e5cf530332cf66f05834fa5e1b313a92c3e4da4d1a7d892032a3e220",
+      "submodules_not_included": [],
+      "tree_sha256": "ae76eca8dae92af42cef860dce56462bce47e79cead1b162f85f7acf8224f755",
+      "tree_status": "published"
+    },
+    "jinja": {
+      "differences": [],
+      "excluded": 0,
+      "files": 117,
+      "generated": [],
+      "package_tree_sha256": "dbd45576f3bcbf3c4d99a67312093e4665934933f49750c5e0fda4da424c500a",
+      "submodules_not_included": [],
+      "tree_sha256": "24629f820a50d863df14d39c33093f321a8d3697459ebeb6e4bfb021dbbab8b7",
+      "tree_status": "published"
+    },
+    "lark": {
+      "differences": [],
+      "excluded": 6,
+      "files": 185,
+      "generated": [],
+      "package_tree_sha256": "10dff71ac9b55e3621ad662ab9efb44016089718b244e4953b256ed08ba8f7ab",
+      "submodules_not_included": [
+        "tests/test_nearley/nearley"
+      ],
+      "tree_sha256": "74fa4ec4d91f662895bb5c3cb3211caa6ffb6f793b8975f10d98853634783d34",
+      "tree_status": "published"
+    },
+    "liquid": {
+      "differences": [],
+      "excluded": 90,
+      "files": 285,
+      "generated": [],
+      "package_tree_sha256": "6ed317a9fd106ba87fb2aa673fff252128158071bec2c52dfce12bc42fbfbfae",
+      "submodules_not_included": [
+        "tests/golden-liquid"
+      ],
+      "tree_sha256": "b0c27f28d9c362dda052dc7f893bf9193663d4663b1d42daac8ea96bce487153",
+      "tree_status": "published"
+    },
+    "markdown": {
+      "differences": [],
+      "excluded": 6,
+      "files": 480,
+      "generated": [],
+      "package_tree_sha256": "291aa2845e5082843299613547e49cdae39346594557bdad6952547c48eda71d",
+      "submodules_not_included": [],
+      "tree_sha256": "8251510c75249f81d2da545a6630056dc91edc5a3dee589f344ac3896406cd25",
+      "tree_status": "published"
+    },
+    "markdown-it-py": {
+      "differences": [],
+      "excluded": 0,
+      "files": 178,
+      "generated": [],
+      "package_tree_sha256": "0b3545f1ca479a7754074ad965616e3d943fa898bfb71529e657e17e1c7224dc",
+      "submodules_not_included": [],
+      "tree_sha256": "7632cb2c6ba5c76efc47a080a4e832b8ac603c93e547aa1c52ecb2991ecf2754",
+      "tree_status": "published"
+    },
+    "more-itertools": {
+      "differences": [],
+      "excluded": 0,
+      "files": 39,
+      "generated": [],
+      "package_tree_sha256": "5386a3582f9c44a558a4d19799ebc16d22469c54cc45e793253fa466d7136efa",
+      "submodules_not_included": [],
+      "tree_sha256": "ac3cf824749d4bf3cf1f8fa7251f258ba44fb0eac6cbbcb0d80f2826b00b57ac",
+      "tree_status": "published"
+    },
+    "mpmath": {
+      "differences": [],
+      "excluded": 67,
+      "files": 249,
+      "generated": [
+        "mpmath/_version.py"
+      ],
+      "package_tree_sha256": "378a36b3691e0ed5fdbddf29d2c968580d1b9714d5c3f65165ea5f7f62099a1d",
+      "submodules_not_included": [],
+      "tree_sha256": "f5ddcaf57a7f1a24662a09d1e4b68642d5a2a913aa0e0109e2999c1735ee6e49",
+      "tree_status": "published"
+    },
+    "packaging": {
+      "differences": [],
+      "excluded": 24,
+      "files": 139,
+      "generated": [],
+      "package_tree_sha256": "6e8b63a62ad43a6083f3fa54b1717302b4cccf792e903eb1cdc836a3f4203f43",
+      "submodules_not_included": [],
+      "tree_sha256": "cd06eed564f60bb1ab2650d5a8a3e8184035bdae758cd4426f3e2b5d76a32870",
+      "tree_status": "published"
+    },
+    "param": {
+      "differences": [],
+      "excluded": 0,
+      "files": 150,
+      "generated": [
+        "param/_version.py"
+      ],
+      "package_tree_sha256": "87b68160ddc77f120f3f3dee589af182fef0415f443e5b20322792aa4a9e84f8",
+      "submodules_not_included": [],
+      "tree_sha256": "8844e8723b1a523091e57dd10c85ff6bc49c73cf8b599ea6b2c7fbf0d32fee28",
+      "tree_status": "published"
+    },
+    "petl": {
+      "differences": [],
+      "excluded": 2,
+      "files": 237,
+      "generated": [
+        "petl/version.py"
+      ],
+      "package_tree_sha256": "6e953e9d2e8b4d923e390529e11914a721ed2801a2636fdbf3dfb783010f22e2",
+      "submodules_not_included": [],
+      "tree_sha256": "6222da067b84a51f4cdc491e176f5ce27e27c637aa23028a2136711ab8f6e63b",
+      "tree_status": "published"
+    },
+    "pyparsing": {
+      "differences": [],
+      "excluded": 0,
+      "files": 287,
+      "generated": [],
+      "package_tree_sha256": "34659f5c8ce47b2dec6f79b2c547681da5674cbb29c41bbe432cee25dfdc1065",
+      "submodules_not_included": [],
+      "tree_sha256": "a0148c5289f21c630054ae319803e809605e5f179e45bc2ed5bd8a1ee903c7b4",
+      "tree_status": "published"
+    },
+    "python-docx": {
+      "differences": [],
+      "excluded": 5,
+      "files": 625,
+      "generated": [],
+      "package_tree_sha256": "5be0180ff26905034050296a9f4a92344d30a8676e51843d2d364ef8893ce956",
+      "submodules_not_included": [],
+      "tree_sha256": "5a4442fdd218f7aba6bbf890aa6c8590e0317d0e07a089f48df5f3d3bf8fb4e1",
+      "tree_status": "published"
+    },
+    "python-pptx": {
+      "differences": [],
+      "excluded": 5,
+      "files": 798,
+      "generated": [],
+      "package_tree_sha256": "35b75be20941649ec1f41157f76574f7b5a3630dc616952cad3d1c31664f8571",
+      "submodules_not_included": [],
+      "tree_sha256": "16c8f9295be331732441f0260c7c0c7202df0aa2a79cb38b0ea7343bbe12f8a4",
+      "tree_status": "published"
+    },
+    "rdflib": {
+      "differences": [],
+      "excluded": 0,
+      "files": 9041,
+      "generated": [],
+      "package_tree_sha256": "74419c7944585e3dc887f7759548b4e6e7eba3d3ca9d61fa8b0b08c881437171",
+      "submodules_not_included": [],
+      "tree_sha256": "3bdb269437b79dd3da0abca05f6551d97b2339251fecd5910614aaa113d6c4b8",
+      "tree_status": "published"
+    },
+    "rich": {
+      "differences": [],
+      "excluded": 0,
+      "files": 553,
+      "generated": [],
+      "package_tree_sha256": "d8ce9743d044f0003a25f8d99ea51228d5063921b1102836cfae445f18733836",
+      "submodules_not_included": [],
+      "tree_sha256": "99f03d0832960311a7cbe0cb0c636cc9f13882bcee438cfa3599e5d7482fe36a",
+      "tree_status": "published"
+    },
+    "segno": {
+      "differences": [],
+      "excluded": 0,
+      "files": 366,
+      "generated": [],
+      "package_tree_sha256": "cd75ac6ffda55bdcb8e354e03ff038537b787667230bcc676d54a0dad054a985",
+      "submodules_not_included": [],
+      "tree_sha256": "8611c5744d099bcdabc2ff90514cad2fe8dbcf20ba15e7a8c88ff065ca806fcf",
+      "tree_status": "published"
+    },
+    "sqlite-utils": {
+      "differences": [],
+      "excluded": 19,
+      "files": 107,
+      "generated": [],
+      "package_tree_sha256": "247915d0a360805712654cfcf002447cd45f8e2ad8334ff9f9d743390dffbee5",
+      "submodules_not_included": [],
+      "tree_sha256": "094dbc94a5ecce67c4d134ce2b1d32085c530beb6de552be1419eb9079f0927f",
+      "tree_status": "published"
+    },
+    "traitlets": {
+      "differences": [],
+      "excluded": 0,
+      "files": 87,
+      "generated": [],
+      "package_tree_sha256": "e58b8e5027e5e6ba74f86e23239a41ad20dcb85e6f26e6187d2a21f1f33bd52e",
+      "submodules_not_included": [],
+      "tree_sha256": "704ae3f08db3509b3a2f06c004aacc9db079435a45796d2a38f200ddae9242b3",
+      "tree_status": "published"
+    },
+    "websockets": {
+      "differences": [],
+      "excluded": 6,
+      "files": 343,
+      "generated": [],
+      "package_tree_sha256": "597b3bfdf7866f0ee6fe9ae3b936a4e437fa3c76917e9c87459dce0f24b61797",
+      "submodules_not_included": [],
+      "tree_sha256": "80fdf77cef70dd3cf522bb71b64d28b4b676ed878b94e6b3b738c3a8c4f5e175",
+      "tree_status": "published"
+    },
+    "xlsxwriter": {
+      "differences": [],
+      "excluded": 4,
+      "files": 2943,
+      "generated": [],
+      "package_tree_sha256": "90e1ff38e9a662587cfba1dd14511c3be8705f804c4c5cf81217a3698666ee3a",
+      "submodules_not_included": [],
+      "tree_sha256": "3236908bb998b76b8297607ec997637ea3017cd3cc6f8132baf1bee9aef2d63c",
+      "tree_status": "published"
+    },
+    "xmlschema": {
+      "differences": [],
+      "excluded": 6,
+      "files": 523,
+      "generated": [],
+      "package_tree_sha256": "c17b57696b0ad7bff8d05161072af299463be1a15584d1c25d47b3332ad30dfb",
+      "submodules_not_included": [],
+      "tree_sha256": "ddbb92a93c59da9a9ec3a56ded55faebb21dde5c8e0bc912f9fc9c63d9508340",
+      "tree_status": "published"
+    },
+    "yapf": {
+      "differences": [],
+      "excluded": 6,
+      "files": 112,
+      "generated": [],
+      "package_tree_sha256": "649e7d8db4c74c1fa5d736d67de22636b2ecbe3c3ff15f43fcf0248418d3e2f7",
+      "submodules_not_included": [],
+      "tree_sha256": "04aa65458d38977871a2bdb2d42e69e17d3259a0b8a4878977d9599f2c9d0261",
+      "tree_status": "published"
+    }
+  },
+  "manifest": {
+    "families": 32,
+    "path": "/mnt/kldata/absent-edges-expA-public-20261101/repos-manifests/clean-checkouts.json",
+    "sha256": "58363dca69f434d14f6da8ed898fd46d367776bf2f183c80aa90610231163035",
+    "status": "published"
+  },
+  "protocol": "expA-mirror-repos-v1",
+  "status": "ok"
+}

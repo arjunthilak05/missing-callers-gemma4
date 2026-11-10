@@ -1,0 +1,1308 @@
+{
+ "frozen_crosscheck": {
+  "H1": {
+   "abs_diff": 0.0,
+   "frozen": 0.031218664737183256,
+   "match": true,
+   "recomputed": 0.031218664737183256
+  },
+  "H2": {
+   "abs_diff": 0.0,
+   "frozen": -0.016772308624160476,
+   "match": true,
+   "recomputed": -0.016772308624160476
+  },
+  "H3": {
+   "abs_diff": 0.0,
+   "frozen": 0.06962666277481093,
+   "frozen_p_primary": 0.010487297853391283,
+   "match": true,
+   "p_match": true,
+   "recomputed": 0.06962666277481093,
+   "recomputed_p": 0.010487297853391288
+  }
+ },
+ "h3_sensitivity": {
+  "caller_balanced": {
+   "ci_high": 0.11400388874444446,
+   "ci_low": 0.03193309301343281,
+   "confidence": 0.95,
+   "definition": "every distinct C* (items.jsonl omitted.identity) among the contributing items has total weight 1, split equally over its items (weight 1 / n items with that C*); estimate = the mean over distinct C* of the mean item difference of that C*'s items",
+   "degenerate_interval": false,
+   "df": 26,
+   "distinct_cstar": 134,
+   "estimate": 0.07296849087893864,
+   "estimate_exact": "44/603",
+   "items_per_cstar": {
+    "1": 99,
+    "2": 16,
+    "3": 9,
+    "4": 1,
+    "5": 3,
+    "6": 2,
+    "7": 1,
+    "12": 1,
+    "14": 2
+   },
+   "n": 27,
+   "n_families": 27,
+   "n_items": 236,
+   "se": 0.0199634201749009,
+   "status": "interval"
+  },
+  "interval_method": "weighted mean linearised into one pseudo-value per family, u_f = est + F (S_f - est W_f) / W; t_statistics over u_f (df = F - 1); weights 1 / n_f reproduce the primary exactly",
+  "item_weighted": {
+   "ci_high": 0.10840007065966333,
+   "ci_low": 0.027193149679319732,
+   "confidence": 0.95,
+   "definition": "every contributing item has weight 1 (estimate = the micro mean of the item differences)",
+   "degenerate_interval": false,
+   "df": 26,
+   "estimate": 0.06779661016949153,
+   "estimate_exact": "4/59",
+   "n": 27,
+   "n_families": 27,
+   "n_items": 236,
+   "se": 0.019753285808924992,
+   "status": "interval"
+  },
+  "status": "SECONDARY sensitivity weightings of H3: nominal 95% family-clustered intervals, no p-values"
+ },
+ "hypotheses": {
+  "H1": {
+   "ci_high": 0.06975715959586158,
+   "ci_low": -0.007319830121495072,
+   "confidence": 0.95,
+   "contrast": "C3 - C2",
+   "control_rate": 0.08665209961506258,
+   "degenerate_interval": false,
+   "df": 26,
+   "estimate": 0.031218664737183256,
+   "estimate_exact": "414203/13267800",
+   "family_values": {
+    "alembic": 0.0,
+    "click": 0.12121212121212122,
+    "cmd2": 0.0,
+    "deepdiff": 0.1111111111111111,
+    "elementpath": 0.0,
+    "genshi": 0.1111111111111111,
+    "graphql-core": 0.013333333333333334,
+    "httpx": 0.0,
+    "icalendar": 0.21212121212121213,
+    "jinja": -0.25,
+    "lark": 0.0,
+    "liquid": 0.0,
+    "markdown": 0.0,
+    "markdown-it-py": -0.07407407407407407,
+    "mpmath": -0.02666666666666667,
+    "packaging": 0.0,
+    "param": 0.0,
+    "pyparsing": 0.06944444444444445,
+    "rdflib": 0.02564102564102564,
+    "rich": 0.0,
+    "segno": 0.25,
+    "sqlite-utils": 0.0,
+    "traitlets": 0.08333333333333333,
+    "websockets": 0.2,
+    "xlsxwriter": -0.05128205128205128,
+    "xmlschema": 0.047619047619047616,
+    "yapf": 0.0
+   },
+   "items_without_complete_pair": 0,
+   "n": 27,
+   "n_families": 27,
+   "n_items": 236,
+   "role": "SECONDARY (D-4): estimate and nominal 95% interval only; no p-value, no Holm",
+   "se": 0.018748695170292824,
+   "status": "interval",
+   "treatment_rate": 0.11787076435224583
+  },
+  "H2": {
+   "ci_high": 0.0463732453488181,
+   "ci_low": -0.07991786259713905,
+   "confidence": 0.95,
+   "contrast": "C4a - C1",
+   "control_rate": 0.14215287456028197,
+   "degenerate_interval": false,
+   "df": 26,
+   "estimate": -0.016772308624160476,
+   "estimate_exact": "-23537/1403325",
+   "family_values": {
+    "alembic": 0.0,
+    "click": 0.0,
+    "cmd2": 0.047619047619047616,
+    "deepdiff": 0.14814814814814814,
+    "elementpath": -0.1111111111111111,
+    "genshi": -0.5555555555555556,
+    "graphql-core": 0.0,
+    "httpx": 0.0,
+    "icalendar": -0.12121212121212122,
+    "jinja": 0.08333333333333333,
+    "lark": 0.0,
+    "liquid": 0.0,
+    "markdown": 0.0,
+    "markdown-it-py": 0.09259259259259259,
+    "mpmath": 0.013333333333333334,
+    "packaging": 0.0,
+    "param": 0.0,
+    "pyparsing": 0.027777777777777776,
+    "rdflib": 0.05128205128205128,
+    "rich": -0.1111111111111111,
+    "segno": -0.4166666666666667,
+    "sqlite-utils": 0.0,
+    "traitlets": 0.25,
+    "websockets": 0.2,
+    "xlsxwriter": -0.05128205128205128,
+    "xmlschema": 0.0,
+    "yapf": 0.0
+   },
+   "items_without_complete_pair": 0,
+   "n": 27,
+   "n_families": 27,
+   "n_items": 236,
+   "note": "the lexical block contains C* in no panel item: H2 tests extra lexical evidence about other callers only",
+   "role": "SECONDARY (D-4): estimate and nominal 95% interval only; no p-value, no Holm",
+   "se": 0.030719849001369374,
+   "status": "interval",
+   "treatment_rate": 0.12538056593612149
+  },
+  "H3": {
+   "ci_high": 0.12150906861423383,
+   "ci_low": 0.01774425693538801,
+   "confidence": 0.95,
+   "contrast": "C1 - C0",
+   "control_rate": 0.07252621178547104,
+   "decision": "reject H0 (C1 = C0) at alpha 0.05",
+   "decision_rule": "D-4: unadjusted two-sided p <= 0.05 (t over family means, df = F - 1, frozen degenerate-case rules); no Holm",
+   "degenerate_interval": false,
+   "df": 26,
+   "estimate": 0.06962666277481093,
+   "estimate_exact": "10161719/145945800",
+   "family_values": {
+    "alembic": 0.0,
+    "click": -0.030303030303030304,
+    "cmd2": 0.23809523809523808,
+    "deepdiff": 0.14814814814814814,
+    "elementpath": 0.1111111111111111,
+    "genshi": 0.4444444444444444,
+    "graphql-core": 0.08,
+    "httpx": 0.0,
+    "icalendar": 0.15151515151515152,
+    "jinja": 0.0,
+    "lark": 0.0,
+    "liquid": 0.0,
+    "markdown": 0.0,
+    "markdown-it-py": 0.2037037037037037,
+    "mpmath": 0.013333333333333334,
+    "packaging": 0.0,
+    "param": 0.0,
+    "pyparsing": 0.05555555555555555,
+    "rdflib": 0.05128205128205128,
+    "rich": 0.1111111111111111,
+    "segno": 0.4166666666666667,
+    "sqlite-utils": 0.0,
+    "traitlets": -0.125,
+    "websockets": -0.06666666666666667,
+    "xlsxwriter": 0.07692307692307693,
+    "xmlschema": 0.0,
+    "yapf": 0.0
+   },
+   "items_without_complete_pair": 0,
+   "n": 27,
+   "n_families": 27,
+   "n_items": 236,
+   "p_source": "t_statistics (df = F - 1)",
+   "p_two_sided": 0.010487297853391288,
+   "reject_at_alpha": true,
+   "role": "PRIMARY (single test, alpha 0.05; EXPA_HARD.md section 4)",
+   "se": 0.0252404100199496,
+   "status": "tested",
+   "t": 2.7585392915479257,
+   "treatment_rate": 0.14215287456028197
+  }
+ },
+ "inputs": {
+  "frozen_analysis": {
+   "path": "results/hard-20261102a/analysis/ANALYSIS.json",
+   "sha256": "5808b06d00d17a1af507d93af3ff48bdc3d9fb4b7e85c5f009e830ed4c72f671"
+  },
+  "items_hard": {
+   "path": "items/hard/items.jsonl",
+   "sha256": "b16efd17111163d95d5520433e18fc6d3ec7cb688a27c785d00e36b59ef8dbea"
+  },
+  "items_main": {
+   "path": "items/main/items.jsonl",
+   "sha256": "f3451a3c9fba2ffd3455df17718d3e276132cf9eb0a7158240256deed32764c8"
+  },
+  "main_scores": {
+   "path": "results/main-20261101b/scores.jsonl",
+   "sha256": "a8bc820f3cadda9750adf77c763ac44b92c669109bcf570dc2298f6f181de1fa"
+  },
+  "scores": {
+   "path": "results/hard-20261102a/scores.jsonl",
+   "sha256": "5dc61e194089e9d8cf38dc3e789308e1dea24346e2a48fe811e9684d1e7b25ce"
+  }
+ },
+ "label": "ANALYSIS RECORD",
+ "pooled_with_main_run": false,
+ "population": {
+  "cells_by_condition": {
+   "C0": {
+    "completed": 708
+   },
+   "C1": {
+    "completed": 708
+   },
+   "C2": {
+    "completed": 708
+   },
+   "C3": {
+    "completed": 708
+   },
+   "C4a": {
+    "completed": 708
+   }
+  },
+  "distinct_cstar": 134,
+  "families": 27,
+  "items_hard": 236,
+  "items_with_P_rows": 236,
+  "primary_seeds": [
+   11,
+   23,
+   47
+  ],
+  "rows_excluded_from_P": {
+   "block_not_P": 1588
+  },
+  "seed_status": {
+   "11": {
+    "cell_states": {
+     "completed": 1180
+    },
+    "cells": 1180,
+    "terminal": true
+   },
+   "23": {
+    "cell_states": {
+     "completed": 1180
+    },
+    "cells": 1180,
+    "terminal": true
+   },
+   "47": {
+    "cell_states": {
+     "completed": 1180
+    },
+    "cells": 1180,
+    "terminal": true
+   }
+  }
+ },
+ "protocol": "protocols/EXPA_HARD.md section 4; protocols/EXPA_DEVIATIONS.md D-4, E-3",
+ "rates_P": {
+  "C0": {
+   "family_weighted": {
+    "ci_high": 0.11402176450396485,
+    "ci_low": 0.03103065906697723,
+    "confidence": 0.95,
+    "degenerate_interval": false,
+    "df": 26,
+    "estimate": 0.07252621178547104,
+    "estimate_exact": "189016/2606175",
+    "n": 27,
+    "n_families": 27,
+    "n_items": 236,
+    "se": 0.020187282136854504,
+    "status": "interval"
+   },
+   "micro_item_mean": 0.0635593220338983
+  },
+  "C1": {
+   "family_weighted": {
+    "ci_high": 0.217823145980609,
+    "ci_low": 0.06648260313995492,
+    "confidence": 0.95,
+    "degenerate_interval": false,
+    "df": 26,
+    "estimate": 0.14215287456028197,
+    "estimate_exact": "4149323/29189160",
+    "n": 27,
+    "n_families": 27,
+    "n_items": 236,
+    "se": 0.036813032203657975,
+    "status": "interval"
+   },
+   "micro_item_mean": 0.13135593220338984
+  },
+  "C2": {
+   "family_weighted": {
+    "ci_high": 0.13852191898728852,
+    "ci_low": 0.03478228024283663,
+    "confidence": 0.95,
+    "degenerate_interval": false,
+    "df": 26,
+    "estimate": 0.08665209961506258,
+    "estimate_exact": "1264651/14594580",
+    "n": 27,
+    "n_families": 27,
+    "n_items": 236,
+    "se": 0.025234286795946893,
+    "status": "interval"
+   },
+   "micro_item_mean": 0.0903954802259887
+  },
+  "C3": {
+   "family_weighted": {
+    "ci_high": 0.18416945137949536,
+    "ci_low": 0.051572077324996315,
+    "confidence": 0.95,
+    "degenerate_interval": false,
+    "df": 26,
+    "estimate": 0.11787076435224583,
+    "estimate_exact": "17202743/145945800",
+    "n": 27,
+    "n_families": 27,
+    "n_items": 236,
+    "se": 0.032253825112338014,
+    "status": "interval"
+   },
+   "micro_item_mean": 0.12146892655367232
+  },
+  "C4a": {
+   "family_weighted": {
+    "ci_high": 0.18000237360900423,
+    "ci_low": 0.07075875826323876,
+    "confidence": 0.95,
+    "degenerate_interval": false,
+    "df": 26,
+    "estimate": 0.12538056593612149,
+    "estimate_exact": "6099589/48648600",
+    "n": 27,
+    "n_families": 27,
+    "n_items": 236,
+    "se": 0.026573108925623486,
+    "status": "interval"
+   },
+   "micro_item_mean": 0.13983050847457626
+  }
+ },
+ "s_vc_positive_control": {
+  "cells": {
+   "C1": {
+    "completed": 236
+   },
+   "C3": {
+    "completed": 236
+   }
+  },
+  "recovery": {
+   "C1": {
+    "family_weighted": {
+     "ci_high": 0.5140726473941195,
+     "ci_low": 0.25156101935065833,
+     "confidence": 0.95,
+     "degenerate_interval": false,
+     "df": 26,
+     "estimate": 0.3828168333723889,
+     "estimate_exact": "18623503/48648600",
+     "n": 27,
+     "n_families": 27,
+     "n_items": 236,
+     "se": 0.063854991105547,
+     "status": "interval"
+    },
+    "micro_item_mean": 0.3855932203389831
+   },
+   "C3": {
+    "family_weighted": {
+     "ci_high": 0.36047036270787025,
+     "ci_low": 0.16421996753801557,
+     "confidence": 0.95,
+     "degenerate_interval": false,
+     "df": 26,
+     "estimate": 0.2623451651229429,
+     "estimate_exact": "510509/1945944",
+     "n": 27,
+     "n_families": 27,
+     "n_items": 236,
+     "se": 0.04773718913493782,
+     "status": "interval"
+    },
+    "micro_item_mean": 0.3135593220338983
+   }
+  },
+  "status": "SECONDARY positive control (complete answers that list C*): recovery, seed 11"
+ },
+ "schema": "expA-followup-analysis-v1",
+ "script_sha256": "49cd1197c0b3f02a5bc53eea192690d6047b4bd9bdc3bcca0c71329a4f4a65a6",
+ "status": "PRESPECIFIED analysis code, committed before any A2 outcome existed",
+ "subcommand": "hard",
+ "submission_rates": {
+  "P": {
+   "C0": {
+    "family_weighted": {
+     "ci_high": 0.42303237417050665,
+     "ci_low": 0.22848242104799224,
+     "confidence": 0.95,
+     "degenerate_interval": false,
+     "df": 26,
+     "estimate": 0.3257573976092495,
+     "estimate_exact": "83117/255150",
+     "n": 27,
+     "n_families": 27,
+     "n_items": 236,
+     "se": 0.04732356284105634,
+     "status": "interval"
+    },
+    "micro_item_mean": 0.3502824858757062
+   },
+   "C1": {
+    "family_weighted": {
+     "ci_high": 0.6762861425562413,
+     "ci_low": 0.4274212063362927,
+     "confidence": 0.95,
+     "degenerate_interval": false,
+     "df": 26,
+     "estimate": 0.551853674446267,
+     "estimate_exact": "5752909/10424700",
+     "n": 27,
+     "n_families": 27,
+     "n_items": 236,
+     "se": 0.06053548335076569,
+     "status": "interval"
+    },
+    "micro_item_mean": 0.559322033898305
+   },
+   "C2": {
+    "family_weighted": {
+     "ci_high": 0.5346010040257991,
+     "ci_low": 0.3018507609444843,
+     "confidence": 0.95,
+     "degenerate_interval": false,
+     "df": 26,
+     "estimate": 0.41822588248514175,
+     "estimate_exact": "61038311/145945800",
+     "n": 27,
+     "n_families": 27,
+     "n_items": 236,
+     "se": 0.056615643324228956,
+     "status": "interval"
+    },
+    "micro_item_mean": 0.422316384180791
+   },
+   "C3": {
+    "family_weighted": {
+     "ci_high": 0.5113079142386555,
+     "ci_low": 0.30392035543405865,
+     "confidence": 0.95,
+     "degenerate_interval": false,
+     "df": 26,
+     "estimate": 0.40761413483635706,
+     "estimate_exact": "19829857/48648600",
+     "n": 27,
+     "n_families": 27,
+     "n_items": 236,
+     "se": 0.050446263358193716,
+     "status": "interval"
+    },
+    "micro_item_mean": 0.4477401129943503
+   },
+   "C4a": {
+    "family_weighted": {
+     "ci_high": 0.633374651353949,
+     "ci_low": 0.4000995973054848,
+     "confidence": 0.95,
+     "degenerate_interval": false,
+     "df": 26,
+     "estimate": 0.516737124329717,
+     "estimate_exact": "828743/1603800",
+     "n": 27,
+     "n_families": 27,
+     "n_items": 236,
+     "se": 0.0567433016679343,
+     "status": "interval"
+    },
+    "micro_item_mean": 0.5508474576271186
+   }
+  },
+  "S-VC": {
+   "C1": {
+    "family_weighted": {
+     "ci_high": 0.6911559199317171,
+     "ci_low": 0.43766793111435615,
+     "confidence": 0.95,
+     "degenerate_interval": false,
+     "df": 26,
+     "estimate": 0.5644119255230367,
+     "estimate_exact": "78451/138996",
+     "n": 27,
+     "n_families": 27,
+     "n_items": 236,
+     "se": 0.06166002394612313,
+     "status": "interval"
+    },
+    "micro_item_mean": 0.5635593220338984
+   },
+   "C3": {
+    "family_weighted": {
+     "ci_high": 0.5047912709724404,
+     "ci_low": 0.2639381888681306,
+     "confidence": 0.95,
+     "degenerate_interval": false,
+     "df": 26,
+     "estimate": 0.3843647299202855,
+     "estimate_exact": "1335629/3474900",
+     "n": 27,
+     "n_families": 27,
+     "n_items": 236,
+     "se": 0.05858662921007078,
+     "status": "interval"
+    },
+    "micro_item_mean": 0.4576271186440678
+   }
+  },
+  "status": "SECONDARY descriptive: share of completed episodes that submitted (item mean over the seeds -> family mean -> equal-weight mean)"
+ },
+ "unit": "item mean over the primary seeds (completed cells) -> paired item difference -> family mean -> equal-weight mean over families",
+ "within_target": {
+  "by_condition": {
+   "C0": {
+    "hard_minus_main_family_weighted": {
+     "ci_high": 0.102312463111515,
+     "ci_low": -0.522065549531268,
+     "confidence": 0.95,
+     "degenerate_interval": false,
+     "df": 8,
+     "estimate": -0.20987654320987653,
+     "estimate_exact": "-17/81",
+     "n": 9,
+     "n_families": 9,
+     "n_items": 17,
+     "se": 0.13538093950284757,
+     "status": "interval"
+    },
+    "hard_minus_main_micro": {
+     "mean": -0.19607843137254902,
+     "n": 17,
+     "sum": -3.3333333333333335
+    }
+   },
+   "C1": {
+    "hard_minus_main_family_weighted": {
+     "ci_high": 0.0817960409909077,
+     "ci_low": -0.6064873990155991,
+     "confidence": 0.95,
+     "degenerate_interval": false,
+     "df": 8,
+     "estimate": -0.2623456790123457,
+     "estimate_exact": "-85/324",
+     "n": 9,
+     "n_families": 9,
+     "n_items": 17,
+     "se": 0.1492372518979825,
+     "status": "interval"
+    },
+    "hard_minus_main_micro": {
+     "mean": -0.1568627450980392,
+     "n": 17,
+     "sum": -2.6666666666666665
+    }
+   },
+   "C2": {
+    "hard_minus_main_family_weighted": {
+     "ci_high": -0.17624646018583495,
+     "ci_low": -0.8484448978388565,
+     "confidence": 0.95,
+     "degenerate_interval": false,
+     "df": 8,
+     "estimate": -0.5123456790123457,
+     "estimate_exact": "-83/162",
+     "n": 9,
+     "n_families": 9,
+     "n_items": 17,
+     "se": 0.1457496167051555,
+     "status": "interval"
+    },
+    "hard_minus_main_micro": {
+     "mean": -0.4117647058823529,
+     "n": 17,
+     "sum": -7.0
+    }
+   },
+   "C3": {
+    "hard_minus_main_family_weighted": {
+     "ci_high": 0.2457012997623265,
+     "ci_low": -0.47409636149072154,
+     "confidence": 0.95,
+     "degenerate_interval": false,
+     "df": 8,
+     "estimate": -0.11419753086419752,
+     "estimate_exact": "-37/324",
+     "n": 9,
+     "n_families": 9,
+     "n_items": 17,
+     "se": 0.15607033184901892,
+     "status": "interval"
+    },
+    "hard_minus_main_micro": {
+     "mean": -0.058823529411764705,
+     "n": 17,
+     "sum": -1.0
+    }
+   },
+   "C4a": {
+    "hard_minus_main_family_weighted": {
+     "ci_high": 0.14013579625532607,
+     "ci_low": -0.7697654258849557,
+     "confidence": 0.95,
+     "degenerate_interval": false,
+     "df": 8,
+     "estimate": -0.3148148148148148,
+     "estimate_exact": "-17/54",
+     "n": 9,
+     "n_families": 9,
+     "n_items": 17,
+     "se": 0.1972895903024307,
+     "status": "interval"
+    },
+    "hard_minus_main_micro": {
+     "mean": -0.2549019607843137,
+     "n": 17,
+     "sum": -4.333333333333333
+    }
+   }
+  },
+  "different_cstar": 18,
+  "different_cstar_main_strata": {
+   "callback": 1,
+   "direct": 17
+  },
+  "expected_targets": 17,
+  "h3_on_these_targets": {
+   "hard": {
+    "family_weighted": {
+     "ci_high": 0.27994058023653434,
+     "ci_low": -0.1564837901130776,
+     "confidence": 0.95,
+     "degenerate_interval": false,
+     "df": 8,
+     "estimate": 0.06172839506172839,
+     "estimate_exact": "5/81",
+     "n": 9,
+     "n_families": 9,
+     "n_items": 17,
+     "se": 0.09462783775775242,
+     "status": "interval"
+    },
+    "micro": {
+     "mean": 0.0196078431372549,
+     "n": 17,
+     "sum": 0.3333333333333333
+    }
+   },
+   "main": {
+    "family_weighted": {
+     "ci_high": 0.4518755713976123,
+     "ci_low": -0.2234805096692173,
+     "confidence": 0.95,
+     "degenerate_interval": false,
+     "df": 8,
+     "estimate": 0.11419753086419752,
+     "estimate_exact": "37/324",
+     "n": 9,
+     "n_families": 9,
+     "n_items": 17,
+     "se": 0.1464342736330427,
+     "status": "interval"
+    },
+    "micro": {
+     "mean": -0.0196078431372549,
+     "n": 17,
+     "sum": -0.3333333333333333
+    }
+   }
+  },
+  "join": "(run, item_id): item_id is identical for shared targets (E-3); each run's rows stay keyed by run",
+  "per_target": {
+   "042f64c24078d194fc6e": {
+    "family": "pyparsing",
+    "hard_cstar": "pyparsing/core.py::_MultipleMatch.parseImpl",
+    "hard_cstar_stratum": "dynamic",
+    "main_cstar": "pyparsing/core.py::Each.parseImpl",
+    "recovery": {
+     "C0": {
+      "hard": 0.3333333333333333,
+      "hard_minus_main": 0.0,
+      "main": 0.3333333333333333
+     },
+     "C1": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C2": {
+      "hard": 0.3333333333333333,
+      "hard_minus_main": 0.0,
+      "main": 0.3333333333333333
+     },
+     "C3": {
+      "hard": 1.0,
+      "hard_minus_main": 1.0,
+      "main": 0.0
+     },
+     "C4a": {
+      "hard": 0.6666666666666666,
+      "hard_minus_main": 0.0,
+      "main": 0.6666666666666666
+     }
+    }
+   },
+   "044649d25287ab97e31e": {
+    "family": "xlsxwriter",
+    "hard_cstar": "xlsxwriter/format.py::Format.__init__",
+    "hard_cstar_stratum": "dynamic",
+    "main_cstar": "xlsxwriter/format.py::Format.set_border_color",
+    "recovery": {
+     "C0": {
+      "hard": 0.0,
+      "hard_minus_main": -1.0,
+      "main": 1.0
+     },
+     "C1": {
+      "hard": 0.0,
+      "hard_minus_main": -1.0,
+      "main": 1.0
+     },
+     "C2": {
+      "hard": 0.0,
+      "hard_minus_main": -1.0,
+      "main": 1.0
+     },
+     "C3": {
+      "hard": 0.0,
+      "hard_minus_main": -1.0,
+      "main": 1.0
+     },
+     "C4a": {
+      "hard": 0.0,
+      "hard_minus_main": -1.0,
+      "main": 1.0
+     }
+    }
+   },
+   "2b273953b194ecce5901": {
+    "family": "deepdiff",
+    "hard_cstar": "deepdiff/delta.py::Delta._get_elements_and_details",
+    "hard_cstar_stratum": "dynamic",
+    "main_cstar": "deepdiff/path.py::extract",
+    "recovery": {
+     "C0": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C1": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C2": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C3": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C4a": {
+      "hard": 0.6666666666666666,
+      "hard_minus_main": 0.6666666666666666,
+      "main": 0.0
+     }
+    }
+   },
+   "369df97cde58d3fa6bb6": {
+    "family": "click",
+    "hard_cstar": "src/click/utils.py::_get_binary_stream",
+    "hard_cstar_stratum": "dynamic",
+    "main_cstar": "src/click/_compat.py::open_stream",
+    "recovery": {
+     "C0": {
+      "hard": 0.3333333333333333,
+      "hard_minus_main": -0.6666666666666666,
+      "main": 1.0
+     },
+     "C1": {
+      "hard": 1.0,
+      "hard_minus_main": 1.0,
+      "main": 0.0
+     },
+     "C2": {
+      "hard": 0.0,
+      "hard_minus_main": -1.0,
+      "main": 1.0
+     },
+     "C3": {
+      "hard": 1.0,
+      "hard_minus_main": 1.0,
+      "main": 0.0
+     },
+     "C4a": {
+      "hard": 1.0,
+      "hard_minus_main": 1.0,
+      "main": 0.0
+     }
+    }
+   },
+   "39bd1adaf4d9ca27cb79": {
+    "family": "mpmath",
+    "hard_cstar": "mpmath/ctx_mp_python.py::PythonMPContext._wrap_libmp_function.<locals>.f",
+    "hard_cstar_stratum": "dynamic",
+    "main_cstar": "mpmath/libmp/gammazeta.py::mpc_zeta",
+    "recovery": {
+     "C0": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C1": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C2": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C3": {
+      "hard": 0.0,
+      "hard_minus_main": -1.0,
+      "main": 1.0
+     },
+     "C4a": {
+      "hard": 0.0,
+      "hard_minus_main": -1.0,
+      "main": 1.0
+     }
+    }
+   },
+   "63d749bf3e3a0bdaf4be": {
+    "family": "mpmath",
+    "hard_cstar": "mpmath/ctx_mp_python.py::PythonMPContext._wrap_libmp_function.<locals>.f",
+    "hard_cstar_stratum": "dynamic",
+    "main_cstar": "mpmath/libmp/libmpc.py::mpc_sin",
+    "recovery": {
+     "C0": {
+      "hard": 0.0,
+      "hard_minus_main": -0.3333333333333333,
+      "main": 0.3333333333333333
+     },
+     "C1": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C2": {
+      "hard": 0.0,
+      "hard_minus_main": -1.0,
+      "main": 1.0
+     },
+     "C3": {
+      "hard": 0.0,
+      "hard_minus_main": -0.3333333333333333,
+      "main": 0.3333333333333333
+     },
+     "C4a": {
+      "hard": 0.0,
+      "hard_minus_main": -1.0,
+      "main": 1.0
+     }
+    }
+   },
+   "6ce84183ff8ad378ef17": {
+    "family": "mpmath",
+    "hard_cstar": "mpmath/ctx_mp_python.py::PythonMPContext._wrap_libmp_function.<locals>.f",
+    "hard_cstar_stratum": "dynamic",
+    "main_cstar": "mpmath/libmp/gammazeta.py::mpc_harmonic",
+    "recovery": {
+     "C0": {
+      "hard": 0.0,
+      "hard_minus_main": -1.0,
+      "main": 1.0
+     },
+     "C1": {
+      "hard": 0.0,
+      "hard_minus_main": -1.0,
+      "main": 1.0
+     },
+     "C2": {
+      "hard": 0.0,
+      "hard_minus_main": -1.0,
+      "main": 1.0
+     },
+     "C3": {
+      "hard": 0.0,
+      "hard_minus_main": -1.0,
+      "main": 1.0
+     },
+     "C4a": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     }
+    }
+   },
+   "7081304964163384fdcb": {
+    "family": "pyparsing",
+    "hard_cstar": "pyparsing/core.py::ParserElement.scan_string",
+    "hard_cstar_stratum": "dynamic",
+    "main_cstar": "pyparsing/core.py::IndentedBlock.parseImpl",
+    "recovery": {
+     "C0": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C1": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C2": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C3": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C4a": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     }
+    }
+   },
+   "7dc90f0eca2414f0e2b8": {
+    "family": "traitlets",
+    "hard_cstar": "traitlets/traitlets.py::HasTraits.trait_defaults",
+    "hard_cstar_stratum": "dynamic",
+    "main_cstar": "traitlets/traitlets.py::Union.default",
+    "recovery": {
+     "C0": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C1": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C2": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C3": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C4a": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     }
+    }
+   },
+   "a1b197a4d63a51a1a08d": {
+    "family": "click",
+    "hard_cstar": "src/click/_compat.py::_force_correct_text_stream",
+    "hard_cstar_stratum": "dynamic",
+    "main_cstar": "src/click/_compat.py::get_binary_stdin",
+    "recovery": {
+     "C0": {
+      "hard": 0.6666666666666666,
+      "hard_minus_main": 0.0,
+      "main": 0.6666666666666666
+     },
+     "C1": {
+      "hard": 0.0,
+      "hard_minus_main": -0.3333333333333333,
+      "main": 0.3333333333333333
+     },
+     "C2": {
+      "hard": 0.6666666666666666,
+      "hard_minus_main": -0.3333333333333333,
+      "main": 1.0
+     },
+     "C3": {
+      "hard": 1.0,
+      "hard_minus_main": 0.6666666666666666,
+      "main": 0.3333333333333333
+     },
+     "C4a": {
+      "hard": 0.0,
+      "hard_minus_main": -1.0,
+      "main": 1.0
+     }
+    }
+   },
+   "bec96e3c1d282daeaa4d": {
+    "family": "traitlets",
+    "hard_cstar": "traitlets/config/loader.py::DeferredConfigList.get_value",
+    "hard_cstar_stratum": "dynamic",
+    "main_cstar": "traitlets/traitlets.py::Container.item_from_string",
+    "recovery": {
+     "C0": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C1": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C2": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C3": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C4a": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     }
+    }
+   },
+   "c0011c60b4f72ed09795": {
+    "family": "segno",
+    "hard_cstar": "segno/writers.py::save",
+    "hard_cstar_stratum": "dynamic",
+    "main_cstar": "segno/__init__.py::QRCode.terminal",
+    "recovery": {
+     "C0": {
+      "hard": 0.6666666666666666,
+      "hard_minus_main": 0.3333333333333333,
+      "main": 0.3333333333333333
+     },
+     "C1": {
+      "hard": 1.0,
+      "hard_minus_main": 0.0,
+      "main": 1.0
+     },
+     "C2": {
+      "hard": 0.0,
+      "hard_minus_main": -1.0,
+      "main": 1.0
+     },
+     "C3": {
+      "hard": 1.0,
+      "hard_minus_main": 0.0,
+      "main": 1.0
+     },
+     "C4a": {
+      "hard": 0.0,
+      "hard_minus_main": -1.0,
+      "main": 1.0
+     }
+    }
+   },
+   "cbecc19cd268a59f6f88": {
+    "family": "click",
+    "hard_cstar": "src/click/_compat.py::_make_cached_stream_func.<locals>.func",
+    "hard_cstar_stratum": "dynamic",
+    "main_cstar": "src/click/exceptions.py::UsageError.show",
+    "recovery": {
+     "C0": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C1": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C2": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C3": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C4a": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     }
+    }
+   },
+   "ce0e0393182f6054b94e": {
+    "family": "rich",
+    "hard_cstar": "rich/syntax.py::Syntax.highlight.<locals>.tokens_to_spans",
+    "hard_cstar_stratum": "dynamic",
+    "main_cstar": "rich/syntax.py::Syntax._get_token_color",
+    "recovery": {
+     "C0": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C1": {
+      "hard": 0.6666666666666666,
+      "hard_minus_main": -0.3333333333333333,
+      "main": 1.0
+     },
+     "C2": {
+      "hard": 0.0,
+      "hard_minus_main": -0.6666666666666666,
+      "main": 0.6666666666666666
+     },
+     "C3": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C4a": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     }
+    }
+   },
+   "d4258fc37f67116a96b6": {
+    "family": "pyparsing",
+    "hard_cstar": "pyparsing/util.py::replaced_by_pep8.<locals>._inner",
+    "hard_cstar_stratum": "dynamic",
+    "main_cstar": "pyparsing/testing.py::pyparsing_test.reset_pyparsing_context.restore",
+    "recovery": {
+     "C0": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C1": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C2": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C3": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C4a": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     }
+    }
+   },
+   "d7e6f9667c532306eca0": {
+    "family": "icalendar",
+    "hard_cstar": "src/icalendar/timezone/tzp.py::TZP.use",
+    "hard_cstar_stratum": "dynamic",
+    "main_cstar": "src/icalendar/timezone/__init__.py::use_pytz",
+    "recovery": {
+     "C0": {
+      "hard": 0.3333333333333333,
+      "hard_minus_main": -0.6666666666666666,
+      "main": 1.0
+     },
+     "C1": {
+      "hard": 0.0,
+      "hard_minus_main": -1.0,
+      "main": 1.0
+     },
+     "C2": {
+      "hard": 0.0,
+      "hard_minus_main": -1.0,
+      "main": 1.0
+     },
+     "C3": {
+      "hard": 0.6666666666666666,
+      "hard_minus_main": -0.3333333333333333,
+      "main": 1.0
+     },
+     "C4a": {
+      "hard": 0.0,
+      "hard_minus_main": -1.0,
+      "main": 1.0
+     }
+    }
+   },
+   "f09d72ecc5dc84700b1f": {
+    "family": "mpmath",
+    "hard_cstar": "mpmath/ctx_mp.py::PrecisionManager.__call__.<locals>.g",
+    "hard_cstar_stratum": "dynamic",
+    "main_cstar": "mpmath/functions/hypergeometric.py::_hyp_borel",
+    "recovery": {
+     "C0": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C1": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C2": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C3": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     },
+     "C4a": {
+      "hard": 0.0,
+      "hard_minus_main": 0.0,
+      "main": 0.0
+     }
+    }
+   }
+  },
+  "same_cstar": 40,
+  "seeds": {
+   "hard": [
+    11,
+    23,
+    47
+   ],
+   "main": [
+    11,
+    23,
+    47
+   ]
+  },
+  "shared_targets": 58,
+  "status": "DESCRIPTIVE (E-3): hard C* versus the main run's direct C* on the same target",
+  "targets": 17,
+  "targets_match_expected": true
+ }
+}

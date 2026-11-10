@@ -1,0 +1,17 @@
+{
+  "analysis": {
+    "path": "/mnt/kldata/absent-edges-20261018-core2/expA/qat31b-analysis-20261102a/analysis/ANALYSIS.json",
+    "sha256": "b2242bcca10365c3fc85efc8e420499247c43118f52c7d904a97f329ae95439a"
+  },
+  "label": "main-run-frozen",
+  "matplotlib": "3.9.2",
+  "outputs": {
+    "fig1_primary.png": "a89ce301fca3bb8ce7e16b2307b8d0e90ea9c19faae9e295b6211308470e09e0",
+    "fig1_primary.svg": "bf18697329a60ee0de8940792b5c40b633a9bfd6ad2bf8defb80673b5c0591f1",
+    "fig2_recovery.png": "1da0e447e9ad8cc5ffc56244258c3f2d3c4f0c4f6a401f38150f2d71863f699a",
+    "fig2_recovery.svg": "f4e6f9e667030f19f85ae56da091c13e63dfcba7ab587ed5dd077bd2f4176b9b",
+    "fig3_cost.png": "b2edbe4c3206f5f60752511d32b64392ee4e8d9fa03d3148725dd6af54f9f313",
+    "fig3_cost.svg": "6c99cf93b4c06fd6838d7cddff89f7a1da0b90dad3feae104776bd0b96920932"
+  },
+  "schema_version": "expA-figures-v2"
+}

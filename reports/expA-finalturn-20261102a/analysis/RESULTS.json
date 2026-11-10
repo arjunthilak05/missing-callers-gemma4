@@ -1,0 +1,3292 @@
+{
+ "inputs": {
+  "items": {
+   "path": "items/main/items.jsonl",
+   "sha256": "f3451a3c9fba2ffd3455df17718d3e276132cf9eb0a7158240256deed32764c8"
+  },
+  "run_json_deadline": {
+   "final_turn_policy": "deadline",
+   "path": "runs/finalturn-deadline-20261102a/run.json",
+   "sha256": "59a4380acbc438c08d6f6c71093cdbc3670f2c9844972c11674a809899e42be9"
+  },
+  "run_json_neutral": {
+   "final_turn_policy": "neutral",
+   "path": "runs/finalturn-neutral-20261102a/run.json",
+   "sha256": "0cdbb15e3685f41e99757f1a564c72af3224829b3fce277826fdd137bd477c8b"
+  },
+  "run_json_none": {
+   "final_turn_policy": "none",
+   "path": "runs/finalturn-none-20261102a/run.json",
+   "sha256": "80debf0814aa52a08b2c33e01f3bdd6b1dcef4bfcf120a2cfe737f276a79011c"
+  },
+  "scores_deadline": {
+   "path": "results/finalturn-deadline-20261102a/scores.jsonl",
+   "sha256": "54b748cff51a5b4d4b850aa98bf07be8b72669bc763144d66c7a5d7bf845b37f"
+  },
+  "scores_neutral": {
+   "path": "results/finalturn-neutral-20261102a/scores.jsonl",
+   "sha256": "49f70ec1e97aadd836c54dd5568a0e987319175dc9c4f77f4b826c4cd0d66b74"
+  },
+  "scores_none": {
+   "path": "results/finalturn-none-20261102a/scores.jsonl",
+   "sha256": "125147e2a3b033261341e2547e18ab9b371bf25ab2da21d57657e115622aa72a"
+  }
+ },
+ "label": "ANALYSIS RECORD",
+ "mechanism_subgroup": {
+  "by_policy": {
+   "deadline": {
+    "by_condition": {
+     "C0": {
+      "family_weighted_recovery": {
+       "ci_high": 0.8796360320450655,
+       "ci_low": 0.7896275747185413,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.8346318033818034,
+       "estimate_exact": "721843/864864",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 267,
+       "se": 0.022004486799992336,
+       "status": "interval"
+      },
+      "micro_recovery": {
+       "mean": 0.8202247191011236,
+       "n": 267,
+       "sum": 219.0
+      }
+     },
+     "C0+C1": {
+      "micro_recovery": {
+       "mean": 0.8064516129032258,
+       "n": 372,
+       "sum": 300.0
+      }
+     },
+     "C1": {
+      "family_weighted_recovery": {
+       "ci_high": 0.8823212858617784,
+       "ci_low": 0.6612140676735752,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.7717676767676768,
+       "estimate_exact": "15281/19800",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 105,
+       "se": 0.054054374538997876,
+       "status": "interval"
+      },
+      "micro_recovery": {
+       "mean": 0.7714285714285715,
+       "n": 105,
+       "sum": 81.0
+      }
+     },
+     "C2": {
+      "family_weighted_recovery": {
+       "ci_high": 0.8937562199981873,
+       "ci_low": 0.7433866371446698,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.8185714285714286,
+       "estimate_exact": "573/700",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 121,
+       "se": 0.036761051120087644,
+       "status": "interval"
+      },
+      "micro_recovery": {
+       "mean": 0.8099173553719008,
+       "n": 121,
+       "sum": 98.0
+      }
+     },
+     "C3": {
+      "family_weighted_recovery": {
+       "ci_high": 0.887823274090654,
+       "ci_low": 0.7729296766622967,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.8303764753764754,
+       "estimate_exact": "408047/491400",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 155,
+       "se": 0.02808818996690998,
+       "status": "interval"
+      },
+      "micro_recovery": {
+       "mean": 0.8193548387096774,
+       "n": 155,
+       "sum": 127.0
+      }
+     },
+     "C4a": {
+      "family_weighted_recovery": {
+       "ci_high": 0.8609457984544507,
+       "ci_low": 0.6947686722600199,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.7778572353572354,
+       "estimate_exact": "8409259/10810800",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 169,
+       "se": 0.040625542181450695,
+       "status": "interval"
+      },
+      "micro_recovery": {
+       "mean": 0.7751479289940828,
+       "n": 169,
+       "sum": 131.0
+      }
+     },
+     "all": {
+      "micro_recovery": {
+       "mean": 0.802937576499388,
+       "n": 817,
+       "sum": 656.0
+      }
+     }
+    },
+    "open_at_8": 1365,
+    "subgroup_episodes": 817
+   },
+   "neutral": {
+    "by_condition": {
+     "C0": {
+      "family_weighted_recovery": {
+       "ci_high": 0.19815378694213567,
+       "ci_low": 0.0959249121365634,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.14703934953934955,
+       "estimate_exact": "529871/3603600",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 277,
+       "se": 0.024992028449913134,
+       "status": "interval"
+      },
+      "micro_recovery": {
+       "mean": 0.1299638989169675,
+       "n": 277,
+       "sum": 36.0
+      }
+     },
+     "C0+C1": {
+      "micro_recovery": {
+       "mean": 0.15404699738903394,
+       "n": 383,
+       "sum": 59.0
+      }
+     },
+     "C1": {
+      "family_weighted_recovery": {
+       "ci_high": 0.3526039429916822,
+       "ci_low": 0.12961827923054,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.2411111111111111,
+       "estimate_exact": "217/900",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 106,
+       "se": 0.05451360061665733,
+       "status": "interval"
+      },
+      "micro_recovery": {
+       "mean": 0.2169811320754717,
+       "n": 106,
+       "sum": 23.0
+      }
+     },
+     "C2": {
+      "family_weighted_recovery": {
+       "ci_high": 0.3493988273437111,
+       "ci_low": 0.14735441940953564,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.2483766233766234,
+       "estimate_exact": "153/616",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 131,
+       "se": 0.04939406406301882,
+       "status": "interval"
+      },
+      "micro_recovery": {
+       "mean": 0.2366412213740458,
+       "n": 131,
+       "sum": 31.0
+      }
+     },
+     "C3": {
+      "family_weighted_recovery": {
+       "ci_high": 0.31208690764397146,
+       "ci_low": 0.16600833045126664,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.23904761904761904,
+       "estimate_exact": "251/1050",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 157,
+       "se": 0.03571202328174225,
+       "status": "interval"
+      },
+      "micro_recovery": {
+       "mean": 0.22929936305732485,
+       "n": 157,
+       "sum": 36.0
+      }
+     },
+     "C4a": {
+      "family_weighted_recovery": {
+       "ci_high": 0.36827629382911364,
+       "ci_low": 0.16527597765419233,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 28,
+       "estimate": 0.266776135741653,
+       "estimate_exact": "2437/9135",
+       "n": 29,
+       "n_families": 29,
+       "n_items": 171,
+       "se": 0.04955077338702536,
+       "status": "interval"
+      },
+      "micro_recovery": {
+       "mean": 0.2046783625730994,
+       "n": 171,
+       "sum": 35.0
+      }
+     },
+     "all": {
+      "micro_recovery": {
+       "mean": 0.19121140142517815,
+       "n": 842,
+       "sum": 161.0
+      }
+     }
+    },
+    "open_at_8": 1389,
+    "subgroup_episodes": 842
+   },
+   "none": {
+    "by_condition": {
+     "C0": {
+      "family_weighted_recovery": {
+       "ci_high": 0.26492207598215767,
+       "ci_low": 0.15307446451438284,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.20899827024827025,
+       "estimate_exact": "410807/1965600",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 269,
+       "se": 0.027343533744001395,
+       "status": "interval"
+      },
+      "micro_recovery": {
+       "mean": 0.20074349442379183,
+       "n": 269,
+       "sum": 54.0
+      }
+     },
+     "C0+C1": {
+      "micro_recovery": {
+       "mean": 0.21428571428571427,
+       "n": 378,
+       "sum": 81.0
+      }
+     },
+     "C1": {
+      "family_weighted_recovery": {
+       "ci_high": 0.3819694082116263,
+       "ci_low": 0.17721426525776146,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 27,
+       "estimate": 0.2795918367346939,
+       "estimate_exact": "137/490",
+       "n": 28,
+       "n_families": 28,
+       "n_items": 109,
+       "se": 0.04989572513647529,
+       "status": "interval"
+      },
+      "micro_recovery": {
+       "mean": 0.24770642201834864,
+       "n": 109,
+       "sum": 27.0
+      }
+     },
+     "C2": {
+      "family_weighted_recovery": {
+       "ci_high": 0.3580619948178881,
+       "ci_low": 0.16648826973237646,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.26227513227513227,
+       "estimate_exact": "4957/18900",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 120,
+       "se": 0.04683428235612323,
+       "status": "interval"
+      },
+      "micro_recovery": {
+       "mean": 0.23333333333333334,
+       "n": 120,
+       "sum": 28.0
+      }
+     },
+     "C3": {
+      "family_weighted_recovery": {
+       "ci_high": 0.3747012352771751,
+       "ci_low": 0.19601305043711062,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.28535714285714286,
+       "estimate_exact": "799/2800",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 152,
+       "se": 0.043684137262389275,
+       "status": "interval"
+      },
+      "micro_recovery": {
+       "mean": 0.2894736842105263,
+       "n": 152,
+       "sum": 44.0
+      }
+     },
+     "C4a": {
+      "family_weighted_recovery": {
+       "ci_high": 0.2996183010600595,
+       "ci_low": 0.11013088597107477,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 28,
+       "estimate": 0.20487459351556714,
+       "estimate_exact": "31816/155295",
+       "n": 29,
+       "n_families": 29,
+       "n_items": 167,
+       "se": 0.046252380989776215,
+       "status": "interval"
+      },
+      "micro_recovery": {
+       "mean": 0.19161676646706588,
+       "n": 167,
+       "sum": 32.0
+      }
+     },
+     "all": {
+      "micro_recovery": {
+       "mean": 0.22643818849449204,
+       "n": 817,
+       "sum": 185.0
+      }
+     }
+    },
+    "open_at_8": 1361,
+    "subgroup_episodes": 817
+   }
+  },
+  "definition": "episodes still open at response 8 (the harness prepared an 8th request: context_accounting for call_index 7, or 8 responses) in which C* was displayed before response 8 under the STRICT path:line rule (first strict reveal index <= 7); reports/expA-main-20261101b/timeline/RULES.md",
+  "in_subgroup_under_all_three_policies": {
+   "cells": 677,
+   "micro_recovery": {
+    "deadline": {
+     "mean": 0.7902511078286558,
+     "n": 677,
+     "sum": 535.0
+    },
+    "neutral": {
+     "mean": 0.14771048744460857,
+     "n": 677,
+     "sum": 100.0
+    },
+    "none": {
+     "mean": 0.1861152141802068,
+     "n": 677,
+     "sum": 126.0
+    }
+   }
+  },
+  "status": "DESCRIPTIVE; exposure establishes availability, not recognition",
+  "timeline_inputs": {
+   "deadline": {
+    "problems": {},
+    "source": "run records, read with scripts/expA_timeline.py (episode_timeline, process_cell)",
+    "usable_episodes": 3750
+   },
+   "neutral": {
+    "problems": {},
+    "source": "run records, read with scripts/expA_timeline.py (episode_timeline, process_cell)",
+    "usable_episodes": 3750
+   },
+   "none": {
+    "problems": {},
+    "source": "run records, read with scripts/expA_timeline.py (episode_timeline, process_cell)",
+    "usable_episodes": 3750
+   }
+  }
+ },
+ "pooled_with_main_run": false,
+ "population": {
+  "cells": {
+   "deadline": {
+    "C0": {
+     "completed": 750
+    },
+    "C1": {
+     "completed": 750
+    },
+    "C2": {
+     "completed": 750
+    },
+    "C3": {
+     "completed": 750
+    },
+    "C4a": {
+     "completed": 750
+    }
+   },
+   "neutral": {
+    "C0": {
+     "completed": 750
+    },
+    "C1": {
+     "completed": 750
+    },
+    "C2": {
+     "completed": 750
+    },
+    "C3": {
+     "completed": 750
+    },
+    "C4a": {
+     "completed": 750
+    }
+   },
+   "none": {
+    "C0": {
+     "completed": 750
+    },
+    "C1": {
+     "completed": 750
+    },
+    "C2": {
+     "completed": 750
+    },
+    "C3": {
+     "completed": 750
+    },
+    "C4a": {
+     "completed": 750
+    }
+   }
+  },
+  "families": 30,
+  "items": 750,
+  "items_by_family": {
+   "alembic": 25,
+   "click": 25,
+   "cmd2": 25,
+   "deepdiff": 25,
+   "elementpath": 25,
+   "genshi": 25,
+   "graphql-core": 25,
+   "httpx": 25,
+   "icalendar": 25,
+   "jinja": 25,
+   "lark": 25,
+   "liquid": 25,
+   "markdown": 25,
+   "markdown-it-py": 25,
+   "mpmath": 25,
+   "packaging": 25,
+   "param": 25,
+   "petl": 25,
+   "pyparsing": 25,
+   "python-docx": 25,
+   "python-pptx": 25,
+   "rdflib": 25,
+   "rich": 25,
+   "segno": 25,
+   "sqlite-utils": 25,
+   "traitlets": 25,
+   "websockets": 25,
+   "xlsxwriter": 25,
+   "xmlschema": 25,
+   "yapf": 25
+  },
+  "pairing_deadline_vs_neutral": {
+   "C0": {
+    "paired": 750
+   },
+   "C1": {
+    "paired": 750
+   },
+   "C2": {
+    "paired": 750
+   },
+   "C3": {
+    "paired": 750
+   },
+   "C4a": {
+    "paired": 750
+   }
+  },
+  "pairing_deadline_vs_none": {
+   "C0": {
+    "paired": 750
+   },
+   "C1": {
+    "paired": 750
+   },
+   "C2": {
+    "paired": 750
+   },
+   "C3": {
+    "paired": 750
+   },
+   "C4a": {
+    "paired": 750
+   }
+  },
+  "rows_excluded": {
+   "deadline": {
+    "block_not_P": 2490,
+    "seed_not_selected": 7500
+   },
+   "neutral": {
+    "block_not_P": 2490,
+    "seed_not_selected": 7500
+   },
+   "none": {
+    "block_not_P": 2490,
+    "seed_not_selected": 7500
+   }
+  }
+ },
+ "primary": {
+  "alpha": 0.05,
+  "ci_high": 0.26217792812400587,
+  "ci_low": 0.1884887385426608,
+  "confidence": 0.95,
+  "contrast": "deadline - neutral, per item averaged with equal weight over C0 and C1 (seed 11, block P)",
+  "decision": "reject H0 (deadline = neutral) at alpha 0.05",
+  "degenerate_interval": false,
+  "df": 29,
+  "dropped": {},
+  "estimate": 0.22533333333333333,
+  "estimate_exact": "169/750",
+  "family_values": {
+   "alembic": 0.16,
+   "click": 0.24,
+   "cmd2": 0.08,
+   "deepdiff": 0.2,
+   "elementpath": 0.24,
+   "genshi": 0.32,
+   "graphql-core": 0.2,
+   "httpx": 0.32,
+   "icalendar": 0.18,
+   "jinja": 0.14,
+   "lark": 0.14,
+   "liquid": 0.26,
+   "markdown": 0.28,
+   "markdown-it-py": 0.12,
+   "mpmath": 0.24,
+   "packaging": 0.14,
+   "param": 0.36,
+   "petl": 0.32,
+   "pyparsing": 0.52,
+   "python-docx": 0.3,
+   "python-pptx": 0.24,
+   "rdflib": 0.18,
+   "rich": 0.26,
+   "segno": 0.24,
+   "sqlite-utils": 0.1,
+   "traitlets": 0.28,
+   "websockets": 0.16,
+   "xlsxwriter": 0.02,
+   "xmlschema": 0.32,
+   "yapf": 0.2
+  },
+  "item_rule": "an item enters only when all four cells (deadline and neutral, C0 and C1) are completed",
+  "micro_item_mean": 0.22533333333333333,
+  "n": 30,
+  "n_families": 30,
+  "n_items": 750,
+  "outcome": "site_recovered (unconditional; a completed non-submitted episode scores 0)",
+  "p_source": "t_statistics (df = F - 1)",
+  "p_two_sided": 3.2862238447612937e-13,
+  "reject_at_alpha": true,
+  "se": 0.01801489379561903,
+  "status": "tested",
+  "t": 12.508168845720938,
+  "test": "two-sided one-sample t over family means (df = F - 1)",
+  "unit": "item mean over {C0, C1} of the paired difference -> family mean -> equal-weight mean over families"
+ },
+ "primary_components_by_condition": {
+  "C0": {
+   "ci_high": 0.3631057245591357,
+   "ci_low": 0.255560942107531,
+   "confidence": 0.95,
+   "degenerate_interval": false,
+   "df": 29,
+   "dropped": {},
+   "estimate": 0.30933333333333335,
+   "estimate_exact": "116/375",
+   "family_values": {
+    "alembic": 0.16,
+    "click": 0.32,
+    "cmd2": 0.08,
+    "deepdiff": 0.28,
+    "elementpath": 0.32,
+    "genshi": 0.44,
+    "graphql-core": 0.4,
+    "httpx": 0.4,
+    "icalendar": 0.24,
+    "jinja": 0.16,
+    "lark": 0.24,
+    "liquid": 0.44,
+    "markdown": 0.44,
+    "markdown-it-py": 0.12,
+    "mpmath": 0.28,
+    "packaging": 0.12,
+    "param": 0.48,
+    "petl": 0.44,
+    "pyparsing": 0.72,
+    "python-docx": 0.36,
+    "python-pptx": 0.24,
+    "rdflib": 0.28,
+    "rich": 0.32,
+    "segno": 0.44,
+    "sqlite-utils": 0.2,
+    "traitlets": 0.44,
+    "websockets": 0.16,
+    "xlsxwriter": 0.08,
+    "xmlschema": 0.4,
+    "yapf": 0.28
+   },
+   "micro_item_mean": 0.30933333333333335,
+   "n": 30,
+   "n_families": 30,
+   "n_items": 750,
+   "se": 0.026291615434308975,
+   "status": "interval"
+  },
+  "C1": {
+   "ci_high": 0.1726474927309703,
+   "ci_low": 0.11001917393569638,
+   "confidence": 0.95,
+   "degenerate_interval": false,
+   "df": 29,
+   "dropped": {},
+   "estimate": 0.14133333333333334,
+   "estimate_exact": "53/375",
+   "family_values": {
+    "alembic": 0.16,
+    "click": 0.16,
+    "cmd2": 0.08,
+    "deepdiff": 0.12,
+    "elementpath": 0.16,
+    "genshi": 0.2,
+    "graphql-core": 0.0,
+    "httpx": 0.24,
+    "icalendar": 0.12,
+    "jinja": 0.12,
+    "lark": 0.04,
+    "liquid": 0.08,
+    "markdown": 0.12,
+    "markdown-it-py": 0.12,
+    "mpmath": 0.2,
+    "packaging": 0.16,
+    "param": 0.24,
+    "petl": 0.2,
+    "pyparsing": 0.32,
+    "python-docx": 0.24,
+    "python-pptx": 0.24,
+    "rdflib": 0.08,
+    "rich": 0.2,
+    "segno": 0.04,
+    "sqlite-utils": 0.0,
+    "traitlets": 0.12,
+    "websockets": 0.16,
+    "xlsxwriter": -0.04,
+    "xmlschema": 0.24,
+    "yapf": 0.12
+   },
+   "micro_item_mean": 0.14133333333333334,
+   "n": 30,
+   "n_families": 30,
+   "n_items": 750,
+   "se": 0.015310828061822695,
+   "status": "interval"
+  }
+ },
+ "protocol": "protocols/EXPA_FINALTURN.md",
+ "schema": "expA-followup-analysis-v1",
+ "script_sha256": "49cd1197c0b3f02a5bc53eea192690d6047b4bd9bdc3bcca0c71329a4f4a65a6",
+ "secondary": {
+  "S1_deadline_minus_none": {
+   "ci_high": 0.239287641264833,
+   "ci_low": 0.16737902540183366,
+   "confidence": 0.95,
+   "definition": "per item mean over {C0, C1} of [recovery(deadline) - recovery(none)]",
+   "degenerate_interval": false,
+   "df": 29,
+   "dropped": {},
+   "estimate": 0.20333333333333334,
+   "estimate_exact": "61/300",
+   "family_values": {
+    "alembic": 0.16,
+    "click": 0.26,
+    "cmd2": 0.08,
+    "deepdiff": 0.18,
+    "elementpath": 0.22,
+    "genshi": 0.28,
+    "graphql-core": 0.18,
+    "httpx": 0.34,
+    "icalendar": 0.18,
+    "jinja": 0.14,
+    "lark": 0.08,
+    "liquid": 0.24,
+    "markdown": 0.3,
+    "markdown-it-py": 0.12,
+    "mpmath": 0.24,
+    "packaging": 0.12,
+    "param": 0.34,
+    "petl": 0.2,
+    "pyparsing": 0.48,
+    "python-docx": 0.22,
+    "python-pptx": 0.2,
+    "rdflib": 0.14,
+    "rich": 0.24,
+    "segno": 0.18,
+    "sqlite-utils": 0.08,
+    "traitlets": 0.24,
+    "websockets": 0.14,
+    "xlsxwriter": 0.0,
+    "xmlschema": 0.32,
+    "yapf": 0.2
+   },
+   "micro_item_mean": 0.20333333333333334,
+   "n": 30,
+   "n_families": 30,
+   "n_items": 750,
+   "se": 0.017579594579906266,
+   "status": "interval"
+  },
+  "S2_list_effect_by_policy": {
+   "deadline": {
+    "ci_high": 0.02953855223032584,
+    "ci_low": -0.024205218896992505,
+    "confidence": 0.95,
+    "degenerate_interval": false,
+    "df": 29,
+    "dropped": {},
+    "estimate": 0.0026666666666666666,
+    "estimate_exact": "1/375",
+    "family_values": {
+     "alembic": 0.04,
+     "click": 0.04,
+     "cmd2": 0.0,
+     "deepdiff": 0.0,
+     "elementpath": 0.08,
+     "genshi": 0.04,
+     "graphql-core": 0.04,
+     "httpx": 0.0,
+     "icalendar": 0.04,
+     "jinja": 0.04,
+     "lark": -0.08,
+     "liquid": 0.04,
+     "markdown": -0.08,
+     "markdown-it-py": 0.08,
+     "mpmath": -0.04,
+     "packaging": 0.04,
+     "param": -0.04,
+     "petl": 0.16,
+     "pyparsing": -0.12,
+     "python-docx": 0.04,
+     "python-pptx": 0.04,
+     "rdflib": 0.04,
+     "rich": 0.08,
+     "segno": -0.04,
+     "sqlite-utils": -0.04,
+     "traitlets": -0.12,
+     "websockets": 0.0,
+     "xlsxwriter": -0.2,
+     "xmlschema": 0.0,
+     "yapf": 0.0
+    },
+    "micro_item_mean": 0.0026666666666666666,
+    "n": 30,
+    "n_families": 30,
+    "n_items": 750,
+    "se": 0.013138810923764047,
+    "status": "interval"
+   },
+   "neutral": {
+    "ci_high": 0.21853556098106183,
+    "ci_low": 0.1227977723522715,
+    "confidence": 0.95,
+    "degenerate_interval": false,
+    "df": 29,
+    "dropped": {},
+    "estimate": 0.17066666666666666,
+    "estimate_exact": "64/375",
+    "family_values": {
+     "alembic": 0.04,
+     "click": 0.2,
+     "cmd2": 0.0,
+     "deepdiff": 0.16,
+     "elementpath": 0.24,
+     "genshi": 0.28,
+     "graphql-core": 0.44,
+     "httpx": 0.16,
+     "icalendar": 0.16,
+     "jinja": 0.08,
+     "lark": 0.12,
+     "liquid": 0.4,
+     "markdown": 0.24,
+     "markdown-it-py": 0.08,
+     "mpmath": 0.04,
+     "packaging": 0.0,
+     "param": 0.2,
+     "petl": 0.4,
+     "pyparsing": 0.28,
+     "python-docx": 0.16,
+     "python-pptx": 0.04,
+     "rdflib": 0.24,
+     "rich": 0.2,
+     "segno": 0.36,
+     "sqlite-utils": 0.16,
+     "traitlets": 0.2,
+     "websockets": 0.0,
+     "xlsxwriter": -0.08,
+     "xmlschema": 0.16,
+     "yapf": 0.16
+    },
+    "micro_item_mean": 0.17066666666666666,
+    "n": 30,
+    "n_families": 30,
+    "n_items": 750,
+    "se": 0.02340514401330453,
+    "status": "interval"
+   },
+   "none": {
+    "ci_high": 0.18262386770633796,
+    "ci_low": 0.08670946562699537,
+    "confidence": 0.95,
+    "degenerate_interval": false,
+    "df": 29,
+    "dropped": {},
+    "estimate": 0.13466666666666666,
+    "estimate_exact": "101/750",
+    "family_values": {
+     "alembic": 0.12,
+     "click": 0.08,
+     "cmd2": 0.0,
+     "deepdiff": 0.04,
+     "elementpath": 0.2,
+     "genshi": 0.28,
+     "graphql-core": 0.32,
+     "httpx": 0.2,
+     "icalendar": 0.24,
+     "jinja": 0.0,
+     "lark": 0.0,
+     "liquid": 0.36,
+     "markdown": 0.28,
+     "markdown-it-py": 0.16,
+     "mpmath": -0.04,
+     "packaging": -0.04,
+     "param": 0.0,
+     "petl": 0.32,
+     "pyparsing": 0.2,
+     "python-docx": 0.08,
+     "python-pptx": 0.04,
+     "rdflib": 0.24,
+     "rich": 0.16,
+     "segno": 0.24,
+     "sqlite-utils": 0.12,
+     "traitlets": 0.2,
+     "websockets": -0.04,
+     "xlsxwriter": -0.12,
+     "xmlschema": 0.16,
+     "yapf": 0.24
+    },
+    "micro_item_mean": 0.13466666666666666,
+    "n": 30,
+    "n_families": 30,
+    "n_items": 750,
+    "se": 0.023448320937527106,
+    "status": "interval"
+   }
+  },
+  "S2_list_effect_change_vs_neutral": {
+   "ci_high": -0.1198959813249734,
+   "ci_low": -0.2161040186750266,
+   "confidence": 0.95,
+   "definition": "per item [C1 - C0](deadline) - [C1 - C0](neutral)",
+   "degenerate_interval": false,
+   "df": 29,
+   "dropped": {},
+   "estimate": -0.168,
+   "estimate_exact": "-21/125",
+   "family_values": {
+    "alembic": 0.0,
+    "click": -0.16,
+    "cmd2": 0.0,
+    "deepdiff": -0.16,
+    "elementpath": -0.16,
+    "genshi": -0.24,
+    "graphql-core": -0.4,
+    "httpx": -0.16,
+    "icalendar": -0.12,
+    "jinja": -0.04,
+    "lark": -0.2,
+    "liquid": -0.36,
+    "markdown": -0.32,
+    "markdown-it-py": 0.0,
+    "mpmath": -0.08,
+    "packaging": 0.04,
+    "param": -0.24,
+    "petl": -0.24,
+    "pyparsing": -0.4,
+    "python-docx": -0.12,
+    "python-pptx": 0.0,
+    "rdflib": -0.2,
+    "rich": -0.12,
+    "segno": -0.4,
+    "sqlite-utils": -0.2,
+    "traitlets": -0.32,
+    "websockets": 0.0,
+    "xlsxwriter": -0.12,
+    "xmlschema": -0.16,
+    "yapf": -0.16
+   },
+   "micro_item_mean": -0.168,
+   "n": 30,
+   "n_families": 30,
+   "n_items": 750,
+   "se": 0.023520106341146728,
+   "status": "interval"
+  },
+  "S2_list_effect_change_vs_none": {
+   "ci_high": -0.08573004824717194,
+   "ci_low": -0.17826995175282806,
+   "confidence": 0.95,
+   "definition": "per item [C1 - C0](deadline) - [C1 - C0](none)",
+   "degenerate_interval": false,
+   "df": 29,
+   "dropped": {},
+   "estimate": -0.132,
+   "estimate_exact": "-33/250",
+   "family_values": {
+    "alembic": -0.08,
+    "click": -0.04,
+    "cmd2": 0.0,
+    "deepdiff": -0.04,
+    "elementpath": -0.12,
+    "genshi": -0.24,
+    "graphql-core": -0.28,
+    "httpx": -0.2,
+    "icalendar": -0.2,
+    "jinja": 0.04,
+    "lark": -0.08,
+    "liquid": -0.32,
+    "markdown": -0.36,
+    "markdown-it-py": -0.08,
+    "mpmath": 0.0,
+    "packaging": 0.08,
+    "param": -0.04,
+    "petl": -0.16,
+    "pyparsing": -0.32,
+    "python-docx": -0.04,
+    "python-pptx": 0.0,
+    "rdflib": -0.2,
+    "rich": -0.08,
+    "segno": -0.28,
+    "sqlite-utils": -0.16,
+    "traitlets": -0.32,
+    "websockets": 0.04,
+    "xlsxwriter": -0.08,
+    "xmlschema": -0.16,
+    "yapf": -0.24
+   },
+   "micro_item_mean": -0.132,
+   "n": 30,
+   "n_families": 30,
+   "n_items": 750,
+   "se": 0.02262335280090073,
+   "status": "interval"
+  },
+  "S3": "S3 (H1-H3 per policy) is computed by the frozen scripts/expA_analyze.py on each policy run (its ANALYSIS.json); this script does not recompute it",
+  "S4_by_policy": {
+   "deadline": {
+    "C0": {
+     "completed_episodes": 750,
+     "exits": {
+      "NoAnswer": 39,
+      "Submitted": 711
+     },
+     "precision_lower": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9499894314664846,
+       "ci_low": 0.9014062424855469,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9256978369760158,
+       "estimate_exact": "1923864046907266755593429/2078285127241917530112000",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 700,
+       "se": 0.011877196570033242,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9261923420509979,
+       "n": 700,
+       "sum": 648.3346394356985
+      }
+     },
+     "precision_upper": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9958358754722689,
+       "ci_low": 0.9757210570434737,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9857784662578712,
+       "estimate_exact": "407417644211749329941/413295337803790417920",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 700,
+       "se": 0.00491749630809678,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9865367965367965,
+       "n": 700,
+       "sum": 690.5757575757576
+      }
+     },
+     "recovery_given_submission": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9336054639830222,
+       "ci_low": 0.8675811851166704,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9005933245498463,
+       "estimate_exact": "2050651/2277000",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 711,
+       "se": 0.016141042919147155,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.90014064697609,
+       "n": 711,
+       "sum": 640.0
+      }
+     },
+     "submission_rate": {
+      "eligible": "completed episodes",
+      "family_weighted": {
+       "ci_high": 0.968438186522151,
+       "ci_low": 0.927561813477849,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.948,
+       "estimate_exact": "237/250",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 750,
+       "se": 0.00999310106851308,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.948,
+       "n": 750,
+       "sum": 711.0
+      }
+     },
+     "submitted_episodes": 711,
+     "submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 5.4307152453327685,
+       "ci_low": 3.742473160464333,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 4.586594202898551,
+       "estimate_exact": "12659/2760",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 711,
+       "se": 0.4127267789616009,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 4.549929676511955,
+       "n": 711,
+       "sum": 3235.0
+      }
+     },
+     "unique_submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 4.759806643750047,
+       "ci_low": 3.732686109873141,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 4.246246376811595,
+       "estimate_exact": "292991/69000",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 711,
+       "se": 0.2511015175796731,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 4.219409282700422,
+       "n": 711,
+       "sum": 3000.0
+      }
+     }
+    },
+    "C1": {
+     "completed_episodes": 750,
+     "exits": {
+      "NoAnswer": 14,
+      "Submitted": 736
+     },
+     "precision_lower": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.963778550986502,
+       "ci_low": 0.9288445199783312,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9463115354824165,
+       "estimate_exact": "941007267909362922187/994394797723405516800",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 734,
+       "se": 0.00854036883891014,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9463733938677771,
+       "n": 734,
+       "sum": 694.6380710989483
+      }
+     },
+     "precision_upper": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9922429402190556,
+       "ci_low": 0.9778618341128927,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9850523871659741,
+       "estimate_exact": "612206855801791608833/621496748577128448000",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 734,
+       "se": 0.003515768060931937,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9851466880077234,
+       "n": 734,
+       "sum": 723.097668997669
+      }
+     },
+     "recovery_given_submission": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9089205068217385,
+       "ci_low": 0.8355964013908218,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.8722584541062802,
+       "estimate_exact": "72223/82800",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 736,
+       "se": 0.017925641189723972,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.8722826086956522,
+       "n": 736,
+       "sum": 642.0
+      }
+     },
+     "submission_rate": {
+      "eligible": "completed episodes",
+      "family_weighted": {
+       "ci_high": 0.9907253972056417,
+       "ci_low": 0.971941269461025,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9813333333333333,
+       "estimate_exact": "368/375",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 750,
+       "se": 0.004592180593722767,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9813333333333333,
+       "n": 750,
+       "sum": 736.0
+      }
+     },
+     "submitted_episodes": 736,
+     "submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 4.660093909520316,
+       "ci_low": 3.903152467291278,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 4.281623188405797,
+       "estimate_exact": "36929/8625",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 736,
+       "se": 0.1850504771287499,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 4.274456521739131,
+       "n": 736,
+       "sum": 3146.0
+      }
+     },
+     "unique_submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 4.655432160529737,
+       "ci_low": 3.899814216281857,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 4.277623188405797,
+       "estimate_exact": "73789/17250",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 736,
+       "se": 0.18472691982401196,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 4.270380434782608,
+       "n": 736,
+       "sum": 3143.0
+      }
+     }
+    },
+    "C2": {
+     "completed_episodes": 750,
+     "exits": {
+      "NoAnswer": 18,
+      "Submitted": 732
+     },
+     "precision_lower": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9680089556503709,
+       "ci_low": 0.9396611904331849,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.953835073041778,
+       "estimate_exact": "24897826656120297088411/26102863440239394816000",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 730,
+       "se": 0.006930215715929564,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9540920316193316,
+       "n": 730,
+       "sum": 696.4871830821121
+      }
+     },
+     "precision_upper": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.99141650986805,
+       "ci_low": 0.9751872548857148,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9833018823768824,
+       "estimate_exact": "1115956293748439159713/1134907106097364992000",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 730,
+       "se": 0.003967587464997776,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9835449596066035,
+       "n": 730,
+       "sum": 717.9878205128205
+      }
+     },
+     "recovery_given_submission": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9254479775602349,
+       "ci_low": 0.855523476106871,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.8904857268335529,
+       "estimate_exact": "506909/569250",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 732,
+       "se": 0.017094535501756356,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.8907103825136612,
+       "n": 732,
+       "sum": 652.0
+      }
+     },
+     "submission_rate": {
+      "eligible": "completed episodes",
+      "family_weighted": {
+       "ci_high": 0.9868134490287065,
+       "ci_low": 0.9651865509712935,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.976,
+       "estimate_exact": "122/125",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 750,
+       "se": 0.005287156418010134,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.976,
+       "n": 750,
+       "sum": 732.0
+      }
+     },
+     "submitted_episodes": 732,
+     "submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 4.669710843596625,
+       "ci_low": 3.901847786179396,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 4.285779314888011,
+       "estimate_exact": "6505813/1518000",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 732,
+       "se": 0.18772049886205572,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 4.2923497267759565,
+       "n": 732,
+       "sum": 3142.0
+      }
+     },
+     "unique_submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 4.6622539600795525,
+       "ci_low": 3.898638003029802,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 4.280445981554677,
+       "estimate_exact": "6497717/1518000",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 732,
+       "se": 0.1866822046089348,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 4.286885245901639,
+       "n": 732,
+       "sum": 3138.0
+      }
+     }
+    },
+    "C3": {
+     "completed_episodes": 750,
+     "exits": {
+      "NoAnswer": 21,
+      "Submitted": 729
+     },
+     "precision_lower": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9667197412323418,
+       "ci_low": 0.931422350337339,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9490710457848405,
+       "estimate_exact": "7785948312436447909891/8203757081218095513600",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 726,
+       "se": 0.008629199911799616,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9494500141127996,
+       "n": 726,
+       "sum": 689.3007102458926
+      }
+     },
+     "precision_upper": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9963102181944843,
+       "ci_low": 0.9682424883582222,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9822763532763533,
+       "estimate_exact": "732577871718542800483/745796098292554137600",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 726,
+       "se": 0.006861755095382316,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9824072666463971,
+       "n": 726,
+       "sum": 713.2276755852843
+      }
+     },
+     "recovery_given_submission": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9273312824243447,
+       "ci_low": 0.8509172902590106,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.8891242863416776,
+       "estimate_exact": "253067/284625",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 729,
+       "se": 0.01868102989296887,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.8888888888888888,
+       "n": 729,
+       "sum": 648.0
+      }
+     },
+     "submission_rate": {
+      "eligible": "completed episodes",
+      "family_weighted": {
+       "ci_high": 0.9862239532990087,
+       "ci_low": 0.9577760467009913,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.972,
+       "estimate_exact": "243/250",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 750,
+       "se": 0.006954697411962221,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.972,
+       "n": 750,
+       "sum": 729.0
+      }
+     },
+     "submitted_episodes": 729,
+     "submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 4.6145458555620475,
+       "ci_low": 3.8655648163747114,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 4.240055335968379,
+       "estimate_exact": "536367/126500",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 729,
+       "se": 0.18310438685171845,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 4.234567901234568,
+       "n": 729,
+       "sum": 3087.0
+      }
+     },
+     "unique_submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 4.610018665820694,
+       "ci_low": 3.862092006116065,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 4.23605533596838,
+       "estimate_exact": "535861/126500",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 729,
+       "se": 0.18284662130280746,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 4.230452674897119,
+       "n": 729,
+       "sum": 3084.0
+      }
+     }
+    },
+    "C4a": {
+     "completed_episodes": 750,
+     "exits": {
+      "NoAnswer": 14,
+      "Submitted": 736
+     },
+     "precision_lower": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9626969841434119,
+       "ci_low": 0.927256151384825,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9449765677641184,
+       "estimate_exact": "77523582093800578463509/82037570812180955136000",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 734,
+       "se": 0.00866426733421248,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.945152887243689,
+       "n": 734,
+       "sum": 693.7422192368678
+      }
+     },
+     "precision_upper": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9950376533374855,
+       "ci_low": 0.9828357202025547,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9889366867700201,
+       "estimate_exact": "293949143006011380257/297237575406452736000",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 734,
+       "se": 0.0029830227578275612,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9890474610161258,
+       "n": 734,
+       "sum": 725.9608363858364
+      }
+     },
+     "recovery_given_submission": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9316248551812613,
+       "ci_low": 0.873327274814347,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9024760649978041,
+       "estimate_exact": "1027469/1138500",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 736,
+       "se": 0.014252086701159714,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9035326086956522,
+       "n": 736,
+       "sum": 665.0
+      }
+     },
+     "submission_rate": {
+      "eligible": "completed episodes",
+      "family_weighted": {
+       "ci_high": 0.9941839731096539,
+       "ci_low": 0.9684826935570128,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9813333333333333,
+       "estimate_exact": "368/375",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 750,
+       "se": 0.006283225859625383,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9813333333333333,
+       "n": 750,
+       "sum": 736.0
+      }
+     },
+     "submitted_episodes": 736,
+     "submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 4.826986046503282,
+       "ci_low": 3.969371002245071,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 4.398178524374177,
+       "estimate_exact": "1335287/303600",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 736,
+       "se": 0.20966228598269213,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 4.394021739130435,
+       "n": 736,
+       "sum": 3234.0
+      }
+     },
+     "unique_submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 4.821537005817569,
+       "ci_low": 3.9641533762641177,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 4.392845191040843,
+       "estimate_exact": "6668339/1518000",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 736,
+       "se": 0.2096057117232562,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 4.388586956521739,
+       "n": 736,
+       "sum": 3230.0
+      }
+     }
+    }
+   },
+   "neutral": {
+    "C0": {
+     "completed_episodes": 750,
+     "exits": {
+      "NoAnswer": 326,
+      "Submitted": 424
+     },
+     "precision_lower": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9927810439843525,
+       "ci_low": 0.965394182245127,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9790876131147398,
+       "estimate_exact": "2199599670508516192214927/2246581042437051069235200",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 424,
+       "se": 0.006695302369729821,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9793826063873233,
+       "n": 424,
+       "sum": 415.25822510822513
+      }
+     },
+     "precision_upper": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 1.000680684511811,
+       "ci_low": 0.9902161379639589,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.995448411237885,
+       "estimate_exact": "81139/81510",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 424,
+       "se": 0.0025582815573071674,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9952830188679245,
+       "n": 424,
+       "sum": 422.0
+      }
+     },
+     "recovery_given_submission": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 1.0010023913218613,
+       "ci_low": 0.8634318627476061,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9322171270347337,
+       "estimate_exact": "623912983/669278610",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 424,
+       "se": 0.033632049365077916,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9622641509433962,
+       "n": 424,
+       "sum": 408.0
+      }
+     },
+     "submission_rate": {
+      "eligible": "completed episodes",
+      "family_weighted": {
+       "ci_high": 0.6375248904375986,
+       "ci_low": 0.4931417762290681,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.5653333333333334,
+       "estimate_exact": "212/375",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 750,
+       "se": 0.03529753119996157,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.5653333333333334,
+       "n": 750,
+       "sum": 424.0
+      }
+     },
+     "submitted_episodes": 424,
+     "submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 3.9980876933346075,
+       "ci_low": 3.2872802557596175,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 3.6426839745471122,
+       "estimate_exact": "585112912117/160626866400",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 424,
+       "se": 0.17377203589563228,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 3.7122641509433962,
+       "n": 424,
+       "sum": 1574.0
+      }
+     },
+     "unique_submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 3.9860827935520273,
+       "ci_low": 3.2749994412564827,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 3.6305411174042552,
+       "estimate_exact": "23326497721/6425074656",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 424,
+       "se": 0.17383948913288028,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 3.69811320754717,
+       "n": 424,
+       "sum": 1568.0
+      }
+     }
+    },
+    "C1": {
+     "completed_episodes": 750,
+     "exits": {
+      "NoAnswer": 182,
+      "Submitted": 568
+     },
+     "precision_lower": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9885152334996107,
+       "ci_low": 0.9620586531698471,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9752869433347289,
+       "estimate_exact": "135677248619608096480703/139115210704755854671872",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 568,
+       "se": 0.006467875241182092,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9772332833400367,
+       "n": 568,
+       "sum": 555.0685049371408
+      }
+     },
+     "precision_upper": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 1.0008596807486507,
+       "ci_low": 0.9913029733613717,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9960813270550113,
+       "estimate_exact": "28126915863339974981/28237569663613009920",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 568,
+       "se": 0.002336340915075357,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9959359058390749,
+       "n": 568,
+       "sum": 565.6915945165945
+      }
+     },
+     "recovery_given_submission": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9697124524312546,
+       "ci_low": 0.9106223629779315,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9401674077045931,
+       "estimate_exact": "683330971/726818400",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 568,
+       "se": 0.014445832447378798,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9436619718309859,
+       "n": 568,
+       "sum": 536.0
+      }
+     },
+     "submission_rate": {
+      "eligible": "completed episodes",
+      "family_weighted": {
+       "ci_high": 0.8042280808881251,
+       "ci_low": 0.7104385857785415,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.7573333333333333,
+       "estimate_exact": "284/375",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 750,
+       "se": 0.02292884211569096,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.7573333333333333,
+       "n": 750,
+       "sum": 568.0
+      }
+     },
+     "submitted_episodes": 568,
+     "submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 4.505171156830959,
+       "ci_low": 3.8602515854009103,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 4.182711371115935,
+       "estimate_exact": "335927910299/80313433200",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 568,
+       "se": 0.1576643419751989,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 4.132042253521127,
+       "n": 568,
+       "sum": 2347.0
+      }
+     },
+     "unique_submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 4.491921510381937,
+       "ci_low": 3.8505772552417445,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 4.17124938281184,
+       "estimate_exact": "335007358667/80313433200",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 568,
+       "se": 0.1567902796654705,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 4.119718309859155,
+       "n": 568,
+       "sum": 2340.0
+      }
+     }
+    },
+    "C2": {
+     "completed_episodes": 750,
+     "exits": {
+      "NoAnswer": 215,
+      "Submitted": 535
+     },
+     "precision_lower": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9847475497050261,
+       "ci_low": 0.9562076276089478,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.970477588656987,
+       "estimate_exact": "108006555384208097121440039/111292168563804683737497600",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 535,
+       "se": 0.006977192562669307,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9744131569365214,
+       "n": 535,
+       "sum": 521.311038961039
+      }
+     },
+     "precision_upper": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9986947417668004,
+       "ci_low": 0.9829261632949446,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9908104525308725,
+       "estimate_exact": "179008837496502373447997/180669104811371239833600",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 535,
+       "se": 0.0038549652682064394,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9918691588785047,
+       "n": 535,
+       "sum": 530.65
+      }
+     },
+     "recovery_given_submission": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.966163000549407,
+       "ci_low": 0.9128860725389043,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9395245365441556,
+       "estimate_exact": "1658383321/1765130400",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 535,
+       "se": 0.013024681168552585,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9457943925233645,
+       "n": 535,
+       "sum": 506.0
+      }
+     },
+     "submission_rate": {
+      "eligible": "completed episodes",
+      "family_weighted": {
+       "ci_high": 0.7634246250526627,
+       "ci_low": 0.6632420416140039,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.7133333333333334,
+       "estimate_exact": "107/150",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 750,
+       "se": 0.02449176888864949,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.7133333333333334,
+       "n": 750,
+       "sum": 535.0
+      }
+     },
+     "submitted_episodes": 535,
+     "submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 4.343465300136941,
+       "ci_low": 3.694631407214376,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 4.019048353675659,
+       "estimate_exact": "49659010997/12355912800",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 535,
+       "se": 0.15862128133591424,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 3.977570093457944,
+       "n": 535,
+       "sum": 2128.0
+      }
+     },
+     "unique_submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 4.343465300136941,
+       "ci_low": 3.694631407214376,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 4.019048353675659,
+       "estimate_exact": "49659010997/12355912800",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 535,
+       "se": 0.15862128133591424,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 3.977570093457944,
+       "n": 535,
+       "sum": 2128.0
+      }
+     }
+    },
+    "C3": {
+     "completed_episodes": 750,
+     "exits": {
+      "NoAnswer": 219,
+      "Submitted": 531
+     },
+     "precision_lower": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9868796453349642,
+       "ci_low": 0.967339277372322,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9771094613536431,
+       "estimate_exact": "30732178291681620329336027/31452134594118714969292800",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 531,
+       "se": 0.00477705964164157,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9793387661676474,
+       "n": 531,
+       "sum": 520.0288848350208
+      }
+     },
+     "precision_upper": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 1.000006797727662,
+       "ci_low": 0.9881093259147774,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9940580618212197,
+       "estimate_exact": "643053228193537327123/646897050475498045440",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 531,
+       "se": 0.0029085906950963017,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9948323020356918,
+       "n": 531,
+       "sum": 528.2559523809524
+      }
+     },
+     "recovery_given_submission": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9751238512786709,
+       "ci_low": 0.9291898399457755,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9521568456122231,
+       "estimate_exact": "281143328/295269975",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 531,
+       "se": 0.011229548600957314,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9548022598870056,
+       "n": 531,
+       "sum": 507.0
+      }
+     },
+     "submission_rate": {
+      "eligible": "completed episodes",
+      "family_weighted": {
+       "ci_high": 0.766986922344768,
+       "ci_low": 0.6490130776552321,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.708,
+       "estimate_exact": "177/250",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 750,
+       "se": 0.028841222095362447,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.708,
+       "n": 750,
+       "sum": 531.0
+      }
+     },
+     "submitted_episodes": 531,
+     "submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 4.391310393141807,
+       "ci_low": 3.73029271130623,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 4.060801552224018,
+       "estimate_exact": "326136914203/80313433200",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 531,
+       "se": 0.16159986835177306,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 4.007532956685499,
+       "n": 531,
+       "sum": 2128.0
+      }
+     },
+     "unique_submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 4.379568139587974,
+       "ci_low": 3.719112462525796,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 4.049340301056885,
+       "estimate_exact": "325216421773/80313433200",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 531,
+       "se": 0.1614624743003126,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 3.994350282485876,
+       "n": 531,
+       "sum": 2121.0
+      }
+     }
+    },
+    "C4a": {
+     "completed_episodes": 750,
+     "exits": {
+      "NoAnswer": 173,
+      "Submitted": 577
+     },
+     "precision_lower": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9836797120210444,
+       "ci_low": 0.9606064885187025,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9721431002698734,
+       "estimate_exact": "1172079065986556330021823413/1205665159441217407156224000",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 577,
+       "se": 0.005640741515530232,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9750465382211034,
+       "n": 577,
+       "sum": 562.6018525535767
+      }
+     },
+     "precision_upper": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 1.0001625147778408,
+       "ci_low": 0.991518057736065,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.995840286256953,
+       "estimate_exact": "169527932611657499501/170236065914604748800",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 577,
+       "se": 0.002113321864619938,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9966426698662401,
+       "n": 577,
+       "sum": 575.0628205128205
+      }
+     },
+     "recovery_given_submission": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9678229519177458,
+       "ci_low": 0.9033977038019004,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9356103278598231,
+       "estimate_exact": "375710387839/401567166000",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 577,
+       "se": 0.015750125753278423,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9462738301559792,
+       "n": 577,
+       "sum": 546.0
+      }
+     },
+     "submission_rate": {
+      "eligible": "completed episodes",
+      "family_weighted": {
+       "ci_high": 0.8281286685046129,
+       "ci_low": 0.7105379981620538,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.7693333333333333,
+       "estimate_exact": "577/750",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 750,
+       "se": 0.02874754695515249,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.7693333333333333,
+       "n": 750,
+       "sum": 577.0
+      }
+     },
+     "submitted_episodes": 577,
+     "submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 4.627742088316357,
+       "ci_low": 3.769125286375825,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 4.198433687346092,
+       "estimate_exact": "177468749207/42270228000",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 577,
+       "se": 0.20990718701035294,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 4.204506065857886,
+       "n": 577,
+       "sum": 2426.0
+      }
+     },
+     "unique_submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 4.624370060732257,
+       "ci_low": 3.76694175840437,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 4.1956559095683135,
+       "estimate_exact": "177351331907/42270228000",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 577,
+       "se": 0.2096166329356023,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 4.20103986135182,
+       "n": 577,
+       "sum": 2424.0
+      }
+     }
+    }
+   },
+   "none": {
+    "C0": {
+     "completed_episodes": 750,
+     "exits": {
+      "NoAnswer": 297,
+      "Submitted": 453
+     },
+     "precision_lower": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.989416565177447,
+       "ci_low": 0.9481887901056454,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9688026776415462,
+       "estimate_exact": "3125221765366617130943563/3225859958371150253260800",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 453,
+       "se": 0.010079008787690611,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9763580300004141,
+       "n": 453,
+       "sum": 442.2901875901876
+      }
+     },
+     "precision_upper": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 1.0014517078362954,
+       "ci_low": 0.9957705143859268,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9986111111111111,
+       "estimate_exact": "719/720",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 453,
+       "se": 0.001388888888888889,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9988962472406181,
+       "n": 453,
+       "sum": 452.5
+      }
+     },
+     "recovery_given_submission": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9868983581856685,
+       "ci_low": 0.9293157436166686,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9581070509011685,
+       "estimate_exact": "1934993/2019600",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 453,
+       "se": 0.014077298065403178,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9668874172185431,
+       "n": 453,
+       "sum": 438.0
+      }
+     },
+     "submission_rate": {
+      "eligible": "completed episodes",
+      "family_weighted": {
+       "ci_high": 0.6747510430500615,
+       "ci_low": 0.5332489569499386,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.604,
+       "estimate_exact": "151/250",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 750,
+       "se": 0.03459320244169964,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.604,
+       "n": 750,
+       "sum": 453.0
+      }
+     },
+     "submitted_episodes": 453,
+     "submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 4.202103323174444,
+       "ci_low": 3.3773938110982327,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 3.7897485671363382,
+       "estimate_exact": "8822252707/2327925600",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 453,
+       "se": 0.20161782693903982,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 3.7969094922737305,
+       "n": 453,
+       "sum": 1720.0
+      }
+     },
+     "unique_submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 4.202103323174444,
+       "ci_low": 3.3773938110982327,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 3.7897485671363382,
+       "estimate_exact": "8822252707/2327925600",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 453,
+       "se": 0.20161782693903982,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 3.7969094922737305,
+       "n": 453,
+       "sum": 1720.0
+      }
+     }
+    },
+    "C1": {
+     "completed_episodes": 750,
+     "exits": {
+      "NoAnswer": 177,
+      "Submitted": 573
+     },
+     "precision_lower": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9915486645152857,
+       "ci_low": 0.965020329369342,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9782844969423138,
+       "estimate_exact": "6261525370201337643853/6400515790418948915200",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 573,
+       "se": 0.006485417236149765,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9807915958687758,
+       "n": 573,
+       "sum": 561.9935844328086
+      }
+     },
+     "precision_upper": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 1.0006836635967733,
+       "ci_low": 0.9924681013049915,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9965758824508825,
+       "estimate_exact": "11108242462809238139/11146409077741977600",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 573,
+       "se": 0.0020084693969169352,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9966787284850112,
+       "n": 573,
+       "sum": 571.0969114219114
+      }
+     },
+     "recovery_given_submission": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9662506043787209,
+       "ci_low": 0.9059759911343196,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9361132977565203,
+       "estimate_exact": "101460827/108385200",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 573,
+       "se": 0.014735414547764154,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9406631762652705,
+       "n": 573,
+       "sum": 539.0
+      }
+     },
+     "submission_rate": {
+      "eligible": "completed episodes",
+      "family_weighted": {
+       "ci_high": 0.8096337933472643,
+       "ci_low": 0.7183662066527358,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.764,
+       "estimate_exact": "191/250",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 750,
+       "se": 0.02231230782460143,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.764,
+       "n": 750,
+       "sum": 573.0
+      }
+     },
+     "submitted_episodes": 573,
+     "submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 4.627136743318691,
+       "ci_low": 3.8996000096308765,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 4.263368376474784,
+       "estimate_exact": "57383233/13459600",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 573,
+       "se": 0.177861869078223,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 4.207678883071553,
+       "n": 573,
+       "sum": 2411.0
+      }
+     },
+     "unique_submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 4.622085453498986,
+       "ci_low": 3.895762410561693,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 4.258923932030339,
+       "estimate_exact": "515910713/121136400",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 573,
+       "se": 0.17756515649262397,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 4.202443280977312,
+       "n": 573,
+       "sum": 2408.0
+      }
+     }
+    },
+    "C2": {
+     "completed_episodes": 750,
+     "exits": {
+      "NoAnswer": 204,
+      "Submitted": 546
+     },
+     "precision_lower": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9879879988341354,
+       "ci_low": 0.9631706111430317,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9755793049885836,
+       "estimate_exact": "20456034405158480502786989/20968089729412476646195200",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 546,
+       "se": 0.0060671396453126246,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9774795107212689,
+       "n": 546,
+       "sum": 533.7038128538129
+      }
+     },
+     "precision_upper": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9997749859198636,
+       "ci_low": 0.9881420360368901,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9939585109783768,
+       "estimate_exact": "17176987290253698961879/17281392634131162071040",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 546,
+       "se": 0.0028439226684693966,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9941697191697192,
+       "n": 546,
+       "sum": 542.8166666666667
+      }
+     },
+     "recovery_given_submission": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9748842815520855,
+       "ci_low": 0.9249036091491178,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9498939453506017,
+       "estimate_exact": "255147973/268606800",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 546,
+       "se": 0.012218841193512459,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9523809523809523,
+       "n": 546,
+       "sum": 520.0
+      }
+     },
+     "submission_rate": {
+      "eligible": "completed episodes",
+      "family_weighted": {
+       "ci_high": 0.7793526488506687,
+       "ci_low": 0.6766473511493313,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.728,
+       "estimate_exact": "91/125",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 750,
+       "se": 0.02510850018637504,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.728,
+       "n": 750,
+       "sum": 546.0
+      }
+     },
+     "submitted_episodes": 546,
+     "submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 4.3478986679184475,
+       "ci_low": 3.6849107952934923,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 4.01640473160597,
+       "estimate_exact": "500887039/124710300",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 546,
+       "se": 0.16208152350403363,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 3.97985347985348,
+       "n": 546,
+       "sum": 2173.0
+      }
+     },
+     "unique_submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 4.3478986679184475,
+       "ci_low": 3.6849107952934923,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 4.01640473160597,
+       "estimate_exact": "500887039/124710300",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 546,
+       "se": 0.16208152350403363,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 3.97985347985348,
+       "n": 546,
+       "sum": 2173.0
+      }
+     }
+    },
+    "C3": {
+     "completed_episodes": 750,
+     "exits": {
+      "NoAnswer": 210,
+      "Submitted": 540
+     },
+     "precision_lower": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9836876395542906,
+       "ci_low": 0.9599529405884764,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9718202900713835,
+       "estimate_exact": "10815598753634997577056467/11129216856380468373749760",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 540,
+       "se": 0.005802453298365187,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9745649802163212,
+       "n": 540,
+       "sum": 526.2650893168135
+      }
+     },
+     "precision_upper": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9996842922847654,
+       "ci_low": 0.9868265909904872,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9932554416376264,
+       "estimate_exact": "287120914383509022272609/289070567698193983733760",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 540,
+       "se": 0.0031433392684624526,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9932098765432099,
+       "n": 540,
+       "sum": 536.3333333333334
+      }
+     },
+     "recovery_given_submission": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.970967243322818,
+       "ci_low": 0.9120480770831337,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9415076602029758,
+       "estimate_exact": "77554577/82372752",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 540,
+       "se": 0.01440404662291252,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.95,
+       "n": 540,
+       "sum": 513.0
+      }
+     },
+     "submission_rate": {
+      "eligible": "completed episodes",
+      "family_weighted": {
+       "ci_high": 0.7751937670721758,
+       "ci_low": 0.6648062329278241,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.72,
+       "estimate_exact": "18/25",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 750,
+       "se": 0.026986586706528218,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.72,
+       "n": 750,
+       "sum": 540.0
+      }
+     },
+     "submitted_episodes": 540,
+     "submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 4.394878992058379,
+       "ci_low": 3.699610617968652,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 4.0472448050135155,
+       "estimate_exact": "50007403891/12355912800",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 540,
+       "se": 0.1699731804602447,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 3.990740740740741,
+       "n": 540,
+       "sum": 2155.0
+      }
+     },
+     "unique_submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 4.3827692684499615,
+       "ci_low": 3.689147242161865,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 4.035958255305913,
+       "estimate_exact": "49867948267/12355912800",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 540,
+       "se": 0.16957069563220523,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 3.977777777777778,
+       "n": 540,
+       "sum": 2148.0
+      }
+     }
+    },
+    "C4a": {
+     "completed_episodes": 750,
+     "exits": {
+      "NoAnswer": 173,
+      "Submitted": 577
+     },
+     "precision_lower": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9841706184474744,
+       "ci_low": 0.9616590562791058,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9729148373632901,
+       "estimate_exact": "15038583621953041593848791/15457245633861761630208000",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 577,
+       "se": 0.005503431425161202,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9764298201936402,
+       "n": 577,
+       "sum": 563.4000062517304
+      }
+     },
+     "precision_upper": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 1.000912395082203,
+       "ci_low": 0.9928728044677024,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9968925997749527,
+       "estimate_exact": "180313766470387450597/180875820034267545600",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 577,
+       "se": 0.0019654493678561012,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9969892903168467,
+       "n": 577,
+       "sum": 575.2628205128206
+      }
+     },
+     "recovery_given_submission": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 0.9710192084592516,
+       "ci_low": 0.9252016370293957,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.9481104227443237,
+       "estimate_exact": "2546689067/2686068000",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 577,
+       "se": 0.011201082383609206,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.9532062391681109,
+       "n": 577,
+       "sum": 550.0
+      }
+     },
+     "submission_rate": {
+      "eligible": "completed episodes",
+      "family_weighted": {
+       "ci_high": 0.8259965629049838,
+       "ci_low": 0.7126701037616829,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 0.7693333333333333,
+       "estimate_exact": "577/750",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 750,
+       "se": 0.027705069594318902,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 0.7693333333333333,
+       "n": 750,
+       "sum": 577.0
+      }
+     },
+     "submitted_episodes": 577,
+     "submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 4.666129701675214,
+       "ci_low": 3.8335066763348356,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 4.249818189005024,
+       "estimate_exact": "21879326233/5148297000",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 577,
+       "se": 0.2035524540100408,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 4.214904679376083,
+       "n": 577,
+       "sum": 2432.0
+      }
+     },
+     "unique_submitted_sites": {
+      "eligible": "submitted episodes with a value",
+      "family_weighted": {
+       "ci_high": 4.6590280423982495,
+       "ci_low": 3.8244603569695412,
+       "confidence": 0.95,
+       "degenerate_interval": false,
+       "df": 29,
+       "estimate": 4.241744199683896,
+       "estimate_exact": "10918879469/2574148500",
+       "n": 30,
+       "n_families": 30,
+       "n_items": 577,
+       "se": 0.20402786763799477,
+       "status": "interval"
+      },
+      "micro": {
+       "mean": 4.206239168110918,
+       "n": 577,
+       "sum": 2427.0
+      }
+     }
+    }
+   }
+  },
+  "S4_final_response_kind": {
+   "by_policy": {
+    "deadline": {
+     "C0": {
+      "episodes_with_8_responses": 357,
+      "last_action_kind": {
+       "submit_accepted": 318,
+       "tool_call": 36,
+       "tool_rejected": 3
+      }
+     },
+     "C1": {
+      "episodes_with_8_responses": 234,
+      "last_action_kind": {
+       "submit_accepted": 220,
+       "tool_call": 13,
+       "tool_rejected": 1
+      }
+     },
+     "C2": {
+      "episodes_with_8_responses": 269,
+      "last_action_kind": {
+       "submit_accepted": 251,
+       "tool_call": 17,
+       "tool_rejected": 1
+      }
+     },
+     "C3": {
+      "episodes_with_8_responses": 282,
+      "last_action_kind": {
+       "submit_accepted": 261,
+       "tool_call": 19,
+       "tool_rejected": 2
+      }
+     },
+     "C4a": {
+      "episodes_with_8_responses": 223,
+      "last_action_kind": {
+       "submit_accepted": 209,
+       "tool_call": 13,
+       "tool_rejected": 1
+      }
+     }
+    },
+    "neutral": {
+     "C0": {
+      "episodes_with_8_responses": 367,
+      "last_action_kind": {
+       "submit_accepted": 41,
+       "tool_call": 323,
+       "tool_rejected": 3
+      }
+     },
+     "C1": {
+      "episodes_with_8_responses": 231,
+      "last_action_kind": {
+       "submit_accepted": 49,
+       "tool_call": 180,
+       "tool_rejected": 2
+      }
+     },
+     "C2": {
+      "episodes_with_8_responses": 285,
+      "last_action_kind": {
+       "submit_accepted": 70,
+       "tool_call": 213,
+       "tool_rejected": 2
+      }
+     },
+     "C3": {
+      "episodes_with_8_responses": 285,
+      "last_action_kind": {
+       "submit_accepted": 66,
+       "tool_call": 218,
+       "tool_rejected": 1
+      }
+     },
+     "C4a": {
+      "episodes_with_8_responses": 221,
+      "last_action_kind": {
+       "submit_accepted": 48,
+       "tool_call": 171,
+       "tool_rejected": 2
+      }
+     }
+    },
+    "none": {
+     "C0": {
+      "episodes_with_8_responses": 359,
+      "last_action_kind": {
+       "submit_accepted": 62,
+       "tool_call": 293,
+       "tool_rejected": 4
+      }
+     },
+     "C1": {
+      "episodes_with_8_responses": 240,
+      "last_action_kind": {
+       "submit_accepted": 63,
+       "tool_call": 176,
+       "tool_rejected": 1
+      }
+     },
+     "C2": {
+      "episodes_with_8_responses": 264,
+      "last_action_kind": {
+       "submit_accepted": 60,
+       "tool_call": 203,
+       "tool_rejected": 1
+      }
+     },
+     "C3": {
+      "episodes_with_8_responses": 280,
+      "last_action_kind": {
+       "submit_accepted": 70,
+       "tool_call": 209,
+       "tool_rejected": 1
+      }
+     },
+     "C4a": {
+      "episodes_with_8_responses": 218,
+      "last_action_kind": {
+       "submit_accepted": 45,
+       "tool_call": 172,
+       "tool_rejected": 1
+      }
+     }
+    }
+   },
+   "status": "kind of the final response among episodes that made 8 responses (scripts/expA_timeline.py last_action_kind); the number of tool calls per response is not in the timeline rows (in the main run every parsed response held exactly one tool call)"
+  },
+  "status": "SECONDARY: nominal 95% family-clustered t intervals (df = F - 1); no p-values, no significance claims"
+ },
+ "seed": 11,
+ "status": "PRESPECIFIED analysis code, committed before any A1 outcome existed",
+ "subcommand": "finalturn",
+ "warnings": []
+}

@@ -1,0 +1,207 @@
+{
+ "label": "ANALYSIS RECORD",
+ "purpose": "Separate scipy.stats.t cross-check of the stdlib Student t functions in scripts/expA_reanalyze_independent.py (POST-RESULTS verification aid, not preregistered).",
+ "generated_utc": "2026-11-01T06:30:44+00:00",
+ "command": {
+  "cwd": "D:/C_moved/Documents-work/2026-10-17/yaml-google-the-gemma-4-developer/outputs/absent-edges",
+  "command_line": "python -I -B scripts/expA_reanalyze_tcdf_scipy_check.py --cells D:/C_moved/Documents-work/2026-10-17/expA-backups/main-analysis-20261101b/CELLS.jsonl --analysis reports/expA-main-20261101b/analysis/ANALYSIS.json --out reports/expA-main-20261101b/independent/TCDF_SCIPY_CROSSCHECK.json",
+  "interpreter": "C:\\Users\\Hp\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\python.exe"
+ },
+ "python_version": "3.11.14",
+ "scipy_version": "1.17.1",
+ "numpy_version": "2.4.6",
+ "checked_script": {
+  "path": "scripts/expA_reanalyze_independent.py",
+  "sha256": "00e39b9e6a0177bca3b136b7b777df4dc28a84f5451c23c8e1ff32c778725a3b"
+ },
+ "inputs": {
+  "cells_sha256": "01a84b6973c2877fd30301a53163c7c619b416168d868bf645f8c43ffb2ff6ab",
+  "analysis_sha256": "f9017bf657c2472c30867ef8ace33433e4110c5597c340d1e163c279b9839d86"
+ },
+ "grids": {
+  "dfs": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   7,
+   10,
+   15,
+   20,
+   25,
+   28,
+   29,
+   30,
+   40,
+   60,
+   100,
+   200,
+   500,
+   1000
+  ],
+  "t": "numpy.linspace(-40, 40, 8001) plus +-50, +-100, +-1000, +-10000, +-1e+06",
+  "q": [
+   0.001,
+   0.005,
+   0.01,
+   0.025,
+   0.05,
+   0.1,
+   0.2,
+   0.3,
+   0.4,
+   0.45,
+   0.5,
+   0.55,
+   0.6,
+   0.7,
+   0.8,
+   0.9,
+   0.95,
+   0.975,
+   0.99,
+   0.995,
+   0.999
+  ]
+ },
+ "summary": {
+  "cdf_max_abs_diff": 1.1335377081422848e-13,
+  "cdf_max_abs_diff_at": {
+   "df": 500,
+   "t": 1.6799999999999997
+  },
+  "cdf_points": 152209,
+  "cdf_dfs": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   7,
+   10,
+   15,
+   20,
+   25,
+   28,
+   29,
+   30,
+   40,
+   60,
+   100,
+   200,
+   500,
+   1000
+  ],
+  "cdf_max_abs_diff_df29": 2.220446049250313e-15,
+  "two_sided_p_max_abs_diff": 2.266381526894179e-13,
+  "two_sided_p_max_rel_diff": 2.5208150393827076e-12,
+  "two_sided_p_max_rel_diff_at": {
+   "df": 500,
+   "t": -1.7100000000000009,
+   "this_script": 0.08788625944518325,
+   "scipy": 0.0878862594449617
+  },
+  "ppf_max_abs_diff": 1.0460521338018225e-12,
+  "ppf_max_abs_diff_at": {
+   "df": 500,
+   "q": 0.95,
+   "this_script": 1.6479068539305568,
+   "scipy": 1.6479068539295108
+  },
+  "ppf_max_rel_diff": 6.347762504339747e-13,
+  "t_critical_df29_abs_diff": 2.220446049250313e-15,
+  "hypothesis_p_max_rel_diff": 2.5499351683817764e-14,
+  "reference_60_digits": {
+   "t_critical_df29": {
+    "this_script_abs_err": 2.232721472984709e-15,
+    "scipy_ppf_abs_err": 1.2275423734396048e-17,
+    "scipy_isf_abs_err": 4.3181378611566657e-16,
+    "analysis_json_abs_err": 6.649062724016543e-15
+   },
+   "hypothesis_p_df29_max_rel_err": {
+    "this_script": 2.4612324012639477e-14,
+    "scipy": 1.4983320121136178e-15,
+    "analysis_json": 1.8080847193487716e-14
+   }
+  }
+ },
+ "cdf_max_abs_diff_by_df": {
+  "1": 8.881784197001252e-16,
+  "2": 4.440892098500626e-16,
+  "3": 6.661338147750939e-16,
+  "4": 3.7470027081099033e-16,
+  "5": 8.881784197001252e-16,
+  "7": 5.551115123125783e-16,
+  "10": 7.771561172376096e-16,
+  "15": 8.881784197001252e-16,
+  "20": 1.3322676295501878e-15,
+  "25": 2.886579864025407e-15,
+  "28": 3.70536934468646e-15,
+  "29": 2.220446049250313e-15,
+  "30": 3.594347042223944e-15,
+  "40": 1.9984014443252818e-15,
+  "60": 2.3314683517128287e-15,
+  "100": 1.4876988529977098e-14,
+  "200": 8.382183835919932e-15,
+  "500": 1.1335377081422848e-13,
+  "1000": 5.4643789493269423e-14
+ },
+ "analysis_points_df29": {
+  "t_critical": {
+   "two_sided_tail": "0.0500000000000000444089209850062616169452667236328125",
+   "reference": "2.04522964213270387452050375199718846318840656895250225119385",
+   "reference_for_exact_tail_0.05": "2.04522964213270429819377222150707495768660715849825243283387",
+   "this_script": 2.0452296421327016,
+   "scipy_ppf_0.975": 2.045229642132704,
+   "scipy_isf_0.025": 2.0452296421327043,
+   "analysis_json": 2.0452296421327105,
+   "this_script_abs_err": 2.232721472984709e-15,
+   "scipy_ppf_abs_err": 1.2275423734396048e-17,
+   "scipy_isf_abs_err": 4.3181378611566657e-16,
+   "analysis_json_abs_err": 6.649062724016543e-15,
+   "this_script_minus_scipy_ppf": -2.220446049250313e-15
+  },
+  "hypotheses": {
+   "H1": {
+    "t_this_script": -1.4986659311827362,
+    "p_reference_at_this_script_t": "0.144768055386338290917871321308211891209399874055711581727404",
+    "p_this_script": 0.14476805538634185,
+    "p_scipy_at_this_script_t": 0.14476805538633816,
+    "this_script_rel_err": 2.4612324012639477e-14,
+    "scipy_rel_err": 8.87027671178265e-16,
+    "this_script_vs_scipy_rel_diff": 2.5499351683817764e-14,
+    "t_analysis_json": -1.498665931182736,
+    "p_analysis_json": 0.14476805538634097,
+    "p_reference_at_analysis_json_t": "0.144768055386338348288649530728911871224584882815351858530529",
+    "analysis_json_rel_err": 1.8080847193487716e-14
+   },
+   "H2": {
+    "t_this_script": 1.7770540211680101,
+    "p_reference_at_this_script_t": "0.0860508547358106553206588110616407594102976950202058084365380",
+    "p_this_script": 0.08605085473581063,
+    "p_scipy_at_this_script_t": 0.08605085473581064,
+    "this_script_rel_err": 2.8596104815605866e-16,
+    "scipy_rel_err": 1.2468678945843853e-16,
+    "this_script_vs_scipy_rel_diff": 1.6127425869762013e-16,
+    "t_analysis_json": 1.77705402116801,
+    "p_analysis_json": 0.0860508547358108,
+    "p_reference_at_analysis_json_t": "0.0860508547358106925844999687526647357474279276274412120966670",
+    "analysis_json_rel_err": 1.2162856515770234e-15
+   },
+   "H3": {
+    "t_this_script": 7.7622461281548265,
+    "p_reference_at_this_script_t": "1.46751747761585990421015135042756840546669000211792009969698E-8",
+    "p_this_script": 1.467517477615853e-08,
+    "p_scipy_at_this_script_t": 1.4675174776158577e-08,
+    "this_script_rel_err": 4.6548269097570045e-15,
+    "scipy_rel_err": 1.4983320121136178e-15,
+    "this_script_vs_scipy_rel_diff": 3.1564948976433917e-15,
+    "t_analysis_json": 7.762246128154826,
+    "p_analysis_json": 1.4675174776158632e-08,
+    "p_reference_at_analysis_json_t": "1.46751747761586324126835720504437412619913353467290241874394E-8",
+    "analysis_json_rel_err": 5.212515640834478e-17
+   }
+  }
+ }
+}

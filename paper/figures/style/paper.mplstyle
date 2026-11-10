@@ -1,0 +1,60 @@
+# Shared figure style for the paper (scripts/paper_figures.py and paper/v16/tools/make_*.py).
+# Research-paper conventions: figures drawn at the printed text width (A4, 1-inch margins: 6.27 in) so that 8-9 pt
+# figure text prints at 8-9 pt; the paper's own serif face (Libertinus Serif, SIL OFL 1.1, shipped in fonts/);
+# a full black axis frame with inward ticks; a light dotted value grid; white background; Okabe-Ito colours.
+
+font.family: Libertinus Serif
+font.size: 9
+axes.titlesize: 9
+axes.labelsize: 9
+xtick.labelsize: 8.5
+ytick.labelsize: 8.5
+legend.fontsize: 8.5
+mathtext.fontset: custom
+mathtext.rm: Libertinus Serif
+mathtext.it: Libertinus Serif:italic
+mathtext.bf: Libertinus Serif:bold
+axes.unicode_minus: True
+
+axes.linewidth: 0.6
+axes.edgecolor: 000000
+axes.labelcolor: 000000
+axes.titlecolor: 000000
+axes.titleweight: normal
+axes.spines.top: True
+axes.spines.right: True
+axes.spines.left: True
+axes.spines.bottom: True
+axes.grid: False
+axes.axisbelow: True
+grid.color: c8c8c8
+grid.linewidth: 0.5
+grid.linestyle: :
+
+xtick.direction: in
+ytick.direction: in
+xtick.major.size: 3
+ytick.major.size: 3
+xtick.major.width: 0.6
+ytick.major.width: 0.6
+xtick.major.pad: 3
+ytick.major.pad: 3
+xtick.color: 000000
+ytick.color: 000000
+xtick.top: False
+ytick.right: False
+
+lines.linewidth: 1.0
+lines.solid_capstyle: butt
+legend.frameon: False
+legend.handlelength: 1.8
+legend.columnspacing: 1.2
+legend.borderaxespad: 0
+
+figure.facecolor: ffffff
+axes.facecolor: ffffff
+savefig.facecolor: ffffff
+figure.dpi: 300
+savefig.dpi: 300
+pdf.fonttype: 3
+svg.fonttype: path

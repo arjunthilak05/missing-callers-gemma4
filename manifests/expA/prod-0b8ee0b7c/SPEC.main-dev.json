@@ -1,0 +1,1539 @@
+{
+ "checks": {
+  "alembic": {
+   "commit": "db53474a48914b6b228ca85d4f9cd160c2821cd5",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "db53474a48914b6b228ca85d4f9cd160c2821cd5",
+   "source_tree_sha256": {
+    "jedi": "a17656e739af2ad2cb90b6ea3df989f6a07a20875f4d51f84f4af69fc88ece98",
+    "locagent": "a17656e739af2ad2cb90b6ea3df989f6a07a20875f4d51f84f4af69fc88ece98",
+    "trace": "a17656e739af2ad2cb90b6ea3df989f6a07a20875f4d51f84f4af69fc88ece98"
+   },
+   "static": {
+    "jedi": {
+     "commit": "db53474a48914b6b228ca85d4f9cd160c2821cd5",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "db53474a48914b6b228ca85d4f9cd160c2821cd5",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "db53474a48914b6b228ca85d4f9cd160c2821cd5",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/alembic/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "boltons": {
+   "commit": "4332b35a278d694f30c99881faa61cde695c7a96",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "4332b35a278d694f30c99881faa61cde695c7a96",
+   "source_tree_sha256": {
+    "jedi": "974d51d51c391d20c540dcec1ce179fd4b78ba157b52de9bcadbd0ea15a19ad1",
+    "locagent": "974d51d51c391d20c540dcec1ce179fd4b78ba157b52de9bcadbd0ea15a19ad1",
+    "trace": "974d51d51c391d20c540dcec1ce179fd4b78ba157b52de9bcadbd0ea15a19ad1"
+   },
+   "static": {
+    "jedi": {
+     "commit": "4332b35a278d694f30c99881faa61cde695c7a96",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "4332b35a278d694f30c99881faa61cde695c7a96",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "4332b35a278d694f30c99881faa61cde695c7a96",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/boltons/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "click": {
+   "commit": "8b19813f2bfca99f1018a587a8cf54fc959f2e5d",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "8b19813f2bfca99f1018a587a8cf54fc959f2e5d",
+   "source_tree_sha256": {
+    "jedi": "019bc74007cc7abb7554e44c8331cb67bd7363eb5a2b374fa6846164053d19d6",
+    "locagent": "019bc74007cc7abb7554e44c8331cb67bd7363eb5a2b374fa6846164053d19d6",
+    "trace": "019bc74007cc7abb7554e44c8331cb67bd7363eb5a2b374fa6846164053d19d6"
+   },
+   "static": {
+    "jedi": {
+     "commit": "8b19813f2bfca99f1018a587a8cf54fc959f2e5d",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "8b19813f2bfca99f1018a587a8cf54fc959f2e5d",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "8b19813f2bfca99f1018a587a8cf54fc959f2e5d",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/click/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "cmd2": {
+   "commit": "3aa75c80675c0b0edc510aec302029a3fe62bf74",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "3aa75c80675c0b0edc510aec302029a3fe62bf74",
+   "source_tree_sha256": {
+    "jedi": "7f79711acbd2a255da893bd48cdf40ed5d13dfd60bc5768243ad898c44e0d772",
+    "locagent": "7f79711acbd2a255da893bd48cdf40ed5d13dfd60bc5768243ad898c44e0d772",
+    "trace": "7f79711acbd2a255da893bd48cdf40ed5d13dfd60bc5768243ad898c44e0d772"
+   },
+   "static": {
+    "jedi": {
+     "commit": "3aa75c80675c0b0edc510aec302029a3fe62bf74",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "3aa75c80675c0b0edc510aec302029a3fe62bf74",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "3aa75c80675c0b0edc510aec302029a3fe62bf74",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/cmd2/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "deepdiff": {
+   "commit": "41c726586cfef55de0c8474923d2734f1529d223",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "41c726586cfef55de0c8474923d2734f1529d223",
+   "source_tree_sha256": {
+    "jedi": "3743f92a9170d4e372e34a0446d04db54297333d399a133f22b94138c57050fc",
+    "locagent": "3743f92a9170d4e372e34a0446d04db54297333d399a133f22b94138c57050fc",
+    "trace": "3743f92a9170d4e372e34a0446d04db54297333d399a133f22b94138c57050fc"
+   },
+   "static": {
+    "jedi": {
+     "commit": "41c726586cfef55de0c8474923d2734f1529d223",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "partial",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "41c726586cfef55de0c8474923d2734f1529d223",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "41c726586cfef55de0c8474923d2734f1529d223",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/deepdiff/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "elementpath": {
+   "commit": "62f1f7f586ef4157db6850396bbcd68a19505455",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "62f1f7f586ef4157db6850396bbcd68a19505455",
+   "source_tree_sha256": {
+    "jedi": "63dfd69c3f98869a8e97088fd455f2ad4733f9109520fdee39ccacca62ba1346",
+    "locagent": "63dfd69c3f98869a8e97088fd455f2ad4733f9109520fdee39ccacca62ba1346",
+    "trace": "63dfd69c3f98869a8e97088fd455f2ad4733f9109520fdee39ccacca62ba1346"
+   },
+   "static": {
+    "jedi": {
+     "commit": "62f1f7f586ef4157db6850396bbcd68a19505455",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "partial",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "62f1f7f586ef4157db6850396bbcd68a19505455",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "62f1f7f586ef4157db6850396bbcd68a19505455",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/elementpath/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "genshi": {
+   "commit": "97714fdebd474d006fe605ebbd66d3de2711228e",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "97714fdebd474d006fe605ebbd66d3de2711228e",
+   "source_tree_sha256": {
+    "jedi": "dcd109c08fbe770a6614c2d98fa9693da852828ea5ca0fbe9e23bc7eed0d5926",
+    "locagent": "dcd109c08fbe770a6614c2d98fa9693da852828ea5ca0fbe9e23bc7eed0d5926",
+    "trace": "dcd109c08fbe770a6614c2d98fa9693da852828ea5ca0fbe9e23bc7eed0d5926"
+   },
+   "static": {
+    "jedi": {
+     "commit": "97714fdebd474d006fe605ebbd66d3de2711228e",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "97714fdebd474d006fe605ebbd66d3de2711228e",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "97714fdebd474d006fe605ebbd66d3de2711228e",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/genshi/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "graphql-core": {
+   "commit": "894141f4c0efacbd6b386bdbd5a23caf4548f17b",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "894141f4c0efacbd6b386bdbd5a23caf4548f17b",
+   "source_tree_sha256": {
+    "jedi": "608dbacb0ea20281b553ec8f3a3e86a410bafd414af35ce816835999b058c902",
+    "locagent": "608dbacb0ea20281b553ec8f3a3e86a410bafd414af35ce816835999b058c902",
+    "trace": "608dbacb0ea20281b553ec8f3a3e86a410bafd414af35ce816835999b058c902"
+   },
+   "static": {
+    "jedi": {
+     "commit": "894141f4c0efacbd6b386bdbd5a23caf4548f17b",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "894141f4c0efacbd6b386bdbd5a23caf4548f17b",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "894141f4c0efacbd6b386bdbd5a23caf4548f17b",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/graphql-core/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "httpx": {
+   "commit": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+   "source_tree_sha256": {
+    "jedi": "8c4585585c3b1dd4f4947a00d8a15c8aac1ab50df81743b46bd0d2422e14aedc",
+    "locagent": "8c4585585c3b1dd4f4947a00d8a15c8aac1ab50df81743b46bd0d2422e14aedc",
+    "trace": "8c4585585c3b1dd4f4947a00d8a15c8aac1ab50df81743b46bd0d2422e14aedc"
+   },
+   "static": {
+    "jedi": {
+     "commit": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/httpx/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "icalendar": {
+   "commit": "138c8453db34fbb584bbcbc592fd7bd4b972e8ef",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "138c8453db34fbb584bbcbc592fd7bd4b972e8ef",
+   "source_tree_sha256": {
+    "jedi": "5199ac05e5cf530332cf66f05834fa5e1b313a92c3e4da4d1a7d892032a3e220",
+    "locagent": "5199ac05e5cf530332cf66f05834fa5e1b313a92c3e4da4d1a7d892032a3e220",
+    "trace": "5199ac05e5cf530332cf66f05834fa5e1b313a92c3e4da4d1a7d892032a3e220"
+   },
+   "static": {
+    "jedi": {
+     "commit": "138c8453db34fbb584bbcbc592fd7bd4b972e8ef",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "138c8453db34fbb584bbcbc592fd7bd4b972e8ef",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "138c8453db34fbb584bbcbc592fd7bd4b972e8ef",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/icalendar/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "jinja": {
+   "commit": "15206881c006c79667fe5154fe80c01c65410679",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "15206881c006c79667fe5154fe80c01c65410679",
+   "source_tree_sha256": {
+    "jedi": "dbd45576f3bcbf3c4d99a67312093e4665934933f49750c5e0fda4da424c500a",
+    "locagent": "dbd45576f3bcbf3c4d99a67312093e4665934933f49750c5e0fda4da424c500a",
+    "trace": "dbd45576f3bcbf3c4d99a67312093e4665934933f49750c5e0fda4da424c500a"
+   },
+   "static": {
+    "jedi": {
+     "commit": "15206881c006c79667fe5154fe80c01c65410679",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "15206881c006c79667fe5154fe80c01c65410679",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "15206881c006c79667fe5154fe80c01c65410679",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/jinja/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "lark": {
+   "commit": "f79772cd4c6d2076b5dc01f399dbb816cc484f77",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "f79772cd4c6d2076b5dc01f399dbb816cc484f77",
+   "source_tree_sha256": {
+    "jedi": "10dff71ac9b55e3621ad662ab9efb44016089718b244e4953b256ed08ba8f7ab",
+    "locagent": "10dff71ac9b55e3621ad662ab9efb44016089718b244e4953b256ed08ba8f7ab",
+    "trace": "10dff71ac9b55e3621ad662ab9efb44016089718b244e4953b256ed08ba8f7ab"
+   },
+   "static": {
+    "jedi": {
+     "commit": "f79772cd4c6d2076b5dc01f399dbb816cc484f77",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "f79772cd4c6d2076b5dc01f399dbb816cc484f77",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "f79772cd4c6d2076b5dc01f399dbb816cc484f77",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/lark/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "liquid": {
+   "commit": "46148133edd60024c334cd3f8a961de36f97027e",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "46148133edd60024c334cd3f8a961de36f97027e",
+   "source_tree_sha256": {
+    "jedi": "6ed317a9fd106ba87fb2aa673fff252128158071bec2c52dfce12bc42fbfbfae",
+    "locagent": "6ed317a9fd106ba87fb2aa673fff252128158071bec2c52dfce12bc42fbfbfae",
+    "trace": "6ed317a9fd106ba87fb2aa673fff252128158071bec2c52dfce12bc42fbfbfae"
+   },
+   "static": {
+    "jedi": {
+     "commit": "46148133edd60024c334cd3f8a961de36f97027e",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "46148133edd60024c334cd3f8a961de36f97027e",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "46148133edd60024c334cd3f8a961de36f97027e",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/liquid/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "markdown": {
+   "commit": "0ffbf00cf667971d46f43aafba825e8d25098bc5",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "0ffbf00cf667971d46f43aafba825e8d25098bc5",
+   "source_tree_sha256": {
+    "jedi": "291aa2845e5082843299613547e49cdae39346594557bdad6952547c48eda71d",
+    "locagent": "291aa2845e5082843299613547e49cdae39346594557bdad6952547c48eda71d",
+    "trace": "291aa2845e5082843299613547e49cdae39346594557bdad6952547c48eda71d"
+   },
+   "static": {
+    "jedi": {
+     "commit": "0ffbf00cf667971d46f43aafba825e8d25098bc5",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "0ffbf00cf667971d46f43aafba825e8d25098bc5",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "0ffbf00cf667971d46f43aafba825e8d25098bc5",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/markdown/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "markdown-it-py": {
+   "commit": "36c5f547144df2d01970a5792d68c71a3380b227",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "36c5f547144df2d01970a5792d68c71a3380b227",
+   "source_tree_sha256": {
+    "jedi": "0b3545f1ca479a7754074ad965616e3d943fa898bfb71529e657e17e1c7224dc",
+    "locagent": "0b3545f1ca479a7754074ad965616e3d943fa898bfb71529e657e17e1c7224dc",
+    "trace": "0b3545f1ca479a7754074ad965616e3d943fa898bfb71529e657e17e1c7224dc"
+   },
+   "static": {
+    "jedi": {
+     "commit": "36c5f547144df2d01970a5792d68c71a3380b227",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "36c5f547144df2d01970a5792d68c71a3380b227",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "36c5f547144df2d01970a5792d68c71a3380b227",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/markdown-it-py/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "more-itertools": {
+   "commit": "4aeb4338ae1407d8da9723e86da99efeb446f719",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "4aeb4338ae1407d8da9723e86da99efeb446f719",
+   "source_tree_sha256": {
+    "jedi": "5386a3582f9c44a558a4d19799ebc16d22469c54cc45e793253fa466d7136efa",
+    "locagent": "5386a3582f9c44a558a4d19799ebc16d22469c54cc45e793253fa466d7136efa",
+    "trace": "5386a3582f9c44a558a4d19799ebc16d22469c54cc45e793253fa466d7136efa"
+   },
+   "static": {
+    "jedi": {
+     "commit": "4aeb4338ae1407d8da9723e86da99efeb446f719",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "4aeb4338ae1407d8da9723e86da99efeb446f719",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "4aeb4338ae1407d8da9723e86da99efeb446f719",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/more-itertools/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "mpmath": {
+   "commit": "c1131e2d64abcbb57728ca8a499c920c0c69e67f",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "c1131e2d64abcbb57728ca8a499c920c0c69e67f",
+   "source_tree_sha256": {
+    "jedi": "378a36b3691e0ed5fdbddf29d2c968580d1b9714d5c3f65165ea5f7f62099a1d",
+    "locagent": "378a36b3691e0ed5fdbddf29d2c968580d1b9714d5c3f65165ea5f7f62099a1d",
+    "trace": "378a36b3691e0ed5fdbddf29d2c968580d1b9714d5c3f65165ea5f7f62099a1d"
+   },
+   "static": {
+    "jedi": {
+     "commit": "c1131e2d64abcbb57728ca8a499c920c0c69e67f",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "c1131e2d64abcbb57728ca8a499c920c0c69e67f",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "c1131e2d64abcbb57728ca8a499c920c0c69e67f",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/mpmath/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "packaging": {
+   "commit": "929fd4b1410ac7ef61ef3f45b2f5d7e87711a9b5",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "929fd4b1410ac7ef61ef3f45b2f5d7e87711a9b5",
+   "source_tree_sha256": {
+    "jedi": "6e8b63a62ad43a6083f3fa54b1717302b4cccf792e903eb1cdc836a3f4203f43",
+    "locagent": "6e8b63a62ad43a6083f3fa54b1717302b4cccf792e903eb1cdc836a3f4203f43",
+    "trace": "6e8b63a62ad43a6083f3fa54b1717302b4cccf792e903eb1cdc836a3f4203f43"
+   },
+   "static": {
+    "jedi": {
+     "commit": "929fd4b1410ac7ef61ef3f45b2f5d7e87711a9b5",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "929fd4b1410ac7ef61ef3f45b2f5d7e87711a9b5",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "929fd4b1410ac7ef61ef3f45b2f5d7e87711a9b5",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/packaging/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "param": {
+   "commit": "f79398ddc9b5ebadb23202c64d1b84ca09d9d671",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "f79398ddc9b5ebadb23202c64d1b84ca09d9d671",
+   "source_tree_sha256": {
+    "jedi": "87b68160ddc77f120f3f3dee589af182fef0415f443e5b20322792aa4a9e84f8",
+    "locagent": "87b68160ddc77f120f3f3dee589af182fef0415f443e5b20322792aa4a9e84f8",
+    "trace": "87b68160ddc77f120f3f3dee589af182fef0415f443e5b20322792aa4a9e84f8"
+   },
+   "static": {
+    "jedi": {
+     "commit": "f79398ddc9b5ebadb23202c64d1b84ca09d9d671",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "f79398ddc9b5ebadb23202c64d1b84ca09d9d671",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "f79398ddc9b5ebadb23202c64d1b84ca09d9d671",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/param/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "petl": {
+   "commit": "f2ce3c547b0576cd0e7515d6f44c91a793bbbf31",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "f2ce3c547b0576cd0e7515d6f44c91a793bbbf31",
+   "source_tree_sha256": {
+    "jedi": "6e953e9d2e8b4d923e390529e11914a721ed2801a2636fdbf3dfb783010f22e2",
+    "locagent": "6e953e9d2e8b4d923e390529e11914a721ed2801a2636fdbf3dfb783010f22e2",
+    "trace": "6e953e9d2e8b4d923e390529e11914a721ed2801a2636fdbf3dfb783010f22e2"
+   },
+   "static": {
+    "jedi": {
+     "commit": "f2ce3c547b0576cd0e7515d6f44c91a793bbbf31",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "f2ce3c547b0576cd0e7515d6f44c91a793bbbf31",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "f2ce3c547b0576cd0e7515d6f44c91a793bbbf31",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/petl/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "pyparsing": {
+   "commit": "d90d38b283efaece7ac7cace7050ba55cb82abe5",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "d90d38b283efaece7ac7cace7050ba55cb82abe5",
+   "source_tree_sha256": {
+    "jedi": "34659f5c8ce47b2dec6f79b2c547681da5674cbb29c41bbe432cee25dfdc1065",
+    "locagent": "34659f5c8ce47b2dec6f79b2c547681da5674cbb29c41bbe432cee25dfdc1065",
+    "trace": "34659f5c8ce47b2dec6f79b2c547681da5674cbb29c41bbe432cee25dfdc1065"
+   },
+   "static": {
+    "jedi": {
+     "commit": "d90d38b283efaece7ac7cace7050ba55cb82abe5",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "d90d38b283efaece7ac7cace7050ba55cb82abe5",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "d90d38b283efaece7ac7cace7050ba55cb82abe5",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/pyparsing/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "python-docx": {
+   "commit": "e45454602b53e8e572b179ccf1c91093ec9f4ed7",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "e45454602b53e8e572b179ccf1c91093ec9f4ed7",
+   "source_tree_sha256": {
+    "jedi": "5be0180ff26905034050296a9f4a92344d30a8676e51843d2d364ef8893ce956",
+    "locagent": "5be0180ff26905034050296a9f4a92344d30a8676e51843d2d364ef8893ce956",
+    "trace": "5be0180ff26905034050296a9f4a92344d30a8676e51843d2d364ef8893ce956"
+   },
+   "static": {
+    "jedi": {
+     "commit": "e45454602b53e8e572b179ccf1c91093ec9f4ed7",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "e45454602b53e8e572b179ccf1c91093ec9f4ed7",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "e45454602b53e8e572b179ccf1c91093ec9f4ed7",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/python-docx/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "python-pptx": {
+   "commit": "278b47b1dedd5b46ee84c286e77cdfb0bf4594be",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "278b47b1dedd5b46ee84c286e77cdfb0bf4594be",
+   "source_tree_sha256": {
+    "jedi": "35b75be20941649ec1f41157f76574f7b5a3630dc616952cad3d1c31664f8571",
+    "locagent": "35b75be20941649ec1f41157f76574f7b5a3630dc616952cad3d1c31664f8571",
+    "trace": "35b75be20941649ec1f41157f76574f7b5a3630dc616952cad3d1c31664f8571"
+   },
+   "static": {
+    "jedi": {
+     "commit": "278b47b1dedd5b46ee84c286e77cdfb0bf4594be",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "278b47b1dedd5b46ee84c286e77cdfb0bf4594be",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "278b47b1dedd5b46ee84c286e77cdfb0bf4594be",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/python-pptx/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "rdflib": {
+   "commit": "8b32146a0f9cb748c2068662e50d02b42fc86dfd",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "8b32146a0f9cb748c2068662e50d02b42fc86dfd",
+   "source_tree_sha256": {
+    "jedi": "74419c7944585e3dc887f7759548b4e6e7eba3d3ca9d61fa8b0b08c881437171",
+    "locagent": "74419c7944585e3dc887f7759548b4e6e7eba3d3ca9d61fa8b0b08c881437171",
+    "trace": "74419c7944585e3dc887f7759548b4e6e7eba3d3ca9d61fa8b0b08c881437171"
+   },
+   "static": {
+    "jedi": {
+     "commit": "8b32146a0f9cb748c2068662e50d02b42fc86dfd",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "8b32146a0f9cb748c2068662e50d02b42fc86dfd",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "8b32146a0f9cb748c2068662e50d02b42fc86dfd",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/rdflib/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "rich": {
+   "commit": "6ac483cbea39cab124dfd3483bba70ffafb71050",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "6ac483cbea39cab124dfd3483bba70ffafb71050",
+   "source_tree_sha256": {
+    "jedi": "d8ce9743d044f0003a25f8d99ea51228d5063921b1102836cfae445f18733836",
+    "locagent": "d8ce9743d044f0003a25f8d99ea51228d5063921b1102836cfae445f18733836",
+    "trace": "d8ce9743d044f0003a25f8d99ea51228d5063921b1102836cfae445f18733836"
+   },
+   "static": {
+    "jedi": {
+     "commit": "6ac483cbea39cab124dfd3483bba70ffafb71050",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "6ac483cbea39cab124dfd3483bba70ffafb71050",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "6ac483cbea39cab124dfd3483bba70ffafb71050",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/rich/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "segno": {
+   "commit": "9b67a3f2914be966c35dd8f00bef19d01b9ec68e",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "9b67a3f2914be966c35dd8f00bef19d01b9ec68e",
+   "source_tree_sha256": {
+    "jedi": "cd75ac6ffda55bdcb8e354e03ff038537b787667230bcc676d54a0dad054a985",
+    "locagent": "cd75ac6ffda55bdcb8e354e03ff038537b787667230bcc676d54a0dad054a985",
+    "trace": "cd75ac6ffda55bdcb8e354e03ff038537b787667230bcc676d54a0dad054a985"
+   },
+   "static": {
+    "jedi": {
+     "commit": "9b67a3f2914be966c35dd8f00bef19d01b9ec68e",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "9b67a3f2914be966c35dd8f00bef19d01b9ec68e",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "9b67a3f2914be966c35dd8f00bef19d01b9ec68e",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/segno/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "sqlite-utils": {
+   "commit": "28dc6278cc03a9245325d056e6986818544abc68",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "28dc6278cc03a9245325d056e6986818544abc68",
+   "source_tree_sha256": {
+    "jedi": "247915d0a360805712654cfcf002447cd45f8e2ad8334ff9f9d743390dffbee5",
+    "locagent": "247915d0a360805712654cfcf002447cd45f8e2ad8334ff9f9d743390dffbee5",
+    "trace": "247915d0a360805712654cfcf002447cd45f8e2ad8334ff9f9d743390dffbee5"
+   },
+   "static": {
+    "jedi": {
+     "commit": "28dc6278cc03a9245325d056e6986818544abc68",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "28dc6278cc03a9245325d056e6986818544abc68",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "28dc6278cc03a9245325d056e6986818544abc68",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/sqlite-utils/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "traitlets": {
+   "commit": "7beeb105cd8c3adab38631daf2da9524f47166e2",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "7beeb105cd8c3adab38631daf2da9524f47166e2",
+   "source_tree_sha256": {
+    "jedi": "e58b8e5027e5e6ba74f86e23239a41ad20dcb85e6f26e6187d2a21f1f33bd52e",
+    "locagent": "e58b8e5027e5e6ba74f86e23239a41ad20dcb85e6f26e6187d2a21f1f33bd52e",
+    "trace": "e58b8e5027e5e6ba74f86e23239a41ad20dcb85e6f26e6187d2a21f1f33bd52e"
+   },
+   "static": {
+    "jedi": {
+     "commit": "7beeb105cd8c3adab38631daf2da9524f47166e2",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "7beeb105cd8c3adab38631daf2da9524f47166e2",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "7beeb105cd8c3adab38631daf2da9524f47166e2",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/traitlets/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "websockets": {
+   "commit": "e87ea9be0373edd5065b5e94dfa714cfde23023b",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "e87ea9be0373edd5065b5e94dfa714cfde23023b",
+   "source_tree_sha256": {
+    "jedi": "597b3bfdf7866f0ee6fe9ae3b936a4e437fa3c76917e9c87459dce0f24b61797",
+    "locagent": "597b3bfdf7866f0ee6fe9ae3b936a4e437fa3c76917e9c87459dce0f24b61797",
+    "trace": "597b3bfdf7866f0ee6fe9ae3b936a4e437fa3c76917e9c87459dce0f24b61797"
+   },
+   "static": {
+    "jedi": {
+     "commit": "e87ea9be0373edd5065b5e94dfa714cfde23023b",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "partial",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "e87ea9be0373edd5065b5e94dfa714cfde23023b",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "e87ea9be0373edd5065b5e94dfa714cfde23023b",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/websockets/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "xlsxwriter": {
+   "commit": "e943bee8c9cdf0661cfdb83d5497e0725390e41e",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "e943bee8c9cdf0661cfdb83d5497e0725390e41e",
+   "source_tree_sha256": {
+    "jedi": "90e1ff38e9a662587cfba1dd14511c3be8705f804c4c5cf81217a3698666ee3a",
+    "locagent": "90e1ff38e9a662587cfba1dd14511c3be8705f804c4c5cf81217a3698666ee3a",
+    "trace": "90e1ff38e9a662587cfba1dd14511c3be8705f804c4c5cf81217a3698666ee3a"
+   },
+   "static": {
+    "jedi": {
+     "commit": "e943bee8c9cdf0661cfdb83d5497e0725390e41e",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "e943bee8c9cdf0661cfdb83d5497e0725390e41e",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "e943bee8c9cdf0661cfdb83d5497e0725390e41e",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/xlsxwriter/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "xmlschema": {
+   "commit": "627c179541ec2e79c0b42c1d493074f7450324c1",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "627c179541ec2e79c0b42c1d493074f7450324c1",
+   "source_tree_sha256": {
+    "jedi": "c17b57696b0ad7bff8d05161072af299463be1a15584d1c25d47b3332ad30dfb",
+    "locagent": "c17b57696b0ad7bff8d05161072af299463be1a15584d1c25d47b3332ad30dfb",
+    "trace": "c17b57696b0ad7bff8d05161072af299463be1a15584d1c25d47b3332ad30dfb"
+   },
+   "static": {
+    "jedi": {
+     "commit": "627c179541ec2e79c0b42c1d493074f7450324c1",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "partial",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "627c179541ec2e79c0b42c1d493074f7450324c1",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "627c179541ec2e79c0b42c1d493074f7450324c1",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/xmlschema/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "yapf": {
+   "commit": "5cb90cb4973511e03984f07913ad696d54b0ea00",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "5cb90cb4973511e03984f07913ad696d54b0ea00",
+   "source_tree_sha256": {
+    "jedi": "649e7d8db4c74c1fa5d736d67de22636b2ecbe3c3ff15f43fcf0248418d3e2f7",
+    "locagent": "649e7d8db4c74c1fa5d736d67de22636b2ecbe3c3ff15f43fcf0248418d3e2f7",
+    "trace": "649e7d8db4c74c1fa5d736d67de22636b2ecbe3c3ff15f43fcf0248418d3e2f7"
+   },
+   "static": {
+    "jedi": {
+     "commit": "5cb90cb4973511e03984f07913ad696d54b0ea00",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "5cb90cb4973511e03984f07913ad696d54b0ea00",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "5cb90cb4973511e03984f07913ad696d54b0ea00",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/yapf/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  }
+ },
+ "families": [
+  {
+   "commit": "db53474a48914b6b228ca85d4f9cd160c2821cd5",
+   "family": "alembic",
+   "package_dirs": [
+    "alembic"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/alembic",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/alembic",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/alembic/trace-1",
+   "url": "https://github.com/sqlalchemy/alembic"
+  },
+  {
+   "commit": "4332b35a278d694f30c99881faa61cde695c7a96",
+   "family": "boltons",
+   "package_dirs": [
+    "boltons"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/boltons",
+   "role": "dev",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/boltons",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/boltons/trace-1",
+   "url": "https://github.com/mahmoud/boltons"
+  },
+  {
+   "commit": "8b19813f2bfca99f1018a587a8cf54fc959f2e5d",
+   "family": "click",
+   "package_dirs": [
+    "src/click"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/click",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/click",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/click/trace-1",
+   "url": "https://github.com/pallets/click"
+  },
+  {
+   "commit": "3aa75c80675c0b0edc510aec302029a3fe62bf74",
+   "family": "cmd2",
+   "package_dirs": [
+    "cmd2"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/cmd2",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/cmd2",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/cmd2/trace-1",
+   "url": "https://github.com/python-cmd2/cmd2"
+  },
+  {
+   "commit": "41c726586cfef55de0c8474923d2734f1529d223",
+   "family": "deepdiff",
+   "package_dirs": [
+    "deepdiff"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/deepdiff",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/deepdiff",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/deepdiff/trace-1",
+   "url": "https://github.com/seperman/deepdiff"
+  },
+  {
+   "commit": "62f1f7f586ef4157db6850396bbcd68a19505455",
+   "family": "elementpath",
+   "package_dirs": [
+    "elementpath"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/elementpath",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/elementpath",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/elementpath/trace-1",
+   "url": "https://github.com/sissaschool/elementpath"
+  },
+  {
+   "commit": "97714fdebd474d006fe605ebbd66d3de2711228e",
+   "family": "genshi",
+   "package_dirs": [
+    "genshi"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/genshi",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/genshi",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/genshi/trace-1",
+   "url": "https://github.com/edgewall/genshi"
+  },
+  {
+   "commit": "894141f4c0efacbd6b386bdbd5a23caf4548f17b",
+   "family": "graphql-core",
+   "package_dirs": [
+    "src/graphql"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/graphql-core",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/graphql-core",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/graphql-core/trace-1",
+   "url": "https://github.com/graphql-python/graphql-core"
+  },
+  {
+   "commit": "26d48e0634e6ee9cdc0533996db289ce4b430177",
+   "family": "httpx",
+   "package_dirs": [
+    "httpx"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/httpx",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/httpx",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/httpx/trace-1",
+   "url": "https://github.com/encode/httpx"
+  },
+  {
+   "commit": "138c8453db34fbb584bbcbc592fd7bd4b972e8ef",
+   "family": "icalendar",
+   "package_dirs": [
+    "src/icalendar"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/icalendar",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/icalendar",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/icalendar/trace-1",
+   "url": "https://github.com/collective/icalendar"
+  },
+  {
+   "commit": "15206881c006c79667fe5154fe80c01c65410679",
+   "family": "jinja",
+   "package_dirs": [
+    "src/jinja2"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/jinja",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/jinja",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/jinja/trace-1",
+   "url": "https://github.com/pallets/jinja"
+  },
+  {
+   "commit": "f79772cd4c6d2076b5dc01f399dbb816cc484f77",
+   "family": "lark",
+   "package_dirs": [
+    "lark"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/lark",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/lark",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/lark/trace-1",
+   "url": "https://github.com/lark-parser/lark"
+  },
+  {
+   "commit": "46148133edd60024c334cd3f8a961de36f97027e",
+   "family": "liquid",
+   "package_dirs": [
+    "liquid"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/liquid",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/liquid",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/liquid/trace-1",
+   "url": "https://github.com/jg-rp/liquid"
+  },
+  {
+   "commit": "0ffbf00cf667971d46f43aafba825e8d25098bc5",
+   "family": "markdown",
+   "package_dirs": [
+    "markdown"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/markdown",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/markdown",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/markdown/trace-1",
+   "url": "https://github.com/Python-Markdown/markdown"
+  },
+  {
+   "commit": "36c5f547144df2d01970a5792d68c71a3380b227",
+   "family": "markdown-it-py",
+   "package_dirs": [
+    "markdown_it"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/markdown-it-py",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/markdown-it-py",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/markdown-it-py/trace-1",
+   "url": "https://github.com/executablebooks/markdown-it-py"
+  },
+  {
+   "commit": "4aeb4338ae1407d8da9723e86da99efeb446f719",
+   "family": "more-itertools",
+   "package_dirs": [
+    "more_itertools"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/more-itertools",
+   "role": "dev",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/more-itertools",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/more-itertools/trace-1",
+   "url": "https://github.com/more-itertools/more-itertools"
+  },
+  {
+   "commit": "c1131e2d64abcbb57728ca8a499c920c0c69e67f",
+   "family": "mpmath",
+   "package_dirs": [
+    "mpmath"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/mpmath",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/mpmath",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/mpmath/trace-1",
+   "url": "https://github.com/mpmath/mpmath"
+  },
+  {
+   "commit": "929fd4b1410ac7ef61ef3f45b2f5d7e87711a9b5",
+   "family": "packaging",
+   "package_dirs": [
+    "src/packaging"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/packaging",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/packaging",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/packaging/trace-1",
+   "url": "https://github.com/pypa/packaging"
+  },
+  {
+   "commit": "f79398ddc9b5ebadb23202c64d1b84ca09d9d671",
+   "family": "param",
+   "package_dirs": [
+    "numbergen",
+    "param"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/param",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/param",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/param/trace-1",
+   "url": "https://github.com/holoviz/param"
+  },
+  {
+   "commit": "f2ce3c547b0576cd0e7515d6f44c91a793bbbf31",
+   "family": "petl",
+   "package_dirs": [
+    "petl"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/petl",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/petl",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/petl/trace-1",
+   "url": "https://github.com/petl-developers/petl"
+  },
+  {
+   "commit": "d90d38b283efaece7ac7cace7050ba55cb82abe5",
+   "family": "pyparsing",
+   "package_dirs": [
+    "pyparsing"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/pyparsing",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/pyparsing",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/pyparsing/trace-1",
+   "url": "https://github.com/pyparsing/pyparsing"
+  },
+  {
+   "commit": "e45454602b53e8e572b179ccf1c91093ec9f4ed7",
+   "family": "python-docx",
+   "package_dirs": [
+    "src/docx"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/python-docx",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/python-docx",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/python-docx/trace-1",
+   "url": "https://github.com/python-openxml/python-docx"
+  },
+  {
+   "commit": "278b47b1dedd5b46ee84c286e77cdfb0bf4594be",
+   "family": "python-pptx",
+   "package_dirs": [
+    "src/pptx"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/python-pptx",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/python-pptx",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/python-pptx/trace-1",
+   "url": "https://github.com/scanny/python-pptx"
+  },
+  {
+   "commit": "8b32146a0f9cb748c2068662e50d02b42fc86dfd",
+   "family": "rdflib",
+   "package_dirs": [
+    "rdflib"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/rdflib",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/rdflib",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/rdflib/trace-1",
+   "url": "https://github.com/RDFLib/rdflib"
+  },
+  {
+   "commit": "6ac483cbea39cab124dfd3483bba70ffafb71050",
+   "family": "rich",
+   "package_dirs": [
+    "rich"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/rich",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/rich",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/rich/trace-1",
+   "url": "https://github.com/Textualize/rich"
+  },
+  {
+   "commit": "9b67a3f2914be966c35dd8f00bef19d01b9ec68e",
+   "family": "segno",
+   "package_dirs": [
+    "segno"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/segno",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/segno",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/segno/trace-1",
+   "url": "https://github.com/heuer/segno"
+  },
+  {
+   "commit": "28dc6278cc03a9245325d056e6986818544abc68",
+   "family": "sqlite-utils",
+   "package_dirs": [
+    "sqlite_utils"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/sqlite-utils",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/sqlite-utils",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/sqlite-utils/trace-1",
+   "url": "https://github.com/simonw/sqlite-utils"
+  },
+  {
+   "commit": "7beeb105cd8c3adab38631daf2da9524f47166e2",
+   "family": "traitlets",
+   "package_dirs": [
+    "traitlets"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/traitlets",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/traitlets",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/traitlets/trace-1",
+   "url": "https://github.com/ipython/traitlets"
+  },
+  {
+   "commit": "e87ea9be0373edd5065b5e94dfa714cfde23023b",
+   "family": "websockets",
+   "package_dirs": [
+    "src/websockets"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/websockets",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/websockets",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/websockets/trace-1",
+   "url": "https://github.com/python-websockets/websockets"
+  },
+  {
+   "commit": "e943bee8c9cdf0661cfdb83d5497e0725390e41e",
+   "family": "xlsxwriter",
+   "package_dirs": [
+    "xlsxwriter"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/xlsxwriter",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/xlsxwriter",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/xlsxwriter/trace-1",
+   "url": "https://github.com/jmcnamara/XlsxWriter"
+  },
+  {
+   "commit": "627c179541ec2e79c0b42c1d493074f7450324c1",
+   "family": "xmlschema",
+   "package_dirs": [
+    "xmlschema"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/xmlschema",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/xmlschema",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/xmlschema/trace-1",
+   "url": "https://github.com/sissaschool/xmlschema"
+  },
+  {
+   "commit": "5cb90cb4973511e03984f07913ad696d54b0ea00",
+   "family": "yapf",
+   "package_dirs": [
+    "yapf"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/yapf",
+   "role": "main",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/yapf",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/yapf/trace-1",
+   "url": "https://github.com/google/yapf"
+  }
+ ],
+ "families_without_trace": [],
+ "identity_py_sha256": {
+  "all_inputs_equal_local": true,
+  "local": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+ },
+ "main_roster": [
+  "alembic",
+  "click",
+  "cmd2",
+  "deepdiff",
+  "elementpath",
+  "genshi",
+  "graphql-core",
+  "httpx",
+  "icalendar",
+  "jinja",
+  "lark",
+  "liquid",
+  "markdown",
+  "markdown-it-py",
+  "mpmath",
+  "packaging",
+  "param",
+  "petl",
+  "pyparsing",
+  "python-docx",
+  "python-pptx",
+  "rdflib",
+  "rich",
+  "segno",
+  "sqlite-utils",
+  "traitlets",
+  "websockets",
+  "xlsxwriter",
+  "xmlschema",
+  "yapf"
+ ],
+ "main_trace_pin": {
+  "code_sha256": {
+   "absent_edges/probe/identity.py": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+   "absent_edges/probe/tracer.py": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+  },
+  "trace_subdir": "trace-1"
+ },
+ "registry": {
+  "path": "manifests/expA/registry.v1.json",
+  "schema": "expA-registry-v1",
+  "sha256": "87fc2fbb49f7bd9106d2ebed49c8f05c55a946fec02dc6cd85e2362cde88a168"
+ },
+ "roles": [
+  "main",
+  "dev"
+ ],
+ "roots": {
+  "repos": "/mnt/kldata/absent-edges-20261018-core2/expA/repos",
+  "static": "/mnt/kldata/absent-edges-20261018-core2/expA/static",
+  "trace": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b",
+  "trace_subdir": "trace-1"
+ },
+ "schema": "expA-items-spec-v2"
+}

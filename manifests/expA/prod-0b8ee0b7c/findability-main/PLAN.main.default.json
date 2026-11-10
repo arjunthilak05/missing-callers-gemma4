@@ -1,0 +1,50 @@
+{
+  "alpha": 0.05,
+  "analysis_roles": [
+    "main"
+  ],
+  "bootstrap": {
+    "resamples": 10000,
+    "seed": 20261101
+  },
+  "confidence": 0.95,
+  "design": "d11",
+  "label": "default-main-for-findability",
+  "min_families_confirmatory": 20,
+  "p_seeds": [
+    11,
+    23,
+    47
+  ],
+  "practically_meaningful_effect": 0.1,
+  "primary": {
+    "block": "P",
+    "hypotheses": [
+      {
+        "control": "C2",
+        "id": "H1",
+        "treatment": "C3"
+      },
+      {
+        "control": "C1",
+        "id": "H2",
+        "treatment": "C4a"
+      },
+      {
+        "control": "C0",
+        "id": "H3",
+        "treatment": "C1"
+      }
+    ],
+    "multiplicity": "holm",
+    "outcome": "site_recovered",
+    "test": "two-sided one-sample t test on family mean differences (df = F - 1)"
+  },
+  "schema_version": "expA-analysis-plan-v2",
+  "secondary_seed": 11,
+  "sign_flip": {
+    "draws": 100000,
+    "exact_max_families": 20,
+    "seed": 20261101
+  }
+}

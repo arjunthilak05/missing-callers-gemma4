@@ -1,0 +1,120 @@
+{
+  "analysis_split": "A",
+  "arms": [
+    {
+      "condition": "C0",
+      "id": "C0"
+    },
+    {
+      "condition": "C1",
+      "id": "C1"
+    },
+    {
+      "condition": "C2",
+      "id": "C2",
+      "wording": "A"
+    },
+    {
+      "condition": "C3",
+      "id": "C3",
+      "wording": "A"
+    },
+    {
+      "c4_mode": "triggered",
+      "condition": "C4",
+      "id": "C4"
+    }
+  ],
+  "bootstrap": {
+    "confidence": 0.95,
+    "resamples": 10000,
+    "seed": 20261101
+  },
+  "design": {
+    "C0": [
+      "none"
+    ],
+    "C1": [
+      "complete",
+      "natural",
+      "omit_node",
+      "omit_edge"
+    ],
+    "C2": [
+      "complete",
+      "natural",
+      "omit_node",
+      "omit_edge"
+    ],
+    "C3": [
+      "complete",
+      "natural",
+      "omit_node",
+      "omit_edge"
+    ],
+    "C4": [
+      "complete",
+      "natural",
+      "omit_node",
+      "omit_edge"
+    ]
+  },
+  "duplicate_completed_policy": "error",
+  "label": "SYNTHETIC FIXTURE (absent_edges.probe.analysis.synthetic_dataset) - not research data",
+  "over_caution": {
+    "reference_arm": "C1",
+    "variant": "complete"
+  },
+  "permutation": {
+    "draws": 100000,
+    "exact_max_log2": 20,
+    "seed": 20261102
+  },
+  "primary": {
+    "alpha": 0.05,
+    "alternative": "two-sided",
+    "contrasts": [
+      {
+        "control": "C2",
+        "id": "C3_minus_C2",
+        "treatment": "C3"
+      },
+      {
+        "control": "C1",
+        "id": "C4_minus_C1",
+        "treatment": "C4"
+      }
+    ],
+    "outcome": "omitted_recovered",
+    "variant": "omit_node"
+  },
+  "schema_version": "expA-analysis-plan-v1",
+  "secondary_contrasts": [
+    {
+      "control": "C2",
+      "id": "C3_minus_C2_omit_edge",
+      "outcome": "omitted_recovered",
+      "treatment": "C3",
+      "variant": "omit_edge"
+    },
+    {
+      "control": "C1",
+      "id": "C4_minus_C1_omit_edge",
+      "outcome": "omitted_recovered",
+      "treatment": "C4",
+      "variant": "omit_edge"
+    },
+    {
+      "control": "C2",
+      "id": "C3_minus_C2_recall_omit_node",
+      "outcome": "recall_V",
+      "treatment": "C3",
+      "variant": "omit_node"
+    }
+  ],
+  "seeds": [
+    11,
+    23,
+    47
+  ]
+}

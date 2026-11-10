@@ -1,0 +1,63 @@
+{
+ "a3_ledger_off_paired": {
+  "complete_only_pairs_by_incomplete_episode": {
+   "no_answer": 41,
+   "no_matched_display_submitted_at_last": 108,
+   "no_matched_display_submitted_before_last": 76,
+   "submitted_after_matched_display": 34
+  },
+  "net_pairs_complete_minus_incomplete": 237,
+  "pairs": {
+   "both": 1903,
+   "complete_only": 259,
+   "incomplete_only": 22,
+   "neither": 66
+  }
+ },
+ "a4_conditional_instruction": {
+  "instruction_given_information": {
+   "ci_high": 0.012256663583609937,
+   "ci_low": -0.008256663583609937,
+   "estimate": 0.002,
+   "n_families": 30,
+   "n_items": 750,
+   "p_two_sided_nominal": 0.6929547546659347
+  },
+  "instruction_without_information": {
+   "ci_high": 0.15415912237708568,
+   "ci_low": 0.09784087762291432,
+   "estimate": 0.126,
+   "n_families": 30,
+   "n_items": 750,
+   "p_two_sided_nominal": 4.741215083864883e-10
+  }
+ },
+ "inputs": {
+  "a3_scores_off": {
+   "path": "/mnt/kldata/absent-edges-20261018-core2/expA/a3ledger-off-analysis-20261104a/scores.jsonl",
+   "sha256": "0a164da3c40f7ca0345305e225c367001dfded569fe493247ab32ce03dc7e601"
+  },
+  "a4_scores_deadline": {
+   "path": "/mnt/kldata/absent-edges-20261018-core2/expA/a4directive-deadline-analysis-20261106a/scores.jsonl",
+   "sha256": "fae981c3c502dab0ffddfc4b347b0e97515fcfabd09f4a6bad04b50463cbf976"
+  },
+  "a4_scores_deadline_info": {
+   "path": "/mnt/kldata/absent-edges-20261018-core2/expA/a4directive-info-analysis-20261106a/scores.jsonl",
+   "sha256": "669c5f2ce589c13c396eccc2db1420222027015aad8a4265ce31a51d87b57b1b"
+  },
+  "a4_scores_neutral": {
+   "path": "/mnt/kldata/absent-edges-20261018-core2/expA/a4directive-neutral-analysis-20261106a/scores.jsonl",
+   "sha256": "845572eaba76e46a110fb141c2254bfe0681405cad7a150437f34b134c9d6400"
+  },
+  "a4_scores_submit_only": {
+   "path": "/mnt/kldata/absent-edges-20261018-core2/expA/a4directive-submit-analysis-20261106a/scores.jsonl",
+   "sha256": "e7ff4082bfdfe6804d5a0ef633d0bbcce10bca5a7320a98f8a1b88bcffad038d"
+  },
+  "items": {
+   "path": "/mnt/kldata/absent-edges-20261018-core2/expA/prod-items-0b8ee0b7c/items-main/items.jsonl",
+   "sha256": "f3451a3c9fba2ffd3455df17718d3e276132cf9eb0a7158240256deed32764c8"
+  }
+ },
+ "label": "EXPLORATORY, POST HOC (2026-11-06, after a design review); ANALYSIS RECORD",
+ "script_sha256": "fad3a650baa2d7a166bf3dbf6a09391ab4b72fe862d657978c38db87e1a8f696"
+}

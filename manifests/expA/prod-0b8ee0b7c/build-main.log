@@ -1,0 +1,1913 @@
+{
+ "counts": {
+  "V_callers": 2587,
+  "V_callers_without_sites": 0,
+  "V_count_histogram": {
+   "10": 14,
+   "11": 5,
+   "12": 2,
+   "2": 366,
+   "3": 144,
+   "4": 84,
+   "5": 45,
+   "6": 35,
+   "7": 24,
+   "8": 14,
+   "9": 17
+  },
+  "V_runtime_witnessed": 2409,
+  "V_sites": 3271,
+  "V_sites_ast_only": 30,
+  "V_strata": {
+   "alias": 2,
+   "callback": 3,
+   "direct": 2469,
+   "dynamic": 113
+  },
+  "by_family": {
+   "alembic": 25,
+   "click": 25,
+   "cmd2": 25,
+   "deepdiff": 25,
+   "elementpath": 25,
+   "genshi": 25,
+   "graphql-core": 25,
+   "httpx": 25,
+   "icalendar": 25,
+   "jinja": 25,
+   "lark": 25,
+   "liquid": 25,
+   "markdown": 25,
+   "markdown-it-py": 25,
+   "mpmath": 25,
+   "packaging": 25,
+   "param": 25,
+   "petl": 25,
+   "pyparsing": 25,
+   "python-docx": 25,
+   "python-pptx": 25,
+   "rdflib": 25,
+   "rich": 25,
+   "segno": 25,
+   "sqlite-utils": 25,
+   "traitlets": 25,
+   "websockets": 25,
+   "xlsxwriter": 25,
+   "xmlschema": 25,
+   "yapf": 25
+  },
+  "by_role": {
+   "main": 750
+  },
+  "c4_built": true,
+  "c4_contains_omitted_site": 624,
+  "c4_token_bounds": [
+   "utf8_bytes_upper_bound"
+  ],
+  "c4_trigger_fires": 366,
+  "eligible_total": 3590,
+  "families": 30,
+  "families_short_of_m": [],
+  "families_without_items": [],
+  "families_without_locagent_unindexed_rule": [],
+  "funnel_total": {
+   "coroutine": 278,
+   "decorated": 1486,
+   "docref_visibility": 83,
+   "dunder": 4811,
+   "duplicate_identity": 726,
+   "generator": 686,
+   "incidental_visibility": 23,
+   "jedi_definition_error": 21,
+   "lambda": 0,
+   "locagent_unindexed": 70,
+   "mechanical_diff_failed": 0,
+   "nested_locals": 788,
+   "no_runtime_witnessed_caller": 221,
+   "out_of_scope": 0,
+   "property": 1853,
+   "render_budget": 0,
+   "render_truncated": 0,
+   "verified_above_12": 242,
+   "verified_below_2": 9033
+  },
+  "items": 750,
+  "main_roster_missing_from_build": [],
+  "membership": {
+   "in_s_edge": 150,
+   "in_s_nat": 130,
+   "in_t": 150
+  },
+  "natural_miss": 136,
+  "natural_render_truncated": 62,
+  "omitted_name_visibility_by_family": {
+   "alembic": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 10,
+    "items_with_text_matches": 6,
+    "selected": 25
+   },
+   "click": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 10,
+    "items_with_text_matches": 6,
+    "selected": 25
+   },
+   "cmd2": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 3,
+    "items_with_text_matches": 7,
+    "selected": 25
+   },
+   "deepdiff": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 6,
+    "items_with_text_matches": 6,
+    "selected": 25
+   },
+   "elementpath": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 9,
+    "items_with_text_matches": 7,
+    "selected": 25
+   },
+   "genshi": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 11,
+    "items_with_text_matches": 7,
+    "selected": 25
+   },
+   "graphql-core": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 7,
+    "items_with_text_matches": 9,
+    "selected": 25
+   },
+   "httpx": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 9,
+    "items_with_text_matches": 10,
+    "selected": 25
+   },
+   "icalendar": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 10,
+    "items_with_text_matches": 1,
+    "selected": 25
+   },
+   "jinja": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 3,
+    "items_with_text_matches": 7,
+    "selected": 25
+   },
+   "lark": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 6,
+    "items_with_text_matches": 9,
+    "selected": 25
+   },
+   "liquid": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 12,
+    "items_with_text_matches": 18,
+    "selected": 25
+   },
+   "markdown": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 11,
+    "items_with_text_matches": 3,
+    "selected": 25
+   },
+   "markdown-it-py": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 7,
+    "items_with_text_matches": 8,
+    "selected": 25
+   },
+   "mpmath": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 2,
+    "items_with_text_matches": 5,
+    "selected": 25
+   },
+   "packaging": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 5,
+    "items_with_text_matches": 5,
+    "selected": 25
+   },
+   "param": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 4,
+    "items_with_text_matches": 5,
+    "selected": 25
+   },
+   "petl": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 3,
+    "items_with_text_matches": 7,
+    "selected": 25
+   },
+   "pyparsing": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 9,
+    "items_with_text_matches": 6,
+    "selected": 25
+   },
+   "python-docx": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 7,
+    "items_with_text_matches": 9,
+    "selected": 25
+   },
+   "python-pptx": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 10,
+    "items_with_text_matches": 7,
+    "selected": 25
+   },
+   "rdflib": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 11,
+    "items_with_text_matches": 7,
+    "selected": 25
+   },
+   "rich": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 8,
+    "items_with_text_matches": 7,
+    "selected": 25
+   },
+   "segno": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 3,
+    "items_with_text_matches": 4,
+    "selected": 25
+   },
+   "sqlite-utils": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 6,
+    "items_with_text_matches": 9,
+    "selected": 25
+   },
+   "traitlets": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 8,
+    "items_with_text_matches": 7,
+    "selected": 25
+   },
+   "websockets": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 13,
+    "items_with_text_matches": 12,
+    "selected": 25
+   },
+   "xlsxwriter": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 5,
+    "items_with_text_matches": 12,
+    "selected": 25
+   },
+   "xmlschema": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 12,
+    "items_with_text_matches": 8,
+    "selected": 25
+   },
+   "yapf": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 0,
+    "items_with_text_matches": 8,
+    "selected": 25
+   }
+  },
+  "omitted_site_kinds": {
+   "call": 893,
+   "dynamic": 43,
+   "reference": 3
+  },
+  "omitted_stratum": {
+   "alias": 1,
+   "callback": 1,
+   "direct": 708,
+   "dynamic": 40
+  },
+  "s_nat_excluded_natural_truncated": 6,
+  "visibility_docref_mentions_positive": 0,
+  "visibility_name_mentions_positive": 220,
+  "visibility_text_matches_positive": 222,
+  "wording_pair": {
+   "A": 390,
+   "B": 360
+  }
+ },
+ "families": {
+  "alembic": {
+   "funnel": {
+    "eligible": 172,
+    "eligible_not_selected": 147,
+    "excluded": {
+     "coroutine": 2,
+     "decorated": 116,
+     "docref_visibility": 4,
+     "dunder": 104,
+     "duplicate_identity": 16,
+     "generator": 7,
+     "incidental_visibility": 1,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 33,
+     "no_runtime_witnessed_caller": 3,
+     "out_of_scope": 0,
+     "property": 59,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 9,
+     "verified_below_2": 457
+    },
+    "functions": 983,
+    "render_stage": {
+     "evaluated": 177,
+     "visibility:docref": 4,
+     "visibility:identity_in_payload": 0,
+     "visibility:snippet_covers_site": 1
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 177,
+     "text_rule_would_exclude": 45
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 1449,
+     "records": 1449
+    },
+    "L": {
+     "kept": 1658,
+     "records": 1658
+    },
+    "trace": {
+     "kept": 1690,
+     "records": 1881
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "click": {
+   "funnel": {
+    "eligible": 106,
+    "eligible_not_selected": 81,
+    "excluded": {
+     "coroutine": 0,
+     "decorated": 18,
+     "docref_visibility": 7,
+     "dunder": 103,
+     "duplicate_identity": 20,
+     "generator": 3,
+     "incidental_visibility": 0,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 29,
+     "no_runtime_witnessed_caller": 3,
+     "out_of_scope": 0,
+     "property": 22,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 1,
+     "verified_below_2": 222
+    },
+    "functions": 534,
+    "render_stage": {
+     "evaluated": 113,
+     "visibility:docref": 7
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 113,
+     "text_rule_would_exclude": 32
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 655,
+     "records": 655
+    },
+    "L": {
+     "kept": 1010,
+     "records": 1010
+    },
+    "trace": {
+     "kept": 777,
+     "records": 824
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "cmd2": {
+   "funnel": {
+    "eligible": 130,
+    "eligible_not_selected": 105,
+    "excluded": {
+     "coroutine": 0,
+     "decorated": 32,
+     "docref_visibility": 0,
+     "dunder": 76,
+     "duplicate_identity": 14,
+     "generator": 4,
+     "incidental_visibility": 0,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 28,
+     "no_runtime_witnessed_caller": 1,
+     "out_of_scope": 0,
+     "property": 40,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 3,
+     "verified_below_2": 245
+    },
+    "functions": 573,
+    "render_stage": {
+     "evaluated": 130
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 130,
+     "text_rule_would_exclude": 26
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 803,
+     "records": 803
+    },
+    "L": {
+     "kept": 772,
+     "records": 772
+    },
+    "trace": {
+     "kept": 1041,
+     "records": 1215
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "deepdiff": {
+   "funnel": {
+    "eligible": 87,
+    "eligible_not_selected": 62,
+    "excluded": {
+     "coroutine": 0,
+     "decorated": 10,
+     "docref_visibility": 0,
+     "dunder": 56,
+     "duplicate_identity": 2,
+     "generator": 4,
+     "incidental_visibility": 0,
+     "jedi_definition_error": 1,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 6,
+     "no_runtime_witnessed_caller": 2,
+     "out_of_scope": 0,
+     "property": 5,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 2,
+     "verified_below_2": 177
+    },
+    "functions": 352,
+    "render_stage": {
+     "evaluated": 87
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 87,
+     "text_rule_would_exclude": 22
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 580,
+     "records": 580
+    },
+    "L": {
+     "kept": 708,
+     "records": 708
+    },
+    "trace": {
+     "kept": 723,
+     "records": 728
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "elementpath": {
+   "funnel": {
+    "eligible": 137,
+    "eligible_not_selected": 112,
+    "excluded": {
+     "coroutine": 0,
+     "decorated": 331,
+     "docref_visibility": 0,
+     "dunder": 355,
+     "duplicate_identity": 18,
+     "generator": 58,
+     "incidental_visibility": 1,
+     "jedi_definition_error": 8,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 41,
+     "no_runtime_witnessed_caller": 18,
+     "out_of_scope": 0,
+     "property": 216,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 15,
+     "verified_below_2": 233
+    },
+    "functions": 1431,
+    "render_stage": {
+     "evaluated": 138,
+     "visibility:identity_in_payload": 0,
+     "visibility:snippet_covers_site": 1
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 138,
+     "text_rule_would_exclude": 37
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 2327,
+     "records": 2327
+    },
+    "L": {
+     "kept": 4667,
+     "records": 4667
+    },
+    "trace": {
+     "kept": 3664,
+     "records": 5030
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "genshi": {
+   "funnel": {
+    "eligible": 59,
+    "eligible_not_selected": 34,
+    "excluded": {
+     "coroutine": 0,
+     "decorated": 5,
+     "docref_visibility": 1,
+     "dunder": 313,
+     "duplicate_identity": 7,
+     "generator": 34,
+     "incidental_visibility": 0,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 28,
+     "no_runtime_witnessed_caller": 1,
+     "out_of_scope": 0,
+     "property": 3,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 6,
+     "verified_below_2": 201
+    },
+    "functions": 658,
+    "render_stage": {
+     "evaluated": 60,
+     "visibility:docref": 1
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 60,
+     "text_rule_would_exclude": 19
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 822,
+     "records": 822
+    },
+    "L": {
+     "kept": 1370,
+     "records": 1370
+    },
+    "trace": {
+     "kept": 1268,
+     "records": 1343
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "graphql-core": {
+   "funnel": {
+    "eligible": 276,
+    "eligible_not_selected": 251,
+    "excluded": {
+     "coroutine": 50,
+     "decorated": 1,
+     "docref_visibility": 6,
+     "dunder": 220,
+     "duplicate_identity": 4,
+     "generator": 1,
+     "incidental_visibility": 9,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 80,
+     "no_runtime_witnessed_caller": 0,
+     "out_of_scope": 0,
+     "property": 24,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 22,
+     "verified_below_2": 552
+    },
+    "functions": 1245,
+    "render_stage": {
+     "evaluated": 291,
+     "visibility:docref": 6,
+     "visibility:identity_in_payload": 7,
+     "visibility:snippet_covers_site": 2
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 291,
+     "text_rule_would_exclude": 98
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 2447,
+     "records": 2447
+    },
+    "L": {
+     "kept": 3244,
+     "records": 3244
+    },
+    "trace": {
+     "kept": 3511,
+     "records": 3780
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "httpx": {
+   "funnel": {
+    "eligible": 59,
+    "eligible_not_selected": 34,
+    "excluded": {
+     "coroutine": 32,
+     "decorated": 6,
+     "docref_visibility": 1,
+     "dunder": 129,
+     "duplicate_identity": 12,
+     "generator": 16,
+     "incidental_visibility": 0,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 3,
+     "no_runtime_witnessed_caller": 2,
+     "out_of_scope": 0,
+     "property": 41,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 0,
+     "verified_below_2": 133
+    },
+    "functions": 434,
+    "render_stage": {
+     "evaluated": 60,
+     "visibility:docref": 1
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 60,
+     "text_rule_would_exclude": 27
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 472,
+     "records": 472
+    },
+    "L": {
+     "kept": 1208,
+     "records": 1208
+    },
+    "trace": {
+     "kept": 665,
+     "records": 667
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "icalendar": {
+   "funnel": {
+    "eligible": 167,
+    "eligible_not_selected": 142,
+    "excluded": {
+     "coroutine": 0,
+     "decorated": 15,
+     "docref_visibility": 3,
+     "dunder": 95,
+     "duplicate_identity": 20,
+     "generator": 2,
+     "incidental_visibility": 0,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 38,
+     "no_runtime_witnessed_caller": 15,
+     "out_of_scope": 0,
+     "property": 59,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 11,
+     "verified_below_2": 278
+    },
+    "functions": 703,
+    "render_stage": {
+     "evaluated": 170,
+     "visibility:docref": 3
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 170,
+     "text_rule_would_exclude": 17
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 2341,
+     "records": 2341
+    },
+    "L": {
+     "kept": 2314,
+     "records": 2314
+    },
+    "trace": {
+     "kept": 1582,
+     "records": 1678
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "jinja": {
+   "funnel": {
+    "eligible": 128,
+    "eligible_not_selected": 103,
+    "excluded": {
+     "coroutine": 11,
+     "decorated": 66,
+     "docref_visibility": 7,
+     "dunder": 131,
+     "duplicate_identity": 10,
+     "generator": 14,
+     "incidental_visibility": 0,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 32,
+     "no_runtime_witnessed_caller": 3,
+     "out_of_scope": 0,
+     "property": 24,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 12,
+     "verified_below_2": 322
+    },
+    "functions": 760,
+    "render_stage": {
+     "evaluated": 135,
+     "visibility:docref": 7
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 135,
+     "text_rule_would_exclude": 34
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 1297,
+     "records": 1297
+    },
+    "L": {
+     "kept": 2077,
+     "records": 2077
+    },
+    "trace": {
+     "kept": 1759,
+     "records": 1924
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "lark": {
+   "funnel": {
+    "eligible": 86,
+    "eligible_not_selected": 61,
+    "excluded": {
+     "coroutine": 0,
+     "decorated": 8,
+     "docref_visibility": 0,
+     "dunder": 205,
+     "duplicate_identity": 2,
+     "generator": 22,
+     "incidental_visibility": 0,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 18,
+     "no_runtime_witnessed_caller": 4,
+     "out_of_scope": 0,
+     "property": 26,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 1,
+     "verified_below_2": 270
+    },
+    "functions": 642,
+    "render_stage": {
+     "evaluated": 86
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 86,
+     "text_rule_would_exclude": 15
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 555,
+     "records": 555
+    },
+    "L": {
+     "kept": 783,
+     "records": 783
+    },
+    "trace": {
+     "kept": 1345,
+     "records": 1364
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "liquid": {
+   "funnel": {
+    "eligible": 118,
+    "eligible_not_selected": 93,
+    "excluded": {
+     "coroutine": 82,
+     "decorated": 85,
+     "docref_visibility": 4,
+     "dunder": 279,
+     "duplicate_identity": 2,
+     "generator": 54,
+     "incidental_visibility": 0,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 8,
+     "no_runtime_witnessed_caller": 5,
+     "out_of_scope": 0,
+     "property": 20,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 12,
+     "verified_below_2": 212
+    },
+    "functions": 881,
+    "render_stage": {
+     "evaluated": 122,
+     "visibility:docref": 4
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 122,
+     "text_rule_would_exclude": 80
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 1259,
+     "records": 1259
+    },
+    "L": {
+     "kept": 3797,
+     "records": 3797
+    },
+    "trace": {
+     "kept": 2063,
+     "records": 2150
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "markdown": {
+   "funnel": {
+    "eligible": 60,
+    "eligible_not_selected": 35,
+    "excluded": {
+     "coroutine": 0,
+     "decorated": 4,
+     "docref_visibility": 1,
+     "dunder": 49,
+     "duplicate_identity": 1,
+     "generator": 1,
+     "incidental_visibility": 0,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 12,
+     "no_runtime_witnessed_caller": 3,
+     "out_of_scope": 0,
+     "property": 4,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 1,
+     "verified_below_2": 247
+    },
+    "functions": 383,
+    "render_stage": {
+     "evaluated": 61,
+     "visibility:docref": 1
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 61,
+     "text_rule_would_exclude": 19
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 495,
+     "records": 495
+    },
+    "L": {
+     "kept": 542,
+     "records": 542
+    },
+    "trace": {
+     "kept": 720,
+     "records": 731
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "markdown-it-py": {
+   "funnel": {
+    "eligible": 62,
+    "eligible_not_selected": 37,
+    "excluded": {
+     "coroutine": 0,
+     "decorated": 2,
+     "docref_visibility": 0,
+     "dunder": 29,
+     "duplicate_identity": 14,
+     "generator": 1,
+     "incidental_visibility": 0,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 5,
+     "no_runtime_witnessed_caller": 1,
+     "out_of_scope": 0,
+     "property": 17,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 1,
+     "verified_below_2": 107
+    },
+    "functions": 239,
+    "render_stage": {
+     "evaluated": 62
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 62,
+     "text_rule_would_exclude": 12
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 390,
+     "records": 390
+    },
+    "L": {
+     "kept": 344,
+     "records": 344
+    },
+    "trace": {
+     "kept": 657,
+     "records": 664
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "mpmath": {
+   "funnel": {
+    "eligible": 275,
+    "eligible_not_selected": 250,
+    "excluded": {
+     "coroutine": 0,
+     "decorated": 274,
+     "docref_visibility": 3,
+     "dunder": 152,
+     "duplicate_identity": 26,
+     "generator": 10,
+     "incidental_visibility": 2,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 96,
+     "no_runtime_witnessed_caller": 2,
+     "out_of_scope": 0,
+     "property": 16,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 41,
+     "verified_below_2": 405
+    },
+    "functions": 1302,
+    "render_stage": {
+     "evaluated": 280,
+     "visibility:docref": 3,
+     "visibility:identity_in_payload": 1,
+     "visibility:snippet_covers_site": 1
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 280,
+     "text_rule_would_exclude": 38
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 2927,
+     "records": 2927
+    },
+    "L": {
+     "kept": 2936,
+     "records": 2936
+    },
+    "trace": {
+     "kept": 14124,
+     "records": 14510
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "packaging": {
+   "funnel": {
+    "eligible": 84,
+    "eligible_not_selected": 59,
+    "excluded": {
+     "coroutine": 0,
+     "decorated": 10,
+     "docref_visibility": 3,
+     "dunder": 145,
+     "duplicate_identity": 8,
+     "generator": 19,
+     "incidental_visibility": 0,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 6,
+     "no_runtime_witnessed_caller": 0,
+     "out_of_scope": 0,
+     "property": 30,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 0,
+     "verified_below_2": 159
+    },
+    "functions": 464,
+    "render_stage": {
+     "evaluated": 87,
+     "visibility:docref": 3
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 87,
+     "text_rule_would_exclude": 22
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 792,
+     "records": 792
+    },
+    "L": {
+     "kept": 746,
+     "records": 746
+    },
+    "trace": {
+     "kept": 1237,
+     "records": 1275
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "param": {
+   "funnel": {
+    "eligible": 113,
+    "eligible_not_selected": 88,
+    "excluded": {
+     "coroutine": 9,
+     "decorated": 30,
+     "docref_visibility": 1,
+     "dunder": 232,
+     "duplicate_identity": 43,
+     "generator": 3,
+     "incidental_visibility": 0,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 26,
+     "no_runtime_witnessed_caller": 13,
+     "out_of_scope": 0,
+     "property": 21,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 3,
+     "verified_below_2": 245
+    },
+    "functions": 739,
+    "render_stage": {
+     "evaluated": 114,
+     "visibility:docref": 1
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 114,
+     "text_rule_would_exclude": 15
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 841,
+     "records": 841
+    },
+    "L": {
+     "kept": 2391,
+     "records": 2391
+    },
+    "trace": {
+     "kept": 1896,
+     "records": 2096
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "petl": {
+   "funnel": {
+    "eligible": 48,
+    "eligible_not_selected": 23,
+    "excluded": {
+     "coroutine": 0,
+     "decorated": 15,
+     "docref_visibility": 2,
+     "dunder": 335,
+     "duplicate_identity": 2,
+     "generator": 101,
+     "incidental_visibility": 0,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 18,
+     "no_runtime_witnessed_caller": 31,
+     "out_of_scope": 0,
+     "property": 0,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 6,
+     "verified_below_2": 374
+    },
+    "functions": 932,
+    "render_stage": {
+     "evaluated": 50,
+     "visibility:docref": 2
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 50,
+     "text_rule_would_exclude": 13
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 777,
+     "records": 777
+    },
+    "L": {
+     "kept": 974,
+     "records": 974
+    },
+    "trace": {
+     "kept": 825,
+     "records": 836
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "pyparsing": {
+   "funnel": {
+    "eligible": 75,
+    "eligible_not_selected": 50,
+    "excluded": {
+     "coroutine": 0,
+     "decorated": 16,
+     "docref_visibility": 8,
+     "dunder": 147,
+     "duplicate_identity": 6,
+     "generator": 6,
+     "incidental_visibility": 3,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 30,
+     "no_runtime_witnessed_caller": 1,
+     "out_of_scope": 0,
+     "property": 12,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 7,
+     "verified_below_2": 180
+    },
+    "functions": 491,
+    "render_stage": {
+     "evaluated": 86,
+     "visibility:docref": 8,
+     "visibility:identity_in_payload": 1,
+     "visibility:snippet_covers_site": 2
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 86,
+     "text_rule_would_exclude": 24
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 643,
+     "records": 643
+    },
+    "L": {
+     "kept": 1755,
+     "records": 1755
+    },
+    "trace": {
+     "kept": 1632,
+     "records": 1936
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "python-docx": {
+   "funnel": {
+    "eligible": 71,
+    "eligible_not_selected": 46,
+    "excluded": {
+     "coroutine": 0,
+     "decorated": 32,
+     "docref_visibility": 5,
+     "dunder": 152,
+     "duplicate_identity": 198,
+     "generator": 22,
+     "incidental_visibility": 0,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 25,
+     "no_runtime_witnessed_caller": 6,
+     "out_of_scope": 0,
+     "property": 288,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 4,
+     "verified_below_2": 316
+    },
+    "functions": 1119,
+    "render_stage": {
+     "evaluated": 76,
+     "visibility:docref": 5
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 76,
+     "text_rule_would_exclude": 22
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 958,
+     "records": 958
+    },
+    "L": {
+     "kept": 929,
+     "records": 929
+    },
+    "trace": {
+     "kept": 1913,
+     "records": 2360
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "python-pptx": {
+   "funnel": {
+    "eligible": 81,
+    "eligible_not_selected": 56,
+    "excluded": {
+     "coroutine": 0,
+     "decorated": 160,
+     "docref_visibility": 1,
+     "dunder": 230,
+     "duplicate_identity": 196,
+     "generator": 23,
+     "incidental_visibility": 1,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 36,
+     "no_runtime_witnessed_caller": 22,
+     "out_of_scope": 0,
+     "property": 445,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 5,
+     "verified_below_2": 485
+    },
+    "functions": 1685,
+    "render_stage": {
+     "evaluated": 83,
+     "visibility:docref": 1,
+     "visibility:identity_in_payload": 1,
+     "visibility:snippet_covers_site": 0
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 83,
+     "text_rule_would_exclude": 30
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 1361,
+     "records": 1361
+    },
+    "L": {
+     "kept": 1563,
+     "records": 1563
+    },
+    "trace": {
+     "kept": 2827,
+     "records": 3801
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "rdflib": {
+   "funnel": {
+    "eligible": 281,
+    "eligible_not_selected": 256,
+    "excluded": {
+     "coroutine": 0,
+     "decorated": 33,
+     "docref_visibility": 5,
+     "dunder": 461,
+     "duplicate_identity": 30,
+     "generator": 115,
+     "incidental_visibility": 1,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 47,
+     "no_runtime_witnessed_caller": 45,
+     "out_of_scope": 0,
+     "property": 57,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 17,
+     "verified_below_2": 924
+    },
+    "functions": 2016,
+    "render_stage": {
+     "evaluated": 287,
+     "visibility:docref": 5,
+     "visibility:identity_in_payload": 0,
+     "visibility:snippet_covers_site": 1
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 287,
+     "text_rule_would_exclude": 70
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 3467,
+     "records": 3467
+    },
+    "L": {
+     "kept": 7225,
+     "records": 7225
+    },
+    "trace": {
+     "kept": 5468,
+     "records": 6309
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "rich": {
+   "funnel": {
+    "eligible": 114,
+    "eligible_not_selected": 89,
+    "excluded": {
+     "coroutine": 0,
+     "decorated": 27,
+     "docref_visibility": 1,
+     "dunder": 242,
+     "duplicate_identity": 17,
+     "generator": 47,
+     "incidental_visibility": 3,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 38,
+     "no_runtime_witnessed_caller": 9,
+     "out_of_scope": 0,
+     "property": 71,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 10,
+     "verified_below_2": 309
+    },
+    "functions": 888,
+    "render_stage": {
+     "evaluated": 118,
+     "visibility:docref": 1,
+     "visibility:identity_in_payload": 3,
+     "visibility:snippet_covers_site": 0
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 118,
+     "text_rule_would_exclude": 26
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 1289,
+     "records": 1289
+    },
+    "L": {
+     "kept": 1886,
+     "records": 1886
+    },
+    "trace": {
+     "kept": 1840,
+     "records": 2099
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "segno": {
+   "funnel": {
+    "eligible": 31,
+    "eligible_not_selected": 6,
+    "excluded": {
+     "coroutine": 0,
+     "decorated": 5,
+     "docref_visibility": 7,
+     "dunder": 15,
+     "duplicate_identity": 0,
+     "generator": 4,
+     "incidental_visibility": 0,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 37,
+     "no_runtime_witnessed_caller": 0,
+     "out_of_scope": 0,
+     "property": 6,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 0,
+     "verified_below_2": 79
+    },
+    "functions": 184,
+    "render_stage": {
+     "evaluated": 38,
+     "visibility:docref": 7
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 38,
+     "text_rule_would_exclude": 6
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 293,
+     "records": 293
+    },
+    "L": {
+     "kept": 305,
+     "records": 305
+    },
+    "trace": {
+     "kept": 329,
+     "records": 337
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "sqlite-utils": {
+   "funnel": {
+    "eligible": 80,
+    "eligible_not_selected": 55,
+    "excluded": {
+     "coroutine": 0,
+     "decorated": 56,
+     "docref_visibility": 1,
+     "dunder": 27,
+     "duplicate_identity": 0,
+     "generator": 13,
+     "incidental_visibility": 0,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 13,
+     "no_runtime_witnessed_caller": 3,
+     "out_of_scope": 0,
+     "property": 31,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 8,
+     "verified_below_2": 85
+    },
+    "functions": 317,
+    "render_stage": {
+     "evaluated": 81,
+     "visibility:docref": 1
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 81,
+     "text_rule_would_exclude": 22
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 1009,
+     "records": 1009
+    },
+    "L": {
+     "kept": 1105,
+     "records": 1105
+    },
+    "trace": {
+     "kept": 998,
+     "records": 1056
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "traitlets": {
+   "funnel": {
+    "eligible": 100,
+    "eligible_not_selected": 75,
+    "excluded": {
+     "coroutine": 0,
+     "decorated": 18,
+     "docref_visibility": 2,
+     "dunder": 72,
+     "duplicate_identity": 17,
+     "generator": 12,
+     "incidental_visibility": 1,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 11,
+     "no_runtime_witnessed_caller": 4,
+     "out_of_scope": 0,
+     "property": 2,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 3,
+     "verified_below_2": 189
+    },
+    "functions": 431,
+    "render_stage": {
+     "evaluated": 103,
+     "visibility:docref": 2,
+     "visibility:identity_in_payload": 1,
+     "visibility:snippet_covers_site": 0
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 103,
+     "text_rule_would_exclude": 27
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 517,
+     "records": 517
+    },
+    "L": {
+     "kept": 1114,
+     "records": 1114
+    },
+    "trace": {
+     "kept": 736,
+     "records": 811
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "websockets": {
+   "funnel": {
+    "eligible": 91,
+    "eligible_not_selected": 66,
+    "excluded": {
+     "coroutine": 92,
+     "decorated": 3,
+     "docref_visibility": 7,
+     "dunder": 135,
+     "duplicate_identity": 24,
+     "generator": 15,
+     "incidental_visibility": 0,
+     "jedi_definition_error": 12,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 14,
+     "no_runtime_witnessed_caller": 8,
+     "out_of_scope": 0,
+     "property": 43,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 2,
+     "verified_below_2": 147
+    },
+    "functions": 593,
+    "render_stage": {
+     "evaluated": 98,
+     "visibility:docref": 7
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 98,
+     "text_rule_would_exclude": 44
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 871,
+     "records": 871
+    },
+    "L": {
+     "kept": 1053,
+     "records": 1053
+    },
+    "trace": {
+     "kept": 983,
+     "records": 1022
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "xlsxwriter": {
+   "funnel": {
+    "eligible": 206,
+    "eligible_not_selected": 181,
+    "excluded": {
+     "coroutine": 0,
+     "decorated": 37,
+     "docref_visibility": 1,
+     "dunder": 50,
+     "duplicate_identity": 5,
+     "generator": 0,
+     "incidental_visibility": 0,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 0,
+     "no_runtime_witnessed_caller": 1,
+     "out_of_scope": 0,
+     "property": 5,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 18,
+     "verified_below_2": 772
+    },
+    "functions": 1095,
+    "render_stage": {
+     "evaluated": 207,
+     "visibility:docref": 1
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 207,
+     "text_rule_would_exclude": 106
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 2969,
+     "records": 2969
+    },
+    "L": {
+     "kept": 3402,
+     "records": 3402
+    },
+    "trace": {
+     "kept": 3186,
+     "records": 3220
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "xmlschema": {
+   "funnel": {
+    "eligible": 233,
+    "eligible_not_selected": 208,
+    "excluded": {
+     "coroutine": 0,
+     "decorated": 69,
+     "docref_visibility": 2,
+     "dunder": 236,
+     "duplicate_identity": 12,
+     "generator": 73,
+     "incidental_visibility": 0,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 70,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 18,
+     "no_runtime_witnessed_caller": 9,
+     "out_of_scope": 0,
+     "property": 233,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 10,
+     "verified_below_2": 376
+    },
+    "functions": 1341,
+    "render_stage": {
+     "evaluated": 235,
+     "visibility:docref": 2
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 235,
+     "text_rule_would_exclude": 54
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 2793,
+     "records": 2793
+    },
+    "L": {
+     "kept": 4889,
+     "records": 4889
+    },
+    "trace": {
+     "kept": 3044,
+     "records": 3186
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "yapf": {
+   "funnel": {
+    "eligible": 60,
+    "eligible_not_selected": 35,
+    "excluded": {
+     "coroutine": 0,
+     "decorated": 2,
+     "docref_visibility": 0,
+     "dunder": 36,
+     "duplicate_identity": 0,
+     "generator": 2,
+     "incidental_visibility": 1,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 12,
+     "no_runtime_witnessed_caller": 6,
+     "out_of_scope": 0,
+     "property": 33,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 12,
+     "verified_below_2": 332
+    },
+    "functions": 496,
+    "render_stage": {
+     "evaluated": 61,
+     "visibility:identity_in_payload": 1,
+     "visibility:snippet_covers_site": 0
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 61,
+     "text_rule_would_exclude": 17
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 985,
+     "records": 985
+    },
+    "L": {
+     "kept": 1034,
+     "records": 1034
+    },
+    "trace": {
+     "kept": 1213,
+     "records": 1219
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  }
+ },
+ "items_sha256": "f3451a3c9fba2ffd3455df17718d3e276132cf9eb0a7158240256deed32764c8",
+ "out": "/mnt/kldata/absent-edges-20261018-core2/expA/prod-items-0b8ee0b7c/items-main"
+}

@@ -1,0 +1,126 @@
+{
+ "label": "EXPLORATORY, POST HOC generality summary (2026-11-07); ANALYSIS RECORD; estimates are unweighted means of the library values, equal to the frozen family-weighted estimates",
+ "script_sha256": "3fda7176bbc563f64fa5141a80c3f6747a7c59f0d98eaaa7b6e1f7a431c77b89",
+ "effects": [
+  {
+   "effect": "H3, incomplete list minus no list (main run, Gemma 4 31B)",
+   "source": "reports/expA-main-20261101b/analysis/ANALYSIS.json",
+   "sha256": "f9017bf657c2472c30867ef8ace33433e4110c5597c340d1e163c279b9839d86",
+   "libraries": 30,
+   "estimate": 0.1564444444444444,
+   "positive": 28,
+   "negative": 2,
+   "zero": 0,
+   "lolo_min": 0.14850574712643674,
+   "lolo_max": 0.1664367816091954
+  },
+  {
+   "effect": "H3 on Gemma 4 12B",
+   "source": "reports/expA-repl12b-20261101a/analysis/ANALYSIS.json",
+   "sha256": "b4c13ae66e275ddb9b2d15236095677b81e29e6940e9d648b2abe76412940142",
+   "libraries": 30,
+   "estimate": 0.14755555555555555,
+   "positive": 30,
+   "negative": 0,
+   "zero": 0,
+   "lolo_min": 0.1406896551724138,
+   "lolo_max": 0.1517241379310345
+  },
+  {
+   "effect": "H3 on the QAT W4A16 checkpoint",
+   "source": "reports/expA-qat31b-20261102a/analysis/ANALYSIS.json",
+   "sha256": "b2242bcca10365c3fc85efc8e420499247c43118f52c7d904a97f329ae95439a",
+   "libraries": 30,
+   "estimate": 0.096,
+   "positive": 22,
+   "negative": 7,
+   "zero": 1,
+   "lolo_min": 0.08919540229885056,
+   "lolo_max": 0.10344827586206896
+  },
+  {
+   "effect": "H3 on callers missed by name search",
+   "source": "reports/expA-hard-20261102a/ANALYSIS.json",
+   "sha256": "5808b06d00d17a1af507d93af3ff48bdc3d9fb4b7e85c5f009e830ed4c72f671",
+   "libraries": 27,
+   "estimate": 0.06962666277481093,
+   "positive": 13,
+   "negative": 3,
+   "zero": 11,
+   "lolo_min": 0.05521059424905579,
+   "lolo_max": 0.07711230365076518
+  },
+  {
+   "effect": "Deadline line minus neutral line (A1)",
+   "source": "reports/expA-finalturn-20261102a/analysis/RESULTS.json",
+   "sha256": "331604b3ef97defb26cabfcd5d758b5a01faf5a6b1bb50af3c860c4896dcff7c",
+   "libraries": 30,
+   "estimate": 0.22533333333333336,
+   "positive": 30,
+   "negative": 0,
+   "zero": 0,
+   "lolo_min": 0.21517241379310345,
+   "lolo_max": 0.2324137931034483
+  },
+  {
+   "effect": "Deadline line minus neutral line at a second seed (A4)",
+   "source": "reports/expA-a4directive-20261106/A4_RESULTS.json",
+   "sha256": "c5dc8efcf2ca64e868fff5120b166e753117a81e9ddaefff722f0f9d3c39dd5d",
+   "libraries": 30,
+   "estimate": 0.20866666666666664,
+   "positive": 30,
+   "negative": 0,
+   "zero": 0,
+   "lolo_min": 0.19793103448275856,
+   "lolo_max": 0.2144827586206896
+  },
+  {
+   "effect": "Information main effect of the last-response line (A4)",
+   "source": "reports/expA-a4directive-20261106/A4_RESULTS.json",
+   "sha256": "c5dc8efcf2ca64e868fff5120b166e753117a81e9ddaefff722f0f9d3c39dd5d",
+   "libraries": 30,
+   "estimate": 0.1446666666666667,
+   "positive": 30,
+   "negative": 0,
+   "zero": 0,
+   "lolo_min": 0.13758620689655174,
+   "lolo_max": 0.14931034482758623
+  },
+  {
+   "effect": "Omission cost under the deadline line, 8 responses (A3 ledger off)",
+   "source": "reports/expA-a3ledger-20261105/A3_ANALYSIS.json",
+   "sha256": "d66d6f18997e6a693bae4c24791c067039fe0693ab3840d704dbe9c4a3fa1e7d",
+   "libraries": 30,
+   "estimate": 0.10533333333333338,
+   "positive": 28,
+   "negative": 0,
+   "zero": 2,
+   "lolo_min": 0.09977011494252878,
+   "lolo_max": 0.10896551724137936
+  },
+  {
+   "effect": "Omission cost under the deadline line, 16 responses (A6)",
+   "source": "reports/expA-a6budget16-20261106/A6_ANALYSIS.json",
+   "sha256": "fb01130509bbcfd59691d70f521886ece9e0efabaa6a5762a6507b7192cd8d61",
+   "libraries": 30,
+   "estimate": 0.08266666666666665,
+   "positive": 27,
+   "negative": 0,
+   "zero": 3,
+   "lolo_min": 0.0772413793103448,
+   "lolo_max": 0.08551724137931033
+  },
+  {
+   "effect": "Reduction of the omission cost with the doubled budget (A6)",
+   "source": "reports/expA-a6budget16-20261106/A6_ANALYSIS.json",
+   "sha256": "fb01130509bbcfd59691d70f521886ece9e0efabaa6a5762a6507b7192cd8d61",
+   "libraries": 30,
+   "estimate": 0.02266666666666666,
+   "positive": 18,
+   "negative": 5,
+   "zero": 7,
+   "lolo_min": 0.0193103448275862,
+   "lolo_max": 0.025287356321839073
+  }
+ ]
+}

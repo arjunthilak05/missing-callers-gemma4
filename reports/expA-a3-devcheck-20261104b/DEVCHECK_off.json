@@ -1,0 +1,167 @@
+{
+  "arm": "off",
+  "cells": {
+    "dispatched": 68,
+    "empty_attempt_directories": 0,
+    "infrastructure_attempts_by_kind": {},
+    "ledger_seed_61_in_design": 68,
+    "states": {
+      "completed": 68,
+      "infra_pending": 0,
+      "missing_infrastructure": 0,
+      "not_dispatched": 0
+    },
+    "terminal_exits": {
+      "Submitted": 68
+    },
+    "terminal_only": "each cell's terminal attempt (D11.3: the first with a completed model exit); infrastructure attempts are not checked or counted"
+  },
+  "checks": {
+    "config_receipts": {
+      "checked": 68,
+      "description": "result.json config and the episode_setup event's config are the arm's record",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "final_response_recorded": {
+      "checked": 13,
+      "description": "each delivered final response has exactly one parsed_actions or format_error event at call_index 7",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "ledger_event": {
+      "checked": 68,
+      "description": "an episode that reached its last call (a final_turn_notice event) has exactly one evidence_ledger event, the row right before the final_turn_notice event, agreeing with the receipt (text sha256, suffix, entries, candidates, body bytes, appended, appended_to, tool_call_id, message sha256s) and with the frozen text format; computed is true; on: appended, and sent and delivered as the notice; off: never appended, sent or delivered. An episode that did not reach it has no event and the unbuilt receipt",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "ledger_receipts": {
+      "checked": 68,
+      "description": "result.json exposure.evidence_ledger equals accounting.evidence_ledger and the episode_finished event's, has exactly the receipt fields, mode = the arm and call_index 7",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "notice_receipts": {
+      "checked": 68,
+      "description": "the A1 final_turn_notice receipt is consistent (as the A1 dev check reads it)",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "records": {
+      "checked": 68,
+      "description": "each terminal attempt: its directory names its cell and attempt, result.json binds attempt_start.json and events.jsonl (sha256 and rows), its run_id is run.json's, and no attempt follows it",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "request_bytes": {
+      "checked": 68,
+      "description": "on: the delivered 8th request's last message ends with '\\n\\n[harness notice] ' + the ledger text + the deadline suffix, is the content the final_turn_notice event binds, and the ledger header occurs exactly once in the request (never in an earlier request); off: no request contains the header and the 8th request's last message ends with the deadline suffix alone",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "run_complete": {
+      "checked": 68,
+      "description": "every LEDGER seed-61 cell of cells.jsonl is terminal in the D11.3 sense (a completed attempt, or missing after 3 infrastructure attempts)",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "run_json_cells": {
+      "checked": 1,
+      "description": "cells.jsonl is the file run.json binds (cells_sha256)",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "run_json_episode_config": {
+      "checked": 1,
+      "description": "run.json episode_config is the arm's exact record (the six prereg fields, the deadline notice, evidence_ledger = the arm and evidence_ledger_rules)",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "selection": {
+      "checked": 68,
+      "description": "every dispatched cell is a LEDGER|<item>|vcomplete or omit_node|C1|s61 cell of cells.jsonl",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    }
+  },
+  "failed_checks": [],
+  "final_turn_policy": "deadline",
+  "go": true,
+  "go_rule": {
+    "format_errors": 0,
+    "noticed_final_responses": 13,
+    "passed": true,
+    "rule": "at least 90% of the final responses that received the notice (terminal attempts with a model_exchange at call_index 7) are valid tool calls (parsed_actions, not format_error, at call_index 7)",
+    "share": 1.0,
+    "threshold": 0.9,
+    "valid_tool_calls": 13
+  },
+  "header": "Candidate call sites seen in your earlier tool outputs (unverified; check before submitting):",
+  "last_call": {
+    "context_limit_at_last_call": 0,
+    "context_limit_cells": [],
+    "format_error_cells": [],
+    "not_gated": "reported, not gated (section 2.6)",
+    "not_reached_by_exit": {
+      "Submitted": 55
+    },
+    "notice_on_format_error": 0,
+    "reached": 13
+  },
+  "ledger": {
+    "appended": 0,
+    "body_bytes_max": 462,
+    "body_bytes_mean": 96.92307692307692,
+    "built": 13,
+    "candidates_mean": 1.3076923076923077,
+    "capped": 0,
+    "delivered": 0,
+    "empty": 10,
+    "empty_share": 0.7692307692307693,
+    "entries_by_source": {
+      "bash_line": 17
+    },
+    "entries_histogram": {
+      "0": 10,
+      "5": 1,
+      "6": 2
+    },
+    "entries_max": 6,
+    "entries_mean": 1.3076923076923077,
+    "not_gated": "sizes are reported, not gated (section 2.6)",
+    "sent": 0,
+    "terminal_attempts": 68
+  },
+  "protocol": "protocols/EXPA_A3_LEDGER.md",
+  "run": {
+    "cells_jsonl_sha256": "c0264357d2bc0e676524750709413502c7dc0eea445d09536f5e06da2b3f6b9f",
+    "model": {
+      "alias": "absent-edges-gemma4-31b-bf16",
+      "enable_thinking": false,
+      "hub_id": "google/gemma-4-31B-it",
+      "max_context": 32768,
+      "profile": "gemma4-31b",
+      "revision": "518276fb130dc81caf9a4f772e65e63ef2526493",
+      "temperature": 0.2
+    },
+    "run_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/runs/a3ledger-dev-off-20261104b",
+    "run_id": "a3ledger-dev-off-20261104b",
+    "run_json_sha256": "a7481bfe7d895f7d1a041c3d42c36b0d5c4118880d50d8edd594f322b0f88878"
+  },
+  "schema": "expA-a3-devcheck-v1",
+  "script": {
+    "path": "scripts/expA_a3_devcheck.py",
+    "sha256": "74f31c5041fd9f27530e579345fc71d09acb284f4e3cfbbb4a3b262290cc6ff8"
+  }
+}

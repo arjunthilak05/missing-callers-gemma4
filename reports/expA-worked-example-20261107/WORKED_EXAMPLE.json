@@ -1,0 +1,532 @@
+{
+ "episodes": {
+  "complete": {
+   "any_strict_cstar_display": false,
+   "attempt_id": "LEDGER|042f64c24078d194fc6e|vcomplete|C1|s61.a001",
+   "cell_id": "LEDGER|042f64c24078d194fc6e|vcomplete|C1|s61",
+   "completeness_claim": "yes",
+   "cost_calls": 7,
+   "deadline_notice_at_response": null,
+   "events": {
+    "path": "/mnt/kldata/absent-edges-20261018-core2/expA/runs/a3ledger-off-20261104a/cells/LEDGER|042f64c24078d194fc6e|vcomplete|C1|s61/LEDGER|042f64c24078d194fc6e|vcomplete|C1|s61.a001/events.jsonl",
+    "sha256": "d24775d7416a7b162f1538b0a68023c0fe8cd95baee44cb193446fbcd75376ff"
+   },
+   "exit_status": "Submitted",
+   "format_error_responses": [],
+   "n_strict_cstar_display": 0,
+   "n_tool_calls": 7,
+   "responses_used": 7,
+   "score": {
+    "certifiably_false_completeness": true,
+    "function_localized": 1,
+    "n_V": 6,
+    "n_submitted": 9,
+    "n_unique_sites": 9,
+    "precision_categories": {
+     "duplicate": 0,
+     "lexical_name_match": 2,
+     "u_site": 0,
+     "unresolved": 2,
+     "v_site": 5
+    },
+    "precision_lower": 0.5555555555555556,
+    "precision_upper": 0.7777777777777778,
+    "recall_V_callers": 0.8333333333333334,
+    "recovered": 1,
+    "site_recovered": 1
+   },
+   "submitted": true,
+   "submitted_at_response": 7,
+   "submitted_sites": [
+    {
+     "category": "v_site",
+     "cstar_site": false,
+     "line": 1034,
+     "path": "pyparsing/core.py"
+    },
+    {
+     "category": "v_site",
+     "cstar_site": false,
+     "line": 4713,
+     "path": "pyparsing/core.py"
+    },
+    {
+     "category": "v_site",
+     "cstar_site": true,
+     "line": 5071,
+     "path": "pyparsing/core.py"
+    },
+    {
+     "category": "v_site",
+     "cstar_site": false,
+     "line": 5338,
+     "path": "pyparsing/core.py"
+    },
+    {
+     "category": "lexical_name_match",
+     "cstar_site": false,
+     "line": 5676,
+     "path": "pyparsing/core.py"
+    },
+    {
+     "category": "unresolved",
+     "cstar_site": false,
+     "line": 5684,
+     "path": "pyparsing/core.py"
+    },
+    {
+     "category": "unresolved",
+     "cstar_site": false,
+     "line": 5692,
+     "path": "pyparsing/core.py"
+    },
+    {
+     "category": "lexical_name_match",
+     "cstar_site": false,
+     "line": 6098,
+     "path": "pyparsing/core.py"
+    },
+    {
+     "category": "v_site",
+     "cstar_site": false,
+     "line": 6112,
+     "path": "pyparsing/core.py"
+    }
+   ],
+   "tool_calls": [
+    {
+     "arguments": "{\"command\":\"grep -n \\\"try_parse\\\" pyparsing/core.py\"}",
+     "arguments_chars": 53,
+     "arguments_truncated": false,
+     "name": "bash",
+     "numbered_lines_naming_target": [
+      [
+       1017,
+       "def try_parse("
+      ],
+      [
+       1034,
+       "self.try_parse(instring, loc, do_actions=do_actions)"
+      ],
+      [
+       2612,
+       "tryParse = replaced_by_pep8(\"tryParse\", try_parse)"
+      ],
+      [
+       4713,
+       "loc2 = e.try_parse(instring, loc, raise_fatal=True)"
+      ],
+      [
+       5071,
+       "tmpLoc = e.try_parse(instring, tmpLoc, raise_fatal=True)"
+      ],
+      [
+       5338,
+       "self.expr.try_parse(instring, anchor_loc, do_actions=do_actions)"
+      ],
+      [
+       5676,
+       "try_not_ender = self.not_ender.try_parse"
+      ],
+      [
+       6098,
+       "ignorer_try_parse = self.ignorer.try_parse if self.ignorer.ignoreExprs else None"
+      ]
+     ],
+     "response": 1,
+     "result_chars": 721,
+     "strict_cstar_display": false,
+     "tool_call_id": "chatcmpl-tool-8f6d55b90b875de9"
+    },
+    {
+     "arguments": "{\"command\":\"cat pyparsing/core.py | sed -n '5060,5080p'\"}",
+     "arguments_chars": 57,
+     "arguments_truncated": false,
+     "name": "bash",
+     "numbered_lines_naming_target": [],
+     "response": 2,
+     "result_chars": 867,
+     "strict_cstar_display": false,
+     "tool_call_id": "chatcmpl-tool-be36624a4a1505dc"
+    },
+    {
+     "arguments": "{\"command\":\"cat pyparsing/core.py | sed -n '5670,5685p'\"}",
+     "arguments_chars": 57,
+     "arguments_truncated": false,
+     "name": "bash",
+     "numbered_lines_naming_target": [],
+     "response": 3,
+     "result_chars": 656,
+     "strict_cstar_display": false,
+     "tool_call_id": "chatcmpl-tool-aba6d71ac0cc087f"
+    },
+    {
+     "arguments": "{\"command\":\"cat pyparsing/core.py | sed -n '6090,6120p'\"}",
+     "arguments_chars": 57,
+     "arguments_truncated": false,
+     "name": "bash",
+     "numbered_lines_naming_target": [],
+     "response": 4,
+     "result_chars": 1248,
+     "strict_cstar_display": false,
+     "tool_call_id": "chatcmpl-tool-9e449b3b66ebec33"
+    },
+    {
+     "arguments": "{\"command\":\"grep -r \\\"try_parse\\\" pyparsing/\"}",
+     "arguments_chars": 46,
+     "arguments_truncated": false,
+     "name": "bash",
+     "numbered_lines_naming_target": [],
+     "response": 5,
+     "result_chars": 851,
+     "strict_cstar_display": false,
+     "tool_call_id": "chatcmpl-tool-b91f5a4f9986ad01"
+    },
+    {
+     "arguments": "{\"command\":\"cat pyparsing/core.py | sed -n '5670,5700p'\"}",
+     "arguments_chars": 57,
+     "arguments_truncated": false,
+     "name": "bash",
+     "numbered_lines_naming_target": [],
+     "response": 6,
+     "result_chars": 1273,
+     "strict_cstar_display": false,
+     "tool_call_id": "chatcmpl-tool-9425a3453ded241f"
+    },
+    {
+     "arguments": "{\"complete\":\"yes\",\"sites\":[{\"line\":1034,\"path\":\"pyparsing/core.py\"},{\"line\":4713,\"path\":\"pyparsing/core.py\"},{\"line\":507",
+     "arguments_chars": 397,
+     "arguments_truncated": true,
+     "name": "submit_answer",
+     "numbered_lines_naming_target": null,
+     "response": 7,
+     "result_chars": null,
+     "strict_cstar_display": null,
+     "tool_call_id": "chatcmpl-tool-906caa743e639324"
+    }
+   ]
+  },
+  "incomplete": {
+   "any_strict_cstar_display": false,
+   "attempt_id": "LEDGER|042f64c24078d194fc6e|omit_node|C1|s61.a001",
+   "cell_id": "LEDGER|042f64c24078d194fc6e|omit_node|C1|s61",
+   "completeness_claim": "yes",
+   "cost_calls": 8,
+   "deadline_notice_at_response": 8,
+   "events": {
+    "path": "/mnt/kldata/absent-edges-20261018-core2/expA/runs/a3ledger-off-20261104a/cells/LEDGER|042f64c24078d194fc6e|omit_node|C1|s61/LEDGER|042f64c24078d194fc6e|omit_node|C1|s61.a001/events.jsonl",
+    "sha256": "94a98a4f60d40942ccb5952859052090931f7a53e3b1c19cf310e32366f6bd61"
+   },
+   "exit_status": "Submitted",
+   "format_error_responses": [],
+   "n_strict_cstar_display": 0,
+   "n_tool_calls": 8,
+   "responses_used": 8,
+   "score": {
+    "certifiably_false_completeness": true,
+    "function_localized": 1,
+    "n_V": 6,
+    "n_submitted": 8,
+    "n_unique_sites": 8,
+    "precision_categories": {
+     "duplicate": 0,
+     "lexical_name_match": 0,
+     "u_site": 0,
+     "unresolved": 4,
+     "v_site": 4
+    },
+    "precision_lower": 0.5,
+    "precision_upper": 0.5,
+    "recall_V_callers": 0.6666666666666666,
+    "recovered": 0,
+    "site_recovered": 0
+   },
+   "submitted": true,
+   "submitted_at_response": 8,
+   "submitted_sites": [
+    {
+     "category": "v_site",
+     "cstar_site": false,
+     "line": 1034,
+     "path": "pyparsing/core.py"
+    },
+    {
+     "category": "v_site",
+     "cstar_site": false,
+     "line": 4713,
+     "path": "pyparsing/core.py"
+    },
+    {
+     "category": "unresolved",
+     "cstar_site": false,
+     "line": 5070,
+     "path": "pyparsing/core.py"
+    },
+    {
+     "category": "v_site",
+     "cstar_site": false,
+     "line": 5338,
+     "path": "pyparsing/core.py"
+    },
+    {
+     "category": "unresolved",
+     "cstar_site": false,
+     "line": 5681,
+     "path": "pyparsing/core.py"
+    },
+    {
+     "category": "unresolved",
+     "cstar_site": false,
+     "line": 5688,
+     "path": "pyparsing/core.py"
+    },
+    {
+     "category": "unresolved",
+     "cstar_site": false,
+     "line": 5694,
+     "path": "pyparsing/core.py"
+    },
+    {
+     "category": "v_site",
+     "cstar_site": false,
+     "line": 6112,
+     "path": "pyparsing/core.py"
+    }
+   ],
+   "tool_calls": [
+    {
+     "arguments": "{\"command\":\"grep -n \\\"try_parse\\\" pyparsing/core.py\"}",
+     "arguments_chars": 53,
+     "arguments_truncated": false,
+     "name": "bash",
+     "numbered_lines_naming_target": [
+      [
+       1017,
+       "def try_parse("
+      ],
+      [
+       1034,
+       "self.try_parse(instring, loc, do_actions=do_actions)"
+      ],
+      [
+       2612,
+       "tryParse = replaced_by_pep8(\"tryParse\", try_parse)"
+      ],
+      [
+       4713,
+       "loc2 = e.try_parse(instring, loc, raise_fatal=True)"
+      ],
+      [
+       5071,
+       "tmpLoc = e.try_parse(instring, tmpLoc, raise_fatal=True)"
+      ],
+      [
+       5338,
+       "self.expr.try_parse(instring, anchor_loc, do_actions=do_actions)"
+      ],
+      [
+       5676,
+       "try_not_ender = self.not_ender.try_parse"
+      ],
+      [
+       6098,
+       "ignorer_try_parse = self.ignorer.try_parse if self.ignorer.ignoreExprs else None"
+      ]
+     ],
+     "response": 1,
+     "result_chars": 721,
+     "strict_cstar_display": false,
+     "tool_call_id": "chatcmpl-tool-8c5382f3851d8144"
+    },
+    {
+     "arguments": "{\"command\":\"cat pyparsing/core.py | sed -n '5060,5080p'\"}",
+     "arguments_chars": 57,
+     "arguments_truncated": false,
+     "name": "bash",
+     "numbered_lines_naming_target": [],
+     "response": 2,
+     "result_chars": 867,
+     "strict_cstar_display": false,
+     "tool_call_id": "chatcmpl-tool-a18372d5ffca900c"
+    },
+    {
+     "arguments": "{\"command\":\"cat pyparsing/core.py | sed -n '5050,5060p'\"}",
+     "arguments_chars": 57,
+     "arguments_truncated": false,
+     "name": "bash",
+     "numbered_lines_naming_target": [],
+     "response": 3,
+     "result_chars": 454,
+     "strict_cstar_display": false,
+     "tool_call_id": "chatcmpl-tool-9fcc6c332448806c"
+    },
+    {
+     "arguments": "{\"command\":\"grep -r \\\"try_parse\\\" pyparsing/\"}",
+     "arguments_chars": 46,
+     "arguments_truncated": false,
+     "name": "bash",
+     "numbered_lines_naming_target": [],
+     "response": 4,
+     "result_chars": 851,
+     "strict_cstar_display": false,
+     "tool_call_id": "chatcmpl-tool-b5427a927486aefe"
+    },
+    {
+     "arguments": "{\"command\":\"cat pyparsing/core.py | sed -n '5670,5685p'\"}",
+     "arguments_chars": 57,
+     "arguments_truncated": false,
+     "name": "bash",
+     "numbered_lines_naming_target": [],
+     "response": 5,
+     "result_chars": 656,
+     "strict_cstar_display": false,
+     "tool_call_id": "chatcmpl-tool-a508a38ed9ead5a4"
+    },
+    {
+     "arguments": "{\"command\":\"cat pyparsing/core.py | sed -n '5680,5705p'\"}",
+     "arguments_chars": 57,
+     "arguments_truncated": false,
+     "name": "bash",
+     "numbered_lines_naming_target": [],
+     "response": 6,
+     "result_chars": 1088,
+     "strict_cstar_display": false,
+     "tool_call_id": "chatcmpl-tool-901f9bf98965d22f"
+    },
+    {
+     "arguments": "{\"command\":\"cat pyparsing/core.py | sed -n '5060,5080p' | nl -v 5060\"}",
+     "arguments_chars": 70,
+     "arguments_truncated": false,
+     "name": "bash",
+     "numbered_lines_naming_target": [
+      [
+       5070,
+       "tmpLoc = e.try_parse(instring, tmpLoc, raise_fatal=True)"
+      ]
+     ],
+     "response": 7,
+     "result_chars": 1034,
+     "strict_cstar_display": false,
+     "tool_call_id": "chatcmpl-tool-8cd241985457040d"
+    },
+    {
+     "arguments": "{\"complete\":\"yes\",\"sites\":[{\"line\":1034,\"path\":\"pyparsing/core.py\"},{\"line\":4713,\"path\":\"pyparsing/core.py\"},{\"line\":507",
+     "arguments_chars": 356,
+     "arguments_truncated": true,
+     "name": "submit_answer",
+     "numbered_lines_naming_target": null,
+     "response": 8,
+     "result_chars": null,
+     "strict_cstar_display": null,
+     "tool_call_id": "chatcmpl-tool-9f52400f24a00791"
+    }
+   ]
+  }
+ },
+ "first_user_message": {
+  "answer_line_diff": {
+   "entries_only_in_complete": {
+    "endpoints": [
+     {
+      "end_line": 5113,
+      "id": "pyparsing/core.py::Each.parseImpl",
+      "kind": "function",
+      "path": "pyparsing/core.py",
+      "snippet_end_line": 5070,
+      "snippet_truncated": false,
+      "start_line": 5028
+     }
+    ],
+    "matches": [
+     {
+      "id": "83d7fb412c55fb1f820ffc32",
+      "relation": "invokes",
+      "source": "pyparsing/core.py::Each.parseImpl",
+      "target": "pyparsing/core.py::ParserElement.try_parse"
+     }
+    ]
+   },
+   "entries_only_in_incomplete": {
+    "endpoints": [],
+    "matches": []
+   },
+   "fields_differing": {
+    "facts_sha256": {
+     "complete": "cbff16ca644e43c8935c1052a19aeb5916a94981e4dd691aaad68a2ffd4f067c",
+     "incomplete": "a4b7eb5127b90394ea33b1298f8ad8f0556ae67e9f16f7d0723966ed992a43a7"
+    },
+    "query_result_count": {
+     "complete": 6,
+     "incomplete": 5
+    },
+    "returned_count": {
+     "complete": 6,
+     "incomplete": 5
+    }
+   }
+  },
+  "complete_sha256": "ee116d7e432352d3cff49983d7f306e8f24811f95dca2662b46f65ed0d5d9338",
+  "incomplete_sha256": "8e937eea2073f5aa9a3d2f577e93b703b4a2c7bfa998e741d5096502f4ba9417",
+  "lines_only_in_complete": [
+   "{\"coverage\":{\"completeness\":\"unknown\",\"scope\":\"Python functions and methods under pyparsing\"},\"coverage_totals\":{},\"endpoints\":[{\"end_line\":5113,\"id\":\"pyparsing/core.py::Each.parseImpl\",\"kind\":\"function\",\"path\":\"pyparsing/core.py\",\"snippet\":\"    def parseImpl(self, instring, loc, do_actions=True) -> ParseImplReturnType:\\n        if self.initExprGroups:\\n            self.opt1map = dict(\\n                (id(e.expr), e) for e in self.exprs if isinstance(e, Opt)\\n            )\\n            opt1 = [e.expr for e in self.exprs if isinstance(e, Opt)]\\n            opt2 = [\\n                e\\n                for e in self.exprs\\n                if e.mayReturnEmpty and not isinstance(e, (Opt, Regex, ZeroOrMore))\\n            ]\\n            self.optionals = opt1 + opt2\\n            self.multioptionals = [\\n                e.expr.set_results_name(e.resultsName, list_all_matches=True)\\n                for e in self.exprs\\n                if isinstance(e, _MultipleMatch)\\n            ]\\n            self.multirequired = [\\n                e.expr.set_results_name(e.resultsName, list_all_matches=True)\\n                for e in self.exprs\\n                if isinstance(e, OneOrMore)\\n            ]\\n            self.required = [\\n                e for e in self.exprs if not isinstance(e, (Opt, ZeroOrMore, OneOrMore))\\n            ]\\n            self.required += self.multirequired\\n            self.initExprGroups = False\\n\\n        tmpLoc = loc\\n        tmpReqd = self.required[:]\\n        tmpOpt = self.optionals[:]\\n        multis = self.multioptionals[:]\\n        matchOrder: list[ParserElement] = []\\n\\n        keepMatching = True\\n        failed: list[ParserElement] = []\\n        fatals: list[ParseFatalException] = []\\n        while keepMatching:\\n            tmpExprs = tmpReqd + tmpOpt + multis\\n            failed.clear()\\n            fatals.clear()\\n            for e in tmpExprs:\\n                try:\",\"snippet_end_line\":5070,\"snippet_truncated\":false,\"start_line\":5028},{\"end_line\":5364,\"id\":\"pyparsing/core.py::IndentedBlock.parseImpl\",\"kind\":\"function\",\"path\":\"pyparsing/core.py\",\"snippet\":\"    def parseImpl(self, instring, loc, do_actions=True) -> ParseImplReturnType:\\n        # advance parse position to non-whitespace by using an Empty()\\n        # this should be the column to be used for all subsequent indented lines\\n        anchor_loc = Empty().preParse(instring, loc)\\n\\n        # see if self.expr matches at the current location - if not it will raise an exception\\n        # and no further work is necessary\\n        self.expr.try_parse(instring, anchor_loc, do_actions=do_actions)\\n\\n        indent_col = col(anchor_loc, instring)\\n        peer_detect_expr = self._Indent(indent_col)\\n\\n        inner_expr = Empty() + peer_detect_expr + self.expr\\n        if self._recursive:\\n            sub_indent = self._IndentGreater(indent_col)\\n            nested_block = IndentedBlock(\\n                self.expr, recursive=self._recursive, grouped=self._grouped\\n            )\\n            nested_block.set_debug(self.debug)\\n            nested_block.parent_anchor = indent_col\\n            inner_expr += Opt(sub_indent + nested_block)\\n\\n        inner_expr.set_name(f\\\"inner {hex(id(inner_expr))[-4:].upper()}@{indent_col}\\\")\\n        block = OneOrMore(inner_expr)\\n\\n        trailing_undent = self._Indent(self.parent_anchor) | StringEnd()\\n\\n        if self._grouped:\\n            wrapper = Group\\n        else:\\n            wrapper = lambda expr: expr  # type: ignore[misc, assignment]\\n        return (wrapper(block) + Optional(trailing_undent)).parseImpl(\\n            instring, anchor_loc, do_actions\\n        )\",\"snippet_end_line\":5364,\"snippet_truncated\":false,\"start_line\":5331},{\"end_line\":4786,\"id\":\"pyparsing/core.py::Or.parseImpl\",\"kind\":\"function\",\"path\":\"pyparsing/core.py\",\"snippet\":\"    def parseImpl(self, instring, loc, do_actions=True) -> ParseImplReturnType:\\n        maxExcLoc = -1\\n        maxException = None\\n        matches: list[tuple[int, ParserElement]] = []\\n        fatals: list[ParseFatalException] = []\\n        if all(e.callPreparse for e in self.exprs):\\n            loc = self.preParse(instring, loc)\\n        for e in self.exprs:\\n            try:\\n                loc2 = e.try_parse(instring, loc, raise_fatal=True)\\n            except ParseFatalException as pfe:\\n                pfe.__traceback__ = None\\n                pfe.parser_element = e\\n                fatals.append(pfe)\\n                maxException = None\\n                maxExcLoc = -1\\n            except ParseException as err:\\n                if not fatals:\\n                    err.__traceback__ = None\\n                    if err.loc > maxExcLoc:\\n                        maxException = err\\n                        maxExcLoc = err.loc\\n            except IndexError:\\n                if len(instring) > maxExcLoc:\\n                    maxException = ParseException(\\n                        instring, len(instring), e.errmsg, self\\n                    )\\n                    maxExcLoc = len(instring)\\n            else:\\n                # save match among all matches, to retry longest to shortest\\n                matches.append((loc2, e))\\n\\n        if matches:\\n            # re-evaluate all matches in descending order of length of match, in case attached actions\\n            # might change whether or how much they match of the input.\\n            matches.sort(key=itemgetter(0), reverse=True)\\n\\n            if not do_actions:\\n                # no further conditions or parse actions to change the selection of\",\"snippet_end_line\":4742,\"snippet_truncated\":false,\"start_line\":4704},{\"end_line\":1038,\"id\":\"pyparsing/core.py::ParserElement.can_parse_next\",\"kind\":\"function\",\"path\":\"pyparsing/core.py\",\"snippet\":\"    def can_parse_next(self, instring: str, loc: int, do_actions: bool = False) -> bool:\\n        try:\\n            self.try_parse(instring, loc, do_actions=do_actions)\\n        except (ParseException, IndexError):\\n            return False\\n        else:\\n            return True\",\"snippet_end_line\":1038,\"snippet_truncated\":false,\"start_line\":1032},{\"end_line\":1030,\"id\":\"pyparsing/core.py::ParserElement.try_parse\",\"kind\":\"function\",\"path\":\"pyparsing/core.py\",\"snippet\":\"    def try_parse(\\n        self,\\n        instring: str,\\n        loc: int,\\n        *,\\n        raise_fatal: bool = False,\\n        do_actions: bool = False,\\n    ) -> int:\\n        try:\\n            return self._parse(instring, loc, do_actions=do_actions)[0]\\n        except ParseFatalException:\\n            if raise_fatal:\\n                raise\\n            raise ParseException(instring, loc, self.errmsg, self)\",\"snippet_end_line\":1030,\"snippet_truncated\":false,\"start_line\":1017},{\"end_line\":6142,\"id\":\"pyparsing/core.py::SkipTo.parseImpl\",\"kind\":\"function\",\"path\":\"pyparsing/core.py\",\"snippet\":\"    def parseImpl(self, instring, loc, do_actions=True):\\n        startloc = loc\\n        instrlen = len(instring)\\n        self_expr_parse = self.expr._parse\\n        self_failOn_canParseNext = (\\n            self.failOn.can_parse_next if self.failOn is not None else None\\n        )\\n        ignorer_try_parse = self.ignorer.try_parse if self.ignorer.ignoreExprs else None\\n\\n        tmploc = loc\\n        while tmploc <= instrlen:\\n            if self_failOn_canParseNext is not None:\\n                # break if failOn expression matches\\n                if self_failOn_canParseNext(instring, tmploc):\\n                    break\\n\\n            if ignorer_try_parse is not None:\\n                # advance past ignore expressions\\n                prev_tmploc = tmploc\\n                while 1:\\n                    try:\\n                        tmploc = ignorer_try_parse(instring, tmploc)\\n                    except ParseBaseException:\\n                        break\\n                    # see if all ignorers matched, but didn't actually ignore anything\\n                    if tmploc == prev_tmploc:\\n                        break\\n                    prev_tmploc = tmploc\\n\\n            try:\\n                self_expr_parse(instring, tmploc, do_actions=False, callPreParse=False)\\n            except (ParseException, IndexError):\\n                # no match, advance loc in string\\n                tmploc += 1\\n            else:\\n                # matched skipto expr, done\\n                break\\n\\n        else:\\n            # ran off the end of the input string without matching skipto expr, fail\\n            raise ParseException(instring, loc, self.errmsg, self)\\n\\n        # build up return values\",\"snippet_end_line\":6133,\"snippet_truncated\":false,\"start_line\":6091},{\"end_line\":5700,\"id\":\"pyparsing/core.py::_MultipleMatch.parseImpl\",\"kind\":\"function\",\"path\":\"pyparsing/core.py\",\"snippet\":\"    def parseImpl(self, instring, loc, do_actions=True) -> ParseImplReturnType:\\n        self_expr_parse = self.expr._parse\\n        self_skip_ignorables = self._skipIgnorables\\n        check_ender = False\\n        if self.not_ender is not None:\\n            try_not_ender = self.not_ender.try_parse\\n            check_ender = True\\n\\n        # must be at least one (but first see if we are the stopOn sentinel;\\n        # if so, fail)\\n        if check_ender:\\n            try_not_ender(instring, loc)\\n        loc, tokens = self_expr_parse(instring, loc, do_actions)\\n        match_count = 1\\n        try:\\n            hasIgnoreExprs = not not self.ignoreExprs\\n            while self.max_count is None or match_count < self.max_count:\\n                if check_ender:\\n                    try_not_ender(instring, loc)\\n                if hasIgnoreExprs:\\n                    preloc = self_skip_ignorables(instring, loc)\\n                else:\\n                    preloc = loc\\n                loc, tmptokens = self_expr_parse(instring, preloc, do_actions)\\n                tokens += tmptokens\\n                match_count += 1\\n        except (ParseException, IndexError):\\n            pass\\n\\n        return loc, tokens\",\"snippet_end_line\":5700,\"snippet_truncated\":false,\"start_line\":5671}],\"error\":null,\"facts_sha256\":\"cbff16ca644e43c8935c1052a19aeb5916a94981e4dd691aaad68a2ffd4f067c\",\"matches\":[{\"id\":\"0d486166acdcb21d4e145074\",\"relation\":\"invokes\",\"source\":\"pyparsing/core.py::ParserElement.can_parse_next\",\"target\":\"pyparsing/core.py::ParserElement.try_parse\"},{\"id\":\"1ba1943a64a8d577dde6d75b\",\"relation\":\"invokes\",\"source\":\"pyparsing/core.py::Or.parseImpl\",\"target\":\"pyparsing/core.py::ParserElement.try_parse\"},{\"id\":\"2328a11751e3d38ec63d5a9f\",\"relation\":\"invokes\",\"source\":\"pyparsing/core.py::_MultipleMatch.parseImpl\",\"target\":\"pyparsing/core.py::ParserElement.try_parse\"},{\"id\":\"83d7fb412c55fb1f820ffc32\",\"relation\":\"invokes\",\"source\":\"pyparsing/core.py::Each.parseImpl\",\"target\":\"pyparsing/core.py::ParserElement.try_parse\"},{\"id\":\"ae233e518e486d31f2d03353\",\"relation\":\"invokes\",\"source\":\"pyparsing/core.py::SkipTo.parseImpl\",\"target\":\"pyparsing/core.py::ParserElement.try_parse\"},{\"id\":\"b2bb41caf07e9dd632615696\",\"relation\":\"invokes\",\"source\":\"pyparsing/core.py::IndentedBlock.parseImpl\",\"target\":\"pyparsing/core.py::ParserElement.try_parse\"}],\"payload_truncated\":false,\"query\":{\"direction\":\"incoming\",\"relation\":\"invokes\",\"symbol\":\"pyparsing/core.py::ParserElement.try_parse\"},\"query_result_count\":6,\"returned_count\":6,\"source_sha256\":\"34659f5c8ce47b2dec6f79b2c547681da5674cbb29c41bbe432cee25dfdc1065\",\"state\":\"matches\",\"symbol_indexed\":true,\"truncated\":false}"
+  ],
+  "lines_only_in_incomplete": [
+   "{\"coverage\":{\"completeness\":\"unknown\",\"scope\":\"Python functions and methods under pyparsing\"},\"coverage_totals\":{},\"endpoints\":[{\"end_line\":5364,\"id\":\"pyparsing/core.py::IndentedBlock.parseImpl\",\"kind\":\"function\",\"path\":\"pyparsing/core.py\",\"snippet\":\"    def parseImpl(self, instring, loc, do_actions=True) -> ParseImplReturnType:\\n        # advance parse position to non-whitespace by using an Empty()\\n        # this should be the column to be used for all subsequent indented lines\\n        anchor_loc = Empty().preParse(instring, loc)\\n\\n        # see if self.expr matches at the current location - if not it will raise an exception\\n        # and no further work is necessary\\n        self.expr.try_parse(instring, anchor_loc, do_actions=do_actions)\\n\\n        indent_col = col(anchor_loc, instring)\\n        peer_detect_expr = self._Indent(indent_col)\\n\\n        inner_expr = Empty() + peer_detect_expr + self.expr\\n        if self._recursive:\\n            sub_indent = self._IndentGreater(indent_col)\\n            nested_block = IndentedBlock(\\n                self.expr, recursive=self._recursive, grouped=self._grouped\\n            )\\n            nested_block.set_debug(self.debug)\\n            nested_block.parent_anchor = indent_col\\n            inner_expr += Opt(sub_indent + nested_block)\\n\\n        inner_expr.set_name(f\\\"inner {hex(id(inner_expr))[-4:].upper()}@{indent_col}\\\")\\n        block = OneOrMore(inner_expr)\\n\\n        trailing_undent = self._Indent(self.parent_anchor) | StringEnd()\\n\\n        if self._grouped:\\n            wrapper = Group\\n        else:\\n            wrapper = lambda expr: expr  # type: ignore[misc, assignment]\\n        return (wrapper(block) + Optional(trailing_undent)).parseImpl(\\n            instring, anchor_loc, do_actions\\n        )\",\"snippet_end_line\":5364,\"snippet_truncated\":false,\"start_line\":5331},{\"end_line\":4786,\"id\":\"pyparsing/core.py::Or.parseImpl\",\"kind\":\"function\",\"path\":\"pyparsing/core.py\",\"snippet\":\"    def parseImpl(self, instring, loc, do_actions=True) -> ParseImplReturnType:\\n        maxExcLoc = -1\\n        maxException = None\\n        matches: list[tuple[int, ParserElement]] = []\\n        fatals: list[ParseFatalException] = []\\n        if all(e.callPreparse for e in self.exprs):\\n            loc = self.preParse(instring, loc)\\n        for e in self.exprs:\\n            try:\\n                loc2 = e.try_parse(instring, loc, raise_fatal=True)\\n            except ParseFatalException as pfe:\\n                pfe.__traceback__ = None\\n                pfe.parser_element = e\\n                fatals.append(pfe)\\n                maxException = None\\n                maxExcLoc = -1\\n            except ParseException as err:\\n                if not fatals:\\n                    err.__traceback__ = None\\n                    if err.loc > maxExcLoc:\\n                        maxException = err\\n                        maxExcLoc = err.loc\\n            except IndexError:\\n                if len(instring) > maxExcLoc:\\n                    maxException = ParseException(\\n                        instring, len(instring), e.errmsg, self\\n                    )\\n                    maxExcLoc = len(instring)\\n            else:\\n                # save match among all matches, to retry longest to shortest\\n                matches.append((loc2, e))\\n\\n        if matches:\\n            # re-evaluate all matches in descending order of length of match, in case attached actions\\n            # might change whether or how much they match of the input.\\n            matches.sort(key=itemgetter(0), reverse=True)\\n\\n            if not do_actions:\\n                # no further conditions or parse actions to change the selection of\",\"snippet_end_line\":4742,\"snippet_truncated\":false,\"start_line\":4704},{\"end_line\":1038,\"id\":\"pyparsing/core.py::ParserElement.can_parse_next\",\"kind\":\"function\",\"path\":\"pyparsing/core.py\",\"snippet\":\"    def can_parse_next(self, instring: str, loc: int, do_actions: bool = False) -> bool:\\n        try:\\n            self.try_parse(instring, loc, do_actions=do_actions)\\n        except (ParseException, IndexError):\\n            return False\\n        else:\\n            return True\",\"snippet_end_line\":1038,\"snippet_truncated\":false,\"start_line\":1032},{\"end_line\":1030,\"id\":\"pyparsing/core.py::ParserElement.try_parse\",\"kind\":\"function\",\"path\":\"pyparsing/core.py\",\"snippet\":\"    def try_parse(\\n        self,\\n        instring: str,\\n        loc: int,\\n        *,\\n        raise_fatal: bool = False,\\n        do_actions: bool = False,\\n    ) -> int:\\n        try:\\n            return self._parse(instring, loc, do_actions=do_actions)[0]\\n        except ParseFatalException:\\n            if raise_fatal:\\n                raise\\n            raise ParseException(instring, loc, self.errmsg, self)\",\"snippet_end_line\":1030,\"snippet_truncated\":false,\"start_line\":1017},{\"end_line\":6142,\"id\":\"pyparsing/core.py::SkipTo.parseImpl\",\"kind\":\"function\",\"path\":\"pyparsing/core.py\",\"snippet\":\"    def parseImpl(self, instring, loc, do_actions=True):\\n        startloc = loc\\n        instrlen = len(instring)\\n        self_expr_parse = self.expr._parse\\n        self_failOn_canParseNext = (\\n            self.failOn.can_parse_next if self.failOn is not None else None\\n        )\\n        ignorer_try_parse = self.ignorer.try_parse if self.ignorer.ignoreExprs else None\\n\\n        tmploc = loc\\n        while tmploc <= instrlen:\\n            if self_failOn_canParseNext is not None:\\n                # break if failOn expression matches\\n                if self_failOn_canParseNext(instring, tmploc):\\n                    break\\n\\n            if ignorer_try_parse is not None:\\n                # advance past ignore expressions\\n                prev_tmploc = tmploc\\n                while 1:\\n                    try:\\n                        tmploc = ignorer_try_parse(instring, tmploc)\\n                    except ParseBaseException:\\n                        break\\n                    # see if all ignorers matched, but didn't actually ignore anything\\n                    if tmploc == prev_tmploc:\\n                        break\\n                    prev_tmploc = tmploc\\n\\n            try:\\n                self_expr_parse(instring, tmploc, do_actions=False, callPreParse=False)\\n            except (ParseException, IndexError):\\n                # no match, advance loc in string\\n                tmploc += 1\\n            else:\\n                # matched skipto expr, done\\n                break\\n\\n        else:\\n            # ran off the end of the input string without matching skipto expr, fail\\n            raise ParseException(instring, loc, self.errmsg, self)\\n\\n        # build up return values\",\"snippet_end_line\":6133,\"snippet_truncated\":false,\"start_line\":6091},{\"end_line\":5700,\"id\":\"pyparsing/core.py::_MultipleMatch.parseImpl\",\"kind\":\"function\",\"path\":\"pyparsing/core.py\",\"snippet\":\"    def parseImpl(self, instring, loc, do_actions=True) -> ParseImplReturnType:\\n        self_expr_parse = self.expr._parse\\n        self_skip_ignorables = self._skipIgnorables\\n        check_ender = False\\n        if self.not_ender is not None:\\n            try_not_ender = self.not_ender.try_parse\\n            check_ender = True\\n\\n        # must be at least one (but first see if we are the stopOn sentinel;\\n        # if so, fail)\\n        if check_ender:\\n            try_not_ender(instring, loc)\\n        loc, tokens = self_expr_parse(instring, loc, do_actions)\\n        match_count = 1\\n        try:\\n            hasIgnoreExprs = not not self.ignoreExprs\\n            while self.max_count is None or match_count < self.max_count:\\n                if check_ender:\\n                    try_not_ender(instring, loc)\\n                if hasIgnoreExprs:\\n                    preloc = self_skip_ignorables(instring, loc)\\n                else:\\n                    preloc = loc\\n                loc, tmptokens = self_expr_parse(instring, preloc, do_actions)\\n                tokens += tmptokens\\n                match_count += 1\\n        except (ParseException, IndexError):\\n            pass\\n\\n        return loc, tokens\",\"snippet_end_line\":5700,\"snippet_truncated\":false,\"start_line\":5671}],\"error\":null,\"facts_sha256\":\"a4b7eb5127b90394ea33b1298f8ad8f0556ae67e9f16f7d0723966ed992a43a7\",\"matches\":[{\"id\":\"0d486166acdcb21d4e145074\",\"relation\":\"invokes\",\"source\":\"pyparsing/core.py::ParserElement.can_parse_next\",\"target\":\"pyparsing/core.py::ParserElement.try_parse\"},{\"id\":\"1ba1943a64a8d577dde6d75b\",\"relation\":\"invokes\",\"source\":\"pyparsing/core.py::Or.parseImpl\",\"target\":\"pyparsing/core.py::ParserElement.try_parse\"},{\"id\":\"2328a11751e3d38ec63d5a9f\",\"relation\":\"invokes\",\"source\":\"pyparsing/core.py::_MultipleMatch.parseImpl\",\"target\":\"pyparsing/core.py::ParserElement.try_parse\"},{\"id\":\"ae233e518e486d31f2d03353\",\"relation\":\"invokes\",\"source\":\"pyparsing/core.py::SkipTo.parseImpl\",\"target\":\"pyparsing/core.py::ParserElement.try_parse\"},{\"id\":\"b2bb41caf07e9dd632615696\",\"relation\":\"invokes\",\"source\":\"pyparsing/core.py::IndentedBlock.parseImpl\",\"target\":\"pyparsing/core.py::ParserElement.try_parse\"}],\"payload_truncated\":false,\"query\":{\"direction\":\"incoming\",\"relation\":\"invokes\",\"symbol\":\"pyparsing/core.py::ParserElement.try_parse\"},\"query_result_count\":5,\"returned_count\":5,\"source_sha256\":\"34659f5c8ce47b2dec6f79b2c547681da5674cbb29c41bbe432cee25dfdc1065\",\"state\":\"matches\",\"symbol_indexed\":true,\"truncated\":false}"
+  ],
+  "system_prompt_identical": true
+ },
+ "imported_scripts_sha256": {
+  "expA_a3_explore.py": "76bfac270ff78339effc5977ae41e04762b3c419592bd2e30aaf408276e3f21b",
+  "expA_followup_paired.py": "400b65a68102a1184620532bc37cf40ca3f821d14067168a31b30097be9233ff",
+  "expA_reanalyze_independent.py": "00e39b9e6a0177bca3b136b7b777df4dc28a84f5451c23c8e1ff32c778725a3b",
+  "expA_timeline.py": "1dd99c9fb07191473e42bcc5d97cf0f18cb63037f355e57eacb31003c696b6df"
+ },
+ "incomplete_episode_class": "no_matched_display_submitted_at_last",
+ "inputs": {
+  "items": {
+   "path": "/mnt/kldata/absent-edges-20261018-core2/expA/prod-items-0b8ee0b7c/items-main/items.jsonl",
+   "sha256": "f3451a3c9fba2ffd3455df17718d3e276132cf9eb0a7158240256deed32764c8"
+  },
+  "run_dir_off": "/mnt/kldata/absent-edges-20261018-core2/expA/runs/a3ledger-off-20261104a",
+  "run_json": {
+   "path": "/mnt/kldata/absent-edges-20261018-core2/expA/runs/a3ledger-off-20261104a/run.json",
+   "sha256": "2ac2e201cc54e969bc5bb2e3360ff4de9ba42e61825640cfdadd651c50eb581e"
+  },
+  "scores_off": {
+   "path": "/mnt/kldata/absent-edges-20261018-core2/expA/a3ledger-off-analysis-20261104a/scores.jsonl",
+   "sha256": "0a164da3c40f7ca0345305e225c367001dfded569fe493247ab32ce03dc7e601"
+  }
+ },
+ "label": "DESCRIPTIVE, POST HOC worked example (2026-11-07); ANALYSIS RECORD; one pair chosen by a fixed rule, not a representative sample",
+ "pair": {
+  "cstar": {
+   "identity": "pyparsing/core.py::Each.parseImpl",
+   "qualname": "Each.parseImpl",
+   "site": "pyparsing/core.py:5071",
+   "sites": [
+    {
+     "end_lineno": 5071,
+     "lineno": 5071,
+     "path": "pyparsing/core.py"
+    }
+   ],
+   "stratum": "direct"
+  },
+  "item_id": "042f64c24078d194fc6e",
+  "library": "pyparsing",
+  "n_V": 6,
+  "seed": 61,
+  "target": {
+   "identity": "pyparsing/core.py::ParserElement.try_parse",
+   "line": 1017,
+   "path": "pyparsing/core.py",
+   "qualname": "ParserElement.try_parse"
+  }
+ },
+ "script_sha256": "4f1ea5d3f15d8e8562bcad7cbaf3bcc941f236d1394c3f667714efee1b952d3c",
+ "selection": {
+  "complete_only_pairs": 259,
+  "complete_only_pairs_direct_stratum": 214,
+  "rule": "A3 ledger-off run; completed LEDGER cells; item-seed pairs where the complete list (vcomplete) recovered C* and the incomplete list (omit_node) did not (recovered = Submitted and site_recovered); C* in the direct stratum; sorted by (seed, item_id) ascending; the first pair"
+ }
+}

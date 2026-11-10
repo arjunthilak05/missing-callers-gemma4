@@ -1,0 +1,270 @@
+{
+ "conditions": {
+  "new_16_responses": {
+   "C0": {
+    "episodes": 750,
+    "exits": {
+     "NoAnswer": 135,
+     "Submitted": 615
+    },
+    "mean_calls": 9.394666666666666,
+    "mean_calls_submitted": 7.944715447154471,
+    "mean_completion_tokens": 404.60266666666666,
+    "mean_prompt_tokens": 33860.412,
+    "recovered_by_response_8_share": 0.49333333333333335,
+    "recovered_share": 0.7813333333333333,
+    "recovery_given_submission": 0.9528455284552846,
+    "submitted_by_response_8_share": 0.5066666666666667,
+    "submitted_share": 0.82
+   },
+   "C1": {
+    "episodes": 750,
+    "exits": {
+     "NoAnswer": 55,
+     "Submitted": 695
+    },
+    "mean_calls": 7.661333333333333,
+    "mean_calls_submitted": 7.001438848920864,
+    "mean_completion_tokens": 354.78266666666667,
+    "mean_prompt_tokens": 32174.392,
+    "recovered_by_response_8_share": 0.6573333333333333,
+    "recovered_share": 0.8533333333333334,
+    "recovery_given_submission": 0.920863309352518,
+    "submitted_by_response_8_share": 0.696,
+    "submitted_share": 0.9266666666666666
+   },
+   "C2": {
+    "episodes": 750,
+    "exits": {
+     "NoAnswer": 82,
+     "Submitted": 668
+    },
+    "mean_calls": 8.118666666666666,
+    "mean_calls_submitted": 7.151197604790419,
+    "mean_completion_tokens": 365.0106666666667,
+    "mean_prompt_tokens": 36324.76666666667,
+    "recovered_by_response_8_share": 0.64,
+    "recovered_share": 0.8413333333333334,
+    "recovery_given_submission": 0.9446107784431138,
+    "submitted_by_response_8_share": 0.6613333333333333,
+    "submitted_share": 0.8906666666666667
+   },
+   "C3": {
+    "episodes": 750,
+    "exits": {
+     "NoAnswer": 76,
+     "Submitted": 674
+    },
+    "mean_calls": 8.268,
+    "mean_calls_submitted": 7.396142433234421,
+    "mean_completion_tokens": 367.9053333333333,
+    "mean_prompt_tokens": 38049.33733333334,
+    "recovered_by_response_8_share": 0.5946666666666667,
+    "recovered_share": 0.8333333333333334,
+    "recovery_given_submission": 0.9272997032640949,
+    "submitted_by_response_8_share": 0.6213333333333333,
+    "submitted_share": 0.8986666666666666
+   },
+   "C4a": {
+    "episodes": 750,
+    "exits": {
+     "NoAnswer": 59,
+     "Submitted": 691
+    },
+    "mean_calls": 7.326666666666667,
+    "mean_calls_submitted": 6.586107091172214,
+    "mean_completion_tokens": 338.25333333333333,
+    "mean_prompt_tokens": 34816.332,
+    "recovered_by_response_8_share": 0.692,
+    "recovered_share": 0.8573333333333333,
+    "recovery_given_submission": 0.9305354558610709,
+    "submitted_by_response_8_share": 0.716,
+    "submitted_share": 0.9213333333333333
+   }
+  },
+  "ref_8_responses": {
+   "C0": {
+    "episodes": 750,
+    "exits": {
+     "NoAnswer": 304,
+     "Submitted": 446
+    },
+    "mean_calls": 6.478666666666666,
+    "mean_calls_submitted": 5.441704035874439,
+    "mean_completion_tokens": 274.572,
+    "mean_prompt_tokens": 14990.378666666667,
+    "recovered_by_response_8_share": 0.5733333333333334,
+    "recovered_share": 0.5733333333333334,
+    "recovery_given_submission": 0.9641255605381166,
+    "submitted_by_response_8_share": 0.5946666666666667,
+    "submitted_share": 0.5946666666666667
+   },
+   "C1": {
+    "episodes": 750,
+    "exits": {
+     "NoAnswer": 165,
+     "Submitted": 585
+    },
+    "mean_calls": 5.976,
+    "mean_calls_submitted": 5.4051282051282055,
+    "mean_completion_tokens": 273.688,
+    "mean_prompt_tokens": 20548.688,
+    "recovered_by_response_8_share": 0.7333333333333333,
+    "recovered_share": 0.7333333333333333,
+    "recovery_given_submission": 0.9401709401709402,
+    "submitted_by_response_8_share": 0.78,
+    "submitted_share": 0.78
+   },
+   "C2": {
+    "episodes": 750,
+    "exits": {
+     "NoAnswer": 200,
+     "Submitted": 550
+    },
+    "mean_calls": 6.217333333333333,
+    "mean_calls_submitted": 5.569090909090909,
+    "mean_completion_tokens": 276.21866666666665,
+    "mean_prompt_tokens": 22350.806666666667,
+    "recovered_by_response_8_share": 0.6986666666666667,
+    "recovered_share": 0.6986666666666667,
+    "recovery_given_submission": 0.9527272727272728,
+    "submitted_by_response_8_share": 0.7333333333333333,
+    "submitted_share": 0.7333333333333333
+   },
+   "C3": {
+    "episodes": 750,
+    "exits": {
+     "NoAnswer": 212,
+     "Submitted": 538
+    },
+    "mean_calls": 6.236,
+    "mean_calls_submitted": 5.54089219330855,
+    "mean_completion_tokens": 275.06533333333334,
+    "mean_prompt_tokens": 23012.576,
+    "recovered_by_response_8_share": 0.684,
+    "recovered_share": 0.684,
+    "recovery_given_submission": 0.9535315985130112,
+    "submitted_by_response_8_share": 0.7173333333333334,
+    "submitted_share": 0.7173333333333334
+   },
+   "C4a": {
+    "episodes": 750,
+    "exits": {
+     "NoAnswer": 163,
+     "Submitted": 587
+    },
+    "mean_calls": 5.729333333333333,
+    "mean_calls_submitted": 5.098807495741056,
+    "mean_completion_tokens": 264.096,
+    "mean_prompt_tokens": 22204.293333333335,
+    "recovered_by_response_8_share": 0.7413333333333333,
+    "recovered_share": 0.7413333333333333,
+    "recovery_given_submission": 0.9471890971039182,
+    "submitted_by_response_8_share": 0.7826666666666666,
+    "submitted_share": 0.7826666666666666
+   }
+  }
+ },
+ "did": {
+  "H1": {
+   "ci_high": 0.041986873524661586,
+   "ci_low": -0.02865354019132825,
+   "df": 29,
+   "estimate": 0.006666666666666667,
+   "n_families": 30,
+   "p_nominal": 0.7022878220448706,
+   "t": 0.3860357991589269
+  },
+  "H2": {
+   "ci_high": 0.02889951473549115,
+   "ci_low": -0.03689951473549115,
+   "df": 29,
+   "estimate": -0.004,
+   "n_families": 30,
+   "p_nominal": 0.805373450320758,
+   "t": -0.24866380657297182
+  },
+  "H3": {
+   "ci_high": -0.042866248452825544,
+   "ci_low": -0.13313375154717447,
+   "df": 29,
+   "estimate": -0.088,
+   "n_families": 30,
+   "p_nominal": 0.00041363918934835843,
+   "t": -3.9877076985182542
+  }
+ },
+ "inputs": {
+  "new_cells": {
+   "path": "D:/C_moved/Documents-work/2026-10-17/expA-backups/budget16-analysis-20261101b/CELLS.jsonl",
+   "sha256": "b828ae368cef2782da4fde07cb3f36bfdc1a9cb517dd32b469d41dab0a701758"
+  },
+  "ref_cells": {
+   "path": "D:/C_moved/Documents-work/2026-10-17/expA-backups/main-analysis-20261101b/CELLS.jsonl",
+   "sha256": "01a84b6973c2877fd30301a53163c7c619b416168d868bf645f8c43ffb2ff6ab"
+  }
+ },
+ "label": "ANALYSIS RECORD",
+ "mode": "budget",
+ "new_estimates": {
+  "H1": {
+   "ci_high": 0.011768526518344768,
+   "ci_low": -0.027768526518344768,
+   "df": 29,
+   "estimate": -0.008,
+   "n_families": 30,
+   "p_nominal": 0.41461619404162453,
+   "t": -0.8276710518549868
+  },
+  "H2": {
+   "ci_high": 0.027971915843917557,
+   "ci_low": -0.019971915843917557,
+   "df": 29,
+   "estimate": 0.004,
+   "n_families": 30,
+   "p_nominal": 0.7353600154881292,
+   "t": 0.34127095313521083
+  },
+  "H3": {
+   "ci_high": 0.10717106066609389,
+   "ci_low": 0.036828939333906116,
+   "df": 29,
+   "estimate": 0.072,
+   "n_families": 30,
+   "p_nominal": 0.00024033660635329747,
+   "t": 4.186866459091889
+  }
+ },
+ "ref_estimates": {
+  "H1": {
+   "ci_high": 0.011494439485321067,
+   "ci_low": -0.0408277728186544,
+   "df": 29,
+   "estimate": -0.014666666666666666,
+   "n_families": 30,
+   "p_nominal": 0.2609139061327841,
+   "t": -1.1466144146839574
+  },
+  "H2": {
+   "ci_high": 0.03639377161728176,
+   "ci_low": -0.020393771617281755,
+   "df": 29,
+   "estimate": 0.008,
+   "n_families": 30,
+   "p_nominal": 0.5688937570700241,
+   "t": 0.5762474023388653
+  },
+  "H3": {
+   "ci_high": 0.20367855716716113,
+   "ci_low": 0.11632144283283888,
+   "df": 29,
+   "estimate": 0.16,
+   "n_families": 30,
+   "p_nominal": 2.9451703805957586e-08,
+   "t": 7.4919311434412235
+  }
+ },
+ "seed": 11,
+ "status": "EXPLORATORY (protocols/EXPA_BUDGET16.md section 3): nominal intervals, no p-values interpreted",
+ "unit": "item mean over the selected seeds -> paired item difference -> family mean; nominal 95% t over family differences (df = F - 1)"
+}

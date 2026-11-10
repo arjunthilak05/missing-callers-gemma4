@@ -1,0 +1,389 @@
+{
+ "conditions": [
+  "C1",
+  "C3"
+ ],
+ "inputs": {
+  "hard": {
+   "path": "results/hard-20261102a/analysis/CELLS.jsonl",
+   "sha256": "57e9680d177d7f9500fcf1ab19874d77e3bd8ee1fba1427803d51e802ddb1873"
+  },
+  "main": {
+   "path": "results/main-20261101b/analysis/CELLS.jsonl",
+   "sha256": "01a84b6973c2877fd30301a53163c7c619b416168d868bf645f8c43ffb2ff6ab"
+  },
+  "qat": {
+   "path": "results/qat31b-20261102a/analysis/CELLS.jsonl",
+   "sha256": "fbfd7f999afa5294a8037b5642b7f4b843aa29d087f2e24a4eb4f85dd40a3b00"
+  },
+  "repl12b": {
+   "path": "results/repl12b-20261101a/analysis/CELLS.jsonl",
+   "sha256": "1f371685add6a7636c39320d00cd3c70ed4394303dfa199bc1cebcc4e70eda65"
+  }
+ },
+ "label": "EXPLORATORY, POST HOC (designed 2026-11-04 after all results); ANALYSIS RECORD",
+ "runs": {
+  "hard": {
+   "C1": {
+    "families": 27,
+    "items_paired": 236,
+    "items_unpaired": 0,
+    "omission_cost_complete_minus_incomplete": {
+     "ci_high": 0.4096516744634077,
+     "ci_low": 0.13066447029718148,
+     "estimate": 0.2701580723802946,
+     "estimate_exact": "3285703/12162150",
+     "n_families": 27
+    },
+    "recovery": {
+     "complete": {
+      "ci_high": 0.5140726473941195,
+      "ci_low": 0.25156101935065833,
+      "estimate": 0.3828168333723889,
+      "estimate_exact": "18623503/48648600",
+      "n_families": 27
+     },
+     "incomplete": {
+      "ci_high": 0.1849083965753719,
+      "ci_low": 0.04040912540881677,
+      "estimate": 0.11265876099209432,
+      "estimate_exact": "1826897/16216200",
+      "n_families": 27
+     }
+    },
+    "submitted": {
+     "complete": {
+      "ci_high": 0.6911559199317171,
+      "ci_low": 0.43766793111435615,
+      "estimate": 0.5644119255230367,
+      "estimate_exact": "78451/138996",
+      "n_families": 27
+     },
+     "incomplete": {
+      "ci_high": 0.6806972263902235,
+      "ci_low": 0.4193376769780132,
+      "estimate": 0.5500174516841183,
+      "estimate_exact": "8919193/16216200",
+      "n_families": 27
+     }
+    }
+   },
+   "C3": {
+    "families": 27,
+    "items_paired": 236,
+    "items_unpaired": 0,
+    "omission_cost_complete_minus_incomplete": {
+     "ci_high": 0.2601215848448297,
+     "ci_low": 0.05184702267933335,
+     "estimate": 0.15598430376208153,
+     "estimate_exact": "3794209/24324300",
+     "n_families": 27
+    },
+    "recovery": {
+     "complete": {
+      "ci_high": 0.36047036270787025,
+      "ci_low": 0.16421996753801557,
+      "estimate": 0.2623451651229429,
+      "estimate_exact": "510509/1945944",
+      "n_families": 27
+     },
+     "incomplete": {
+      "ci_high": 0.17374718530456448,
+      "ci_low": 0.03897453741715824,
+      "estimate": 0.10636086136086136,
+      "estimate_exact": "191641/1801800",
+      "n_families": 27
+     }
+    },
+    "submitted": {
+     "complete": {
+      "ci_high": 0.5047912709724404,
+      "ci_low": 0.2639381888681306,
+      "estimate": 0.3843647299202855,
+      "estimate_exact": "1335629/3474900",
+      "n_families": 27
+     },
+     "incomplete": {
+      "ci_high": 0.46588677367636616,
+      "ci_low": 0.2531844842837807,
+      "estimate": 0.3595356289800734,
+      "estimate_exact": "3498181/9729720",
+      "n_families": 27
+     }
+    }
+   }
+  },
+  "main": {
+   "C1": {
+    "families": 30,
+    "items_paired": 750,
+    "items_unpaired": 0,
+    "omission_cost_complete_minus_incomplete": {
+     "ci_high": 0.13568542233411252,
+     "ci_low": 0.08564791099922081,
+     "estimate": 0.11066666666666666,
+     "estimate_exact": "83/750",
+     "n_families": 30
+    },
+    "recovery": {
+     "complete": {
+      "ci_high": 0.8875639266589992,
+      "ci_low": 0.8004360733410008,
+      "estimate": 0.844,
+      "estimate_exact": "211/250",
+      "n_families": 30
+     },
+     "incomplete": {
+      "ci_high": 0.7848256089874306,
+      "ci_low": 0.6818410576792361,
+      "estimate": 0.7333333333333333,
+      "estimate_exact": "11/15",
+      "n_families": 30
+     }
+    },
+    "submitted": {
+     "complete": {
+      "ci_high": 0.8935390997646938,
+      "ci_low": 0.8104609002353063,
+      "estimate": 0.852,
+      "estimate_exact": "213/250",
+      "n_families": 30
+     },
+     "incomplete": {
+      "ci_high": 0.8241602400309208,
+      "ci_low": 0.7358397599690792,
+      "estimate": 0.78,
+      "estimate_exact": "39/50",
+      "n_families": 30
+     }
+    }
+   },
+   "C3": {
+    "families": 30,
+    "items_paired": 750,
+    "items_unpaired": 0,
+    "omission_cost_complete_minus_incomplete": {
+     "ci_high": 0.1332479099618599,
+     "ci_low": 0.0747520900381401,
+     "estimate": 0.104,
+     "estimate_exact": "13/125",
+     "n_families": 30
+    },
+    "recovery": {
+     "complete": {
+      "ci_high": 0.8367000274316836,
+      "ci_low": 0.7392999725683164,
+      "estimate": 0.788,
+      "estimate_exact": "197/250",
+      "n_families": 30
+     },
+     "incomplete": {
+      "ci_high": 0.7422255994920428,
+      "ci_low": 0.6257744005079573,
+      "estimate": 0.684,
+      "estimate_exact": "171/250",
+      "n_families": 30
+     }
+    },
+    "submitted": {
+     "complete": {
+      "ci_high": 0.8415465070185494,
+      "ci_low": 0.7451201596481173,
+      "estimate": 0.7933333333333333,
+      "estimate_exact": "119/150",
+      "n_families": 30
+     },
+     "incomplete": {
+      "ci_high": 0.7718163411157601,
+      "ci_low": 0.6628503255509065,
+      "estimate": 0.7173333333333334,
+      "estimate_exact": "269/375",
+      "n_families": 30
+     }
+    }
+   }
+  },
+  "qat": {
+   "C1": {
+    "families": 30,
+    "items_paired": 750,
+    "items_unpaired": 0,
+    "omission_cost_complete_minus_incomplete": {
+     "ci_high": 0.15638818615271335,
+     "ci_low": 0.08094514718061997,
+     "estimate": 0.11866666666666667,
+     "estimate_exact": "89/750",
+     "n_families": 30
+    },
+    "recovery": {
+     "complete": {
+      "ci_high": 0.8298090631662193,
+      "ci_low": 0.7328576035004474,
+      "estimate": 0.7813333333333333,
+      "estimate_exact": "293/375",
+      "n_families": 30
+     },
+     "incomplete": {
+      "ci_high": 0.7152455476740637,
+      "ci_low": 0.6100877856592697,
+      "estimate": 0.6626666666666666,
+      "estimate_exact": "497/750",
+      "n_families": 30
+     }
+    },
+    "submitted": {
+     "complete": {
+      "ci_high": 0.84069649037014,
+      "ci_low": 0.7406368429631933,
+      "estimate": 0.7906666666666666,
+      "estimate_exact": "593/750",
+      "n_families": 30
+     },
+     "incomplete": {
+      "ci_high": 0.7542699517528281,
+      "ci_low": 0.661730048247172,
+      "estimate": 0.708,
+      "estimate_exact": "177/250",
+      "n_families": 30
+     }
+    }
+   },
+   "C3": {
+    "families": 30,
+    "items_paired": 750,
+    "items_unpaired": 0,
+    "omission_cost_complete_minus_incomplete": {
+     "ci_high": 0.13521796097445596,
+     "ci_low": 0.08078203902554404,
+     "estimate": 0.108,
+     "estimate_exact": "27/250",
+     "n_families": 30
+    },
+    "recovery": {
+     "complete": {
+      "ci_high": 0.8116137636043506,
+      "ci_low": 0.7163862363956495,
+      "estimate": 0.764,
+      "estimate_exact": "191/250",
+      "n_families": 30
+     },
+     "incomplete": {
+      "ci_high": 0.7041359921040636,
+      "ci_low": 0.6078640078959363,
+      "estimate": 0.656,
+      "estimate_exact": "82/125",
+      "n_families": 30
+     }
+    },
+    "submitted": {
+     "complete": {
+      "ci_high": 0.8151347315472596,
+      "ci_low": 0.7208652684527403,
+      "estimate": 0.768,
+      "estimate_exact": "96/125",
+      "n_families": 30
+     },
+     "incomplete": {
+      "ci_high": 0.7313323946909773,
+      "ci_low": 0.6313342719756893,
+      "estimate": 0.6813333333333333,
+      "estimate_exact": "511/750",
+      "n_families": 30
+     }
+    }
+   }
+  },
+  "repl12b": {
+   "C1": {
+    "families": 30,
+    "items_paired": 750,
+    "items_unpaired": 0,
+    "omission_cost_complete_minus_incomplete": {
+     "ci_high": 0.14947127577836783,
+     "ci_low": 0.0798620575549655,
+     "estimate": 0.11466666666666667,
+     "estimate_exact": "43/375",
+     "n_families": 30
+    },
+    "recovery": {
+     "complete": {
+      "ci_high": 0.329464903821354,
+      "ci_low": 0.23853509617864596,
+      "estimate": 0.284,
+      "estimate_exact": "71/250",
+      "n_families": 30
+     },
+     "incomplete": {
+      "ci_high": 0.20946583319069992,
+      "ci_low": 0.12920083347596675,
+      "estimate": 0.16933333333333334,
+      "estimate_exact": "127/750",
+      "n_families": 30
+     }
+    },
+    "submitted": {
+     "complete": {
+      "ci_high": 0.3445142847420892,
+      "ci_low": 0.2501523819245774,
+      "estimate": 0.29733333333333334,
+      "estimate_exact": "223/750",
+      "n_families": 30
+     },
+     "incomplete": {
+      "ci_high": 0.22355871978099334,
+      "ci_low": 0.14177461355234,
+      "estimate": 0.18266666666666667,
+      "estimate_exact": "137/750",
+      "n_families": 30
+     }
+    }
+   },
+   "C3": {
+    "families": 30,
+    "items_paired": 750,
+    "items_unpaired": 0,
+    "omission_cost_complete_minus_incomplete": {
+     "ci_high": 0.08914085712899256,
+     "ci_low": 0.0015258095376741042,
+     "estimate": 0.04533333333333334,
+     "estimate_exact": "17/375",
+     "n_families": 30
+    },
+    "recovery": {
+     "complete": {
+      "ci_high": 0.2018978526129815,
+      "ci_low": 0.1261021473870185,
+      "estimate": 0.164,
+      "estimate_exact": "41/250",
+      "n_families": 30
+     },
+     "incomplete": {
+      "ci_high": 0.15818101310335747,
+      "ci_low": 0.07915232022997587,
+      "estimate": 0.11866666666666667,
+      "estimate_exact": "89/750",
+      "n_families": 30
+     }
+    },
+    "submitted": {
+     "complete": {
+      "ci_high": 0.2133986871852586,
+      "ci_low": 0.1332679794814081,
+      "estimate": 0.17333333333333334,
+      "estimate_exact": "13/75",
+      "n_families": 30
+     },
+     "incomplete": {
+      "ci_high": 0.16006111549569624,
+      "ci_low": 0.08260555117097045,
+      "estimate": 0.12133333333333333,
+      "estimate_exact": "91/750",
+      "n_families": 30
+     }
+    }
+   }
+  }
+ },
+ "script_sha256": "73b87ecd3419fc8cf70db368dc841d3840ab2f1d5b656d8cafa06ee65bdc42a0",
+ "seed": 11
+}

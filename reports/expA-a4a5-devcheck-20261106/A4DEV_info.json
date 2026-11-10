@@ -1,0 +1,194 @@
+{
+  "cells": {
+    "block_p_seed_11_selection_in_design": 68,
+    "dispatched": 68,
+    "empty_attempt_directories": 0,
+    "infrastructure_attempts_by_kind": {},
+    "states": {
+      "completed": 68,
+      "infra_pending": 0,
+      "missing_infrastructure": 0,
+      "not_dispatched": 0
+    },
+    "terminal_exits": {
+      "Submitted": 68
+    },
+    "terminal_only": "each cell's terminal attempt (D11.3: the first with a completed model exit); infrastructure attempts are not checked or counted"
+  },
+  "checks": {
+    "appended_iff_event": {
+      "checked": 68,
+      "description": "appended is true iff exactly one final_turn_notice event exists; the event agrees with the receipt and comes right before the call-7 context_accounting",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "config_receipts": {
+      "checked": 68,
+      "description": "result.json config and the episode_setup event's config are the policy's record",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "delivered_iff_exchange": {
+      "checked": 68,
+      "description": "delivered is true iff exactly one model_exchange exists at call_index 7; sent equals delivered (a sent, undelivered request is InfraInterrupted, never terminal); delivered implies appended",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "final_response_recorded": {
+      "checked": 26,
+      "description": "each delivered final response has exactly one parsed_actions or format_error event at call_index 7",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "notice_receipts": {
+      "checked": 68,
+      "description": "result.json exposure.final_turn_notice equals accounting.final_turn_notice and the episode_finished event's, has exactly the receipt fields, the policy, the sha256 of its text and suffix and call_index 7, and appended_to is set exactly when appended",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "receipt_accounting": {
+      "checked": 68,
+      "description": "prompt_tokens is the call-7 preflight count when appended (else null), max_tokens the call-7 max_tokens when sent (else null); a notice appended but not sent ends the episode as ContextLimit at call_index 7",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "records": {
+      "checked": 68,
+      "description": "each terminal attempt: its directory names its cell and attempt, result.json binds attempt_start.json and events.jsonl (sha256 and rows), its run_id is run.json's, and no attempt follows it",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "rendering": {
+      "checked": 26,
+      "description": "the detokenized served prompt of each delivered 8th request (response.prompt_token_ids) has '[harness notice] ' + TEXT exactly once, at the end of the last tool response or of the format-error user turn",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "request_bytes": {
+      "checked": 26,
+      "description": "the delivered 8th request: its last message is the noticed one (a tool message with the receipt's tool_call_id, or the format-error user message after an assistant message), its content ends with the suffix and matches the event's sha256s, and '[harness notice]' occurs once in the request",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "run_complete": {
+      "checked": 68,
+      "description": "every block-P seed-11 C0/C1 cell of cells.jsonl is terminal in the D11.3 sense (a completed attempt, or missing after 3 infrastructure attempts)",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "run_json_cells": {
+      "checked": 1,
+      "description": "cells.jsonl is the file run.json binds (cells_sha256)",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "run_json_episode_config": {
+      "checked": 1,
+      "description": "run.json episode_config is the policy's exact record (the six prereg fields, final_turn_policy and final_turn_notice)",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "selection": {
+      "checked": 68,
+      "description": "every dispatched cell is a block-P seed-11 C0/C1 cell of cells.jsonl",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    }
+  },
+  "failed_checks": [],
+  "go": true,
+  "go_rule": {
+    "format_errors": 0,
+    "noticed_final_responses": 26,
+    "passed": true,
+    "rule": "at least 90% of the final responses that received the notice (terminal attempts with a model_exchange at call_index 7) are valid tool calls (parsed_actions, not format_error, at call_index 7)",
+    "share": 1.0,
+    "threshold": 0.9,
+    "valid_tool_calls": 26
+  },
+  "notice": {
+    "appended": 26,
+    "appended_not_sent_cells": [],
+    "appended_to": {
+      "format_error": 0,
+      "tool_result": 26
+    },
+    "delivered": 26,
+    "delivered_by_appended_to": {
+      "format_error": 0,
+      "tool_result": 26
+    },
+    "format_error_cells": [],
+    "format_error_note": "appended_to format_error: the notice went on the format-error message after a format error at response 7 (REMINDER_FEASIBILITY.md section 2.5); reported per policy (A1 review, finding 2), not gated",
+    "not_reached_by_exit": {
+      "Submitted": 42
+    },
+    "sent": 26,
+    "terminal_attempts": 68
+  },
+  "policy": "deadline_info",
+  "protocol": "protocols/EXPA_A4_DIRECTIVE.md",
+  "rendering_samples": [
+    {
+      "appended_to": "tool_result",
+      "around_notice": "       if func.__dict__:\\n   223\\t                wrapped.__dict__.update(func.__\\n[output truncated: showing the first 3943 of 4954 bytes]\",\"truncated\":true}\n\n[harness notice] This is your last response.<|\"|>}<tool_response|>",
+      "cell": "P|0b66b87fd768c72c7e5f|none|C0|s11",
+      "prompt_tokens": 6275
+    }
+  ],
+  "run": {
+    "cells_jsonl_sha256": "31e9e4f22fd5d624b07b86d700d84e60de0f34e755194e0f0e05d04d5df7950e",
+    "model": {
+      "alias": "absent-edges-gemma4-31b-bf16",
+      "enable_thinking": false,
+      "hub_id": "google/gemma-4-31B-it",
+      "max_context": 32768,
+      "profile": "gemma4-31b",
+      "revision": "518276fb130dc81caf9a4f772e65e63ef2526493",
+      "temperature": 0.2
+    },
+    "run_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/runs/a4directive-dev-info-20261106a",
+    "run_id": "a4directive-dev-info-20261106a",
+    "run_json_sha256": "2e99491029a403bf5f2b56c4d1263ce71e02cb9feb0b12957eea31214f08d988"
+  },
+  "schema": "expA-finalturn-devcheck-v1",
+  "script": {
+    "path": "scripts/expA_finalturn_devcheck.py",
+    "sha256": "67c8e22d8ef341b164e66e1e491f96e464f8f4c5976d478e90d5ed1b3d741380"
+  },
+  "selection": {
+    "block": "P",
+    "conditions": [
+      "C0",
+      "C1"
+    ],
+    "seed": 11
+  },
+  "suffix_sha256": "72cdb5ebeef0d8c389c78f2c19f43591483f15fac2b8675afcb0667e99acb586",
+  "text": "This is your last response.",
+  "text_sha256": "a4bc21549f102149a762ccf3a93c09831cbeb33dd4a4ae4d8780a08920b634ae",
+  "tokenizer": {
+    "class": "GemmaTokenizer",
+    "decode": "skip_special_tokens=False, clean_up_tokenization_spaces=False",
+    "directory": "/mnt/kldata/absent-edges-20261018-core2/models/gemma4-31b-bf16-518276fb",
+    "files_sha256": {
+      "chat_template.jinja": "36e3a42e5cf14cd0020e72d92e1fdd9970f59b82170e421f0cbe1bb42bead3f0",
+      "tokenizer.json": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f",
+      "tokenizer_config.json": "90c3a3ba5bf53818383a58e1a776cbcacd2a038d4812eaa373e1522f2d06f3df"
+    },
+    "transformers": "5.14.1"
+  }
+}

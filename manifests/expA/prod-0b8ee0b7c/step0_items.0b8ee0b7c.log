@@ -1,0 +1,111 @@
+2026-11-01T03:12:03Z release 0b8ee0b7c
+2026-11-01T03:12:03Z release files: 160 sums_sha256=619627378b839f614e139420661e3b819c602d630eaac5ae4a07d020fd62a23f
+2026-11-01T03:12:03Z stager_sha256=8690ae0a8d503a9e737e60b7ea4e9a0b315176568163a9da602121f2a64ce583
+{
+ "families": [
+  "boltons",
+  "more-itertools"
+ ],
+ "families_without_trace": [],
+ "identity_py_sha256": {
+  "all_inputs_equal_local": true,
+  "local": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+ },
+ "main_roster": 30,
+ "out": "/mnt/kldata/absent-edges-20261018-core2/expA/prod-items-0b8ee0b7c/SPEC.dev.json",
+ "sha256": "fad0d81a5b82d60f8f0dfd1bf5c3b293a45a963127a7b079f7e6f424db990c88"
+}
+2026-11-01T03:12:03Z spec dev sha256=fad0d81a5b82d60f8f0dfd1bf5c3b293a45a963127a7b079f7e6f424db990c88
+{
+ "families": [
+  "alembic",
+  "click",
+  "cmd2",
+  "deepdiff",
+  "elementpath",
+  "genshi",
+  "graphql-core",
+  "httpx",
+  "icalendar",
+  "jinja",
+  "lark",
+  "liquid",
+  "markdown",
+  "markdown-it-py",
+  "mpmath",
+  "packaging",
+  "param",
+  "petl",
+  "pyparsing",
+  "python-docx",
+  "python-pptx",
+  "rdflib",
+  "rich",
+  "segno",
+  "sqlite-utils",
+  "traitlets",
+  "websockets",
+  "xlsxwriter",
+  "xmlschema",
+  "yapf"
+ ],
+ "families_without_trace": [],
+ "identity_py_sha256": {
+  "all_inputs_equal_local": true,
+  "local": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+ },
+ "main_roster": 30,
+ "out": "/mnt/kldata/absent-edges-20261018-core2/expA/prod-items-0b8ee0b7c/SPEC.main.json",
+ "sha256": "fee8ad50b0dbabd166e673af1000b5689dd84b1c0d63277cf189beba80a65132"
+}
+2026-11-01T03:12:04Z spec main sha256=fee8ad50b0dbabd166e673af1000b5689dd84b1c0d63277cf189beba80a65132
+{
+ "families": [
+  "alembic",
+  "boltons",
+  "click",
+  "cmd2",
+  "deepdiff",
+  "elementpath",
+  "genshi",
+  "graphql-core",
+  "httpx",
+  "icalendar",
+  "jinja",
+  "lark",
+  "liquid",
+  "markdown",
+  "markdown-it-py",
+  "more-itertools",
+  "mpmath",
+  "packaging",
+  "param",
+  "petl",
+  "pyparsing",
+  "python-docx",
+  "python-pptx",
+  "rdflib",
+  "rich",
+  "segno",
+  "sqlite-utils",
+  "traitlets",
+  "websockets",
+  "xlsxwriter",
+  "xmlschema",
+  "yapf"
+ ],
+ "families_without_trace": [],
+ "identity_py_sha256": {
+  "all_inputs_equal_local": true,
+  "local": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+ },
+ "main_roster": 30,
+ "out": "/mnt/kldata/absent-edges-20261018-core2/expA/prod-items-0b8ee0b7c/SPEC.main-dev.json",
+ "sha256": "ba05da3fb1bc4bddb2c18c38d2840054d1fc73983945a761268269cd06dcf4a4"
+}
+2026-11-01T03:12:04Z spec main-dev sha256=ba05da3fb1bc4bddb2c18c38d2840054d1fc73983945a761268269cd06dcf4a4
+2026-11-01T03:12:10Z items dev: items_sha256=19091cf353089e4edb0b5cc30bf9845024b2271a3e3eac044c4a26add8873d3d manifest_sha256=c695ca9cefa60b9e6494037d27e74a07cb39e8aa77d13a11888d693214583b82 dispatch_manifest_sha256=c8bac8a1dcb872c4736ce0701d50dbf5e6e9931cc5189e7342c690dcffa4e9be
+2026-11-01T03:18:00Z items main: items_sha256=f3451a3c9fba2ffd3455df17718d3e276132cf9eb0a7158240256deed32764c8 manifest_sha256=54e5bec71f9aea8184628b6c898608c71d38dcd96cd93c9f68ed191405185858 dispatch_manifest_sha256=f21129cb717120ca352674840e93b400b51ef29429b965f2a9a36f7819b7b6b1
+2026-11-01T03:18:00Z mirror clean checkouts (main+dev)
+2026-11-01T03:18:32Z clean_checkouts_sha256=58363dca69f434d14f6da8ed898fd46d367776bf2f183c80aa90610231163035
+2026-11-01T03:18:32Z STEP0_DONE

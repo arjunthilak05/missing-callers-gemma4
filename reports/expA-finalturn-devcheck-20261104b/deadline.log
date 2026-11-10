@@ -1,0 +1,2 @@
+GO: deadline run finalturn-dev-deadline-20261104b: 58/58 noticed final responses are valid tool calls (100.0%; go rule >= 90%: met); notices on a format-error message: 0; failed checks: none
+report: /mnt/kldata/absent-edges-20261018-core2/expA/finalturn-devcheck-20261104b/deadline.json

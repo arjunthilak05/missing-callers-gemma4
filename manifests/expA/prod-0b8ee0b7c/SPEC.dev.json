@@ -1,0 +1,151 @@
+{
+ "checks": {
+  "boltons": {
+   "commit": "4332b35a278d694f30c99881faa61cde695c7a96",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "4332b35a278d694f30c99881faa61cde695c7a96",
+   "source_tree_sha256": {
+    "jedi": "974d51d51c391d20c540dcec1ce179fd4b78ba157b52de9bcadbd0ea15a19ad1",
+    "locagent": "974d51d51c391d20c540dcec1ce179fd4b78ba157b52de9bcadbd0ea15a19ad1",
+    "trace": "974d51d51c391d20c540dcec1ce179fd4b78ba157b52de9bcadbd0ea15a19ad1"
+   },
+   "static": {
+    "jedi": {
+     "commit": "4332b35a278d694f30c99881faa61cde695c7a96",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "4332b35a278d694f30c99881faa61cde695c7a96",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "4332b35a278d694f30c99881faa61cde695c7a96",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/boltons/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  },
+  "more-itertools": {
+   "commit": "4aeb4338ae1407d8da9723e86da99efeb446f719",
+   "identity_py_sha256": [
+    "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+   ],
+   "repo_head": "4aeb4338ae1407d8da9723e86da99efeb446f719",
+   "source_tree_sha256": {
+    "jedi": "5386a3582f9c44a558a4d19799ebc16d22469c54cc45e793253fa466d7136efa",
+    "locagent": "5386a3582f9c44a558a4d19799ebc16d22469c54cc45e793253fa466d7136efa",
+    "trace": "5386a3582f9c44a558a4d19799ebc16d22469c54cc45e793253fa466d7136efa"
+   },
+   "static": {
+    "jedi": {
+     "commit": "4aeb4338ae1407d8da9723e86da99efeb446f719",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    },
+    "locagent": {
+     "commit": "4aeb4338ae1407d8da9723e86da99efeb446f719",
+     "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+     "status": "complete",
+     "tracked_changes": false
+    }
+   },
+   "trace": {
+    "commit": "4aeb4338ae1407d8da9723e86da99efeb446f719",
+    "dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/more-itertools/trace-1",
+    "dirty": false,
+    "identity_py_sha256": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2",
+    "status": "complete",
+    "tracer_py_sha256": "06f09d8623c7615ea1d295c84b7dab4438c34ca9b04537ea7d8ea71f2dfcc40a"
+   }
+  }
+ },
+ "families": [
+  {
+   "commit": "4332b35a278d694f30c99881faa61cde695c7a96",
+   "family": "boltons",
+   "package_dirs": [
+    "boltons"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/boltons",
+   "role": "dev",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/boltons",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/boltons/trace-1",
+   "url": "https://github.com/mahmoud/boltons"
+  },
+  {
+   "commit": "4aeb4338ae1407d8da9723e86da99efeb446f719",
+   "family": "more-itertools",
+   "package_dirs": [
+    "more_itertools"
+   ],
+   "repo_root": "/mnt/kldata/absent-edges-20261018-core2/expA/repos/more-itertools",
+   "role": "dev",
+   "static_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/static/more-itertools",
+   "trace_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b/more-itertools/trace-1",
+   "url": "https://github.com/more-itertools/more-itertools"
+  }
+ ],
+ "families_without_trace": [],
+ "identity_py_sha256": {
+  "all_inputs_equal_local": true,
+  "local": "6eb3410b02c7ee51d47084c1b7b947c81e85811f0213739d93607a5d2dd02bf2"
+ },
+ "main_roster": [
+  "alembic",
+  "click",
+  "cmd2",
+  "deepdiff",
+  "elementpath",
+  "genshi",
+  "graphql-core",
+  "httpx",
+  "icalendar",
+  "jinja",
+  "lark",
+  "liquid",
+  "markdown",
+  "markdown-it-py",
+  "mpmath",
+  "packaging",
+  "param",
+  "petl",
+  "pyparsing",
+  "python-docx",
+  "python-pptx",
+  "rdflib",
+  "rich",
+  "segno",
+  "sqlite-utils",
+  "traitlets",
+  "websockets",
+  "xlsxwriter",
+  "xmlschema",
+  "yapf"
+ ],
+ "main_trace_pin": null,
+ "registry": {
+  "path": "manifests/expA/registry.v1.json",
+  "schema": "expA-registry-v1",
+  "sha256": "87fc2fbb49f7bd9106d2ebed49c8f05c55a946fec02dc6cd85e2362cde88a168"
+ },
+ "roles": [
+  "dev"
+ ],
+ "roots": {
+  "repos": "/mnt/kldata/absent-edges-20261018-core2/expA/repos",
+  "static": "/mnt/kldata/absent-edges-20261018-core2/expA/static",
+  "trace": "/mnt/kldata/absent-edges-20261018-core2/expA/traces-dd842ab6b",
+  "trace_subdir": "trace-1"
+ },
+ "schema": "expA-items-spec-v2"
+}

@@ -1,0 +1,243 @@
+{
+ "counts": {
+  "V_callers": 101,
+  "V_callers_without_sites": 0,
+  "V_count_histogram": {
+   "2": 17,
+   "3": 10,
+   "4": 4,
+   "6": 2,
+   "9": 1
+  },
+  "V_runtime_witnessed": 84,
+  "V_sites": 117,
+  "V_sites_ast_only": 2,
+  "V_strata": {
+   "callback": 2,
+   "direct": 91,
+   "dynamic": 8
+  },
+  "by_family": {
+   "boltons": 25,
+   "more-itertools": 9
+  },
+  "by_role": {
+   "dev": 34
+  },
+  "c4_built": true,
+  "c4_contains_omitted_site": 28,
+  "c4_token_bounds": [
+   "utf8_bytes_upper_bound"
+  ],
+  "c4_trigger_fires": 17,
+  "eligible_total": 81,
+  "families": 2,
+  "families_short_of_m": [
+   "more-itertools"
+  ],
+  "families_without_items": [],
+  "families_without_locagent_unindexed_rule": [],
+  "funnel_total": {
+   "coroutine": 0,
+   "decorated": 12,
+   "docref_visibility": 1,
+   "dunder": 320,
+   "duplicate_identity": 9,
+   "generator": 100,
+   "incidental_visibility": 0,
+   "jedi_definition_error": 0,
+   "lambda": 0,
+   "locagent_unindexed": 0,
+   "mechanical_diff_failed": 0,
+   "nested_locals": 26,
+   "no_runtime_witnessed_caller": 12,
+   "out_of_scope": 0,
+   "property": 30,
+   "render_budget": 0,
+   "render_truncated": 0,
+   "verified_above_12": 1,
+   "verified_below_2": 600
+  },
+  "items": 34,
+  "main_roster_missing_from_build": [
+   "alembic",
+   "click",
+   "cmd2",
+   "deepdiff",
+   "elementpath",
+   "genshi",
+   "graphql-core",
+   "httpx",
+   "icalendar",
+   "jinja",
+   "lark",
+   "liquid",
+   "markdown",
+   "markdown-it-py",
+   "mpmath",
+   "packaging",
+   "param",
+   "petl",
+   "pyparsing",
+   "python-docx",
+   "python-pptx",
+   "rdflib",
+   "rich",
+   "segno",
+   "sqlite-utils",
+   "traitlets",
+   "websockets",
+   "xlsxwriter",
+   "xmlschema",
+   "yapf"
+  ],
+  "membership": {
+   "in_s_edge": 10,
+   "in_s_nat": 6,
+   "in_t": 10
+  },
+  "natural_miss": 6,
+  "natural_render_truncated": 2,
+  "omitted_name_visibility_by_family": {
+   "boltons": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 5,
+    "items_with_text_matches": 10,
+    "selected": 25
+   },
+   "more-itertools": {
+    "items_with_docref_mentions": 0,
+    "items_with_name_mentions": 1,
+    "items_with_text_matches": 1,
+    "selected": 9
+   }
+  },
+  "omitted_site_kinds": {
+   "call": 33,
+   "dynamic": 4,
+   "reference": 2
+  },
+  "omitted_stratum": {
+   "callback": 1,
+   "direct": 29,
+   "dynamic": 4
+  },
+  "s_nat_excluded_natural_truncated": 0,
+  "visibility_docref_mentions_positive": 0,
+  "visibility_name_mentions_positive": 6,
+  "visibility_text_matches_positive": 11,
+  "wording_pair": {
+   "A": 18,
+   "B": 16
+  }
+ },
+ "families": {
+  "boltons": {
+   "funnel": {
+    "eligible": 72,
+    "eligible_not_selected": 47,
+    "excluded": {
+     "coroutine": 0,
+     "decorated": 9,
+     "docref_visibility": 0,
+     "dunder": 266,
+     "duplicate_identity": 9,
+     "generator": 26,
+     "incidental_visibility": 0,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 19,
+     "no_runtime_witnessed_caller": 12,
+     "out_of_scope": 0,
+     "property": 27,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 1,
+     "verified_below_2": 471
+    },
+    "functions": 912,
+    "render_stage": {
+     "evaluated": 72
+    },
+    "selected": 25,
+    "text_rule": {
+     "reached_visibility": 72,
+     "text_rule_would_exclude": 28
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 545,
+     "records": 545
+    },
+    "L": {
+     "kept": 1171,
+     "records": 1171
+    },
+    "trace": {
+     "kept": 617,
+     "records": 669
+    }
+   },
+   "selected": 25,
+   "trace_status": "complete"
+  },
+  "more-itertools": {
+   "funnel": {
+    "eligible": 9,
+    "eligible_not_selected": 0,
+    "excluded": {
+     "coroutine": 0,
+     "decorated": 3,
+     "docref_visibility": 1,
+     "dunder": 54,
+     "duplicate_identity": 0,
+     "generator": 74,
+     "incidental_visibility": 0,
+     "jedi_definition_error": 0,
+     "lambda": 0,
+     "locagent_unindexed": 0,
+     "mechanical_diff_failed": 0,
+     "nested_locals": 7,
+     "no_runtime_witnessed_caller": 0,
+     "out_of_scope": 0,
+     "property": 3,
+     "render_budget": 0,
+     "render_truncated": 0,
+     "verified_above_12": 0,
+     "verified_below_2": 129
+    },
+    "functions": 280,
+    "render_stage": {
+     "evaluated": 10,
+     "visibility:docref": 1
+    },
+    "selected": 9,
+    "text_rule": {
+     "reached_visibility": 10,
+     "text_rule_would_exclude": 1
+    }
+   },
+   "record_counts": {
+    "J": {
+     "kept": 123,
+     "records": 123
+    },
+    "L": {
+     "kept": 118,
+     "records": 118
+    },
+    "trace": {
+     "kept": 95,
+     "records": 95
+    }
+   },
+   "selected": 9,
+   "trace_status": "complete"
+  }
+ },
+ "items_sha256": "19091cf353089e4edb0b5cc30bf9845024b2271a3e3eac044c4a26add8873d3d",
+ "out": "/mnt/kldata/absent-edges-20261018-core2/expA/prod-items-0b8ee0b7c/items-dev"
+}

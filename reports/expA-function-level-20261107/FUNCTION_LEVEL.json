@@ -1,0 +1,54 @@
+{
+ "label": "EXPLORATORY, POST HOC function-level omission cost (2026-11-07); ANALYSIS RECORD",
+ "script_sha256": "333fe02d5df03387e4875545b850ec109fce1b77aed7fb17e356815cee1bf4b2",
+ "runs": {
+  "a3off": {
+   "path": "/mnt/kldata/absent-edges-20261018-core2/expA/a3ledger-off-analysis-20261104a/scores.jsonl",
+   "sha256": "0a164da3c40f7ca0345305e225c367001dfded569fe493247ab32ce03dc7e601",
+   "completed_cells": 4500,
+   "pairs": 2250,
+   "strict": {
+    "libraries": 30,
+    "estimate": 0.10533333333333336,
+    "lo": 0.07641340470660221,
+    "hi": 0.1342532619600645,
+    "positive": 28,
+    "negative": 0
+   },
+   "function_level": {
+    "libraries": 30,
+    "estimate": 0.10977777777777781,
+    "lo": 0.07882167757435793,
+    "hi": 0.14073387798119769,
+    "positive": 29,
+    "negative": 0
+   },
+   "complete_only_pairs": 259,
+   "complete_only_incomplete_function_localized": 16
+  },
+  "a6": {
+   "path": "/mnt/kldata/absent-edges-20261018-core2/expA/a6budget16-analysis-20261106a/scores.jsonl",
+   "sha256": "5eb25e6d0a1b23403a08a772c35c6a87ed1962bb6818a09bbd55b3bae3b37f6c",
+   "completed_cells": 4500,
+   "pairs": 2250,
+   "strict": {
+    "libraries": 30,
+    "estimate": 0.08266666666666667,
+    "lo": 0.059596712877894316,
+    "hi": 0.10573662045543902,
+    "positive": 27,
+    "negative": 0
+   },
+   "function_level": {
+    "libraries": 30,
+    "estimate": 0.08133333333333334,
+    "lo": 0.05742836987046815,
+    "hi": 0.10523829679619853,
+    "positive": 25,
+    "negative": 0
+   },
+   "complete_only_pairs": 201,
+   "complete_only_incomplete_function_localized": 11
+  }
+ }
+}

@@ -1,0 +1,1 @@
+{"attempt_id": "P|0385ddb855340ee28ee5|omit_node|C1|s11.a001", "candidates": 53, "cstar": "genshi/input.py::HTMLParser.parse", "site": "genshi/input.py:354", "exit": "NoAnswer", "responses": 8}

@@ -1,0 +1,31 @@
+{
+ "a3_detector_audit": {
+  "name_shown": 92,
+  "neither_shown": 75,
+  "no_strict_display": 184,
+  "path_or_name_shown": 109,
+  "path_shown": 33
+ },
+ "a5_review_opportunities": {
+  "final_recovered": 1,
+  "ledger_listed_cstar": 2,
+  "ledger_listed_cstar_and_final_recovered": 1,
+  "reviewed_first_without_cstar": 31
+ },
+ "inputs": {
+  "a3_scores_off": {
+   "path": "/mnt/kldata/absent-edges-20261018-core2/expA/a3ledger-off-analysis-20261104a/scores.jsonl",
+   "sha256": "0a164da3c40f7ca0345305e225c367001dfded569fe493247ab32ce03dc7e601"
+  },
+  "a5_scores_ledger": {
+   "path": "/mnt/kldata/absent-edges-20261018-core2/expA/a5review-ledger-analysis-20261106a/scores.jsonl",
+   "sha256": "cad9452c86d0f3e251929c2e4a6f369e90b5fb08a58866e9bbf89b5cc1b40583"
+  },
+  "items": {
+   "path": "/mnt/kldata/absent-edges-20261018-core2/expA/prod-items-0b8ee0b7c/items-main/items.jsonl",
+   "sha256": "f3451a3c9fba2ffd3455df17718d3e276132cf9eb0a7158240256deed32764c8"
+  }
+ },
+ "label": "EXPLORATORY, POST HOC (2026-11-06, after reviews R9); ANALYSIS RECORD",
+ "script_sha256": "20e0d7a974ecc22b37586fc553d78c2677ccb0606630bab697f19a5e84d608b0"
+}

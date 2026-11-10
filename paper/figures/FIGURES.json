@@ -1,0 +1,2201 @@
+{
+  "checks": [
+    {
+      "check": "EXPLORE.json was computed from this ANALYSIS.json (inputs.analysis.sha256)",
+      "ok": true
+    },
+    {
+      "check": "TIMELINE.json and ANALYSIS.json read the same scores and items (sha256)",
+      "ok": true
+    },
+    {
+      "check": "historical: bash offered in every completed model request",
+      "ok": true
+    },
+    {
+      "check": "historical: graph_query and source_reference_search are 0 at requested, executed and visible",
+      "ok": true
+    },
+    {
+      "check": "P|C0: no exit other than Submitted/NoAnswer (ANALYSIS exit_counts)",
+      "ok": true
+    },
+    {
+      "check": "P|C0: Submitted + NoAnswer = completed = cells",
+      "ok": true
+    },
+    {
+      "check": "P|C0: EXPLORE micro counts match ANALYSIS exit counts",
+      "ok": true
+    },
+    {
+      "check": "P|C0: micro recovered share equals the family-weighted estimate (balanced block)",
+      "ok": true
+    },
+    {
+      "check": "P|C0: EXPLORE overall recovery equals ANALYSIS site_recovered",
+      "ok": true
+    },
+    {
+      "check": "P|C0: reference grep_all equal across conditions",
+      "ok": true
+    },
+    {
+      "check": "P|C0: reference c4_hits equal across conditions",
+      "ok": true
+    },
+    {
+      "check": "P|C1: no exit other than Submitted/NoAnswer (ANALYSIS exit_counts)",
+      "ok": true
+    },
+    {
+      "check": "P|C1: Submitted + NoAnswer = completed = cells",
+      "ok": true
+    },
+    {
+      "check": "P|C1: EXPLORE micro counts match ANALYSIS exit counts",
+      "ok": true
+    },
+    {
+      "check": "P|C1: micro recovered share equals the family-weighted estimate (balanced block)",
+      "ok": true
+    },
+    {
+      "check": "P|C1: EXPLORE overall recovery equals ANALYSIS site_recovered",
+      "ok": true
+    },
+    {
+      "check": "P|C1: reference grep_all equal across conditions",
+      "ok": true
+    },
+    {
+      "check": "P|C1: reference c4_hits equal across conditions",
+      "ok": true
+    },
+    {
+      "check": "P|C2: no exit other than Submitted/NoAnswer (ANALYSIS exit_counts)",
+      "ok": true
+    },
+    {
+      "check": "P|C2: Submitted + NoAnswer = completed = cells",
+      "ok": true
+    },
+    {
+      "check": "P|C2: EXPLORE micro counts match ANALYSIS exit counts",
+      "ok": true
+    },
+    {
+      "check": "P|C2: micro recovered share equals the family-weighted estimate (balanced block)",
+      "ok": true
+    },
+    {
+      "check": "P|C2: EXPLORE overall recovery equals ANALYSIS site_recovered",
+      "ok": true
+    },
+    {
+      "check": "P|C2: reference grep_all equal across conditions",
+      "ok": true
+    },
+    {
+      "check": "P|C2: reference c4_hits equal across conditions",
+      "ok": true
+    },
+    {
+      "check": "P|C3: no exit other than Submitted/NoAnswer (ANALYSIS exit_counts)",
+      "ok": true
+    },
+    {
+      "check": "P|C3: Submitted + NoAnswer = completed = cells",
+      "ok": true
+    },
+    {
+      "check": "P|C3: EXPLORE micro counts match ANALYSIS exit counts",
+      "ok": true
+    },
+    {
+      "check": "P|C3: micro recovered share equals the family-weighted estimate (balanced block)",
+      "ok": true
+    },
+    {
+      "check": "P|C3: EXPLORE overall recovery equals ANALYSIS site_recovered",
+      "ok": true
+    },
+    {
+      "check": "P|C3: reference grep_all equal across conditions",
+      "ok": true
+    },
+    {
+      "check": "P|C3: reference c4_hits equal across conditions",
+      "ok": true
+    },
+    {
+      "check": "P|C4a: no exit other than Submitted/NoAnswer (ANALYSIS exit_counts)",
+      "ok": true
+    },
+    {
+      "check": "P|C4a: Submitted + NoAnswer = completed = cells",
+      "ok": true
+    },
+    {
+      "check": "P|C4a: EXPLORE micro counts match ANALYSIS exit counts",
+      "ok": true
+    },
+    {
+      "check": "P|C4a: micro recovered share equals the family-weighted estimate (balanced block)",
+      "ok": true
+    },
+    {
+      "check": "P|C4a: EXPLORE overall recovery equals ANALYSIS site_recovered",
+      "ok": true
+    },
+    {
+      "check": "P|C4a: reference grep_all equal across conditions",
+      "ok": true
+    },
+    {
+      "check": "P|C4a: reference c4_hits equal across conditions",
+      "ok": true
+    },
+    {
+      "check": "grep_all reference equals findability.grep_recovers_omitted",
+      "ok": true
+    },
+    {
+      "check": "c4_hits reference equals findability.c4_hits_recovers_omitted",
+      "ok": true
+    },
+    {
+      "check": "T|T-offered: completed = cells = EXPLORE episodes",
+      "ok": true
+    },
+    {
+      "check": "T|T-offered: requested estimate and interval agree (ANALYSIS vs EXPLORE)",
+      "ok": true
+    },
+    {
+      "check": "T|T-offered: site_recovered estimate and interval agree (ANALYSIS vs EXPLORE)",
+      "ok": true
+    },
+    {
+      "check": "T|T-offered: visible non-empty answer count agrees (ANALYSIS funnel vs EXPLORE)",
+      "ok": true
+    },
+    {
+      "check": "T|T-offered: submitted count agrees with exit_counts",
+      "ok": true
+    },
+    {
+      "check": "T|T-offered|requested: family-weighted share equals k/n (balanced block)",
+      "ok": true
+    },
+    {
+      "check": "T|T-offered|visible: family-weighted share equals k/n (balanced block)",
+      "ok": true
+    },
+    {
+      "check": "T|T-offered|submitted: family-weighted share equals k/n (balanced block)",
+      "ok": true
+    },
+    {
+      "check": "T|T-offered|recovered: family-weighted share equals k/n (balanced block)",
+      "ok": true
+    },
+    {
+      "check": "T|T-recommended: completed = cells = EXPLORE episodes",
+      "ok": true
+    },
+    {
+      "check": "T|T-recommended: requested estimate and interval agree (ANALYSIS vs EXPLORE)",
+      "ok": true
+    },
+    {
+      "check": "T|T-recommended: site_recovered estimate and interval agree (ANALYSIS vs EXPLORE)",
+      "ok": true
+    },
+    {
+      "check": "T|T-recommended: visible non-empty answer count agrees (ANALYSIS funnel vs EXPLORE)",
+      "ok": true
+    },
+    {
+      "check": "T|T-recommended: submitted count agrees with exit_counts",
+      "ok": true
+    },
+    {
+      "check": "T|T-recommended|requested: family-weighted share equals k/n (balanced block)",
+      "ok": true
+    },
+    {
+      "check": "T|T-recommended|visible: family-weighted share equals k/n (balanced block)",
+      "ok": true
+    },
+    {
+      "check": "T|T-recommended|submitted: family-weighted share equals k/n (balanced block)",
+      "ok": true
+    },
+    {
+      "check": "T|T-recommended|recovered: family-weighted share equals k/n (balanced block)",
+      "ok": true
+    },
+    {
+      "check": "TIMELINE budget is 8 responses",
+      "ok": true
+    },
+    {
+      "check": "P|C0: cumulative_by_k has k = 0..8",
+      "ok": true
+    },
+    {
+      "check": "P|C0: TIMELINE submitted by k=8 equals EXPLORE submission rate",
+      "ok": true
+    },
+    {
+      "check": "P|C0: TIMELINE recovered by k=8 equals ANALYSIS site_recovered",
+      "ok": true
+    },
+    {
+      "check": "P|C1: cumulative_by_k has k = 0..8",
+      "ok": true
+    },
+    {
+      "check": "P|C1: TIMELINE submitted by k=8 equals EXPLORE submission rate",
+      "ok": true
+    },
+    {
+      "check": "P|C1: TIMELINE recovered by k=8 equals ANALYSIS site_recovered",
+      "ok": true
+    },
+    {
+      "check": "P|C2: cumulative_by_k has k = 0..8",
+      "ok": true
+    },
+    {
+      "check": "P|C2: TIMELINE submitted by k=8 equals EXPLORE submission rate",
+      "ok": true
+    },
+    {
+      "check": "P|C2: TIMELINE recovered by k=8 equals ANALYSIS site_recovered",
+      "ok": true
+    },
+    {
+      "check": "P|C3: cumulative_by_k has k = 0..8",
+      "ok": true
+    },
+    {
+      "check": "P|C3: TIMELINE submitted by k=8 equals EXPLORE submission rate",
+      "ok": true
+    },
+    {
+      "check": "P|C3: TIMELINE recovered by k=8 equals ANALYSIS site_recovered",
+      "ok": true
+    },
+    {
+      "check": "P|C4a: cumulative_by_k has k = 0..8",
+      "ok": true
+    },
+    {
+      "check": "P|C4a: TIMELINE submitted by k=8 equals EXPLORE submission rate",
+      "ok": true
+    },
+    {
+      "check": "P|C4a: TIMELINE recovered by k=8 equals ANALYSIS site_recovered",
+      "ok": true
+    },
+    {
+      "check": "H1: family_units count equals n_families",
+      "ok": true
+    },
+    {
+      "check": "H1: mean of family differences equals the estimate",
+      "ok": true
+    },
+    {
+      "check": "H2: family_units count equals n_families",
+      "ok": true
+    },
+    {
+      "check": "H2: mean of family differences equals the estimate",
+      "ok": true
+    },
+    {
+      "check": "H3: family_units count equals n_families",
+      "ok": true
+    },
+    {
+      "check": "H3: mean of family differences equals the estimate",
+      "ok": true
+    }
+  ],
+  "checks_passed": 81,
+  "condition_labels": {
+    "C0": "No list",
+    "C1": "Incomplete list",
+    "C2": "List + caution",
+    "C3": "List + not-exhaustive note",
+    "C4a": "List + lexical block"
+  },
+  "environment": {
+    "dpi": 300,
+    "font": "Libertinus Serif",
+    "matplotlib": "3.9.2",
+    "numpy": "2.4.6",
+    "python": "3.11.15"
+  },
+  "extras": [],
+  "figures": {
+    "fig1_exposure": {
+      "files": [
+        "fig1_exposure.png",
+        "fig1_exposure.svg"
+      ],
+      "panel_a": "historical exposure audit D90+Cap180 (an earlier, different repair study on pvlib): offered = completed model requests whose tool list held the tool; requested, executed and visible count tool calls or results. Motivation only, not corroboration of Exp A.",
+      "panel_b": "Exp A block T (seed 11; role exploratory in ANALYSIS.json): requested and C* recovered from ANALYSIS.json secondary.t_block; non-empty answer visible and submitted from EXPLORE.json section 7 (exploratory). Bars are family-weighted shares (equal to k/n here); whiskers are 95% t intervals over 30 families (marginal); a zero-variance interval is not drawn. The stages are not nested: submission does not require a graph answer."
+    },
+    "fig2_outcomes": {
+      "description": "Block P, seeds 11/23/47, 2,250 episodes per condition. Segments: submitted and C* listed, submitted and C* not listed, budget exhausted (NoAnswer). No ContextLimit, FormatExhausted or other exit occurred. Point and whisker: family-weighted C* recovery with its 95% t interval (marginal). Lines: model-free reference policies on the frozen items (references, not ceilings). The listed/not-listed split is bookkeeping, not mediation.",
+      "files": [
+        "fig2_outcomes.png",
+        "fig2_outcomes.svg"
+      ]
+    },
+    "fig3_contrasts": {
+      "description": "Confirmatory H1-H3 on block P: estimate and 95% t interval (marginal) over 30 families, the 30 family mean differences as dots, dashed lines at the prespecified practically meaningful effect, Holm-adjusted p over H1-H3 only. Inference is benchmark-conditional on the frozen family set.",
+      "extras": [],
+      "files": [
+        "fig3_contrasts.png",
+        "fig3_contrasts.svg"
+      ]
+    },
+    "fig4_timeline": {
+      "description": "Exploratory (post-results) TIMELINE.json, block P: family-weighted share of episodes submitted by response k and share with the C* site visible by response k under the LOOSE rule (can overcount; STRICT is the lower bound), 95% t bands (marginal); vertical line at the 8-response cap. Descriptive; no causal or mediation reading.",
+      "files": [
+        "fig4_timeline.png",
+        "fig4_timeline.svg"
+      ]
+    }
+  },
+  "inputs": {
+    "analysis": {
+      "bytes": 473499,
+      "matches_pin": true,
+      "path": "reports/expA-main-20261101b/analysis/ANALYSIS.json",
+      "pinned_sha256": "f9017bf657c2472c30867ef8ace33433e4110c5597c340d1e163c279b9839d86",
+      "repo_path": "reports/expA-main-20261101b/analysis/ANALYSIS.json",
+      "sha256": "f9017bf657c2472c30867ef8ace33433e4110c5597c340d1e163c279b9839d86"
+    },
+    "explore": {
+      "bytes": 256140,
+      "matches_pin": true,
+      "path": "reports/expA-main-20261101b/explore/EXPLORE.json",
+      "pinned_sha256": "bf798d8776b1de686eeeda7a39ed316ac74a10d4d0fb865a4b3706f7343c350a",
+      "repo_path": "reports/expA-main-20261101b/explore/EXPLORE.json",
+      "sha256": "bf798d8776b1de686eeeda7a39ed316ac74a10d4d0fb865a4b3706f7343c350a"
+    },
+    "funnel": {
+      "bytes": 626057,
+      "matches_pin": true,
+      "path": "reports/exposure-funnel-v1/FUNNEL.json",
+      "pinned_sha256": "9562f9a2141d6987acc47ee74b8c5e7b45f7a2713986ea2f26f3e1cdfbbc0f6e",
+      "repo_path": "reports/exposure-funnel-v1/FUNNEL.json",
+      "sha256": "9562f9a2141d6987acc47ee74b8c5e7b45f7a2713986ea2f26f3e1cdfbbc0f6e"
+    },
+    "timeline": {
+      "bytes": 458201,
+      "matches_pin": true,
+      "path": "reports/expA-main-20261101b/timeline/TIMELINE.json",
+      "pinned_sha256": "3d75b17a0055e1171e93b4118e3dcdfb6606a103a3110e2cf54fb9a1e2ae9ec7",
+      "repo_path": "reports/expA-main-20261101b/timeline/TIMELINE.json",
+      "sha256": "3d75b17a0055e1171e93b4118e3dcdfb6606a103a3110e2cf54fb9a1e2ae9ec7"
+    }
+  },
+  "label": "draft",
+  "note": "Figures drawn by a script from frozen inputs: presentation only, no new analysis EXPLORE.json and TIMELINE.json are ANALYSIS RECORD, and EXPLORATORY (designed after the 31B results were seen, ~06:05 UTC 2026-11-01).",
+  "outputs": {
+    "fig1_exposure.pdf": "1dcb7dc9afc82a4a84cc24fe3e6d8fdc35acb179e71be372d02572298f7b8387",
+    "fig1_exposure.png": "95abb09af99e8513224b47baf85ed5bbb0a4e672c7c81b43f8568a0f4b5681c6",
+    "fig1_exposure.svg": "45e1ef40e5c85c9b97bcd9ac9904c421f7971f179bbf4e60b73f53c0196d2c78",
+    "fig2_outcomes.pdf": "5f947630aae53011400abd573fb6a9689fe74cb46bf150a70971126d8da0ef93",
+    "fig2_outcomes.png": "38f62cbb1e0c458239b67fd25312b3ff3f92fa5de9ccf1124dddd4dcee3b69cb",
+    "fig2_outcomes.svg": "490aac598f0869b7d722cac89c0628576b5549b897b336a789309a084d8b56e4",
+    "fig3_contrasts.pdf": "0cb2802097ee7b02189fa55a7377f808f63227990945429ce61bee6cf031481f",
+    "fig3_contrasts.png": "497bd5f71237f15a6514b162d27fadb37c0371cf5e115a896f870bafe99f63e7",
+    "fig3_contrasts.svg": "9f293a64c76099dd345374359ed71ea6a3d01f52582640298b4d29cb40e5bf68",
+    "fig4_timeline.pdf": "a466897d4bf9c3bc327758502276fa69dcc5bab24915a2b592be6612bc29de00",
+    "fig4_timeline.png": "1d5dd191590d30acd62a480e9335cb43991f709944b50f635695af9f3be3bd3d",
+    "fig4_timeline.svg": "2cd6a129a10ff3daacf9485b2d809a055d0a3e99b540ff123b400055ac1e11fe"
+  },
+  "palette": {
+    "blue": "#0072b2",
+    "exhausted_fill": "#d0d0d0",
+    "ink": "#000000",
+    "light_blue": "#8cc4e6",
+    "muted": "#777777",
+    "orange": "#d55e00",
+    "secondary_ink": "#333333",
+    "surface": "#ffffff",
+    "validation": "dataviz validate_palette.py, light mode: #2a78d6,#eb6834 all-pairs PASS (CVD dE 24.7, normal dE 33.6); #86b6ef,#2a78d6 ordinal PASS (light end 2.06:1)"
+  },
+  "pins": {
+    "enforced": true,
+    "pinned": {
+      "analysis": "f9017bf657c2472c30867ef8ace33433e4110c5597c340d1e163c279b9839d86",
+      "explore": "bf798d8776b1de686eeeda7a39ed316ac74a10d4d0fb865a4b3706f7343c350a",
+      "funnel": "9562f9a2141d6987acc47ee74b8c5e7b45f7a2713986ea2f26f3e1cdfbbc0f6e",
+      "timeline": "3d75b17a0055e1171e93b4118e3dcdfb6606a103a3110e2cf54fb9a1e2ae9ec7"
+    }
+  },
+  "schema_version": "paper-figures-v1",
+  "script": {
+    "name": "paper_figures.py",
+    "repo_path": "scripts/paper_figures.py",
+    "sha256": "2e655c9db85eda3e1139a2d6f116996b463de7827b067f73d1e2b6f0e65f7e0e"
+  },
+  "values": [
+    {
+      "figure": "fig1_exposure",
+      "note": "offered = completed model requests whose tool list held the tool; other stages = tool calls or results",
+      "panel": "a",
+      "series": "graph_query",
+      "source": "FUNNEL.json:funnel.D90+Cap180.stages.offered_requests.graph_query",
+      "value": 5077,
+      "x": "offered_requests"
+    },
+    {
+      "figure": "fig1_exposure",
+      "note": "offered = completed model requests whose tool list held the tool; other stages = tool calls or results",
+      "panel": "a",
+      "series": "source_reference_search",
+      "source": "FUNNEL.json:funnel.D90+Cap180.stages.offered_requests.source_reference_search",
+      "value": 6291,
+      "x": "offered_requests"
+    },
+    {
+      "figure": "fig1_exposure",
+      "note": "offered = completed model requests whose tool list held the tool; other stages = tool calls or results",
+      "panel": "a",
+      "series": "bash",
+      "source": "FUNNEL.json:funnel.D90+Cap180.stages.offered_requests.bash",
+      "value": 6291,
+      "x": "offered_requests"
+    },
+    {
+      "figure": "fig1_exposure",
+      "panel": "a",
+      "series": "graph_query",
+      "source": "FUNNEL.json:funnel.D90+Cap180.stages.requested.graph_query",
+      "value": 0,
+      "x": "requested"
+    },
+    {
+      "figure": "fig1_exposure",
+      "panel": "a",
+      "series": "source_reference_search",
+      "source": "FUNNEL.json:funnel.D90+Cap180.stages.requested.source_reference_search",
+      "value": 0,
+      "x": "requested"
+    },
+    {
+      "figure": "fig1_exposure",
+      "panel": "a",
+      "series": "bash",
+      "source": "FUNNEL.json:funnel.D90+Cap180.stages.requested.bash",
+      "value": 6093,
+      "x": "requested"
+    },
+    {
+      "figure": "fig1_exposure",
+      "panel": "a",
+      "series": "graph_query",
+      "source": "FUNNEL.json:funnel.D90+Cap180.stages.executed.graph_query",
+      "value": 0,
+      "x": "executed"
+    },
+    {
+      "figure": "fig1_exposure",
+      "panel": "a",
+      "series": "source_reference_search",
+      "source": "FUNNEL.json:funnel.D90+Cap180.stages.executed.source_reference_search",
+      "value": 0,
+      "x": "executed"
+    },
+    {
+      "figure": "fig1_exposure",
+      "panel": "a",
+      "series": "bash",
+      "source": "FUNNEL.json:funnel.D90+Cap180.stages.executed.bash",
+      "value": 6093,
+      "x": "executed"
+    },
+    {
+      "figure": "fig1_exposure",
+      "panel": "a",
+      "series": "graph_query",
+      "source": "FUNNEL.json:funnel.D90+Cap180.stages.visible.graph_query",
+      "value": 0,
+      "x": "visible"
+    },
+    {
+      "figure": "fig1_exposure",
+      "panel": "a",
+      "series": "source_reference_search",
+      "source": "FUNNEL.json:funnel.D90+Cap180.stages.visible.source_reference_search",
+      "value": 0,
+      "x": "visible"
+    },
+    {
+      "figure": "fig1_exposure",
+      "panel": "a",
+      "series": "bash",
+      "source": "FUNNEL.json:funnel.D90+Cap180.stages.visible.bash",
+      "value": 6093,
+      "x": "visible"
+    },
+    {
+      "figure": "fig1_exposure",
+      "panel": "a",
+      "series": "episodes",
+      "source": "FUNNEL.json:funnel.D90+Cap180.episodes",
+      "value": 270,
+      "x": "D90+Cap180"
+    },
+    {
+      "figure": "fig1_exposure",
+      "panel": "a",
+      "series": "model requests",
+      "source": "FUNNEL.json:funnel.D90+Cap180.model_calls",
+      "value": 6291,
+      "x": "D90+Cap180"
+    },
+    {
+      "figure": "fig1_exposure",
+      "lower": 0.21589511152923155,
+      "note": "47/150 episodes",
+      "panel": "b",
+      "series": "T-offered",
+      "source": "ANALYSIS.json:secondary.t_block.arms.T-offered.requested_rate",
+      "upper": 0.41077155513743513,
+      "value": 0.31333333333333335,
+      "x": "requested"
+    },
+    {
+      "figure": "fig1_exposure",
+      "lower": 1.0,
+      "note": "150/150 episodes; zero-variance interval (degenerate), not drawn",
+      "panel": "b",
+      "series": "T-recommended",
+      "source": "ANALYSIS.json:secondary.t_block.arms.T-recommended.requested_rate",
+      "upper": 1.0,
+      "value": 1.0,
+      "x": "requested"
+    },
+    {
+      "figure": "fig1_exposure",
+      "lower": 0.09554081737903564,
+      "note": "26/150 episodes",
+      "panel": "b",
+      "series": "T-offered",
+      "source": "EXPLORE.json:sections.s7_T_funnel.arms.T-offered.funnel.visible_nonempty_answer",
+      "upper": 0.25112584928763104,
+      "value": 0.17333333333333334,
+      "x": "visible"
+    },
+    {
+      "figure": "fig1_exposure",
+      "lower": 0.842442155424641,
+      "note": "134/150 episodes",
+      "panel": "b",
+      "series": "T-recommended",
+      "source": "EXPLORE.json:sections.s7_T_funnel.arms.T-recommended.funnel.visible_nonempty_answer",
+      "upper": 0.9442245112420257,
+      "value": 0.8933333333333333,
+      "x": "visible"
+    },
+    {
+      "figure": "fig1_exposure",
+      "lower": 0.4805764363170658,
+      "note": "84/150 episodes",
+      "panel": "b",
+      "series": "T-offered",
+      "source": "EXPLORE.json:sections.s7_T_funnel.arms.T-offered.submission_rate",
+      "upper": 0.6394235636829343,
+      "value": 0.56,
+      "x": "submitted"
+    },
+    {
+      "figure": "fig1_exposure",
+      "lower": 0.7144695774089999,
+      "note": "115/150 episodes",
+      "panel": "b",
+      "series": "T-recommended",
+      "source": "EXPLORE.json:sections.s7_T_funnel.arms.T-recommended.submission_rate",
+      "upper": 0.8188637559243336,
+      "value": 0.7666666666666667,
+      "x": "submitted"
+    },
+    {
+      "figure": "fig1_exposure",
+      "lower": 0.4516810206316497,
+      "note": "80/150 episodes",
+      "panel": "b",
+      "series": "T-offered",
+      "source": "ANALYSIS.json:secondary.t_block.arms.T-offered.site_recovered",
+      "upper": 0.6149856460350169,
+      "value": 0.5333333333333333,
+      "x": "recovered"
+    },
+    {
+      "figure": "fig1_exposure",
+      "lower": 0.6806749664245783,
+      "note": "111/150 episodes",
+      "panel": "b",
+      "series": "T-recommended",
+      "source": "ANALYSIS.json:secondary.t_block.arms.T-recommended.site_recovered",
+      "upper": 0.7993250335754217,
+      "value": 0.74,
+      "x": "recovered"
+    },
+    {
+      "figure": "fig2_outcomes",
+      "note": "1277/2250 episodes",
+      "panel": "",
+      "series": "submitted, C* listed",
+      "source": "EXPLORE.json:sections.s2_decomposition.rows[P|C0].overall_recovery.micro",
+      "value": 0.5675555555555556,
+      "x": "C0"
+    },
+    {
+      "figure": "fig2_outcomes",
+      "note": "47/2250 episodes",
+      "panel": "",
+      "series": "submitted, C* not listed",
+      "source": "ANALYSIS.json:secondary.rates[P|C0].exit_counts.Submitted minus the recovered count",
+      "value": 0.020888888888888887,
+      "x": "C0"
+    },
+    {
+      "figure": "fig2_outcomes",
+      "note": "926/2250 episodes",
+      "panel": "",
+      "series": "budget exhausted (NoAnswer)",
+      "source": "ANALYSIS.json:secondary.rates[P|C0].exit_counts.NoAnswer",
+      "value": 0.41155555555555556,
+      "x": "C0"
+    },
+    {
+      "figure": "fig2_outcomes",
+      "lower": 0.4992568054932798,
+      "panel": "",
+      "series": "C* recovery estimate",
+      "source": "ANALYSIS.json:secondary.rates[P|C0].site_recovered (estimate, t_interval)",
+      "upper": 0.6358543056178314,
+      "value": 0.5675555555555556,
+      "x": "C0"
+    },
+    {
+      "figure": "fig2_outcomes",
+      "note": "1629/2250 episodes",
+      "panel": "",
+      "series": "submitted, C* listed",
+      "source": "EXPLORE.json:sections.s2_decomposition.rows[P|C1].overall_recovery.micro",
+      "value": 0.724,
+      "x": "C1"
+    },
+    {
+      "figure": "fig2_outcomes",
+      "note": "110/2250 episodes",
+      "panel": "",
+      "series": "submitted, C* not listed",
+      "source": "ANALYSIS.json:secondary.rates[P|C1].exit_counts.Submitted minus the recovered count",
+      "value": 0.04888888888888889,
+      "x": "C1"
+    },
+    {
+      "figure": "fig2_outcomes",
+      "note": "511/2250 episodes",
+      "panel": "",
+      "series": "budget exhausted (NoAnswer)",
+      "source": "ANALYSIS.json:secondary.rates[P|C1].exit_counts.NoAnswer",
+      "value": 0.22711111111111112,
+      "x": "C1"
+    },
+    {
+      "figure": "fig2_outcomes",
+      "lower": 0.6762070547757221,
+      "panel": "",
+      "series": "C* recovery estimate",
+      "source": "ANALYSIS.json:secondary.rates[P|C1].site_recovered (estimate, t_interval)",
+      "upper": 0.7717929452242779,
+      "value": 0.724,
+      "x": "C1"
+    },
+    {
+      "figure": "fig2_outcomes",
+      "note": "1573/2250 episodes",
+      "panel": "",
+      "series": "submitted, C* listed",
+      "source": "EXPLORE.json:sections.s2_decomposition.rows[P|C2].overall_recovery.micro",
+      "value": 0.6991111111111111,
+      "x": "C2"
+    },
+    {
+      "figure": "fig2_outcomes",
+      "note": "81/2250 episodes",
+      "panel": "",
+      "series": "submitted, C* not listed",
+      "source": "ANALYSIS.json:secondary.rates[P|C2].exit_counts.Submitted minus the recovered count",
+      "value": 0.036,
+      "x": "C2"
+    },
+    {
+      "figure": "fig2_outcomes",
+      "note": "596/2250 episodes",
+      "panel": "",
+      "series": "budget exhausted (NoAnswer)",
+      "source": "ANALYSIS.json:secondary.rates[P|C2].exit_counts.NoAnswer",
+      "value": 0.2648888888888889,
+      "x": "C2"
+    },
+    {
+      "figure": "fig2_outcomes",
+      "lower": 0.6452706758270718,
+      "panel": "",
+      "series": "C* recovery estimate",
+      "source": "ANALYSIS.json:secondary.rates[P|C2].site_recovered (estimate, t_interval)",
+      "upper": 0.7529515463951505,
+      "value": 0.6991111111111111,
+      "x": "C2"
+    },
+    {
+      "figure": "fig2_outcomes",
+      "note": "1540/2250 episodes",
+      "panel": "",
+      "series": "submitted, C* listed",
+      "source": "EXPLORE.json:sections.s2_decomposition.rows[P|C3].overall_recovery.micro",
+      "value": 0.6844444444444444,
+      "x": "C3"
+    },
+    {
+      "figure": "fig2_outcomes",
+      "note": "79/2250 episodes",
+      "panel": "",
+      "series": "submitted, C* not listed",
+      "source": "ANALYSIS.json:secondary.rates[P|C3].exit_counts.Submitted minus the recovered count",
+      "value": 0.035111111111111114,
+      "x": "C3"
+    },
+    {
+      "figure": "fig2_outcomes",
+      "note": "631/2250 episodes",
+      "panel": "",
+      "series": "budget exhausted (NoAnswer)",
+      "source": "ANALYSIS.json:secondary.rates[P|C3].exit_counts.NoAnswer",
+      "value": 0.28044444444444444,
+      "x": "C3"
+    },
+    {
+      "figure": "fig2_outcomes",
+      "lower": 0.6301038651898958,
+      "panel": "",
+      "series": "C* recovery estimate",
+      "source": "ANALYSIS.json:secondary.rates[P|C3].site_recovered (estimate, t_interval)",
+      "upper": 0.7387850236989932,
+      "value": 0.6844444444444444,
+      "x": "C3"
+    },
+    {
+      "figure": "fig2_outcomes",
+      "note": "1678/2250 episodes",
+      "panel": "",
+      "series": "submitted, C* listed",
+      "source": "EXPLORE.json:sections.s2_decomposition.rows[P|C4a].overall_recovery.micro",
+      "value": 0.7457777777777778,
+      "x": "C4a"
+    },
+    {
+      "figure": "fig2_outcomes",
+      "note": "87/2250 episodes",
+      "panel": "",
+      "series": "submitted, C* not listed",
+      "source": "ANALYSIS.json:secondary.rates[P|C4a].exit_counts.Submitted minus the recovered count",
+      "value": 0.03866666666666667,
+      "x": "C4a"
+    },
+    {
+      "figure": "fig2_outcomes",
+      "note": "485/2250 episodes",
+      "panel": "",
+      "series": "budget exhausted (NoAnswer)",
+      "source": "ANALYSIS.json:secondary.rates[P|C4a].exit_counts.NoAnswer",
+      "value": 0.21555555555555556,
+      "x": "C4a"
+    },
+    {
+      "figure": "fig2_outcomes",
+      "lower": 0.6939226934800842,
+      "panel": "",
+      "series": "C* recovery estimate",
+      "source": "ANALYSIS.json:secondary.rates[P|C4a].site_recovered (estimate, t_interval)",
+      "upper": 0.7976328620754716,
+      "value": 0.7457777777777778,
+      "x": "C4a"
+    },
+    {
+      "figure": "fig2_outcomes",
+      "note": "710/750 items (findability)",
+      "panel": "",
+      "series": "model-free reference grep_all",
+      "source": "ANALYSIS.json:secondary.rates[P|*].reference_policies.grep_all.site_recovered",
+      "value": 0.9466666666666667,
+      "x": "P"
+    },
+    {
+      "figure": "fig2_outcomes",
+      "note": "624/750 items (findability)",
+      "panel": "",
+      "series": "model-free reference c4_hits",
+      "source": "ANALYSIS.json:secondary.rates[P|*].reference_policies.c4_hits.site_recovered",
+      "value": 0.832,
+      "x": "P"
+    },
+    {
+      "figure": "fig3_contrasts",
+      "lower": -0.03468226907265,
+      "panel": "",
+      "series": "H1 estimate",
+      "source": "ANALYSIS.json:primary.hypotheses[H1] (estimate, t_test.interval)",
+      "upper": 0.005348935739316664,
+      "value": -0.014666666666666666,
+      "x": "C3-C2"
+    },
+    {
+      "figure": "fig3_contrasts",
+      "panel": "",
+      "series": "H1 Holm-adjusted p",
+      "source": "ANALYSIS.json:primary.hypotheses[H1].holm_adjusted_p",
+      "value": 0.1721017094716216,
+      "x": "C3-C2"
+    },
+    {
+      "figure": "fig3_contrasts",
+      "panel": "",
+      "series": "H1 family differences",
+      "source": "ANALYSIS.json:primary.hypotheses[H1].family_units[*].difference",
+      "value": [
+        {
+          "difference": -0.02666666666666667,
+          "family": "alembic"
+        },
+        {
+          "difference": -0.09333333333333334,
+          "family": "click"
+        },
+        {
+          "difference": 0.02666666666666667,
+          "family": "cmd2"
+        },
+        {
+          "difference": -0.05333333333333334,
+          "family": "deepdiff"
+        },
+        {
+          "difference": 0.02666666666666667,
+          "family": "elementpath"
+        },
+        {
+          "difference": -0.05333333333333334,
+          "family": "genshi"
+        },
+        {
+          "difference": -0.05333333333333334,
+          "family": "graphql-core"
+        },
+        {
+          "difference": 0.0,
+          "family": "httpx"
+        },
+        {
+          "difference": -0.04,
+          "family": "icalendar"
+        },
+        {
+          "difference": -0.013333333333333334,
+          "family": "jinja"
+        },
+        {
+          "difference": -0.04,
+          "family": "lark"
+        },
+        {
+          "difference": 0.05333333333333334,
+          "family": "liquid"
+        },
+        {
+          "difference": -0.06666666666666667,
+          "family": "markdown"
+        },
+        {
+          "difference": 0.04,
+          "family": "markdown-it-py"
+        },
+        {
+          "difference": -0.02666666666666667,
+          "family": "mpmath"
+        },
+        {
+          "difference": 0.09333333333333334,
+          "family": "packaging"
+        },
+        {
+          "difference": -0.05333333333333334,
+          "family": "param"
+        },
+        {
+          "difference": -0.013333333333333334,
+          "family": "petl"
+        },
+        {
+          "difference": 0.04,
+          "family": "pyparsing"
+        },
+        {
+          "difference": 0.013333333333333334,
+          "family": "python-docx"
+        },
+        {
+          "difference": 0.0,
+          "family": "python-pptx"
+        },
+        {
+          "difference": -0.05333333333333334,
+          "family": "rdflib"
+        },
+        {
+          "difference": -0.13333333333333333,
+          "family": "rich"
+        },
+        {
+          "difference": -0.05333333333333334,
+          "family": "segno"
+        },
+        {
+          "difference": 0.0,
+          "family": "sqlite-utils"
+        },
+        {
+          "difference": -0.10666666666666667,
+          "family": "traitlets"
+        },
+        {
+          "difference": 0.04,
+          "family": "websockets"
+        },
+        {
+          "difference": 0.06666666666666667,
+          "family": "xlsxwriter"
+        },
+        {
+          "difference": 0.05333333333333334,
+          "family": "xmlschema"
+        },
+        {
+          "difference": -0.013333333333333334,
+          "family": "yapf"
+        }
+      ],
+      "x": "C3-C2"
+    },
+    {
+      "figure": "fig3_contrasts",
+      "lower": -0.003286489329653669,
+      "panel": "",
+      "series": "H2 estimate",
+      "source": "ANALYSIS.json:primary.hypotheses[H2] (estimate, t_test.interval)",
+      "upper": 0.046842044885209225,
+      "value": 0.021777777777777778,
+      "x": "C4a-C1"
+    },
+    {
+      "figure": "fig3_contrasts",
+      "panel": "",
+      "series": "H2 Holm-adjusted p",
+      "source": "ANALYSIS.json:primary.hypotheses[H2].holm_adjusted_p",
+      "value": 0.1721017094716216,
+      "x": "C4a-C1"
+    },
+    {
+      "figure": "fig3_contrasts",
+      "panel": "",
+      "series": "H2 family differences",
+      "source": "ANALYSIS.json:primary.hypotheses[H2].family_units[*].difference",
+      "value": [
+        {
+          "difference": 0.0,
+          "family": "alembic"
+        },
+        {
+          "difference": 0.06666666666666667,
+          "family": "click"
+        },
+        {
+          "difference": 0.04,
+          "family": "cmd2"
+        },
+        {
+          "difference": -0.06666666666666667,
+          "family": "deepdiff"
+        },
+        {
+          "difference": 0.08,
+          "family": "elementpath"
+        },
+        {
+          "difference": 0.0,
+          "family": "genshi"
+        },
+        {
+          "difference": 0.04,
+          "family": "graphql-core"
+        },
+        {
+          "difference": -0.013333333333333334,
+          "family": "httpx"
+        },
+        {
+          "difference": -0.05333333333333334,
+          "family": "icalendar"
+        },
+        {
+          "difference": 0.02666666666666667,
+          "family": "jinja"
+        },
+        {
+          "difference": 0.05333333333333334,
+          "family": "lark"
+        },
+        {
+          "difference": -0.06666666666666667,
+          "family": "liquid"
+        },
+        {
+          "difference": -0.013333333333333334,
+          "family": "markdown"
+        },
+        {
+          "difference": 0.08,
+          "family": "markdown-it-py"
+        },
+        {
+          "difference": 0.17333333333333334,
+          "family": "mpmath"
+        },
+        {
+          "difference": 0.04,
+          "family": "packaging"
+        },
+        {
+          "difference": 0.04,
+          "family": "param"
+        },
+        {
+          "difference": -0.09333333333333334,
+          "family": "petl"
+        },
+        {
+          "difference": 0.013333333333333334,
+          "family": "pyparsing"
+        },
+        {
+          "difference": 0.05333333333333334,
+          "family": "python-docx"
+        },
+        {
+          "difference": 0.02666666666666667,
+          "family": "python-pptx"
+        },
+        {
+          "difference": -0.06666666666666667,
+          "family": "rdflib"
+        },
+        {
+          "difference": -0.04,
+          "family": "rich"
+        },
+        {
+          "difference": 0.013333333333333334,
+          "family": "segno"
+        },
+        {
+          "difference": 0.02666666666666667,
+          "family": "sqlite-utils"
+        },
+        {
+          "difference": 0.04,
+          "family": "traitlets"
+        },
+        {
+          "difference": 0.17333333333333334,
+          "family": "websockets"
+        },
+        {
+          "difference": 0.14666666666666667,
+          "family": "xlsxwriter"
+        },
+        {
+          "difference": -0.05333333333333334,
+          "family": "xmlschema"
+        },
+        {
+          "difference": -0.013333333333333334,
+          "family": "yapf"
+        }
+      ],
+      "x": "C4a-C1"
+    },
+    {
+      "figure": "fig3_contrasts",
+      "lower": 0.11522379647191988,
+      "panel": "",
+      "series": "H3 estimate",
+      "source": "ANALYSIS.json:primary.hypotheses[H3] (estimate, t_test.interval)",
+      "upper": 0.197665092416969,
+      "value": 0.15644444444444444,
+      "x": "C1-C0"
+    },
+    {
+      "figure": "fig3_contrasts",
+      "panel": "",
+      "series": "H3 Holm-adjusted p",
+      "source": "ANALYSIS.json:primary.hypotheses[H3].holm_adjusted_p",
+      "value": 4.4025524328475897e-08,
+      "x": "C1-C0"
+    },
+    {
+      "figure": "fig3_contrasts",
+      "panel": "",
+      "series": "H3 family differences",
+      "source": "ANALYSIS.json:primary.hypotheses[H3].family_units[*].difference",
+      "value": [
+        {
+          "difference": 0.18666666666666668,
+          "family": "alembic"
+        },
+        {
+          "difference": 0.08,
+          "family": "click"
+        },
+        {
+          "difference": 0.04,
+          "family": "cmd2"
+        },
+        {
+          "difference": 0.13333333333333333,
+          "family": "deepdiff"
+        },
+        {
+          "difference": 0.18666666666666668,
+          "family": "elementpath"
+        },
+        {
+          "difference": 0.28,
+          "family": "genshi"
+        },
+        {
+          "difference": 0.24,
+          "family": "graphql-core"
+        },
+        {
+          "difference": 0.16,
+          "family": "httpx"
+        },
+        {
+          "difference": 0.21333333333333335,
+          "family": "icalendar"
+        },
+        {
+          "difference": 0.17333333333333334,
+          "family": "jinja"
+        },
+        {
+          "difference": 0.04,
+          "family": "lark"
+        },
+        {
+          "difference": 0.38666666666666666,
+          "family": "liquid"
+        },
+        {
+          "difference": 0.28,
+          "family": "markdown"
+        },
+        {
+          "difference": 0.09333333333333334,
+          "family": "markdown-it-py"
+        },
+        {
+          "difference": 0.10666666666666667,
+          "family": "mpmath"
+        },
+        {
+          "difference": 0.17333333333333334,
+          "family": "packaging"
+        },
+        {
+          "difference": 0.18666666666666668,
+          "family": "param"
+        },
+        {
+          "difference": 0.30666666666666664,
+          "family": "petl"
+        },
+        {
+          "difference": 0.2,
+          "family": "pyparsing"
+        },
+        {
+          "difference": 0.10666666666666667,
+          "family": "python-docx"
+        },
+        {
+          "difference": 0.013333333333333334,
+          "family": "python-pptx"
+        },
+        {
+          "difference": 0.18666666666666668,
+          "family": "rdflib"
+        },
+        {
+          "difference": 0.21333333333333335,
+          "family": "rich"
+        },
+        {
+          "difference": 0.2,
+          "family": "segno"
+        },
+        {
+          "difference": 0.08,
+          "family": "sqlite-utils"
+        },
+        {
+          "difference": 0.16,
+          "family": "traitlets"
+        },
+        {
+          "difference": -0.08,
+          "family": "websockets"
+        },
+        {
+          "difference": -0.13333333333333333,
+          "family": "xlsxwriter"
+        },
+        {
+          "difference": 0.28,
+          "family": "xmlschema"
+        },
+        {
+          "difference": 0.2,
+          "family": "yapf"
+        }
+      ],
+      "x": "C1-C0"
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.0,
+      "panel": "C0",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C0.cumulative_by_k.0.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.0,
+      "value": 0.0,
+      "x": 0
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.7737302599141669,
+      "panel": "C0",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C0.cumulative_by_k.1.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.8644919623080554,
+      "value": 0.8191111111111111,
+      "x": 1
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.8395721470084923,
+      "panel": "C0",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C0.cumulative_by_k.2.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9070945196581743,
+      "value": 0.8733333333333333,
+      "x": 2
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.8685610572782279,
+      "panel": "C0",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C0.cumulative_by_k.3.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9269944982773277,
+      "value": 0.8977777777777778,
+      "x": 3
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.8982526836012223,
+      "panel": "C0",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C0.cumulative_by_k.4.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9461917608432222,
+      "value": 0.9222222222222223,
+      "x": 4
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.9100740214730625,
+      "panel": "C0",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C0.cumulative_by_k.5.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9557037563047155,
+      "value": 0.932888888888889,
+      "x": 5
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.9195371070207827,
+      "panel": "C0",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C0.cumulative_by_k.6.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.962240670756995,
+      "value": 0.9408888888888889,
+      "x": 6
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.9254888245433526,
+      "panel": "C0",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C0.cumulative_by_k.7.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9687333976788697,
+      "value": 0.9471111111111111,
+      "x": 7
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.9334384446818561,
+      "panel": "C0",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C0.cumulative_by_k.8.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9750059997625883,
+      "value": 0.9542222222222222,
+      "x": 8
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.0,
+      "panel": "C0",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C0.cumulative_by_k.0.submitted_by_k.family_weighted",
+      "upper": 0.0,
+      "value": 0.0,
+      "x": 0
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.0,
+      "panel": "C0",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C0.cumulative_by_k.1.submitted_by_k.family_weighted",
+      "upper": 0.0,
+      "value": 0.0,
+      "x": 1
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": -0.00046454650761453795,
+      "panel": "C0",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C0.cumulative_by_k.2.submitted_by_k.family_weighted",
+      "upper": 0.0013534353965034267,
+      "value": 0.0004444444444444444,
+      "x": 2
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.04271160316446035,
+      "panel": "C0",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C0.cumulative_by_k.3.submitted_by_k.family_weighted",
+      "upper": 0.0879550635022063,
+      "value": 0.06533333333333333,
+      "x": 3
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.1330853134454924,
+      "panel": "C0",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C0.cumulative_by_k.4.submitted_by_k.family_weighted",
+      "upper": 0.2349146865545076,
+      "value": 0.184,
+      "x": 4
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.2583378152431379,
+      "panel": "C0",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C0.cumulative_by_k.5.submitted_by_k.family_weighted",
+      "upper": 0.3958844069790842,
+      "value": 0.3271111111111111,
+      "x": 5
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.36047272888484466,
+      "panel": "C0",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C0.cumulative_by_k.6.submitted_by_k.family_weighted",
+      "upper": 0.49908282667071086,
+      "value": 0.42977777777777776,
+      "x": 6
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.44867750859246763,
+      "panel": "C0",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C0.cumulative_by_k.7.submitted_by_k.family_weighted",
+      "upper": 0.5895447136297547,
+      "value": 0.5191111111111112,
+      "x": 7
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.5205089687144776,
+      "panel": "C0",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C0.cumulative_by_k.8.submitted_by_k.family_weighted",
+      "upper": 0.6563799201744113,
+      "value": 0.5884444444444444,
+      "x": 8
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.0,
+      "panel": "C1",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C1.cumulative_by_k.0.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.0,
+      "value": 0.0,
+      "x": 0
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.7223159102295815,
+      "panel": "C1",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C1.cumulative_by_k.1.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.8225729786593072,
+      "value": 0.7724444444444444,
+      "x": 1
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.8026276283487775,
+      "panel": "C1",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C1.cumulative_by_k.2.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.880039038317889,
+      "value": 0.8413333333333333,
+      "x": 2
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.8494121256500509,
+      "panel": "C1",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C1.cumulative_by_k.3.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9176989854610602,
+      "value": 0.8835555555555555,
+      "x": 3
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.8713810146096094,
+      "panel": "C1",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C1.cumulative_by_k.4.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9321745409459462,
+      "value": 0.9017777777777778,
+      "x": 4
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.888616282551866,
+      "panel": "C1",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C1.cumulative_by_k.5.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9460503841148007,
+      "value": 0.9173333333333333,
+      "x": 5
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.8960693641432081,
+      "panel": "C1",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C1.cumulative_by_k.6.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.951041746967903,
+      "value": 0.9235555555555556,
+      "x": 6
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.9016087141560556,
+      "panel": "C1",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C1.cumulative_by_k.7.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9561690636217222,
+      "value": 0.9288888888888889,
+      "x": 7
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.9065930819683924,
+      "panel": "C1",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C1.cumulative_by_k.8.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9591846958093856,
+      "value": 0.932888888888889,
+      "x": 8
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.0,
+      "panel": "C1",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C1.cumulative_by_k.0.submitted_by_k.family_weighted",
+      "upper": 0.0,
+      "value": 0.0,
+      "x": 0
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.0,
+      "panel": "C1",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C1.cumulative_by_k.1.submitted_by_k.family_weighted",
+      "upper": 0.0,
+      "value": 0.0,
+      "x": 1
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.0008770974943032471,
+      "panel": "C1",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C1.cumulative_by_k.2.submitted_by_k.family_weighted",
+      "upper": 0.013345124727918975,
+      "value": 0.007111111111111111,
+      "x": 2
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.03414447293760657,
+      "panel": "C1",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C1.cumulative_by_k.3.submitted_by_k.family_weighted",
+      "upper": 0.07341108261794899,
+      "value": 0.05377777777777778,
+      "x": 3
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.20352029250558434,
+      "panel": "C1",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C1.cumulative_by_k.4.submitted_by_k.family_weighted",
+      "upper": 0.2995908186055267,
+      "value": 0.25155555555555553,
+      "x": 4
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.37858922203656337,
+      "panel": "C1",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C1.cumulative_by_k.5.submitted_by_k.family_weighted",
+      "upper": 0.4871885557412144,
+      "value": 0.4328888888888889,
+      "x": 5
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.5313315314733448,
+      "panel": "C1",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C1.cumulative_by_k.6.submitted_by_k.family_weighted",
+      "upper": 0.6411129129710996,
+      "value": 0.5862222222222222,
+      "x": 6
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.6388206115746793,
+      "panel": "C1",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C1.cumulative_by_k.7.submitted_by_k.family_weighted",
+      "upper": 0.7380682773142095,
+      "value": 0.6884444444444444,
+      "x": 7
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.7325580942252734,
+      "panel": "C1",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C1.cumulative_by_k.8.submitted_by_k.family_weighted",
+      "upper": 0.8132196835525045,
+      "value": 0.772888888888889,
+      "x": 8
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.0,
+      "panel": "C2",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C2.cumulative_by_k.0.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.0,
+      "value": 0.0,
+      "x": 0
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.7356262214209881,
+      "panel": "C2",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C2.cumulative_by_k.1.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.8199293341345675,
+      "value": 0.7777777777777778,
+      "x": 1
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.8140662747109549,
+      "panel": "C2",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C2.cumulative_by_k.2.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.8837115030668227,
+      "value": 0.8488888888888888,
+      "x": 2
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.8557115402156179,
+      "panel": "C2",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C2.cumulative_by_k.3.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9185106820066042,
+      "value": 0.8871111111111111,
+      "x": 3
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.8773681385759036,
+      "panel": "C2",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C2.cumulative_by_k.4.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9368540836463188,
+      "value": 0.9071111111111112,
+      "x": 4
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.895515192685081,
+      "panel": "C2",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C2.cumulative_by_k.5.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9515959184260302,
+      "value": 0.9235555555555556,
+      "x": 5
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.9060577932814027,
+      "panel": "C2",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C2.cumulative_by_k.6.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9614977622741527,
+      "value": 0.9337777777777777,
+      "x": 6
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.9109717105448887,
+      "panel": "C2",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C2.cumulative_by_k.7.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9645838450106667,
+      "value": 0.9377777777777777,
+      "x": 7
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.9156450033885147,
+      "panel": "C2",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C2.cumulative_by_k.8.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9679105521670409,
+      "value": 0.9417777777777778,
+      "x": 8
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.0,
+      "panel": "C2",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C2.cumulative_by_k.0.submitted_by_k.family_weighted",
+      "upper": 0.0,
+      "value": 0.0,
+      "x": 0
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.0,
+      "panel": "C2",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C2.cumulative_by_k.1.submitted_by_k.family_weighted",
+      "upper": 0.0,
+      "value": 0.0,
+      "x": 1
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": -0.00046454650761453795,
+      "panel": "C2",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C2.cumulative_by_k.2.submitted_by_k.family_weighted",
+      "upper": 0.0013534353965034267,
+      "value": 0.0004444444444444444,
+      "x": 2
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.02573703990000772,
+      "panel": "C2",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C2.cumulative_by_k.3.submitted_by_k.family_weighted",
+      "upper": 0.05426296009999228,
+      "value": 0.04,
+      "x": 3
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.15128689960747937,
+      "panel": "C2",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C2.cumulative_by_k.4.submitted_by_k.family_weighted",
+      "upper": 0.22649087817029845,
+      "value": 0.1888888888888889,
+      "x": 4
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.32098498931974795,
+      "panel": "C2",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C2.cumulative_by_k.5.submitted_by_k.family_weighted",
+      "upper": 0.42568167734691864,
+      "value": 0.3733333333333333,
+      "x": 5
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.4747665652541989,
+      "panel": "C2",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C2.cumulative_by_k.6.submitted_by_k.family_weighted",
+      "upper": 0.5874556569680233,
+      "value": 0.5311111111111111,
+      "x": 6
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.5929821866700835,
+      "panel": "C2",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C2.cumulative_by_k.7.submitted_by_k.family_weighted",
+      "upper": 0.7047955911076942,
+      "value": 0.6488888888888888,
+      "x": 7
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.68522529288727,
+      "panel": "C2",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C2.cumulative_by_k.8.submitted_by_k.family_weighted",
+      "upper": 0.7849969293349524,
+      "value": 0.7351111111111112,
+      "x": 8
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.0,
+      "panel": "C3",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C3.cumulative_by_k.0.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.0,
+      "value": 0.0,
+      "x": 0
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.7818302901640739,
+      "panel": "C3",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C3.cumulative_by_k.1.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.8617252653914815,
+      "value": 0.8217777777777777,
+      "x": 1
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.8455159662035907,
+      "panel": "C3",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C3.cumulative_by_k.2.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9109284782408538,
+      "value": 0.8782222222222222,
+      "x": 2
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.8735710902141871,
+      "panel": "C3",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C3.cumulative_by_k.3.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9362066875635908,
+      "value": 0.904888888888889,
+      "x": 3
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.8880270325967163,
+      "panel": "C3",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C3.cumulative_by_k.4.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9466396340699503,
+      "value": 0.9173333333333333,
+      "x": 4
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.9013902612230981,
+      "panel": "C3",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C3.cumulative_by_k.5.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9563875165546797,
+      "value": 0.9288888888888889,
+      "x": 5
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.9105647227164366,
+      "panel": "C3",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C3.cumulative_by_k.6.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9676574995057856,
+      "value": 0.9391111111111111,
+      "x": 6
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.915469868688309,
+      "panel": "C3",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C3.cumulative_by_k.7.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9707523535339132,
+      "value": 0.9431111111111111,
+      "x": 7
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.9180213224553522,
+      "panel": "C3",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C3.cumulative_by_k.8.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9726453442113145,
+      "value": 0.9453333333333334,
+      "x": 8
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.0,
+      "panel": "C3",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C3.cumulative_by_k.0.submitted_by_k.family_weighted",
+      "upper": 0.0,
+      "value": 0.0,
+      "x": 0
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.0,
+      "panel": "C3",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C3.cumulative_by_k.1.submitted_by_k.family_weighted",
+      "upper": 0.0,
+      "value": 0.0,
+      "x": 1
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": -0.00046454650761453795,
+      "panel": "C3",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C3.cumulative_by_k.2.submitted_by_k.family_weighted",
+      "upper": 0.0013534353965034267,
+      "value": 0.0004444444444444444,
+      "x": 2
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.026709875578319435,
+      "panel": "C3",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C3.cumulative_by_k.3.submitted_by_k.family_weighted",
+      "upper": 0.06484567997723611,
+      "value": 0.04577777777777778,
+      "x": 3
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.15737523105474588,
+      "panel": "C3",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C3.cumulative_by_k.4.submitted_by_k.family_weighted",
+      "upper": 0.23995810227858744,
+      "value": 0.19866666666666666,
+      "x": 4
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.32279152542178774,
+      "panel": "C3",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C3.cumulative_by_k.5.submitted_by_k.family_weighted",
+      "upper": 0.43187514124487897,
+      "value": 0.37733333333333335,
+      "x": 5
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.4598873270958872,
+      "panel": "C3",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C3.cumulative_by_k.6.submitted_by_k.family_weighted",
+      "upper": 0.5747793395707794,
+      "value": 0.5173333333333333,
+      "x": 6
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.5756290193877138,
+      "panel": "C3",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C3.cumulative_by_k.7.submitted_by_k.family_weighted",
+      "upper": 0.6812598695011749,
+      "value": 0.6284444444444444,
+      "x": 7
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.6702427422395958,
+      "panel": "C3",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C3.cumulative_by_k.8.submitted_by_k.family_weighted",
+      "upper": 0.7688683688715152,
+      "value": 0.7195555555555555,
+      "x": 8
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.7894997495056278,
+      "panel": "C4a",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C4a.cumulative_by_k.0.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.8745002504943723,
+      "value": 0.8320000000000001,
+      "x": 0
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.8787569504763659,
+      "panel": "C4a",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C4a.cumulative_by_k.1.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9434652717458563,
+      "value": 0.9111111111111111,
+      "x": 1
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.8994851737742463,
+      "panel": "C4a",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C4a.cumulative_by_k.2.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9591814928924204,
+      "value": 0.9293333333333333,
+      "x": 2
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.9075138243467532,
+      "panel": "C4a",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C4a.cumulative_by_k.3.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9671528423199135,
+      "value": 0.9373333333333334,
+      "x": 3
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.9151291903478178,
+      "panel": "C4a",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C4a.cumulative_by_k.4.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9719819207632932,
+      "value": 0.9435555555555555,
+      "x": 4
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.9227692010627578,
+      "panel": "C4a",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C4a.cumulative_by_k.5.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9750085767150197,
+      "value": 0.9488888888888888,
+      "x": 5
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.9271765259429373,
+      "panel": "C4a",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C4a.cumulative_by_k.6.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9786012518348405,
+      "value": 0.9528888888888889,
+      "x": 6
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.9323380053413761,
+      "panel": "C4a",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C4a.cumulative_by_k.7.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9805508835475127,
+      "value": 0.9564444444444444,
+      "x": 7
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.9337478402085319,
+      "panel": "C4a",
+      "series": "cstar_visible_by_k_loose",
+      "source": "TIMELINE.json:groups.P|C4a.cumulative_by_k.8.cstar_visible_by_k_loose.family_weighted",
+      "upper": 0.9809188264581347,
+      "value": 0.9573333333333333,
+      "x": 8
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.0,
+      "panel": "C4a",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C4a.cumulative_by_k.0.submitted_by_k.family_weighted",
+      "upper": 0.0,
+      "value": 0.0,
+      "x": 0
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.0,
+      "panel": "C4a",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C4a.cumulative_by_k.1.submitted_by_k.family_weighted",
+      "upper": 0.0,
+      "value": 0.0,
+      "x": 1
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.002908013445173027,
+      "panel": "C4a",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C4a.cumulative_by_k.2.submitted_by_k.family_weighted",
+      "upper": 0.01575865322149364,
+      "value": 0.009333333333333334,
+      "x": 2
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.06830457209685328,
+      "panel": "C4a",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C4a.cumulative_by_k.3.submitted_by_k.family_weighted",
+      "upper": 0.12013987234759116,
+      "value": 0.09422222222222222,
+      "x": 3
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.26902236400485224,
+      "panel": "C4a",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C4a.cumulative_by_k.4.submitted_by_k.family_weighted",
+      "upper": 0.3843109693284812,
+      "value": 0.3266666666666667,
+      "x": 4
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.43868863898050514,
+      "panel": "C4a",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C4a.cumulative_by_k.5.submitted_by_k.family_weighted",
+      "upper": 0.5639780276861617,
+      "value": 0.5013333333333334,
+      "x": 5
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.565829476854958,
+      "panel": "C4a",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C4a.cumulative_by_k.6.submitted_by_k.family_weighted",
+      "upper": 0.682170523145042,
+      "value": 0.624,
+      "x": 6
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.6575733430054198,
+      "panel": "C4a",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C4a.cumulative_by_k.7.submitted_by_k.family_weighted",
+      "upper": 0.7690933236612467,
+      "value": 0.7133333333333333,
+      "x": 7
+    },
+    {
+      "figure": "fig4_timeline",
+      "lower": 0.7366705799072042,
+      "panel": "C4a",
+      "series": "submitted_by_k",
+      "source": "TIMELINE.json:groups.P|C4a.cumulative_by_k.8.submitted_by_k.family_weighted",
+      "upper": 0.8322183089816846,
+      "value": 0.7844444444444444,
+      "x": 8
+    }
+  ]
+}

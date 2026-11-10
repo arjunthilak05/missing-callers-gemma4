@@ -1,0 +1,88 @@
+{
+ "label": "EXPLORATORY, POST HOC sensitivity (2026-11-06, after reviews R9); the prespecified decisions are the unadjusted ones; ANALYSIS RECORD",
+ "alpha": 0.05,
+ "family": "the primary tests of follow-ups A1-A7",
+ "tests": [
+  {
+   "test": "A1 last-response line: deadline - neutral",
+   "source": "reports/expA-finalturn-20261102a/analysis/RESULTS.json",
+   "sha256": "331604b3ef97defb26cabfcd5d758b5a01faf5a6b1bb50af3c860c4896dcff7c",
+   "json_path": "primary.p_two_sided",
+   "p": 3.2862238447612937e-13,
+   "holm_p": 2.628979075809035e-12,
+   "reject_unadjusted": true,
+   "reject_holm": true
+  },
+  {
+   "test": "A2 callers missed by name search: H3",
+   "source": "reports/expA-hard-20261102a/followup/RESULTS.json",
+   "sha256": "2f03d8d7aeaaf676fd08ba8650a4d69b64b777a1b3deec699a1f260fdf3e9aeb",
+   "json_path": "hypotheses.H3.p_two_sided",
+   "p": 0.010487297853391288,
+   "holm_p": 0.03146189356017386,
+   "reject_unadjusted": true,
+   "reject_holm": true
+  },
+  {
+   "test": "A3 evidence ledger: M",
+   "source": "reports/expA-a3ledger-20261105/A3_ANALYSIS.json",
+   "sha256": "d66d6f18997e6a693bae4c24791c067039fe0693ab3840d704dbe9c4a3fa1e7d",
+   "json_path": "main.M_reduction_in_omission_cost.p_two_sided",
+   "p": 0.10839400734943772,
+   "holm_p": 0.21678801469887543,
+   "reject_unadjusted": false,
+   "reject_holm": false
+  },
+  {
+   "test": "A4 final-line components: instruction x list effect",
+   "source": "reports/expA-a4directive-20261106/A4_RESULTS.json",
+   "sha256": "c5dc8efcf2ca64e868fff5120b166e753117a81e9ddaefff722f0f9d3c39dd5d",
+   "json_path": "analysis.primary.p_two_sided",
+   "p": 0.004452569167581886,
+   "holm_p": 0.02226284583790943,
+   "reject_unadjusted": true,
+   "reject_holm": true
+  },
+  {
+   "test": "A5 submit-time review pilot: M",
+   "source": "reports/expA-a5review-20261106/A5_ANALYSIS.json",
+   "sha256": "007a0770cdfe173b8b6cdc92313949bbaa8fe5ee5ab50de17f69d402f01e68a6",
+   "json_path": "main.M_reduction_in_omission_cost.p_two_sided",
+   "p": 0.12868918288195774,
+   "holm_p": 0.21678801469887543,
+   "reject_unadjusted": false,
+   "reject_holm": false
+  },
+  {
+   "test": "A6 doubled budget: R",
+   "source": "reports/expA-a6budget16-20261106/A6_ANALYSIS.json",
+   "sha256": "fb01130509bbcfd59691d70f521886ece9e0efabaa6a5762a6507b7192cd8d61",
+   "json_path": "main.R_reduction_in_omission_cost.p_two_sided",
+   "p": 0.004717088817627397,
+   "holm_p": 0.02226284583790943,
+   "reject_unadjusted": true,
+   "reject_holm": true
+  },
+  {
+   "test": "A7 impact-analysis task: T1",
+   "source": "reports/expA-a7impact-20261107/A7_ANALYSIS.json",
+   "sha256": "5d0e7b5f213086d7bbe3c0d5bb2f9c03fd0b66cf1b587bd92c5799f61452589a",
+   "json_path": "analysis.primary.tests.T1.p_two_sided",
+   "p": 0.001547222971479383,
+   "holm_p": 0.009283337828876298,
+   "reject_unadjusted": true,
+   "reject_holm": true
+  },
+  {
+   "test": "A7 impact-analysis task: T2",
+   "source": "reports/expA-a7impact-20261107/A7_ANALYSIS.json",
+   "sha256": "5d0e7b5f213086d7bbe3c0d5bb2f9c03fd0b66cf1b587bd92c5799f61452589a",
+   "json_path": "analysis.primary.tests.T2.p_two_sided",
+   "p": 4.107600515994786e-06,
+   "holm_p": 2.87532036119635e-05,
+   "reject_unadjusted": true,
+   "reject_holm": true
+  }
+ ],
+ "decisions_changed": []
+}

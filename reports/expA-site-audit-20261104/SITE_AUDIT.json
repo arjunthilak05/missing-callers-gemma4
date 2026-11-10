@@ -1,0 +1,45 @@
+{
+ "inputs": {
+  "hard": {
+   "items": {
+    "path": "items/hard/items.jsonl",
+    "sha256": "b16efd17111163d95d5520433e18fc6d3ec7cb688a27c785d00e36b59ef8dbea"
+   },
+   "scores": {
+    "path": "results/hard-20261102a/scores.jsonl",
+    "sha256": "5dc61e194089e9d8cf38dc3e789308e1dea24346e2a48fe811e9684d1e7b25ce"
+   }
+  },
+  "main": {
+   "items": {
+    "path": "items/main/items.jsonl",
+    "sha256": "f3451a3c9fba2ffd3455df17718d3e276132cf9eb0a7158240256deed32764c8"
+   },
+   "scores": {
+    "path": "results/main-20261101b/scores.jsonl",
+    "sha256": "a8bc820f3cadda9750adf77c763ac44b92c669109bcf570dc2298f6f181de1fa"
+   }
+  }
+ },
+ "label": "EXPLORATORY, POST HOC (2026-11-04, after an audit); ANALYSIS RECORD",
+ "runs": {
+  "hard": {
+   "cstar_sites": 255,
+   "items": 236,
+   "items_with_weak_cstar_site": 0,
+   "recovered_episodes": 552,
+   "recovered_only_via_weak_sites": 0,
+   "weak_cstar_sites": 0
+  },
+  "main": {
+   "cstar_sites": 939,
+   "items": 750,
+   "items_with_weak_cstar_site": 26,
+   "recovered_episodes": 9497,
+   "recovered_only_via_weak_sites": 0,
+   "weak_cstar_sites": 36
+  }
+ },
+ "script_sha256": "a96023d0969b1cda4eb33ddaf78d28c24e5176fd379933dfa9f2a146221a7aaa",
+ "weak_rule": "C* site whose witnesses include neither 'trace' nor 'J'"
+}

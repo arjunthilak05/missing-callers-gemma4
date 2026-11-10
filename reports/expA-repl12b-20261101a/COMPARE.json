@@ -1,0 +1,346 @@
+{
+ "both_intervals_within_0_10": {
+  "H1": true,
+  "H2": true,
+  "H3": false
+ },
+ "classification": {
+  "H1": "second-model test",
+  "H2": "second-model test",
+  "H3": "replicated"
+ },
+ "classification_detail": {
+  "H1": {
+   "addendum_label": "independent test",
+   "label": "second-model test",
+   "new_holm_significant": true,
+   "ref_holm_significant": false,
+   "same_sign": true
+  },
+  "H2": {
+   "addendum_label": "independent test",
+   "label": "second-model test",
+   "new_holm_significant": true,
+   "ref_holm_significant": false,
+   "same_sign": true
+  },
+  "H3": {
+   "addendum_label": "replicated",
+   "label": "replicated",
+   "new_holm_significant": true,
+   "ref_holm_significant": true,
+   "same_sign": true
+  }
+ },
+ "conditions": {
+  "new": {
+   "C0": {
+    "episodes": 2250,
+    "exits": {
+     "ContextLimit": 14,
+     "NoAnswer": 2219,
+     "Submitted": 17
+    },
+    "mean_calls": 7.974222222222222,
+    "mean_calls_submitted": 6.117647058823529,
+    "mean_completion_tokens": 523.3888888888889,
+    "mean_prompt_tokens": 14903.149333333333,
+    "recovered_by_response_8_share": 0.007555555555555556,
+    "recovered_share": 0.007555555555555556,
+    "recovery_given_submission": 1.0,
+    "submitted_by_response_8_share": 0.007555555555555556,
+    "submitted_share": 0.007555555555555556
+   },
+   "C1": {
+    "episodes": 2250,
+    "exits": {
+     "ContextLimit": 17,
+     "NoAnswer": 1858,
+     "Submitted": 375
+    },
+    "mean_calls": 7.574666666666666,
+    "mean_calls_submitted": 5.576,
+    "mean_completion_tokens": 461.804,
+    "mean_prompt_tokens": 23287.823555555555,
+    "recovered_by_response_8_share": 0.15511111111111112,
+    "recovered_share": 0.15511111111111112,
+    "recovery_given_submission": 0.9306666666666666,
+    "submitted_by_response_8_share": 0.16666666666666666,
+    "submitted_share": 0.16666666666666666
+   },
+   "C2": {
+    "episodes": 2250,
+    "exits": {
+     "ContextLimit": 24,
+     "NoAnswer": 1896,
+     "Submitted": 330
+    },
+    "mean_calls": 7.711555555555556,
+    "mean_calls_submitted": 6.2303030303030305,
+    "mean_completion_tokens": 434.08844444444446,
+    "mean_prompt_tokens": 24658.649333333335,
+    "recovered_by_response_8_share": 0.1431111111111111,
+    "recovered_share": 0.1431111111111111,
+    "recovery_given_submission": 0.9757575757575757,
+    "submitted_by_response_8_share": 0.14666666666666667,
+    "submitted_share": 0.14666666666666667
+   },
+   "C3": {
+    "episodes": 2250,
+    "exits": {
+     "ContextLimit": 26,
+     "NoAnswer": 1953,
+     "Submitted": 271
+    },
+    "mean_calls": 7.7155555555555555,
+    "mean_calls_submitted": 5.904059040590406,
+    "mean_completion_tokens": 521.9768888888889,
+    "mean_prompt_tokens": 24972.969333333334,
+    "recovered_by_response_8_share": 0.11777777777777777,
+    "recovered_share": 0.11777777777777777,
+    "recovery_given_submission": 0.977859778597786,
+    "submitted_by_response_8_share": 0.12044444444444445,
+    "submitted_share": 0.12044444444444445
+   },
+   "C4a": {
+    "episodes": 2250,
+    "exits": {
+     "ContextLimit": 30,
+     "NoAnswer": 1743,
+     "Submitted": 477
+    },
+    "mean_calls": 7.403555555555555,
+    "mean_calls_submitted": 5.360587002096436,
+    "mean_completion_tokens": 520.5364444444444,
+    "mean_prompt_tokens": 26166.294222222223,
+    "recovered_by_response_8_share": 0.21155555555555555,
+    "recovered_share": 0.21155555555555555,
+    "recovery_given_submission": 0.9979035639412998,
+    "submitted_by_response_8_share": 0.212,
+    "submitted_share": 0.212
+   }
+  },
+  "ref": {
+   "C0": {
+    "episodes": 2250,
+    "exits": {
+     "NoAnswer": 926,
+     "Submitted": 1324
+    },
+    "mean_calls": 6.474222222222222,
+    "mean_calls_submitted": 5.407099697885196,
+    "mean_completion_tokens": 269.8955555555556,
+    "mean_prompt_tokens": 15034.344,
+    "recovered_by_response_8_share": 0.5675555555555556,
+    "recovered_share": 0.5675555555555556,
+    "recovery_given_submission": 0.9645015105740181,
+    "submitted_by_response_8_share": 0.5884444444444444,
+    "submitted_share": 0.5884444444444444
+   },
+   "C1": {
+    "episodes": 2250,
+    "exits": {
+     "NoAnswer": 511,
+     "Submitted": 1739
+    },
+    "mean_calls": 5.98,
+    "mean_calls_submitted": 5.386428982173663,
+    "mean_completion_tokens": 272.66622222222225,
+    "mean_prompt_tokens": 20476.701777777776,
+    "recovered_by_response_8_share": 0.724,
+    "recovered_share": 0.724,
+    "recovery_given_submission": 0.9367452558941921,
+    "submitted_by_response_8_share": 0.7728888888888888,
+    "submitted_share": 0.7728888888888888
+   },
+   "C2": {
+    "episodes": 2250,
+    "exits": {
+     "NoAnswer": 596,
+     "Submitted": 1654
+    },
+    "mean_calls": 6.217333333333333,
+    "mean_calls_submitted": 5.57496977025393,
+    "mean_completion_tokens": 276.7951111111111,
+    "mean_prompt_tokens": 22333.88888888889,
+    "recovered_by_response_8_share": 0.6991111111111111,
+    "recovered_share": 0.6991111111111111,
+    "recovery_given_submission": 0.9510278113663845,
+    "submitted_by_response_8_share": 0.7351111111111112,
+    "submitted_share": 0.7351111111111112
+   },
+   "C3": {
+    "episodes": 2250,
+    "exits": {
+     "NoAnswer": 631,
+     "Submitted": 1619
+    },
+    "mean_calls": 6.232,
+    "mean_calls_submitted": 5.542927733168622,
+    "mean_completion_tokens": 273.3777777777778,
+    "mean_prompt_tokens": 22921.546666666665,
+    "recovered_by_response_8_share": 0.6844444444444444,
+    "recovered_share": 0.6844444444444444,
+    "recovery_given_submission": 0.9512044471896233,
+    "submitted_by_response_8_share": 0.7195555555555555,
+    "submitted_share": 0.7195555555555555
+   },
+   "C4a": {
+    "episodes": 2250,
+    "exits": {
+     "NoAnswer": 485,
+     "Submitted": 1765
+    },
+    "mean_calls": 5.731111111111111,
+    "mean_calls_submitted": 5.1076487252124645,
+    "mean_completion_tokens": 265.7662222222222,
+    "mean_prompt_tokens": 22145.72,
+    "recovered_by_response_8_share": 0.7457777777777778,
+    "recovered_share": 0.7457777777777778,
+    "recovery_given_submission": 0.9507082152974504,
+    "submitted_by_response_8_share": 0.7844444444444445,
+    "submitted_share": 0.7844444444444445
+   }
+  }
+ },
+ "conditions_status": "EXPLORATORY decomposition (exit partition, submission, recovery given submission)",
+ "delta": {
+  "H1": {
+   "ci_high": 0.01816919740988395,
+   "ci_low": -0.03950253074321729,
+   "df": 29,
+   "estimate": -0.010666666666666666,
+   "n_families": 30,
+   "p_nominal": 0.45542193656295893,
+   "t": -0.7565503427086869
+  },
+  "H2": {
+   "ci_high": 0.0677074734809608,
+   "ci_low": 0.0016258598523725258,
+   "df": 29,
+   "estimate": 0.034666666666666665,
+   "n_families": 30,
+   "p_nominal": 0.04038468469581118,
+   "t": 2.145870549078933
+  },
+  "H3": {
+   "ci_high": 0.049952706833752615,
+   "ci_low": -0.06773048461153039,
+   "df": 29,
+   "estimate": -0.008888888888888889,
+   "n_families": 30,
+   "p_nominal": 0.759559225826185,
+   "t": -0.30896203302970937
+  }
+ },
+ "frozen": {
+  "new": {
+   "H1": {
+    "estimate": -0.025333333333333333,
+    "holm_p": 0.013030985093165305
+   },
+   "H2": {
+    "estimate": 0.05644444444444444,
+    "holm_p": 0.0001228265591104028
+   },
+   "H3": {
+    "estimate": 0.14755555555555555,
+    "holm_p": 3.989884938492851e-10
+   }
+  },
+  "ref": {
+   "H1": {
+    "estimate": -0.014666666666666666,
+    "holm_p": 0.1721017094716216
+   },
+   "H2": {
+    "estimate": 0.021777777777777778,
+    "holm_p": 0.1721017094716216
+   },
+   "H3": {
+    "estimate": 0.15644444444444444,
+    "holm_p": 4.4025524328475897e-08
+   }
+  }
+ },
+ "inputs": {
+  "new_analysis": {
+   "path": "reports/expA-repl12b-20261101a/analysis/ANALYSIS.json",
+   "sha256": "b4c13ae66e275ddb9b2d15236095677b81e29e6940e9d648b2abe76412940142"
+  },
+  "new_cells": {
+   "path": "D:/C_moved/Documents-work/2026-10-17/expA-backups/repl12b-analysis-20261101a/CELLS.jsonl",
+   "sha256": "1f371685add6a7636c39320d00cd3c70ed4394303dfa199bc1cebcc4e70eda65"
+  },
+  "ref_analysis": {
+   "path": "reports/expA-main-20261101b/analysis/ANALYSIS.json",
+   "sha256": "f9017bf657c2472c30867ef8ace33433e4110c5597c340d1e163c279b9839d86"
+  },
+  "ref_cells": {
+   "path": "D:/C_moved/Documents-work/2026-10-17/expA-backups/main-analysis-20261101b/CELLS.jsonl",
+   "sha256": "01a84b6973c2877fd30301a53163c7c619b416168d868bf645f8c43ffb2ff6ab"
+  }
+ },
+ "label": "ANALYSIS RECORD",
+ "mode": "model",
+ "new_estimates": {
+  "H1": {
+   "ci_high": -0.005749431499567601,
+   "ci_low": -0.044917235167099064,
+   "df": 29,
+   "estimate": -0.025333333333333333,
+   "n_families": 30,
+   "p_nominal": 0.0130309850931653,
+   "t": -2.645667074271629
+  },
+  "H2": {
+   "ci_high": 0.08110301767643956,
+   "ci_low": 0.031785871212449336,
+   "df": 29,
+   "estimate": 0.05644444444444444,
+   "n_families": 30,
+   "p_nominal": 6.14132795552014e-05,
+   "t": 4.681611130756812
+  },
+  "H3": {
+   "ci_high": 0.17868720868149895,
+   "ci_low": 0.11642390242961215,
+   "df": 29,
+   "estimate": 0.14755555555555555,
+   "n_families": 30,
+   "p_nominal": 1.3299616461642837e-10,
+   "t": 9.693831383213308
+  }
+ },
+ "ref_estimates": {
+  "H1": {
+   "ci_high": 0.0053489357393165776,
+   "ci_low": -0.03468226907264991,
+   "df": 29,
+   "estimate": -0.014666666666666666,
+   "n_families": 30,
+   "p_nominal": 0.14476805538634185,
+   "t": -1.4986659311827362
+  },
+  "H2": {
+   "ci_high": 0.046842044885209114,
+   "ci_low": -0.0032864893296535593,
+   "df": 29,
+   "estimate": 0.021777777777777778,
+   "n_families": 30,
+   "p_nominal": 0.08605085473581063,
+   "t": 1.7770540211680101
+  },
+  "H3": {
+   "ci_high": 0.1976650924169688,
+   "ci_low": 0.11522379647192008,
+   "df": 29,
+   "estimate": 0.15644444444444444,
+   "n_families": 30,
+   "p_nominal": 1.467517477615853e-08,
+   "t": 7.7622461281548265
+  }
+ },
+ "status": "SECONDARY, descriptive (protocols/EXPA_REPL12B.md section 5); the classification follows section 6 in its fixed order",
+ "unit": "item mean over the selected seeds -> paired item difference -> family mean; nominal 95% t over family differences (df = F - 1)"
+}

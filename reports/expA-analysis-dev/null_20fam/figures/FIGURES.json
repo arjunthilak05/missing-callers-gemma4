@@ -1,0 +1,12 @@
+{
+  "analysis_sha256": "646ab8baed1b4bc0a55ddc540968f3bf806b9670b32652fa5332f2bd1400290a",
+  "label": "SYNTHETIC FIXTURE (absent_edges.probe.analysis.synthetic_dataset) - not research data",
+  "matplotlib": "3.9.2",
+  "outputs": {
+    "fig2_recovery.png": "651ad31ea65eb262bfbf5fff48108d47cf09c3cb9100d3a17469adc7f776690a",
+    "fig2_recovery.svg": "0d4ff4b51079da2b8ff35c6936a0a25fe94b156ff09e320ae634c7e24a771bf1",
+    "fig3_cost_recall.png": "453c17f597f05122cb587a378c5e9f2856e2e656c4301a8e302f26d8c8840e9e",
+    "fig3_cost_recall.svg": "7bcbcc7ce3b30fa157924d3d93f1effc332abb55b11aef8d788135a77622823b"
+  },
+  "schema_version": "expA-figures-v1"
+}

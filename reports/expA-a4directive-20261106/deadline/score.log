@@ -1,0 +1,130 @@
+{
+ "binding": {
+  "cell_states": {
+   "completed": 1500,
+   "not_dispatched": 12240
+  },
+  "cells_jsonl": "matches_design",
+  "cells_jsonl_sha256": "2273df3479effc32ed8ce10c4f5d6b84363729fb14df79e6ba2742f6d7b4ab0f",
+  "cells_with_records": 1500,
+  "design": "d11",
+  "design_cells": 13740,
+  "design_evidence": {
+   "cell ids": "d11",
+   "run.json design.blocks": "d11"
+  },
+  "dispatch_manifest_items_sha256": "f3451a3c9fba2ffd3455df17718d3e276132cf9eb0a7158240256deed32764c8",
+  "dispatched_payload_store_sha256": {
+   "alembic": "d7e5e8d7cc41ff2b48a683ef0e6e786bbf71b469a1e3c38dd087e5150164da92",
+   "click": "26e52bdf9139683f8eda51969a37414e07fa7656123ecef5f13ad45472f361f1",
+   "cmd2": "3cbf7c92cad7cd2f5b99b4cf02257591288cf142719ef5e6043cb491139f2af7",
+   "deepdiff": "299e76a9616b55fd4800420a064c0693bea496ac2bf05023a605dd98ddfb1e9e",
+   "elementpath": "4de817962bc5cd98ef9f5258e51b201db19114c0f027e71d1acd551638dff2af",
+   "genshi": "9fa210fa8d93e4707a5be7fd554f2f2d1336dce8a7ff0f25956e30dad8b09fff",
+   "graphql-core": "f75987c1b68a3f629353e5ce965a57e6eb4bbae64d57331872e73f8333221dd2",
+   "httpx": "56e53dd2fc944b7509bf020cde1b98ba48731322362282548b735f3a81da9115",
+   "icalendar": "ec3f37f936566c5446faa063fda08a3519e2a6b3bace7301ab8156a29194d4c6",
+   "jinja": "3d77dc905a09b2038fbda368e8b46d3833e29cf884e73649a25185ece49e782b",
+   "lark": "95aaa25c5b3715737af777889e1c96b1987d4b90b584965f0ea285605e42cf51",
+   "liquid": "edd25fe2288fab21076f79afaf6729018e3b342ddf90b997bbff5e62c7e1fc50",
+   "markdown": "6f1d1f4019f6d447279a60c05d6cdc81098118080739a5a4d2edc6bb3a1e0846",
+   "markdown-it-py": "c1d6a26674a7a2181dc2416ff8e761318fa5a83d82bc2bcc48aa2f443d2d5ba1",
+   "mpmath": "bde3ccd683c929304e1f3e78c55c6371b272ede4c8adfc01555952d7cc098d11",
+   "packaging": "120c4e36f8429ffe2680a138c33b415e6a628476033e6d02466fa19473ef825a",
+   "param": "85838be305314947ac138cf25e9aa52d8d92e22eeb5fd186e9238fe81326131f",
+   "petl": "0d77855465962b36807d1ec812cbcea75e483d206c4665c9fcf0ed528af3d80c",
+   "pyparsing": "9250d54592ea9e3ae8ccd5308114abb642669c9a9197478ae044751f55ad23a5",
+   "python-docx": "d7f418a2d9e3a4007d02eab546b388b1745feef411940d83bbaf9bb8578c3f37",
+   "python-pptx": "a668a20d324cf71b3ae1906859bf29b39f6d6388dc39f86a20a11bd7892a90c2",
+   "rdflib": "3ed309f82c20ca811bd6a91f751ca6de586bd42b4299103ce1a950df88ffa7f2",
+   "rich": "2e2c71f461f1eb054d5a2a48ff586844a01fbe98dfdb695c5cf03296b9e57f79",
+   "segno": "f552afb4d26f6b983b1cc1dc292e70d1dfaf7c8b79fbeec6555a6f67f5c15a37",
+   "sqlite-utils": "a63282a90d2cf2b298d880f88fedc29d3cb9403f30aba041ba86cfb01495c666",
+   "traitlets": "b92473914388c5d7e6aae2dcc212000790d6d86f5210e0705bc358d66a1281c6",
+   "websockets": "02a830c22bfd18542383166fde590bd9bbe0954cd87d5510f17822f1449bbb0a",
+   "xlsxwriter": "b57312da44e139be86b0226d151138d2aa818a7a2f695f0e581f87372d3e616b",
+   "xmlschema": "67e45c29980f77493f6fb0410bb54c06037d6fe88acf96f979f10d7613b800fe",
+   "yapf": "075bd13ae5bfcac04d7321af81c271ba31a6667bf3e45972eb3b343d498a8858"
+  },
+  "empty_attempt_directories": 0,
+  "frozen_cells": 13740,
+  "items_sha256": "f3451a3c9fba2ffd3455df17718d3e276132cf9eb0a7158240256deed32764c8",
+  "natural_answer_checks": {
+   "covariate_disagreements": [
+    "5646431dc74f22d5667c",
+    "62aa2984df3c006d2723",
+    "8f9114a64790cf3d4b70"
+   ],
+   "in_s_nat_without_NM": [],
+   "items_with_NM": 139
+  },
+  "payload_store_sha256": {
+   "alembic": "473c26d9eab2486b171d52726fcb63477076a20dd1bc63ce6cb88dc8cd3502cd",
+   "click": "3439fdf421ae23ef2dde919d6a51821f0fe8674372c4c257403acd4bacbdcf3d",
+   "cmd2": "e8b3dd06b14ff0be4d1447d930428505966c044ad9efd31e00b63adad9b6d5f9",
+   "deepdiff": "4fa4a2e0ba913bbc478b9e6b4019f6ae07241c9c3b746ee9a10fd05405c69e0e",
+   "elementpath": "469043f74fd08549adda30f6cc9caa3d7bffc75a9430bf54610f5a0c6fbf0346",
+   "genshi": "a63e2dea781f95316beb82e109318edbec9d638d94bef9201575bcff160791e1",
+   "graphql-core": "6bf3f91204879e0d9033e15e2e0775099facd49d18b4bb421cfd7eab72509eb6",
+   "httpx": "d06253b2c1094e89f72cf5f07dd7a045d9d0a4442a99d4c447d0dbdf31861d10",
+   "icalendar": "77ee6a18e3343b93247a87e9f6ad5975b8588fec2dfbeb872814dd5e0f1595d2",
+   "jinja": "5bae0d5a2fdd1cd0bbcf83e80d7a938a97487c8eaf1bf0af69b87b44f7c2be64",
+   "lark": "f8f6f267b2d4d86c7b68882eb40eef94945303be1afae35a8006e98ac4d1a552",
+   "liquid": "4c57912642b0b69ae23772562c99a1ffef6c000d062be291438e14dc4957505f",
+   "markdown": "019524fc8e397e4898e59e7254004829216704b3b3411fc324322433021425b3",
+   "markdown-it-py": "dc3a7de1ef0752656f45c9c9592e6c01ebc8b03b5c5ffe6e116aed5eb542dd19",
+   "mpmath": "06e866f394bbc28f98be9c9dd57205dc8f955a83b2da5e8e613111d7506ab103",
+   "packaging": "f06878cea56af94597cca779a71429892962193c38a31164e7c4c1eae63e1fa0",
+   "param": "1fb7192a69538fe8595e37b36ac89aa76608422c11bc1da2b901941d30d22b63",
+   "petl": "7391f02e194735fc6f04a92952b4fc4620041f52919a3e28032f67fc1f563cf2",
+   "pyparsing": "45cf3db48a4fcea9c38a68c0531543a917cdc6bfcf45155819bc09618b8cfb18",
+   "python-docx": "ccbd1a11adc8ca14560fe7fd4e49df79704a5eb9a1f02238373b3153fe31c557",
+   "python-pptx": "c06f825f9b5ebbb4642489c4cd59a542568b5658c7db9481e5b251ae40d63f90",
+   "rdflib": "33e2382913736e1693e95376f75c22d688c2995c75df6d35a505d90af2c29a38",
+   "rich": "788edb83d064f1d3390c4caa89f74cdb0d21e25a01a8be7682f6c2d50f1d5e98",
+   "segno": "089a5a26ab2b3ce7afe0e65e5d3087c93be78d547b171166087205614b4ee6a9",
+   "sqlite-utils": "d3374fb6bd27ff46b629bd0ea0f17f8939b240eb171614bd7aec15fc9a5c7231",
+   "traitlets": "d5538f358cc073370f4947e3b399029267e2c7655353f24170b2cc6e67b73c59",
+   "websockets": "dbfa1fbed3fac21cce3a128f022550ff82148ed013fa38c9d8465aae3a368e34",
+   "xlsxwriter": "f549c26a5e386d7ba476d1a5d6b5f17d541f0e3342ff71f7e7b03daee425a550",
+   "xmlschema": "595271fd23859915ff5a6f52d1acfdf19642f683055b152cd0514097a44db1c3",
+   "yapf": "fb4b77ebb98d78f5613b34a7410cf8e145449b1c89a9bd47fc6f071b96dc41e2"
+  },
+  "results": 1500,
+  "retry_cap_exceeded": 0,
+  "run_json_dispatch_sha256": [
+   "064bab880e74996315870f0d7f047d2909d8f3861e04c8a0149eea19bf1379cb"
+  ],
+  "run_json_items_sha256": "f3451a3c9fba2ffd3455df17718d3e276132cf9eb0a7158240256deed32764c8",
+  "run_json_sha256": "07b6a083c73a2adbfcb3b1604ef8ac09ce2916172fcfda9b866b1d92108d70a9",
+  "start_only_attempts": 0,
+  "status_counts": {
+   "Missing": 12240,
+   "NoAnswer": 64,
+   "Submitted": 1436
+  }
+ },
+ "by_block": {
+  "P": 11250,
+  "S-EDGE": 300,
+  "S-NAT": 390,
+  "S-VC": 1500,
+  "T": 300
+ },
+ "by_cell_state": {
+  "completed": 1500,
+  "not_dispatched": 12240
+ },
+ "by_exit_status": {
+  "Missing": 12240,
+  "NoAnswer": 64,
+  "Submitted": 1436
+ },
+ "kind": "episode",
+ "out": {
+  "bytes": 20157539,
+  "path": "/mnt/kldata/absent-edges-20261018-core2/expA/a4directive-deadline-analysis-20261106a/scores.jsonl",
+  "rows": 13740,
+  "sha256": "fae981c3c502dab0ffddfc4b347b0e97515fcfabd09f4a6bad04b50463cbf976"
+ }
+}

@@ -1,0 +1,8 @@
+{
+  "matplotlib": "3.9.2",
+  "outputs": {
+    "funnel.png": "2e6352b679a367a1f3deb67792a1cf53af6af93b78959fd90e280a1a80f2668d",
+    "funnel.svg": "138365f28ed43421232f0f1a68e8f62df32ca706482f099b27606d426a11a1fa"
+  },
+  "schema_version": "exposure-funnel-figure-v1"
+}

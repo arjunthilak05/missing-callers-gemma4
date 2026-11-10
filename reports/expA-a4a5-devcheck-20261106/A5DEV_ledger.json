@@ -1,0 +1,173 @@
+{
+  "arm": "ledger",
+  "cells": {
+    "dispatched": 68,
+    "empty_attempt_directories": 0,
+    "infrastructure_attempts_by_kind": {},
+    "ledger_seed_61_in_design": 68,
+    "states": {
+      "completed": 68,
+      "infra_pending": 0,
+      "missing_infrastructure": 0,
+      "not_dispatched": 0
+    },
+    "terminal_exits": {
+      "Submitted": 68
+    },
+    "terminal_only": "each cell's terminal attempt (D11.3: the first with a completed model exit); infrastructure attempts are not checked or counted"
+  },
+  "checks": {
+    "answer_source": {
+      "checked": 68,
+      "description": "answer_source agrees with the events and result.json: resubmit iff a submission_accepted event follows the review (submitted = it); first_submit after a review with a submit_review_resolved event (exit Submitted, submitted = the first submission) or for a first submission at the last call (review_skipped_last_call); none without a submission",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "config_receipts": {
+      "checked": 68,
+      "description": "result.json config and the episode_setup event's config are the arm's record",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "next_response_recorded": {
+      "checked": 53,
+      "description": "each requested response after a review has exactly one parsed_actions or format_error event",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "notice_receipts": {
+      "checked": 68,
+      "description": "the A1 final_turn_notice receipt is consistent (as the A1 dev check reads it)",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "records": {
+      "checked": 68,
+      "description": "each terminal attempt: its directory names its cell and attempt, result.json binds attempt_start.json and events.jsonl (sha256 and rows), its run_id is run.json's, and no attempt follows it",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "request_bytes": {
+      "checked": 68,
+      "description": "the review content is the reviewed call's tool result in every later request (with the deadline suffix when it is the message the notice follows) and in no earlier request; the ledger header never occurs in a neutral run, and in a ledger run only from the request after the review",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "review_event": {
+      "checked": 68,
+      "description": "at most one submit_review event, before the last call, for the first well-formed submission; reviewed iff it exists; the event, the receipt and the frozen text agree (text and content sha256, first submission, ledger entries/candidates/bytes and caps); the reviewed call's model-visible tool result is the event's content",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "review_receipts": {
+      "checked": 68,
+      "description": "result.json exposure.submit_review equals accounting.submit_review and the episode_finished event's, has exactly the receipt fields, mode = the arm and before_call_index 7",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "run_complete": {
+      "checked": 68,
+      "description": "every LEDGER cell at seed 61 in cells.jsonl is terminal in the D11.3 sense (a completed attempt, or missing after 3 infrastructure attempts)",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "run_json_cells": {
+      "checked": 1,
+      "description": "cells.jsonl is the file run.json binds (cells_sha256)",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "run_json_episode_config": {
+      "checked": 1,
+      "description": "run.json episode_config is the arm's exact record (the six prereg fields, the deadline notice, submit_review = the arm and submit_review_rules; no evidence ledger)",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    },
+    "selection": {
+      "checked": 68,
+      "description": "every dispatched cell is a LEDGER|<item>|vcomplete or omit_node|C1|s61 cell of cells.jsonl",
+      "examples": [],
+      "failed": 0,
+      "passed": true
+    }
+  },
+  "failed_checks": [],
+  "final_turn_policy": "deadline",
+  "go": true,
+  "go_rule": {
+    "format_errors": 0,
+    "passed": true,
+    "received_review": 53,
+    "rule": "at least 90% of the reviewed episodes whose next response was requested answered it with a well-formed tool call (parsed_actions, not format_error)",
+    "share": 1.0,
+    "threshold": 0.9,
+    "valid_tool_calls": 53
+  },
+  "ledger": {
+    "body_bytes_max": 531,
+    "body_bytes_mean": 47.64150943396226,
+    "built": 53,
+    "candidates_mean": 0.6792452830188679,
+    "empty": 44,
+    "empty_share": 0.8301886792452831,
+    "entries_max": 8,
+    "entries_mean": 0.6792452830188679,
+    "not_gated": "reported, not gated"
+  },
+  "protocol": "protocols/EXPA_A5_REVIEW.md",
+  "review": {
+    "answer_source": {
+      "first_submit": 15,
+      "resubmit": 53
+    },
+    "never_submitted": 0,
+    "not_gated": "reported, not gated",
+    "resubmitted_in_the_reviewed_response": 0,
+    "review_call_index_histogram": {
+      "1": 3,
+      "2": 10,
+      "3": 14,
+      "4": 7,
+      "5": 12,
+      "6": 7
+    },
+    "review_skipped_last_call": 15,
+    "reviewed": 53,
+    "reviewed_next_response_not_requested": 0,
+    "reviewed_share": 0.7794117647058824,
+    "terminal_attempts": 68,
+    "unresolved_exits": {}
+  },
+  "run": {
+    "cells_jsonl_sha256": "c0264357d2bc0e676524750709413502c7dc0eea445d09536f5e06da2b3f6b9f",
+    "model": {
+      "alias": "absent-edges-gemma4-31b-bf16",
+      "enable_thinking": false,
+      "hub_id": "google/gemma-4-31B-it",
+      "max_context": 32768,
+      "profile": "gemma4-31b",
+      "revision": "518276fb130dc81caf9a4f772e65e63ef2526493",
+      "temperature": 0.2
+    },
+    "run_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/runs/a5review-dev-ledger-20261106b",
+    "run_id": "a5review-dev-ledger-20261106b",
+    "run_json_sha256": "c8afa2cb0713b22060fdacdb7ce58d00be5d08a40b4c382f087fb1b4ed7a920a"
+  },
+  "schema": "expA-a5-devcheck-v1",
+  "script": {
+    "path": "scripts/expA_a5_devcheck.py",
+    "sha256": "4508dcaad5f21266e0227f9cab53c7e212e36a8422d6428e6e48acb1ee445396"
+  },
+  "seed": 61
+}

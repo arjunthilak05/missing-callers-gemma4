@@ -1,0 +1,1138 @@
+{
+ "clean_checkouts": {
+  "all_dispatch_families_covered": true,
+  "all_with_items_covered": true,
+  "by_family": {
+   "alembic": {
+    "in_clean_checkouts": true,
+    "items": 6,
+    "package_dirs_match": true,
+    "package_tree_matches_dispatch_source": true,
+    "path_exists": true
+   },
+   "click": {
+    "in_clean_checkouts": true,
+    "items": 11,
+    "package_dirs_match": true,
+    "package_tree_matches_dispatch_source": true,
+    "path_exists": true
+   },
+   "cmd2": {
+    "in_clean_checkouts": true,
+    "items": 7,
+    "package_dirs_match": true,
+    "package_tree_matches_dispatch_source": true,
+    "path_exists": true
+   },
+   "deepdiff": {
+    "in_clean_checkouts": true,
+    "items": 9,
+    "package_dirs_match": true,
+    "package_tree_matches_dispatch_source": true,
+    "path_exists": true
+   },
+   "elementpath": {
+    "in_clean_checkouts": true,
+    "items": 3,
+    "package_dirs_match": true,
+    "package_tree_matches_dispatch_source": true,
+    "path_exists": true
+   },
+   "genshi": {
+    "in_clean_checkouts": true,
+    "items": 3,
+    "package_dirs_match": true,
+    "package_tree_matches_dispatch_source": true,
+    "path_exists": true
+   },
+   "graphql-core": {
+    "in_clean_checkouts": true,
+    "items": 25,
+    "package_dirs_match": true,
+    "package_tree_matches_dispatch_source": true,
+    "path_exists": true
+   },
+   "httpx": {
+    "in_clean_checkouts": true,
+    "items": 1,
+    "package_dirs_match": true,
+    "package_tree_matches_dispatch_source": true,
+    "path_exists": true
+   },
+   "icalendar": {
+    "in_clean_checkouts": true,
+    "items": 11,
+    "package_dirs_match": true,
+    "package_tree_matches_dispatch_source": true,
+    "path_exists": true
+   },
+   "jinja": {
+    "in_clean_checkouts": true,
+    "items": 4,
+    "package_dirs_match": true,
+    "package_tree_matches_dispatch_source": true,
+    "path_exists": true
+   },
+   "lark": {
+    "in_clean_checkouts": true,
+    "items": 4,
+    "package_dirs_match": true,
+    "package_tree_matches_dispatch_source": true,
+    "path_exists": true
+   },
+   "liquid": {
+    "in_clean_checkouts": true,
+    "items": 1,
+    "package_dirs_match": true,
+    "package_tree_matches_dispatch_source": true,
+    "path_exists": true
+   },
+   "markdown": {
+    "in_clean_checkouts": true,
+    "items": 1,
+    "package_dirs_match": true,
+    "package_tree_matches_dispatch_source": true,
+    "path_exists": true
+   },
+   "markdown-it-py": {
+    "in_clean_checkouts": true,
+    "items": 18,
+    "package_dirs_match": true,
+    "package_tree_matches_dispatch_source": true,
+    "path_exists": true
+   },
+   "mpmath": {
+    "in_clean_checkouts": true,
+    "items": 25,
+    "package_dirs_match": true,
+    "package_tree_matches_dispatch_source": true,
+    "path_exists": true
+   },
+   "packaging": {
+    "in_clean_checkouts": true,
+    "items": 1,
+    "package_dirs_match": true,
+    "package_tree_matches_dispatch_source": true,
+    "path_exists": true
+   },
+   "param": {
+    "in_clean_checkouts": true,
+    "items": 2,
+    "package_dirs_match": true,
+    "package_tree_matches_dispatch_source": true,
+    "path_exists": true
+   },
+   "pyparsing": {
+    "in_clean_checkouts": true,
+    "items": 24,
+    "package_dirs_match": true,
+    "package_tree_matches_dispatch_source": true,
+    "path_exists": true
+   },
+   "rdflib": {
+    "in_clean_checkouts": true,
+    "items": 13,
+    "package_dirs_match": true,
+    "package_tree_matches_dispatch_source": true,
+    "path_exists": true
+   },
+   "rich": {
+    "in_clean_checkouts": true,
+    "items": 6,
+    "package_dirs_match": true,
+    "package_tree_matches_dispatch_source": true,
+    "path_exists": true
+   },
+   "segno": {
+    "in_clean_checkouts": true,
+    "items": 4,
+    "package_dirs_match": true,
+    "package_tree_matches_dispatch_source": true,
+    "path_exists": true
+   },
+   "sqlite-utils": {
+    "in_clean_checkouts": true,
+    "items": 1,
+    "package_dirs_match": true,
+    "package_tree_matches_dispatch_source": true,
+    "path_exists": true
+   },
+   "traitlets": {
+    "in_clean_checkouts": true,
+    "items": 8,
+    "package_dirs_match": true,
+    "package_tree_matches_dispatch_source": true,
+    "path_exists": true
+   },
+   "websockets": {
+    "in_clean_checkouts": true,
+    "items": 5,
+    "package_dirs_match": true,
+    "package_tree_matches_dispatch_source": true,
+    "path_exists": true
+   },
+   "xlsxwriter": {
+    "in_clean_checkouts": true,
+    "items": 13,
+    "package_dirs_match": true,
+    "package_tree_matches_dispatch_source": true,
+    "path_exists": true
+   },
+   "xmlschema": {
+    "in_clean_checkouts": true,
+    "items": 21,
+    "package_dirs_match": true,
+    "package_tree_matches_dispatch_source": true,
+    "path_exists": true
+   },
+   "yapf": {
+    "in_clean_checkouts": true,
+    "items": 9,
+    "package_dirs_match": true,
+    "package_tree_matches_dispatch_source": true,
+    "path_exists": true
+   }
+  },
+  "dispatch_families": 27,
+  "dispatch_families_with_items": 27
+ },
+ "cstar": {
+  "J_in_cstar_sources": 8,
+  "L_in_cstar_sources": 0,
+  "c4_contains_omitted_site": 0,
+  "c4_trigger_fires": 137,
+  "cstar_site_kinds": {
+   "dynamic": 255
+  },
+  "distinct_cstar": 134,
+  "distinct_cstar_site_lines": 161,
+  "items_whose_cstar_serves_ge3_items": 105,
+  "lexical_line_inside_a_cstar_site": 0,
+  "locagent_lists_cstar": 0,
+  "max_items_per_cstar": 14,
+  "natural_miss_covariate": 236,
+  "rule_in_items": {
+   "first_not_grep_findable": 236
+  },
+  "stratum": {
+   "dynamic": 236
+  },
+  "top_cstar_item_counts": [
+   14,
+   14,
+   12,
+   7,
+   6
+  ],
+  "visibility_docref_mentions_positive": 0,
+  "visibility_name_mentions_positive": 42,
+  "visibility_text_matches_positive": 17
+ },
+ "inputs": {
+  "clean_checkouts": {
+   "path": "/mnt/kldata/absent-edges-expA-public-20261101/repos-manifests/clean-checkouts.json",
+   "sha256": "58363dca69f434d14f6da8ed898fd46d367776bf2f183c80aa90610231163035"
+  },
+  "dispatch_manifest": {
+   "path": "/mnt/kldata/absent-edges-20261018-core2/expA/hard-panel-20261102/dispatch-hard/dispatch_manifest.json",
+   "sha256": "df4b54eab1635542e83391f1d5e50dec10202c656ec00294ec511b3abfcced37"
+  },
+  "items": {
+   "path": "/mnt/kldata/absent-edges-20261018-core2/expA/hard-panel-20261102/items-hard/items.jsonl",
+   "sha256": "b16efd17111163d95d5520433e18fc6d3ec7cb688a27c785d00e36b59ef8dbea"
+  },
+  "main_items": {
+   "path": "/mnt/kldata/absent-edges-20261018-core2/expA/prod-items-0b8ee0b7c/items-main/items.jsonl",
+   "sha256": "f3451a3c9fba2ffd3455df17718d3e276132cf9eb0a7158240256deed32764c8"
+  },
+  "manifest": {
+   "path": "/mnt/kldata/absent-edges-20261018-core2/expA/hard-panel-20261102/items-hard/manifest.json",
+   "sha256": "f73f4c31e4e6c4d9cceaa2a68f3e45892d6dbac453573e4fa62e00aca71042ee"
+  },
+  "policies": {
+   "path": "/mnt/kldata/absent-edges-20261018-core2/expA/hard-panel-20261102/policies-hard/policies.jsonl",
+   "sha256": "553dafc45acb240260b8ba397b615b1ddcd3e8bb8d65cc82d91cc4d0d662e043"
+  }
+ },
+ "label": "MODEL-FREE FACTS (no agent outcome); mechanism labels are heuristic (description only)",
+ "mechanism_heuristic": {
+  "feasibility_cstar_hard_agrees": 236,
+  "groups": {
+   "alias assignment (module or class body)": 4,
+   "callable returned by another call": 3,
+   "callable stored under another attribute name": 52,
+   "closure variable (decorator-style wrapper or enclosing-scope alias)": 48,
+   "getattr with a computed name (naming-convention dispatch)": 29,
+   "higher-order function calls its parameter": 20,
+   "implicit invocation (property accessor, operator, protocol)": 16,
+   "local alias or bound-method alias (f = X; f())": 16,
+   "module-level name bound to X (alias or registry)": 4,
+   "registry/dict lookup": 10,
+   "rule/hook/validator chain (for f in fs: f(...))": 34
+  },
+  "groups_by_family": {
+   "alembic": {
+    "callable stored under another attribute name": 1,
+    "getattr with a computed name (naming-convention dispatch)": 5
+   },
+   "click": {
+    "callable stored under another attribute name": 2,
+    "closure variable (decorator-style wrapper or enclosing-scope alias)": 3,
+    "higher-order function calls its parameter": 3,
+    "implicit invocation (property accessor, operator, protocol)": 1,
+    "registry/dict lookup": 2
+   },
+   "cmd2": {
+    "callable returned by another call": 3,
+    "callable stored under another attribute name": 3,
+    "higher-order function calls its parameter": 1
+   },
+   "deepdiff": {
+    "callable stored under another attribute name": 6,
+    "higher-order function calls its parameter": 1,
+    "local alias or bound-method alias (f = X; f())": 1,
+    "rule/hook/validator chain (for f in fs: f(...))": 1
+   },
+   "elementpath": {
+    "callable stored under another attribute name": 2,
+    "implicit invocation (property accessor, operator, protocol)": 1
+   },
+   "genshi": {
+    "alias assignment (module or class body)": 1,
+    "callable stored under another attribute name": 1,
+    "module-level name bound to X (alias or registry)": 1
+   },
+   "graphql-core": {
+    "callable stored under another attribute name": 17,
+    "getattr with a computed name (naming-convention dispatch)": 1,
+    "higher-order function calls its parameter": 3,
+    "local alias or bound-method alias (f = X; f())": 3,
+    "module-level name bound to X (alias or registry)": 1
+   },
+   "httpx": {
+    "callable stored under another attribute name": 1
+   },
+   "icalendar": {
+    "closure variable (decorator-style wrapper or enclosing-scope alias)": 2,
+    "getattr with a computed name (naming-convention dispatch)": 2,
+    "implicit invocation (property accessor, operator, protocol)": 6,
+    "module-level name bound to X (alias or registry)": 1
+   },
+   "jinja": {
+    "callable stored under another attribute name": 2,
+    "closure variable (decorator-style wrapper or enclosing-scope alias)": 1,
+    "registry/dict lookup": 1
+   },
+   "lark": {
+    "callable stored under another attribute name": 1,
+    "closure variable (decorator-style wrapper or enclosing-scope alias)": 1,
+    "getattr with a computed name (naming-convention dispatch)": 1,
+    "higher-order function calls its parameter": 1
+   },
+   "liquid": {
+    "higher-order function calls its parameter": 1
+   },
+   "markdown": {
+    "callable stored under another attribute name": 1
+   },
+   "markdown-it-py": {
+    "registry/dict lookup": 1,
+    "rule/hook/validator chain (for f in fs: f(...))": 17
+   },
+   "mpmath": {
+    "closure variable (decorator-style wrapper or enclosing-scope alias)": 21,
+    "higher-order function calls its parameter": 2,
+    "implicit invocation (property accessor, operator, protocol)": 1,
+    "module-level name bound to X (alias or registry)": 1
+   },
+   "packaging": {
+    "higher-order function calls its parameter": 1
+   },
+   "param": {
+    "callable stored under another attribute name": 1,
+    "getattr with a computed name (naming-convention dispatch)": 1
+   },
+   "pyparsing": {
+    "alias assignment (module or class body)": 1,
+    "callable stored under another attribute name": 3,
+    "closure variable (decorator-style wrapper or enclosing-scope alias)": 16,
+    "local alias or bound-method alias (f = X; f())": 4
+   },
+   "rdflib": {
+    "callable stored under another attribute name": 2,
+    "higher-order function calls its parameter": 3,
+    "implicit invocation (property accessor, operator, protocol)": 7,
+    "local alias or bound-method alias (f = X; f())": 1
+   },
+   "rich": {
+    "callable stored under another attribute name": 2,
+    "closure variable (decorator-style wrapper or enclosing-scope alias)": 2,
+    "local alias or bound-method alias (f = X; f())": 2
+   },
+   "segno": {
+    "closure variable (decorator-style wrapper or enclosing-scope alias)": 1,
+    "local alias or bound-method alias (f = X; f())": 2,
+    "registry/dict lookup": 1
+   },
+   "sqlite-utils": {
+    "closure variable (decorator-style wrapper or enclosing-scope alias)": 1
+   },
+   "traitlets": {
+    "alias assignment (module or class body)": 1,
+    "callable stored under another attribute name": 1,
+    "local alias or bound-method alias (f = X; f())": 3,
+    "rule/hook/validator chain (for f in fs: f(...))": 3
+   },
+   "websockets": {
+    "getattr with a computed name (naming-convention dispatch)": 2,
+    "higher-order function calls its parameter": 3
+   },
+   "xlsxwriter": {
+    "callable stored under another attribute name": 1,
+    "getattr with a computed name (naming-convention dispatch)": 12
+   },
+   "xmlschema": {
+    "alias assignment (module or class body)": 1,
+    "callable stored under another attribute name": 5,
+    "higher-order function calls its parameter": 1,
+    "registry/dict lookup": 1,
+    "rule/hook/validator chain (for f in fs: f(...))": 13
+   },
+   "yapf": {
+    "getattr with a computed name (naming-convention dispatch)": 5,
+    "registry/dict lookup": 4
+   }
+  },
+  "labels": {
+   "attribute_other_name": 32,
+   "builtin_higher_order": 1,
+   "class_alias": 4,
+   "closure_variable": 48,
+   "getattr": 29,
+   "global_name": 4,
+   "implicit_protocol": 1,
+   "local_alias": 16,
+   "local_call_result": 3,
+   "loop_over_callables": 34,
+   "parameter_callback": 20,
+   "property_accessor": 14,
+   "registry_lookup": 7,
+   "registry_subscript": 3,
+   "self_attribute_other_name": 20
+  },
+  "matched_items": 236,
+  "unmatched_items": 0
+ },
+ "overlap_with_main": {
+  "different_cstar": 18,
+  "main_cstar_stratum_when_different": {
+   "callback": 1,
+   "direct": 17
+  },
+  "same_cstar": 40,
+  "same_cstar_and_identical_payload_cells": 19,
+  "same_wording_pair_when_same_cstar": 19,
+  "targets_also_in_main": 58
+ },
+ "policies": {
+  "by_variant_policy": {
+   "natural/answer_only": {
+    "function_localized": 0,
+    "rows": 236,
+    "site_recovered": 0
+   },
+   "natural/answer_plus_c4": {
+    "function_localized": 16,
+    "rows": 236,
+    "site_recovered": 0
+   },
+   "natural/c4_hits": {
+    "function_localized": 16,
+    "rows": 236,
+    "site_recovered": 0
+   },
+   "natural/grep_all": {
+    "function_localized": 20,
+    "rows": 236,
+    "site_recovered": 0
+   },
+   "none/answer_only": {
+    "function_localized": 0,
+    "rows": 236,
+    "site_recovered": 0
+   },
+   "none/answer_plus_c4": {
+    "function_localized": 16,
+    "rows": 236,
+    "site_recovered": 0
+   },
+   "none/c4_hits": {
+    "function_localized": 16,
+    "rows": 236,
+    "site_recovered": 0
+   },
+   "none/grep_all": {
+    "function_localized": 20,
+    "rows": 236,
+    "site_recovered": 0
+   },
+   "omit_edge/answer_only": {
+    "function_localized": 0,
+    "rows": 236,
+    "site_recovered": 0
+   },
+   "omit_edge/answer_plus_c4": {
+    "function_localized": 16,
+    "rows": 236,
+    "site_recovered": 0
+   },
+   "omit_edge/c4_hits": {
+    "function_localized": 16,
+    "rows": 236,
+    "site_recovered": 0
+   },
+   "omit_edge/grep_all": {
+    "function_localized": 20,
+    "rows": 236,
+    "site_recovered": 0
+   },
+   "omit_node/answer_only": {
+    "function_localized": 0,
+    "rows": 236,
+    "site_recovered": 0
+   },
+   "omit_node/answer_plus_c4": {
+    "function_localized": 16,
+    "rows": 236,
+    "site_recovered": 0
+   },
+   "omit_node/c4_hits": {
+    "function_localized": 16,
+    "rows": 236,
+    "site_recovered": 0
+   },
+   "omit_node/grep_all": {
+    "function_localized": 20,
+    "rows": 236,
+    "site_recovered": 0
+   },
+   "vcomplete/answer_only": {
+    "function_localized": 235,
+    "rows": 236,
+    "site_recovered": 236
+   },
+   "vcomplete/answer_plus_c4": {
+    "function_localized": 235,
+    "rows": 236,
+    "site_recovered": 236
+   },
+   "vcomplete/c4_hits": {
+    "function_localized": 16,
+    "rows": 236,
+    "site_recovered": 0
+   },
+   "vcomplete/grep_all": {
+    "function_localized": 20,
+    "rows": 236,
+    "site_recovered": 0
+   }
+  },
+  "omit_node_by_family": {
+   "alembic": {
+    "answer_only": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "answer_plus_c4": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "c4_hits": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "grep_all": {
+     "function_localized": 0,
+     "site_recovered": 0
+    }
+   },
+   "click": {
+    "answer_only": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "answer_plus_c4": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "c4_hits": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "grep_all": {
+     "function_localized": 0,
+     "site_recovered": 0
+    }
+   },
+   "cmd2": {
+    "answer_only": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "answer_plus_c4": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "c4_hits": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "grep_all": {
+     "function_localized": 1,
+     "site_recovered": 0
+    }
+   },
+   "deepdiff": {
+    "answer_only": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "answer_plus_c4": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "c4_hits": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "grep_all": {
+     "function_localized": 0,
+     "site_recovered": 0
+    }
+   },
+   "elementpath": {
+    "answer_only": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "answer_plus_c4": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "c4_hits": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "grep_all": {
+     "function_localized": 0,
+     "site_recovered": 0
+    }
+   },
+   "genshi": {
+    "answer_only": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "answer_plus_c4": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "c4_hits": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "grep_all": {
+     "function_localized": 0,
+     "site_recovered": 0
+    }
+   },
+   "graphql-core": {
+    "answer_only": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "answer_plus_c4": {
+     "function_localized": 1,
+     "site_recovered": 0
+    },
+    "c4_hits": {
+     "function_localized": 1,
+     "site_recovered": 0
+    },
+    "grep_all": {
+     "function_localized": 2,
+     "site_recovered": 0
+    }
+   },
+   "httpx": {
+    "answer_only": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "answer_plus_c4": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "c4_hits": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "grep_all": {
+     "function_localized": 0,
+     "site_recovered": 0
+    }
+   },
+   "icalendar": {
+    "answer_only": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "answer_plus_c4": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "c4_hits": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "grep_all": {
+     "function_localized": 0,
+     "site_recovered": 0
+    }
+   },
+   "jinja": {
+    "answer_only": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "answer_plus_c4": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "c4_hits": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "grep_all": {
+     "function_localized": 0,
+     "site_recovered": 0
+    }
+   },
+   "lark": {
+    "answer_only": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "answer_plus_c4": {
+     "function_localized": 1,
+     "site_recovered": 0
+    },
+    "c4_hits": {
+     "function_localized": 1,
+     "site_recovered": 0
+    },
+    "grep_all": {
+     "function_localized": 1,
+     "site_recovered": 0
+    }
+   },
+   "liquid": {
+    "answer_only": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "answer_plus_c4": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "c4_hits": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "grep_all": {
+     "function_localized": 0,
+     "site_recovered": 0
+    }
+   },
+   "markdown": {
+    "answer_only": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "answer_plus_c4": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "c4_hits": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "grep_all": {
+     "function_localized": 0,
+     "site_recovered": 0
+    }
+   },
+   "markdown-it-py": {
+    "answer_only": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "answer_plus_c4": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "c4_hits": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "grep_all": {
+     "function_localized": 0,
+     "site_recovered": 0
+    }
+   },
+   "mpmath": {
+    "answer_only": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "answer_plus_c4": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "c4_hits": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "grep_all": {
+     "function_localized": 0,
+     "site_recovered": 0
+    }
+   },
+   "packaging": {
+    "answer_only": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "answer_plus_c4": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "c4_hits": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "grep_all": {
+     "function_localized": 0,
+     "site_recovered": 0
+    }
+   },
+   "param": {
+    "answer_only": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "answer_plus_c4": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "c4_hits": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "grep_all": {
+     "function_localized": 0,
+     "site_recovered": 0
+    }
+   },
+   "pyparsing": {
+    "answer_only": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "answer_plus_c4": {
+     "function_localized": 5,
+     "site_recovered": 0
+    },
+    "c4_hits": {
+     "function_localized": 5,
+     "site_recovered": 0
+    },
+    "grep_all": {
+     "function_localized": 5,
+     "site_recovered": 0
+    }
+   },
+   "rdflib": {
+    "answer_only": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "answer_plus_c4": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "c4_hits": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "grep_all": {
+     "function_localized": 0,
+     "site_recovered": 0
+    }
+   },
+   "rich": {
+    "answer_only": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "answer_plus_c4": {
+     "function_localized": 2,
+     "site_recovered": 0
+    },
+    "c4_hits": {
+     "function_localized": 2,
+     "site_recovered": 0
+    },
+    "grep_all": {
+     "function_localized": 2,
+     "site_recovered": 0
+    }
+   },
+   "segno": {
+    "answer_only": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "answer_plus_c4": {
+     "function_localized": 2,
+     "site_recovered": 0
+    },
+    "c4_hits": {
+     "function_localized": 2,
+     "site_recovered": 0
+    },
+    "grep_all": {
+     "function_localized": 2,
+     "site_recovered": 0
+    }
+   },
+   "sqlite-utils": {
+    "answer_only": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "answer_plus_c4": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "c4_hits": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "grep_all": {
+     "function_localized": 0,
+     "site_recovered": 0
+    }
+   },
+   "traitlets": {
+    "answer_only": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "answer_plus_c4": {
+     "function_localized": 3,
+     "site_recovered": 0
+    },
+    "c4_hits": {
+     "function_localized": 3,
+     "site_recovered": 0
+    },
+    "grep_all": {
+     "function_localized": 4,
+     "site_recovered": 0
+    }
+   },
+   "websockets": {
+    "answer_only": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "answer_plus_c4": {
+     "function_localized": 1,
+     "site_recovered": 0
+    },
+    "c4_hits": {
+     "function_localized": 1,
+     "site_recovered": 0
+    },
+    "grep_all": {
+     "function_localized": 2,
+     "site_recovered": 0
+    }
+   },
+   "xlsxwriter": {
+    "answer_only": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "answer_plus_c4": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "c4_hits": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "grep_all": {
+     "function_localized": 0,
+     "site_recovered": 0
+    }
+   },
+   "xmlschema": {
+    "answer_only": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "answer_plus_c4": {
+     "function_localized": 1,
+     "site_recovered": 0
+    },
+    "c4_hits": {
+     "function_localized": 1,
+     "site_recovered": 0
+    },
+    "grep_all": {
+     "function_localized": 1,
+     "site_recovered": 0
+    }
+   },
+   "yapf": {
+    "answer_only": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "answer_plus_c4": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "c4_hits": {
+     "function_localized": 0,
+     "site_recovered": 0
+    },
+    "grep_all": {
+     "function_localized": 0,
+     "site_recovered": 0
+    }
+   }
+  },
+  "rows": 4720,
+  "rows_from_another_items_file": 0
+ },
+ "population": {
+  "by_family": {
+   "alembic": 6,
+   "click": 11,
+   "cmd2": 7,
+   "deepdiff": 9,
+   "elementpath": 3,
+   "genshi": 3,
+   "graphql-core": 25,
+   "httpx": 1,
+   "icalendar": 11,
+   "jinja": 4,
+   "lark": 4,
+   "liquid": 1,
+   "markdown": 1,
+   "markdown-it-py": 18,
+   "mpmath": 25,
+   "packaging": 1,
+   "param": 2,
+   "pyparsing": 24,
+   "rdflib": 13,
+   "rich": 6,
+   "segno": 4,
+   "sqlite-utils": 1,
+   "traitlets": 8,
+   "websockets": 5,
+   "xlsxwriter": 13,
+   "xmlschema": 21,
+   "yapf": 9
+  },
+  "eligible_total": 293,
+  "families_ge5": [
+   "alembic",
+   "click",
+   "cmd2",
+   "deepdiff",
+   "graphql-core",
+   "icalendar",
+   "markdown-it-py",
+   "mpmath",
+   "pyparsing",
+   "rdflib",
+   "rich",
+   "traitlets",
+   "websockets",
+   "xlsxwriter",
+   "xmlschema",
+   "yapf"
+  ],
+  "families_in_build": 30,
+  "families_short_of_m": 28,
+  "families_with_items": 27,
+  "families_without_items": [
+   "petl",
+   "python-docx",
+   "python-pptx"
+  ],
+  "funnel_total": {
+   "coroutine": 278,
+   "decorated": 1486,
+   "docref_visibility": 1,
+   "dunder": 4811,
+   "duplicate_identity": 726,
+   "generator": 686,
+   "incidental_visibility": 0,
+   "jedi_definition_error": 21,
+   "lambda": 0,
+   "locagent_unindexed": 70,
+   "mechanical_diff_failed": 0,
+   "nested_locals": 788,
+   "no_grep_missed_caller": 3402,
+   "no_runtime_witnessed_caller": 221,
+   "out_of_scope": 0,
+   "property": 1853,
+   "render_budget": 0,
+   "render_truncated": 0,
+   "verified_above_12": 242,
+   "verified_below_2": 9033
+  },
+  "items": 236,
+  "items_in_families_ge5": 211,
+  "membership": {
+   "in_s_edge": 105,
+   "in_s_nat": 232,
+   "in_t": 105
+  },
+  "n_V_histogram": {
+   "2": 137,
+   "3": 36,
+   "4": 16,
+   "5": 12,
+   "6": 18,
+   "7": 4,
+   "8": 3,
+   "9": 5,
+   "10": 4,
+   "11": 1
+  },
+  "omit_rule": "first_not_grep_findable",
+  "roles": {
+   "main": 236
+  },
+  "wording_pair": {
+   "A": 127,
+   "B": 109
+  }
+ }
+}

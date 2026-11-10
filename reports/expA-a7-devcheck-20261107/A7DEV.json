@@ -1,0 +1,127 @@
+{
+  "by_arm": {
+    "complete": {
+      "cell_states": {
+        "completed": 34
+      },
+      "exits": {
+        "NoAnswer": 2,
+        "Submitted": 32
+      }
+    },
+    "incomplete": {
+      "cell_states": {
+        "completed": 34
+      },
+      "exits": {
+        "NoAnswer": 2,
+        "Submitted": 32
+      }
+    },
+    "none": {
+      "cell_states": {
+        "completed": 34
+      },
+      "exits": {
+        "NoAnswer": 10,
+        "Submitted": 24
+      }
+    }
+  },
+  "checks": {
+    "config_receipts": {
+      "description": "each terminal attempt's result.json config and episode_setup event config are the impact record (task_framing impact, the exact text and its sha256)",
+      "examples": [],
+      "failures": 0,
+      "passed": true
+    },
+    "first_user_message": {
+      "description": "each terminal attempt's delivered first user message starts with the exact impact paragraph rendered for its cell, equals the episode_setup message and the result's user_sha256, and does not contain the default paragraph",
+      "examples": [],
+      "failures": 0,
+      "passed": true
+    },
+    "go_rule": {
+      "description": "at least 95% of the completed episodes end Submitted or NoAnswer without a harness error",
+      "examples": [],
+      "failures": 0,
+      "passed": true
+    },
+    "records": {
+      "description": "each terminal attempt: its directory names its cell and attempt; result.json names the run, cell and attempt, binds attempt_start.json and events.jsonl (sha256 and rows); no attempt follows it",
+      "examples": [],
+      "failures": 0,
+      "passed": true
+    },
+    "run_complete": {
+      "description": "every A7 cell of cells.jsonl is terminal in the D11.3 sense (a completed attempt, or missing after the infrastructure attempt cap)",
+      "examples": [],
+      "failures": 0,
+      "passed": true
+    },
+    "run_json_cells": {
+      "description": "cells.jsonl is the file run.json binds (cells_sha256)",
+      "examples": [],
+      "failures": 0,
+      "passed": true
+    },
+    "run_json_episode_config": {
+      "description": "run.json episode_config is exactly the impact record (the six prereg fields, task_framing impact and task_framing_rules: protocol, framing, text, text_sha256, replaces)",
+      "examples": [],
+      "failures": 0,
+      "passed": true
+    },
+    "selection": {
+      "description": "the dispatched cells are exactly the A7 cells of cells.jsonl at seed 11 (P none C0, P omit_node C1, S-VC vcomplete C1): none outside them and every one dispatched",
+      "examples": [],
+      "failures": 0,
+      "passed": true
+    }
+  },
+  "empty_attempt_directories": [],
+  "empty_attempt_directory_count": 0,
+  "expected_episode_config": {
+    "context_budget": 16384,
+    "max_consecutive_format_errors": 3,
+    "max_model_calls": 8,
+    "max_response_tokens": 4096,
+    "min_response_tokens": 512,
+    "task_framing": "impact",
+    "task_framing_rules": {
+      "framing": "impact",
+      "protocol": "protocols/EXPA_A7_IMPACT.md",
+      "replaces": "the task paragraph (USER_TASK_TEMPLATE), with the same placeholders; the system prompt, answer block, recommendation and submit sentences, budgets and tools are unchanged",
+      "text": "Task: the signature of the function `{qualname}` (defined in `{path}`, line {line}) is about to change. Find every place in the library source that must be updated: every place where it is invoked, either called directly or passed as a callable that gets invoked, from inside another function or method. Consider only files under {package_dirs}. Ignore tests, docs, examples and module-level code.",
+      "text_sha256": "b2b161fc0f39cf524e2d8dee2d4d9a2fba5e42969e54eda73e62ad6d3a0c037c"
+    },
+    "temperature": 0.2
+  },
+  "failed_checks": [],
+  "first_user_message": {
+    "not_requested": 0,
+    "requested": 102
+  },
+  "go": true,
+  "go_rule": {
+    "completed": 102,
+    "harness_errors": 0,
+    "passed": true,
+    "rule": "at least 95% of the completed episodes end Submitted or NoAnswer without a harness error (result infra null), compared exactly",
+    "share": 1.0,
+    "submitted_or_no_answer": 102
+  },
+  "impact_text_sha256": "b2b161fc0f39cf524e2d8dee2d4d9a2fba5e42969e54eda73e62ad6d3a0c037c",
+  "infra_attempts": 0,
+  "label": "PRESPECIFIED (protocols/EXPA_A7_IMPACT.md, written before any A7 cell); ANALYSIS RECORD",
+  "protocol": "protocols/EXPA_A7_IMPACT.md",
+  "run": {
+    "a7_cells": 102,
+    "cells_sha256": "31e9e4f22fd5d624b07b86d700d84e60de0f34e755194e0f0e05d04d5df7950e",
+    "design_cells": 636,
+    "infra_attempt_cap": 3,
+    "run_dir": "/mnt/kldata/absent-edges-20261018-core2/expA/runs/a7impact-dev-20261107a",
+    "run_id": "a7impact-dev-20261107a",
+    "run_json_sha256": "2b219bda6f6fa00c96e46cdbf610a1fcab6499a2b476ac505df7a10e1e8126a7"
+  },
+  "schema": "expA-a7-devcheck-v1"
+}

@@ -7,7 +7,7 @@ Arjun Thilak R (AI Researcher, Eros Innovation) and Ramkumar MV (AI Researcher, 
 - Paper: [`paper/Missing_Callers_paper.pdf`](paper/Missing_Callers_paper.pdf)
 - Resource writeup (OmitBench): [`paper/OmitBench_resource.pdf`](paper/OmitBench_resource.pdf)
 - Dataset package (every episode, call-site truth, verifier): https://www.kaggle.com/datasets/rarjunthilak/absent-edges-expa-v1
-- Notebook that re-runs the checks on a CPU: https://www.kaggle.com/code/rarjunthilak/missing-callers-reproduce-tables
+- Notebook that re-runs the checks on a CPU: https://www.kaggle.com/code/rarjunthilak/missing-callers-reproduce-research-results
 - Competition: https://www.kaggle.com/competitions/gemma-4-developer-agent-paper
 
 ## What this is
